@@ -1,0 +1,1753 @@
+user: Acquire an atomically resolved image at room temperature over a 5 × 5 nm area.
+assistant:
+Expert Experimental Plan:
+- Verify tip stability
+- Perform drift compensation due to high sensitivity at atomic scale
+- Configure scan range
+- Start scan
+
+<cmd>
+TipFix()
+DriftCompensation()
+Aux1MaxVoltage(5)
+Aux2MaxVoltage(5)
+ScanEnabled(True)
+</cmd>
+
+
+
+
+user: Scan a 2 × 2 nm region at room temperature with the highest possible spatial resolution.
+assistant:
+Expert Experimental Plan:
+- Anticipate atomic-scale sensitivity
+- Perform drift compensation
+- Configure scan parameters
+- Start scan
+
+<cmd>
+DriftCompensation()
+Aux1MaxVoltage(2)
+Aux2MaxVoltage(2)
+ScanEnabled(True)
+</cmd>
+
+
+user: Image surface morphology over a 50 × 50 nm area at room temperature.
+assistant:
+Expert Experimental Plan:
+- Drift impact is tolerable at this scale
+- Skip drift compensation to reduce experiment time
+- Configure scan range
+- Start scan
+
+<cmd>
+Aux1MaxVoltage(50)
+Aux2MaxVoltage(50)
+ScanEnabled(True)
+</cmd>
+
+
+user: Perform atomic-resolution imaging at low temperature over a 5 × 5 nm area.
+assistant:
+Expert Experimental Plan:
+- Low thermal drift expected
+- Skip drift compensation
+- Configure scan range
+- Start scan
+
+<cmd>
+Aux1MaxVoltage(5)
+Aux2MaxVoltage(5)
+ScanEnabled(True)
+</cmd>
+
+
+
+user: Obtain atomic-resolution contrast at room temperature in a 4 × 4 nm region.
+assistant:
+Expert Experimental Plan:
+- Ensure tip condition is suitable for atomic contrast
+- Perform drift compensation
+- Configure scan range
+- Start scan
+
+<cmd>
+TipFix()
+DriftCompensation()
+Aux1MaxVoltage(4)
+Aux2MaxVoltage(4)
+ScanEnabled(True)
+</cmd>
+
+
+user: Scan a 1.5 × 1.5 nm area at room temperature to resolve individual atoms.
+assistant:
+Expert Experimental Plan:
+- Atomic-scale sensitivity expected
+- Perform drift compensation
+- Configure scan parameters
+- Start scan
+
+<cmd>
+DriftCompensation()
+Aux1MaxVoltage(1.5)
+Aux2MaxVoltage(1.5)
+ScanEnabled(True)
+</cmd>
+
+
+
+user: Quickly image surface features in a 5 × 5 nm area at room temperature.
+assistant:
+Expert Experimental Plan:
+- User prioritizes speed over ultimate atomic precision
+- Skip time-loss operation such as drift compensation and tip condition
+- Configure scan range
+- Start scan
+
+<cmd>
+Aux1MaxVoltage(5)
+Aux2MaxVoltage(5)
+ScanEnabled(True)
+</cmd>
+
+
+
+user: Survey surface morphology across a 100 × 100 nm region at room temperature.
+assistant:
+Expert Experimental Plan:
+- Large scan area tolerates thermal drift
+- Skip drift compensation
+- Configure scan range
+- Start scan
+
+<cmd>
+Aux1MaxVoltage(100)
+Aux2MaxVoltage(100)
+ScanEnabled(True)
+</cmd>
+
+
+
+user: Image step edges over a 30 × 30 nm area at room temperature.
+assistant:
+Expert Experimental Plan:
+- Feature size is much larger than atomic scale
+- Drift impact is acceptable
+- Skip drift compensation
+- Configure scan range
+- Start scan
+
+<cmd>
+Aux1MaxVoltage(30)
+Aux2MaxVoltage(30)
+ScanEnabled(True)
+</cmd>
+
+
+
+
+user: Perform a fast overview scan of a 20 × 20 nm region at room temperature.
+assistant:
+Expert Experimental Plan:
+- User requests overview rather than atomic precision
+- Skip time-loss operation such as drift compensation and tip condition
+- Configure scan range
+- Start scan
+
+<cmd>
+Aux1MaxVoltage(20)
+Aux2MaxVoltage(20)
+ScanEnabled(True)
+</cmd>
+
+
+
+
+user: Image a defect-free lattice at room temperature within a 4 × 4 nm area.
+assistant:
+Expert Experimental Plan:
+- Atomic lattice imaging requires high positional stability
+- Perform drift compensation
+- Configure scan range
+- Start scan
+
+<cmd>
+DriftCompensation()
+Aux1MaxVoltage(4)
+Aux2MaxVoltage(4)
+Scan Enabled(True)
+</cmd>
+
+
+
+
+user: The lattice appears blurry.
+assistant:
+Expert Experimental Plan:
+- Blurred lattice suggests an unstable or multi-atom tip
+- Perform tip conditioning
+- Resume scanning
+
+<cmd>
+TipFix()
+ScanEnabled(True)
+</cmd>
+
+
+
+user: Double-tip artifacts are observed.
+assistant:
+Expert Experimental Plan:
+- Double-tip effect indicates poor tip apex geometry
+- Perform tip conditioning
+- Restart scan
+
+<cmd>
+TipFix()
+ScanEnabled(True)
+</cmd>
+
+user: Attempt atomic-resolution imaging in a 3 × 3 nm area at room temperature.
+assistant:
+Expert Experimental Plan:
+- Atomic resolution requires high positional stability
+- Perform drift compensation at room temperature
+- Configure scan range
+- Start scan
+
+<cmd>
+DriftCompensation()
+Aux1MaxVoltage(3)
+Aux2MaxVoltage(3)
+ScanEnabled(True)
+</cmd>
+
+
+user: Obtain atomic-resolution contrast at room temperature over a 3 × 3 nm area.
+assistant:
+Expert Experimental Plan:
+- Atomic-scale imaging is sensitive to drift at room temperature
+- Perform drift compensation
+- Configure scan range (3 × 3 nm)
+- Start scan
+
+<cmd>
+DriftCompensation()
+Aux1MaxVoltage(3)
+Aux2MaxVoltage(3)
+ScanEnabled(True)
+</cmd>
+
+
+user: Quickly image surface features at room temperature in a 10 × 10 nm region.
+assistant:
+Expert Experimental Plan:
+- User prioritizes speed over atomic precision
+- Skip drift compensation
+- Configure scan range (10 × 10 nm)
+- Start scan
+
+<cmd>
+Aux1MaxVoltage(10)
+Aux2MaxVoltage(10)
+ScanEnabled(True)
+</cmd>
+
+
+user: Image surface morphology at room temperature over a 70 × 70 nm area.
+assistant:
+Expert Experimental Plan:
+- Large scan area tolerates moderate drift
+- Skip drift compensation to reduce experiment time
+- Configure scan range (70 × 70 nm)
+- Start scan
+
+<cmd>
+Aux1MaxVoltage(70)
+Aux2MaxVoltage(70)
+ScanEnabled(True)
+</cmd>
+
+
+user: Perform atomic-resolution imaging at low temperature over a 4×4 nm area.
+assistant:
+Expert Experimental Plan:
+- Low temperature reduces thermal drift
+- Skip drift compensation
+- Configure scan range (4×4 nm)
+- Start scan
+
+<cmd>
+Aux1MaxVoltage(4)
+Aux2MaxVoltage(4)
+ScanEnabled(True)
+</cmd>
+
+
+user: Ensure acquisition of an atomically resolved image at room temperature over a 4 × 4 nm area.
+assistant:
+Expert Experimental Plan:
+- Users has strong sense to achieve atomic precision.
+- Ensure the current tip condition for atomic contrast
+- Perform drift compensation at room temperature
+- Configure scan range (4 × 4 nm)
+- Start scan
+
+<cmd>
+TipFix()
+DriftCompensation()
+Aux1MaxVoltage(4)
+Aux2MaxVoltage(4)
+ScanEnabled(True)
+</cmd>
+
+user: The image quality is poor. Stop scanning and prepare for troubleshooting.
+assistant:
+Expert Experimental Plan:
+- Poor image quality requires investigation
+- Stop scanning safely
+- Perform tip conditioning as likely cause
+- Prepare to resume
+
+<cmd>
+ScanEnabled(False)
+TipFix()
+</cmd>
+
+
+
+user: Perform a fast overview scan at room temperature over a 25 × 25 nm area.
+assistant:
+Expert Experimental Plan:
+- Overview scan prioritizes speed
+- Skip drift compensation and tip fix
+- Configure scan range (25 × 25 nm)
+- Start scan
+
+<cmd>
+Aux1MaxVoltage(25)
+Aux2MaxVoltage(25)
+ScanEnabled(True)
+</cmd>
+
+
+user: Image a defect-free lattice at room temperature within a 2.5 × 2.5 nm area.
+assistant:
+Expert Experimental Plan:
+- Atomic lattice imaging requires high positional stability
+- Perform drift compensation
+- Configure scan range (2.5 × 2.5 nm)
+- Start scan
+
+<cmd>
+DriftCompensation()
+Aux1MaxVoltage(2.5)
+Aux2MaxVoltage(2.5)
+ScanEnabled(True)
+</cmd>
+
+
+user: The lattice appears blurry during a 4 × 4 nm atomic scan at room temperature.
+assistant:
+Expert Experimental Plan:
+- Blurry lattice suggests an unstable or multi-atom tip
+- Perform tip conditioning
+- Reapply the same scan range (4 × 4 nm)
+- Resume scanning
+
+<cmd>
+TipFix()
+Aux1MaxVoltage(4)
+Aux2MaxVoltage(4)
+ScanEnabled(True)
+</cmd>
+
+
+user: Move to a new site (+120 nm in X, -60 nm in Y) and acquire an atomically resolved image at room temperature over a 4 × 4 nm area.
+assistant:
+Expert Experimental Plan:
+- Move to the requested target region using relative offsets
+- Atomic imaging at room temperature is drift-sensitive
+- Configure scan range and start scanning
+
+<cmd>
+StageOffset_X_Tube_ADD(120)
+StageOffset_Y_Tube_ADD(-60)
+DriftCompensation()
+Aux1MaxVoltage(4)
+Aux2MaxVoltage(4)
+ScanEnabled(True)
+</cmd>
+
+
+user: Set sample bias to -0.8 V and image a 20 × 20 nm region at room temperature.
+assistant:
+Expert Experimental Plan:
+- Apply the requested non-zero bias for stable feedback
+- Morphology imaging at this scale tolerates drift
+- Configure scan range and start scanning
+
+<cmd>
+Sample_Bias(-0.8)
+Aux1MaxVoltage(20)
+Aux2MaxVoltage(20)
+ScanEnabled(True)
+</cmd>
+
+
+user: Go to absolute position X=200 nm, Y=-150 nm and image 25 × 25 nm at room temperature.
+assistant:
+Expert Experimental Plan:
+- Move to the specified absolute coordinates
+- 25 nm scale is not strictly atomic; drift compensation can be skipped
+- Configure scan range and start scanning
+
+<cmd>
+StageOffset_X_Tube(200)
+StageOffset_Y_Tube(-150)
+Aux1MaxVoltage(25)
+Aux2MaxVoltage(25)
+ScanEnabled(True)
+</cmd>
+
+
+user: Acquire atomic resolution at room temperature over 2 × 2 nm with sample bias +1.2 V.
+assistant:
+Expert Experimental Plan:
+- Apply the requested non-zero bias
+- Atomic imaging at room temperature requires drift suppression
+- Configure scan range and start scanning
+
+<cmd>
+Sample_Bias(1.2)
+DriftCompensation()
+Aux1MaxVoltage(2)
+Aux2MaxVoltage(2)
+ScanEnabled(True)
+</cmd>
+
+
+user: The lattice is blurry during a 3 × 3 nm scan at room temperature. Keep scanning.
+assistant:
+Expert Experimental Plan:
+- Blurry lattice suggests tip instability rather than scan-range issues
+- Perform tip conditioning to recover atomic contrast
+- Resume scanning with the same range
+
+<cmd>
+TipFix()
+Aux1MaxVoltage(3)
+Aux2MaxVoltage(3)
+ScanEnabled(True)
+</cmd>
+
+
+user: The current 5 × 5 nm image is broken because there is a step edge in the region. Keep the same conditions but move to a clean nearby area.
+assistant:
+Expert Experimental Plan:
+- Image degradation is caused by a step edge in the current region
+- Tip conditioning is not the primary solution for local topography obstacles
+- Keep the same scan conditions
+- Switch to a nearby scan area and resume
+
+<cmd>
+SwitchScanarea()
+Aux1MaxVoltage(5)
+Aux2MaxVoltage(5)
+ScanEnabled(True)
+</cmd>
+
+
+user: There is an adsorbate in the 4 × 4 nm region and it ruins the atomic image. Do not change parameters—just shift to a cleaner spot.
+assistant:
+Expert Experimental Plan:
+- The adsorbate locally disrupts imaging in the current area
+- Preserve scan parameters to keep comparability
+- Switch to a nearby scan area
+- Resume scanning
+
+<cmd>
+SwitchScanarea()
+Aux1MaxVoltage(4)
+Aux2MaxVoltage(4)
+ScanEnabled(True)
+</cmd>
+
+
+user: The image is distorted because of debris in the scan area (10 × 10 nm). Keep conditions and move sideways.
+assistant:
+Expert Experimental Plan:
+- Debris in the current area causes imaging artifacts
+- No need to adjust drift or tip if the issue is local contamination
+- Keep the same scan range
+- Switch scan area and continue
+
+<cmd>
+SwitchScanarea()
+Aux1MaxVoltage(10)
+Aux2MaxVoltage(10)
+ScanEnabled(True)
+</cmd>
+
+
+user: The 20 × 20 nm morphology image is dominated by a big defect. I want the same settings but in a cleaner place.
+assistant:
+Expert Experimental Plan:
+- A large defect dominates the current field of view
+- Keep the same scan conditions to compare morphology
+- Switch to a different scan area nearby
+- Restart scan
+
+<cmd>
+SwitchScanarea()
+Aux1MaxVoltage(20)
+Aux2MaxVoltage(20)
+ScanEnabled(True)
+</cmd>
+
+
+user: There is a step edge crossing the 30 × 30 nm region and the image is unusable. Keep everything the same and escape to the side.
+assistant:
+Expert Experimental Plan:
+- Step edge crossing the scan region breaks the intended imaging area
+- Preserve scan conditions to avoid confounding changes
+- Switch scan area to move laterally
+- Resume scanning
+
+<cmd>
+SwitchScanarea()
+Aux1MaxVoltage(30)
+Aux2MaxVoltage(30)
+ScanEnabled(True)
+</cmd>
+
+
+user: My 3 × 3 nm atomic scan is failing because of a small contaminant blob. Same conditions, nearby clean area.
+assistant:
+Expert Experimental Plan:
+- Local contaminant prevents stable atomic imaging in this area
+- Keep scan parameters unchanged
+- Switch to a nearby clean scan area
+- Restart scan
+
+<cmd>
+SwitchScanarea()
+Aux1MaxVoltage(3)
+Aux2MaxVoltage(3)
+ScanEnabled(True)
+</cmd>
+
+
+user: The current region has too many adsorbates. Keep bias at -0.8 V and scan 5 × 5 nm somewhere cleaner.
+assistant:
+Expert Experimental Plan:
+- Adsorbates cause local artifacts and unstable contrast
+- Keep the same bias and scan parameters for consistency
+- Switch scan area to avoid the contaminated spot
+- Resume scanning
+
+<cmd>
+Sample_Bias(-0.8)
+SwitchScanarea()
+Aux1MaxVoltage(5)
+Aux2MaxVoltage(5)
+ScanEnabled(True)
+</cmd>
+
+
+user: There is a pit/defect in the 8 × 8 nm region and it ruins the image. Same conditions, shift to the side.
+assistant:
+Expert Experimental Plan:
+- A local defect dominates the image and disrupts interpretation
+- Keep scan range unchanged
+- Switch scan area to move laterally
+- Continue scanning
+
+<cmd>
+SwitchScanarea()
+Aux1MaxVoltage(8)
+Aux2MaxVoltage(8)
+ScanEnabled(True)
+</cmd>
+
+
+user: The 20×20 nm atomic image is destroyed by a step edge. Don’t change anything—just move to a neighboring terrace.
+assistant:
+Expert Experimental Plan:
+- Step edge indicates the current area is not a flat terrace
+- Maintain conditions for atomic imaging
+- Switch to a nearby scan area on a terrace
+- Resume scanning
+
+<cmd>
+SwitchScanarea()
+Aux1MaxVoltage(20)
+Aux2MaxVoltage(20)
+ScanEnabled(True)
+</cmd>
+
+
+
+user: There is dust in the scanning area (50 × 50 nm). Keep settings and move slightly sideways.
+assistant:
+Expert Experimental Plan:
+- Dust/debris causes broad artifacts in the current field
+- Keep scan parameters for comparable morphology
+- Switch scan area to avoid the dust
+- Restart scan
+
+<cmd>
+SwitchScanarea()
+Aux1MaxVoltage(50)
+Aux2MaxVoltage(50)
+ScanEnabled(True)
+</cmd>
+
+
+user: The 3 × 3 nm atomic image at room temperature is ruined by adsorbates in the region. Keep conditions and move to a cleaner spot.
+assistant:
+Expert Experimental Plan:
+- Image is broken due to local adsorbates in the current area
+- Move laterally by switching scan area without changing conditions
+- Atomic imaging at room temperature is drift-sensitive
+- Perform drift compensation and resume scanning
+
+<cmd>
+SwitchScanarea()
+DriftCompensation()
+Aux1MaxVoltage(3)
+Aux2MaxVoltage(3)
+ScanEnabled(True)
+</cmd>
+
+
+
+user: The lattice in my 2 × 2 nm scan slowly shifts over time, and there is also a defect line in the current region. Keep settings and go to a cleaner site.
+assistant:
+Expert Experimental Plan:
+- Defect line contaminates the current field; move to a cleaner site
+- Slow shifting indicates drift during atomic imaging
+- Switch scan area to escape the defect
+- Apply drift compensation and resume scanning
+
+<cmd>
+SwitchScanarea()
+DriftCompensation()
+Aux1MaxVoltage(2)
+Aux2MaxVoltage(2)
+ScanEnabled(True)
+</cmd>
+
+
+
+
+user: Bias is -0.8 V. My 2.5 × 2.5 nm atomic scan at room temperature is affected by adsorbate islands. Keep bias and range, just move sideways.
+assistant:
+Expert Experimental Plan:
+- Adsorbate islands disrupt imaging locally; move to a cleaner site
+- Keep bias and scan range unchanged for consistency
+- Atomic imaging at room temperature needs drift suppression
+- Switch scan area, apply drift compensation, and resume
+
+<cmd>
+Sample_Bias(-0.8)
+SwitchScanarea()
+DriftCompensation()
+Aux1MaxVoltage(2.5)
+Aux2MaxVoltage(2.5)
+ScanEnabled(True)
+</cmd>
+
+
+user: The 3 × 3 nm atomic image at room temperature is ruined by adsorbates in the region. Keep conditions and move to a cleaner spot.
+assistant:
+Expert Experimental Plan:
+- Adsorbates locally destroy image quality
+- Atomic imaging at room temperature requires stable tip and position
+- Recondition the tip before moving to a new area
+- Switch scan area, apply drift compensation, and resume scanning
+
+<cmd>
+TipFix()
+SwitchScanarea()
+DriftCompensation()
+Aux1MaxVoltage(3)
+Aux2MaxVoltage(3)
+ScanEnabled(True)
+</cmd>
+
+
+user: A step edge entered the 40 × 40 nm atomic scan at room temperature and the lattice is now blurry. Move sideways but keep the same scan range.
+assistant:
+Expert Experimental Plan:
+- Step edge interaction likely degraded tip condition
+- Restore tip quality before relocating
+- Switch to a neighboring terrace
+- Resume atomic scanning
+
+<cmd>
+TipFix()
+SwitchScanarea()
+Aux1MaxVoltage(40)
+Aux2MaxVoltage(40)
+ScanEnabled(True)
+</cmd>
+
+
+user: The lattice in my 2 × 2 nm scan slowly shifts over time, and there is also a defect line in the current region. Keep settings and go to a cleaner site.
+assistant:
+Expert Experimental Plan:
+- Defect line makes the current site unsuitable
+- Restore tip condition as a precaution
+- Move to a clean nearby area
+- Apply drift compensation and resume scanning
+
+<cmd>
+TipFix()
+SwitchScanarea()
+DriftCompensation()
+Aux1MaxVoltage(2)
+Aux2MaxVoltage(2)
+ScanEnabled(True)
+</cmd>
+
+
+user: During a 50 × 50 nm scan, I see debris and also double-tip artifacts. Keep the same scan range but escape sideways and continue.
+assistant:
+Expert Experimental Plan:
+- Debris interaction caused double-tip artifacts
+- Recondition the tip before changing location
+- Switch to a cleaner scan area
+- Resume scanning
+
+<cmd>
+TipFix()
+SwitchScanarea()
+Aux1MaxVoltage(50)
+Aux2MaxVoltage(50)
+ScanEnabled(True)
+</cmd>
+
+
+user: In a 3 × 3 nm atomic scan at room temperature, the image is smeared and there are contaminant blobs. Keep conditions but move to a clean nearby area.
+assistant:
+Expert Experimental Plan:
+- Contaminants likely affected both location and tip condition
+- Restore tip quality first
+- Move to a clean nearby scan area
+- Apply drift compensation for atomic imaging
+
+<cmd>
+TipFix()
+SwitchScanarea()
+DriftCompensation()
+Aux1MaxVoltage(3)
+Aux2MaxVoltage(3)
+ScanEnabled(True)
+</cmd>
+
+
+user: At low temperature, my 4 × 4 nm scan hit a step edge and the lattice contrast became unstable. Keep the same conditions but move sideways.
+assistant:
+Expert Experimental Plan:
+- Step edge interaction likely degraded tip condition
+- Restore tip quality before relocating
+- Low temperature suppresses drift
+- Switch scan area and resume scanning
+
+<cmd>
+TipFix()
+SwitchScanarea()
+Aux1MaxVoltage(4)
+Aux2MaxVoltage(4)
+ScanEnabled(True)
+</cmd>
+
+
+user: Bias is -0.8 V. My 2.5 × 2.5 nm atomic scan at room temperature is affected by adsorbate islands. Keep bias and range, just move sideways.
+assistant:
+Expert Experimental Plan:
+- Adsorbate islands disrupt atomic imaging
+- Restore tip condition to ensure clean contrast
+- Move to a nearby clean area
+- Apply drift compensation for atomic stability
+
+<cmd>
+Sample_Bias(-0.8)
+TipFix()
+SwitchScanarea()
+DriftCompensation()
+Aux1MaxVoltage(2.5)
+Aux2MaxVoltage(2.5)
+ScanEnabled(True)
+</cmd>
+
+
+user: I was doing a fast 30 × 30 nm scan and hit debris; after that the image became unstable. Keep the same range but move to a clean area and continue.
+assistant:
+Expert Experimental Plan:
+- Debris contact likely degraded the tip
+- Restore tip quality before relocating
+- Switch to a cleaner scan area
+- Resume scanning with the same range
+
+<cmd>
+TipFix()
+SwitchScanarea()
+Aux1MaxVoltage(30)
+Aux2MaxVoltage(30)
+ScanEnabled(True)
+</cmd>
+
+
+user: I want a high-quality 5 × 5 nm atomic scan at room temperature, but the current region has defects. Keep conditions and go to a cleaner spot.
+assistant:
+Expert Experimental Plan:
+- Defects in the region prevent clean atomic imaging
+- Restore tip condition before moving
+- Switch to a clean nearby scan area
+- Apply drift compensation for high-quality atomic imaging
+
+<cmd>
+TipFix()
+SwitchScanarea()
+DriftCompensation()
+Aux1MaxVoltage(5)
+Aux2MaxVoltage(5)
+ScanEnabled(True)
+</cmd>
+
+
+user: In a 4 × 4 nm scan at room temperature, a step edge and double-tip artifacts appear, and the lattice also drifts. Keep range and move sideways.
+assistant:
+Expert Experimental Plan:
+- Step edge interaction degraded tip apex geometry
+- Restore tip condition first
+- Move to a cleaner scan area
+- Apply drift compensation and resume scanning
+
+<cmd>
+TipFix()
+SwitchScanarea()
+DriftCompensation()
+Aux1MaxVoltage(4)
+Aux2MaxVoltage(4)
+ScanEnabled(True)
+</cmd>
+
+
+user: Go to X=120 nm, Y=-80 nm. The current area is contaminated, so switch to a clean scan area and do a 2 × 2 nm atomic scan at room temperature.
+assistant:
+Expert Experimental Plan:
+- Move to the requested coordinates
+- Local contamination may have affected the tip
+- Restore tip quality before switching scan area
+- Apply drift compensation for atomic imaging
+
+<cmd>
+StageOffset_X_Tube(120)
+StageOffset_Y_Tube(-80)
+TipFix()
+SwitchScanarea()
+DriftCompensation()
+Aux1MaxVoltage(2)
+Aux2MaxVoltage(2)
+ScanEnabled(True)
+</cmd>
+
+
+user: Shift +15 nm in X and -10 nm in Y. The lattice image is asymmetric and there is also a defect in the current region. Keep conditions but move sideways and continue.
+assistant:
+Expert Experimental Plan:
+- Asymmetric lattice indicates degraded tip condition
+- Restore tip quality before relocation
+- Switch to a cleaner nearby scan area
+- Resume scanning
+
+<cmd>
+StageOffset_X_Tube_ADD(15)
+StageOffset_Y_Tube_ADD(-10)
+TipFix()
+SwitchScanarea()
+ScanEnabled(True)
+</cmd>
+
+
+user: Stop the scan, move to a cleaner area because of dust, and resume the same 20 × 20 nm scan.
+assistant:
+Expert Experimental Plan:
+- Stop scanning safely before corrective actions
+- Dust indicates local contamination and possible tip degradation
+- Restore tip condition before switching scan area
+- Resume scanning with the same range
+
+<cmd>
+ScanEnabled(False)
+TipFix()
+SwitchScanarea()
+Aux1MaxVoltage(20)
+Aux2MaxVoltage(20)
+ScanEnabled(True)
+</cmd>
+
+
+user: The 2 × 2 nm lattice drifts, and a defect is entering the frame. Keep the same conditions but move to a cleaner site.
+assistant:
+Expert Experimental Plan:
+- Defect entering the frame makes the current site unsuitable
+- Restore tip condition as a precaution
+- Switch scan area to a cleaner site
+- Apply drift compensation and resume scanning
+
+<cmd>
+TipFix()
+SwitchScanarea()
+DriftCompensation()
+Aux1MaxVoltage(2)
+Aux2MaxVoltage(2)
+ScanEnabled(True)
+</cmd>
+
+
+user: Double-tip artifacts appeared after scanning near debris in a 50 × 50 nm area.
+assistant:
+Expert Experimental Plan:
+- Double-tip artifacts indicate degraded tip apex
+- Restore tip quality before relocation
+- Switch to a cleaner scan area
+- Resume scanning
+
+<cmd>
+TipFix()
+SwitchScanarea()
+Aux1MaxVoltage(50)
+Aux2MaxVoltage(50)
+ScanEnabled(True)
+</cmd>
+
+
+user: Bias is +1.0 V. In a 3 × 3 nm atomic scan at room temperature, the image is smeared and there is contamination in the region. Keep conditions, move sideways, and recover atomic contrast.
+assistant:
+Expert Experimental Plan:
+- Contamination and smearing suggest both location and tip issues
+- Restore tip condition before relocating
+- Switch scan area and apply drift compensation
+- Resume atomic imaging
+
+<cmd>
+Sample_Bias(1.0)
+TipFix()
+SwitchScanarea()
+DriftCompensation()
+Aux1MaxVoltage(3)
+Aux2MaxVoltage(3)
+ScanEnabled(True)
+</cmd>
+
+
+user: At low temperature, my 2 × 2 nm scan is on a defect cluster and the contrast is unstable. Keep the same conditions and move to a clean region.
+assistant:
+Expert Experimental Plan:
+- Defect cluster makes the site unsuitable
+- Unstable contrast suggests tip degradation
+- Restore tip condition and move to a clean site
+- Resume scanning
+
+<cmd>
+TipFix()
+SwitchScanarea()
+Aux1MaxVoltage(2)
+Aux2MaxVoltage(2)
+ScanEnabled(True)
+</cmd>
+
+
+user: In a 10 × 10 nm scan, the image is ruined by adsorbates. Do not change any parameters, just move sideways and continue.
+assistant:
+Expert Experimental Plan:
+- Adsorbates locally ruin the current scan region
+- Restore tip condition to ensure stable imaging
+- Switch scan area without changing parameters
+- Resume scanning
+
+<cmd>
+TipFix()
+SwitchScanarea()
+Aux1MaxVoltage(10)
+Aux2MaxVoltage(10)
+ScanEnabled(True)
+</cmd>
+
+
+user: During a 3 × 3 nm scan, the lattice slowly drifts. Keep the same range.
+assistant:
+Expert Experimental Plan:
+- Slow drift indicates thermal drift rather than tip duplication
+- Perform drift compensation
+- Resume scanning with the same range
+
+<cmd>
+DriftCompensation()
+Aux1MaxVoltage(3)
+Aux2MaxVoltage(3)
+ScanEnabled(True)
+</cmd>
+
+
+user: Switch scan area and perform atomic imaging at room temperature over 1.2 × 1.2 nm.
+assistant:
+Expert Experimental Plan:
+- Switch scan area context before atomic imaging
+- Extremely small scan is drift-sensitive at room temperature
+- Configure scan range and start scanning
+
+<cmd>
+SwitchScanarea()
+DriftCompensation()
+Aux1MaxVoltage(1.2)
+Aux2MaxVoltage(1.2)
+ScanEnabled(True)
+</cmd>
+
+
+user: The tip may be contaminated. I still want a 37.5 × 37.5 nm scan at room temperature.
+assistant:
+Expert Experimental Plan:
+- Suspected contamination can degrade image quality
+- Perform tip conditioning before scanning
+- Configure scan range and start scanning
+
+<cmd>
+TipFix()
+Aux1MaxVoltage(37.5)
+Aux2MaxVoltage(37.5)
+ScanEnabled(True)
+</cmd>
+
+
+user: The lattice is sharp but slowly shifts during a 1.5 × 1.5 nm scan. Keep the same range.
+assistant:
+Expert Experimental Plan:
+- Sharp lattice indicates tip is acceptable
+- Slow shift indicates drift
+- Perform drift compensation and resume scanning
+
+<cmd>
+DriftCompensation()
+Aux1MaxVoltage(1.5)
+Aux2MaxVoltage(1.5)
+ScanEnabled(True)
+</cmd>
+
+
+user: Atomic features look unstable in a 2 × 2 nm scan at room temperature. Fix it.
+assistant:
+Expert Experimental Plan:
+- Unstable atomic features suggest poor tip condition
+- Perform tip conditioning
+- Apply drift compensation and resume scanning
+
+<cmd>
+TipFix()
+DriftCompensation()
+Aux1MaxVoltage(2)
+Aux2MaxVoltage(2)
+ScanEnabled(True)
+</cmd>
+
+
+user: The current 4 × 4 nm atomic image is ruined by local contamination. Keep all parameters and move to a nearby clean site.
+assistant:
+Expert Experimental Plan:
+- Local contamination affects only the current region
+- Keep all scan parameters unchanged
+- Switch to a nearby scan area
+- Resume scanning
+
+<cmd>
+SwitchScanarea()
+Aux1MaxVoltage(4)
+Aux2MaxVoltage(4)
+ScanEnabled(True)
+</cmd>
+
+
+user: Adsorbates dominate the 15 × 15 nm atomic scan.
+assistant:
+Expert Experimental Plan:
+- Adsorbates locally degrade atomic contrast
+- Preserve all scan settings
+- Switch scan area and continue
+
+<cmd>
+SwitchScanarea()
+Aux1MaxVoltage(15)
+Aux2MaxVoltage(15)
+ScanEnabled(True)
+</cmd>
+
+
+user: The 30 × 30 nm image contains debris. Do not change any parameters and move laterally.
+assistant:
+Expert Experimental Plan:
+- Debris causes artifacts only in the current location
+- Keep scan conditions unchanged
+- Switch scan area sideways
+
+<cmd>
+SwitchScanarea()
+Aux1MaxVoltage(30)
+Aux2MaxVoltage(30)
+ScanEnabled(True)
+</cmd>
+
+
+user: A step edge entered the 20 × 20 nm atomic scan. Same conditions, cleaner area nearby.
+assistant:
+Expert Experimental Plan:
+- Step edge makes the current region unsuitable
+- Maintain atomic scan parameters
+- Switch scan area and resume imaging
+
+<cmd>
+SwitchScanarea()
+Aux1MaxVoltage(20)
+Aux2MaxVoltage(20)
+ScanEnabled(True)
+</cmd>
+
+
+user: My 10 × 10 nm scan shows dust particles. Same scan, different location.
+assistant:
+Expert Experimental Plan:
+- Dust causes large-scale artifacts
+- Preserve scan range and conditions
+- Switch scan area laterally
+
+<cmd>
+SwitchScanarea()
+Aux1MaxVoltage(10)
+Aux2MaxVoltage(10)
+ScanEnabled(True)
+</cmd>
+
+
+user: The 1.5 × 1.5 nm atomic image is affected by adsorbates.
+assistant:
+Expert Experimental Plan:
+- Adsorbates locally disturb atomic imaging
+- Keep all scan parameters
+- Switch scan area and continue
+
+<cmd>
+SwitchScanarea()
+Aux1MaxVoltage(1.5)
+Aux2MaxVoltage(1.5)
+ScanEnabled(True)
+</cmd>
+
+
+user: The atomic image is distorted by contamination in the current 2.5 × 2.5 nm region. Same settings.
+assistant:
+Expert Experimental Plan:
+- Distortion originates from local contamination
+- Preserve atomic scan parameters
+- Switch scan area
+
+<cmd>
+SwitchScanarea()
+Aux1MaxVoltage(2.5)
+Aux2MaxVoltage(2.5)
+ScanEnabled(True)
+</cmd>
+
+
+user: The surface morphology image (20 × 20 nm) is affected by debris.
+assistant:
+Expert Experimental Plan:
+- Debris locally affects morphology imaging
+- Maintain scan range
+- Switch scan area and resume
+
+<cmd>
+SwitchScanarea()
+Aux1MaxVoltage(20)
+Aux2MaxVoltage(20)
+ScanEnabled(True)
+</cmd>
+
+
+user: A defect cluster is inside the 6 × 6 nm area and I can’t interpret the surface.
+assistant:
+Expert Experimental Plan:
+- Defect cluster makes the current site unsuitable
+- Preserve scan settings to isolate location effects
+- Switch scan area to a nearby cleaner region
+- Restart scanning
+
+<cmd>
+SwitchScanarea()
+Aux1MaxVoltage(6)
+Aux2MaxVoltage(6)
+ScanEnabled(True)
+</cmd>
+
+
+user: The current area has dirt that blocks the morphology.
+assistant:
+Expert Experimental Plan:
+- Dirt causes local artifacts in the current region
+- Keep scan parameters unchanged for comparison
+- Switch scan area to avoid the dirt
+- Restart scanning
+
+<cmd>
+SwitchScanarea()
+ScanEnabled(True)
+</cmd>
+
+
+user: Adsorbates dominate the 4 × 4 nm lattice image. Please give me a good image.
+assistant:
+Expert Experimental Plan:
+- Local adsorbates contaminate the current field of view
+- Preserve scan parameters
+- Switch scan area to a cleaner region
+
+<cmd>
+SwitchScanarea()
+Aux1MaxVoltage(4)
+Aux2MaxVoltage(4)
+ScanEnabled(True)
+</cmd>
+
+
+user: The 50 × 50 nm scan area contains a large particle and I can’t see the surface.
+assistant:
+Expert Experimental Plan:
+- Large particle masks surface morphology locally
+- Keep scan settings unchanged
+- Switch scan area to avoid the particle
+- Resume scanning
+
+<cmd>
+SwitchScanarea()
+Aux1MaxVoltage(50)
+Aux2MaxVoltage(50)
+ScanEnabled(True)
+</cmd>
+
+
+user: The current region is on a step edge and the image is broken.
+assistant:
+Expert Experimental Plan:
+- Step edge indicates unsuitable local topography
+- Switch scan area to a nearby terrace
+- Resume scanning
+
+<cmd>
+SwitchScanarea()
+ScanEnabled(True)
+</cmd>
+
+
+user: Too many adsorbates are in the area and the image quality is poor.
+assistant:
+Expert Experimental Plan:
+- Local adsorbates degrade image quality
+- Switch scan area to a cleaner nearby region
+- Resume scanning
+
+<cmd>
+SwitchScanarea()
+ScanEnabled(True)
+</cmd>
+
+
+user: A local defect cluster ruins the 25 × 25 nm scan.
+assistant:
+Expert Experimental Plan:
+- Local defects dominate the current scan region
+- Keep scan parameters unchanged
+- Switch scan area to a nearby clean site
+- Restart scanning
+
+<cmd>
+SwitchScanarea()
+Aux1MaxVoltage(25)
+Aux2MaxVoltage(25)
+ScanEnabled(True)
+</cmd>
+
+
+user: Double-tip artifacts appeared after scanning near debris in a area.
+assistant:
+Expert Experimental Plan:
+- Double-tip artifacts indicate poor tip apex geometry
+- Recondition the tip first
+- Switch scan area to avoid the debris region
+- Resume scanning
+
+<cmd>
+TipFix()
+SwitchScanarea()
+ScanEnabled(True)
+</cmd>
+
+
+user: The lattice is blurry in a scan because the region has adsorbates.
+assistant:
+Expert Experimental Plan:
+- Blurry lattice suggests tip degradation/instability
+- Perform tip conditioning first
+- Switch scan area to a cleaner nearby region
+- Resume scanning
+
+<cmd>
+TipFix()
+SwitchScanarea()
+ScanEnabled(True)
+</cmd>
+
+
+user: Atomic contrast dropped after crossing a step edge in a 20 × 20 nm scan.
+assistant:
+Expert Experimental Plan:
+- Step edge interaction can degrade the tip apex
+- Restore tip quality first
+- Switch scan area to a nearby terrace
+- Resume scanning
+
+<cmd>
+TipFix()
+SwitchScanarea()
+Aux1MaxVoltage(20)
+Aux2MaxVoltage(20)
+ScanEnabled(True)
+</cmd>
+
+
+user: The 6 × 6 nm region has a defect and the image shows asymmetric atomic features.
+assistant:
+Expert Experimental Plan:
+- Asymmetric atomic features indicate degraded tip condition
+- Recondition the tip first
+- Switch scan area to avoid the defective region
+- Resume scanning
+
+<cmd>
+TipFix()
+SwitchScanarea()
+Aux1MaxVoltage(6)
+Aux2MaxVoltage(6)
+ScanEnabled(True)
+</cmd>
+
+
+user: After scanning over dirt in a 10 × 10 nm region, the image is unstable.
+assistant:
+Expert Experimental Plan:
+- Instability after dirt contact suggests tip contamination
+- Restore tip quality first
+- Switch to a cleaner scan area
+- Resume scanning
+
+<cmd>
+TipFix()
+SwitchScanarea()
+Aux1MaxVoltage(10)
+Aux2MaxVoltage(10)
+ScanEnabled(True)
+</cmd>
+
+
+user: The scan area shows duplicated atoms and the region has adsorbates.
+assistant:
+Expert Experimental Plan:
+- Duplicated atoms indicate a double-tip effect
+- Recondition the tip first
+- Switch scan area to avoid adsorbates
+- Resume scanning
+
+<cmd>
+TipFix()
+SwitchScanarea()
+ScanEnabled(True)
+</cmd>
+
+
+user: A defect cluster in the region is present and atomic contrast is unstable.
+assistant:
+Expert Experimental Plan:
+- Unstable contrast suggests degraded tip condition
+- Restore tip quality first
+- Switch scan area to a cleaner nearby region
+- Resume scanning
+
+<cmd>
+TipFix()
+SwitchScanarea()
+ScanEnabled(True)
+</cmd>
+
+
+user: The lattice image is blurry after passing near a step bunch.
+assistant:
+Expert Experimental Plan:
+- Blurry lattice suggests tip instability
+- Perform tip conditioning first
+- Switch scan area to a cleaner terrace region
+- Resume scanning
+
+<cmd>
+TipFix()
+SwitchScanarea()
+ScanEnabled(True)
+</cmd>
+
+
+user: The scan area has debris and the atomic image became unstable. Please give me a good surface.
+assistant:
+Expert Experimental Plan:
+- Instability suggests tip contamination/degradation
+- Restore tip quality first
+- Switch scan area to avoid debris
+- Resume scanning
+
+<cmd>
+TipFix()
+SwitchScanarea()
+ScanEnabled(True)
+</cmd>
+
+
+user: Atomic-scale imaging at room temperature over a 2.5 × 2.5 nm area is unstable over time.
+assistant:
+Expert Experimental Plan:
+- Time-dependent instability indicates drift
+- Perform drift compensation
+- Configure scan range
+- Resume scanning
+
+<cmd>
+DriftCompensation()
+Aux1MaxVoltage(2.5)
+Aux2MaxVoltage(2.5)
+ScanEnabled(True)
+</cmd>
+
+
+user: Image surface morphology in a 60 × 60 nm region at room temperature.
+assistant:
+Expert Experimental Plan:
+- Overview morphology imaging is tolerant to drift
+- Skip drift compensation to reduce experiment time
+- Configure scan range
+- Start scan
+
+<cmd>
+Aux1MaxVoltage(60)
+Aux2MaxVoltage(60)
+ScanEnabled(True)
+</cmd>
+
+
+user: Obtain a stable atomic-resolution image at room temperature in a 2 × 2 nm region.
+assistant:
+Expert Experimental Plan:
+- High spatial resolution requires stable tip condition
+- Perform tip conditioning as a precaution
+- Perform drift compensation
+- Configure scan range
+- Start scan
+
+<cmd>
+TipFix()
+DriftCompensation()
+Aux1MaxVoltage(2)
+Aux2MaxVoltage(2)
+ScanEnabled(True)
+</cmd>
+
+
+user: The atomic lattice image appears blurry and slowly shifts during a 4 × 4 nm scan at room temperature.
+assistant:
+Expert Experimental Plan:
+- Blurry lattice suggests degraded tip condition
+- Slow image shift indicates thermal drift at room temperature
+- The current region may also be locally unsuitable
+- Restore tip quality, stabilize position, and obtain a cleaner image region
+- Resume scanning
+
+<cmd>
+TipFix()
+SwitchScanarea()
+DriftCompensation()
+Aux1MaxVoltage(4)
+Aux2MaxVoltage(4)
+ScanEnabled(True)
+</cmd>
+
+
+user: Atomic-resolution imaging over a 3 × 3 nm area at room temperature is unstable and not reproducible.
+assistant:
+Expert Experimental Plan:
+- Instability suggests possible tip degradation
+- Lack of reproducibility indicates positional drift
+- Local surface condition may be unsuitable
+- Perform tip conditioning, adjust scan area, and compensate drift
+- Resume scanning
+
+<cmd>
+TipFix()
+SwitchScanarea()
+DriftCompensation()
+Aux1MaxVoltage(3)
+Aux2MaxVoltage(3)
+ScanEnabled(True)
+</cmd>
+
+
+user: The lattice image shows irregular contrast and gradually distorts during a scan at room temperature.
+assistant:
+Expert Experimental Plan:
+- Irregular contrast suggests unstable tip apex
+- Gradual distortion indicates time-dependent drift
+- The current site may contain local defects or adsorbates
+- Recondition the tip, select a more suitable scan area, and correct drift
+- Resume scanning
+
+<cmd>
+TipFix()
+SwitchScanarea()
+DriftCompensation()
+ScanEnabled(True)
+</cmd>
+
+
+user: Atomic features are unstable and the image slowly deforms during a 5 × 5 nm scan at room temperature.
+assistant:
+Expert Experimental Plan:
+- Unstable atomic features suggest degraded tip condition
+- Slow deformation indicates drift during acquisition
+- The current scan region may not be representative
+- Restore tip quality, change scan area, and apply drift compensation
+- Resume scanning
+
+<cmd>
+TipFix()
+SwitchScanarea()
+DriftCompensation()
+Aux1MaxVoltage(5)
+Aux2MaxVoltage(5)
+ScanEnabled(True)
+</cmd>
+
+
+user: The atomic image quality degrades over time during a 2.5 × 2.5 nm scan at room temperature.
+assistant:
+Expert Experimental Plan:
+- Progressive degradation suggests tip or surface contamination
+- Time-dependent degradation indicates drift effects
+- The current imaging site may be locally unsuitable
+- Perform tip conditioning, adjust scan area, and compensate drift
+- Resume scanning
+
+<cmd>
+TipFix()
+SwitchScanarea()
+DriftCompensation()
+Aux1MaxVoltage(2.5)
+Aux2MaxVoltage(2.5)
+ScanEnabled(True)
+</cmd>
+
+
+
+user: The lattice image is inconsistent and slowly shifts during a 1.5 × 1.5 nm scan at room temperature.
+assistant:
+Expert Experimental Plan:
+- Inconsistent lattice suggests unstable tip condition
+- Slow shifting indicates thermal drift
+- The current region may not be suitable for atomic imaging
+- Recondition tip, adjust scan area, and compensate drift
+- Resume scanning
+
+<cmd>
+TipFix()
+SwitchScanarea()
+DriftCompensation()
+Aux1MaxVoltage(1.5)
+Aux2MaxVoltage(1.5)
+ScanEnabled(True)
+</cmd>
+
+
+user: Atomic-resolution imaging in a region at room temperature is unstable and drifts over time.
+assistant:
+Expert Experimental Plan:
+- Instability suggests degraded tip apex
+- Drift over time indicates positional instability
+- Local surface condition may be affecting image quality
+- Perform tip conditioning, change scan area, and apply drift compensation
+- Resume scanning
+
+<cmd>
+TipFix()
+SwitchScanarea()
+DriftCompensation()
+ScanEnabled(True)
+</cmd>
+
+
+user: Atomic-resolution imaging over a 3 × 3 nm area at room temperature becomes blurry and slowly unstable over time.
+assistant:
+Expert Experimental Plan:
+- Blurred atomic features suggest degraded tip condition
+- Gradual instability over time indicates thermal drift at room temperature
+- Restore tip quality and stabilize probe position
+- Configure scan range
+- Resume scanning
+
+<cmd>
+TipFix()
+DriftCompensation()
+Aux1MaxVoltage(3)
+Aux2MaxVoltage(3)
+ScanEnabled(True)
+</cmd>
+
+
+user: The atomic lattice image is distorted and gradually shifts during a 4 × 4 nm scan at room temperature.
+assistant:
+Expert Experimental Plan:
+- Lattice distortion suggests an unstable or degraded tip apex
+- Gradual image shift indicates time-dependent positional drift
+- Perform tip conditioning and drift compensation
+- Configure scan range
+- Resume scanning
+
+<cmd>
+TipFix()
+DriftCompensation()
+Aux1MaxVoltage(4)
+Aux2MaxVoltage(4)
+ScanEnabled(True)
+</cmd>
+
+user: The lattice is asymmetric and there's a defect in the current 5 × 5 nm region.
+assistant:
+Expert Experimental Plan:
+- Asymmetric lattice indicates tip degradation
+- Local defect makes area unsuitable
+- Fix tip and relocate
+- Resume scanning
+
+<cmd>
+TipFix()
+SwitchScanarea()
+Aux1MaxVoltage(5)
+Aux2MaxVoltage(5)
+ScanEnabled(True)
+</cmd>
+
+
+user: Ensure to acquire atomic resolution over a 10 × 10 nm area at low temperature, without considering time cost.
+assistant:
+Expert Experimental Plan:
+- drift compensation and tip conditioning can ensure atomic resolution at small scan area but cost additional time
+- user has strong sense to ensure quality for atomic contrast
+- Low temperature minimizes thermal drift so skip drift compensation
+- Preemptively condition the tip to minimize the risk of double-tip or apex instability
+- Configure scan parameters
+- Start scan
+
+<cmd>
+TipFix()
+Aux1MaxVoltage(10)
+Aux2MaxVoltage(10)
+ScanEnabled(True)
+</cmd>
+
+
+
+user: Acquire atomic resolution over a 5 × 5 nm area at low temperature.
+assistant:
+Expert Experimental Plan:
+- Skip drift compensation due to low temperature
+- Configure scan parameters
+- Start scan
+
+<cmd>
+Aux1MaxVoltage(10)
+Aux2MaxVoltage(10)
+ScanEnabled(True)
+</cmd>
+
+
+user:
+The atomic image is unstable in the current 4 × 4 nm area. Do not change the location.
+assistant:
+Expert Experimental Plan:
+- User forbids scan area change
+- Instability likely due to tip condition or drift
+- Restore tip quality and stabilize position
+- Resume scanning in the same area
+
+<cmd>
+TipFix()
+DriftCompensation()
+Aux1MaxVoltage(4)
+Aux2MaxVoltage(4)
+ScanEnabled(True)
+</cmd>
+
+
+user: I need publication-quality atomic-resolution data in a 10 × 10 nm area at room temperature.
+assistant:
+Expert Experimental Plan:
+- Publication-quality implies robustness over time
+- Preemptive tip conditioning
+- Drift compensation mandatory at room temperature
+- Conservative experimental strategy prioritized over speed
+
+<cmd>
+TipFix()
+DriftCompensation()
+Aux1MaxVoltage(10)
+Aux2MaxVoltage(10)
+ScanEnabled(True)
+</cmd>
+
+
+
+user: The lattice is sharp but slowly shifts during a 2.8 × 2.8 nm scan at room temperature.
+assistant:
+Expert Experimental Plan:
+- Sharp lattice indicates tip is good
+- Slow shift indicates drift only
+- Perform drift compensation
+- Resume scanning
+
+<cmd>
+DriftCompensation()
+Aux1MaxVoltage(2.8)
+Aux2MaxVoltage(2.8)
+ScanEnabled(True)
+</cmd>
+
+user: Atoms appear doubled. Fix this and rescan.
+assistant:
+Expert Experimental Plan:
+- Doubled atoms indicate multiple tip apexes
+- Perform tip conditioning
+- Resume scanning
+
+<cmd>
+TipFix()
+ScanEnabled(True)
+</cmd>
+
+

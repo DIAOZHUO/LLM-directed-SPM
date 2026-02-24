@@ -187,3 +187,4 @@ cython_debug/
 /spm_gpt/finetune/mistral_unsloth_spmcmd/
 /spm_gpt/finetune/Phi-4-unsloth-bnb-4bit_distill_unsloth_results/
 /spm_gpt/finetune/Phi-4-unsloth-bnb-4bit_unsloth_results/
+/spm_gpt/finetune/Phi-4_unsloth_spmcmd/

@@ -1,0 +1,13 @@
+﻿programmatic commands,description,arg_type,arg_description,callback
+StageOffset_X_Tube(arg),Setting the absolute  X (left and right direction) position coordinates of the probe(SPM tip),float,"Coordinate value of X in nanometers. The coordinate range accessible by the SPM tip on is -350 to 350 nm in the x,y-direction",
+StageOffset_Y_Tube(arg),Setting the absolute  Y (up and down direction) position coordinates of the probe(SPM tip),float,"Coordinate value of X in nanometers. The coordinate range accessible by the SPM tip on is -350 to 350 nm in the x,y-direction",
+StageOffset_X_Tube_ADD(arg),Sets the relative X(left/right direction) position to be moved from the current coordinates of the probe(SPM tip),float,"Distance to be move in  X, in nanometers",
+StageOffset_Y_Tube_ADD(arg),Sets the relative Y (up/down direction) position to be moved from the current coordinates of the probe(SPM tip),float,"Distance to be move in Y, in nanometers",
+Sample_Bias(arg),The bias voltage add to the measured sample,float,the value of the sample bias. It CAN NOT be 0 to support Z feedback.,
+Aux1MaxVoltage(arg),Setting the scanning area range of the X size,float,scan range of the X direction in nanometers,
+Aux2MaxVoltage(arg),Setting the scanning area range of the Y size,float,scan range of the Y direction in nanometers,
+ScanEnabled(arg),Switches to control scanning,bool,true to start the scan and false to stop the scan,_OnSaveFileAdd
+Scan_Speed(arg),Sets the scan speed for XY scanning,int,"This value represents the time (µs) required to sample one pixel. For example, scanning a 256×256 image with a Scan_Speed of 1000 typically takes around 130 seconds.",
+DriftCompensation(),Performs drift compensation to correct positional drift of the probe,,,_OnDriftCorrectionFinish
+TipFix(),Performs a tip conditioning process to fix the probe tip quality,,,_OnTipFixFinish
+SwitchScanarea(),switches the scanning area,,,_OnScanAreaSwitch

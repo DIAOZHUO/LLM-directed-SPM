@@ -1,0 +1,1107 @@
+user: shift -10 nm in X and +5 nm in Y, scan 6×6nm
+assistant:
+<cmd>
+StageOffset_X_Tube_ADD(-10)
+StageOffset_Y_Tube_ADD(5)
+Aux1MaxVoltage(6)
+Aux2MaxVoltage(6)
+ScanEnabled(true)
+</cmd>
+
+user: translate the probe 8 nm along the x-axis
+assistant:
+<cmd>
+StageOffset_X_Tube_ADD(8)
+</cmd>
+
+
+user: Go to Y position 200 nanometers
+assistant:
+<cmd>
+StageOffset_Y_Tube(200)
+</cmd>
+
+
+user: Move the tip to absolute X = 150 nm
+assistant:
+<cmd>
+StageOffset_X_Tube(150)
+</cmd>
+
+
+user: go to X = 10, Y = 90
+assistant:
+<cmd>
+StageOffset_X_Tube(10)
+StageOffset_Y_Tube(90)
+</cmd>
+
+
+user: widen X and Y scan to 22 nm
+assistant:
+<cmd>
+Aux1MaxVoltage(22)
+Aux2MaxVoltage(22)
+</cmd>
+
+
+user: move to X = 30 nm, keep Y unchanged
+assistant:
+<cmd>
+StageOffset_X_Tube(30)
+</cmd>
+
+
+user: go to (X = 100, Y = −200) and apply −0.5 V
+assistant:
+<cmd>
+StageOffset_X_Tube(100)
+StageOffset_Y_Tube(-200)
+Sample_Bias(-0.5)
+</cmd>
+
+
+user: step down 35 nm in Y and scan 7×7
+assistant:
+<cmd>
+StageOffset_Y_Tube_ADD(-35)
+Aux1MaxVoltage(7)
+Aux2MaxVoltage(7)
+ScanEnabled(true)
+</cmd>
+
+
+user: increase Y by 12 nm in the positive direction and scan 9×9
+assistant:
+<cmd>
+StageOffset_Y_Tube_ADD(12)
+Aux1MaxVoltage(9)
+Aux2MaxVoltage(9)
+ScanEnabled(true)
+</cmd>
+
+
+user: move 10 nm left and scan a 5x5 nm area
+assistant:
+<cmd>
+StageOffset_X_Tube_ADD(-10)
+Aux1MaxVoltage(5)
+Aux2MaxVoltage(5)
+ScanEnabled(true)
+</cmd>
+
+
+user: move 10 nm left and 10 nm down, apply +0.3 V, scan 8×8
+assistant:
+<cmd>
+StageOffset_X_Tube_ADD(-10)
+StageOffset_Y_Tube_ADD(-10)
+Sample_Bias(0.3)
+Aux1MaxVoltage(8)
+Aux2MaxVoltage(8)
+ScanEnabled(true)
+</cmd>
+
+
+user: adjust Y scan height to 12 nm
+assistant:
+<cmd>
+Aux2MaxVoltage(12)
+</cmd>
+
+
+user: Set vertical scan height to 110 nanometers
+assistant:
+<cmd>
+Aux2MaxVoltage(110)
+</cmd>
+
+
+user: Slide the tip 90 nanometers to the right
+assistant:
+<cmd>
+StageOffset_X_Tube_ADD(90)
+</cmd>
+
+
+user: Adjust the scanner 50 nanometers right
+assistant:
+<cmd>
+StageOffset_X_Tube_ADD(50)
+</cmd>
+
+
+user: apply -1.0 V and scan 12×12 nm
+assistant:
+<cmd>
+Sample_Bias(-1.0)
+Aux1MaxVoltage(12)
+Aux2MaxVoltage(12)
+ScanEnabled(true)
+</cmd>
+
+
+user: stop measuring with the scanner
+assistant:
+<cmd>
+ScanEnabled(false)
+</cmd>
+
+
+user: shift in y direction by 20 nm
+assistant:
+<cmd>
+StageOffset_Y_Tube_ADD(20)
+</cmd>
+
+
+user: shift the probe by 30 nm in Y direction
+assistant:
+<cmd>
+StageOffset_Y_Tube_ADD(30)
+</cmd>
+
+
+user: enable scanning with current settings
+assistant:
+<cmd>
+ScanEnabled(true)
+</cmd>
+
+
+user: Set the sample bias to 1.2 V
+assistant:
+<cmd>
+Sample_Bias(1.2)
+</cmd>
+
+
+user: Subtract 100 nm from the Y position
+assistant:
+<cmd>
+StageOffset_Y_Tube_ADD(-100)
+</cmd>
+
+
+user: stop scanning now
+assistant:
+<cmd>
+ScanEnabled(false)
+</cmd>
+
+
+user: set both scan sizes to 240 nm and resume scanning
+assistant:
+<cmd>
+Aux1MaxVoltage(240)
+Aux2MaxVoltage(240)
+ScanEnabled(true)
+</cmd>
+
+
+user: move 100 nm left along X
+assistant:
+<cmd>
+StageOffset_X_Tube_ADD(-100)
+</cmd>
+
+
+user: set Y coordinate to -350 nm
+assistant:
+<cmd>
+StageOffset_Y_Tube(-350)
+</cmd>
+
+
+user: enable scan mode.
+assistant:
+<cmd>
+ScanEnabled(true)
+</cmd>
+
+
+user: shift in y direction by 5 nm
+assistant:
+<cmd>
+StageOffset_Y_Tube_ADD(5)
+</cmd>
+
+
+user: Move the stage to Y = 130 nm
+assistant:
+<cmd>
+StageOffset_Y_Tube(130)
+</cmd>
+
+
+user: decrease bias to -0.4 V
+assistant:
+<cmd>
+Sample_Bias(-0.4)
+</cmd>
+
+
+user: move diagonally 15 nm right and 15 nm up
+assistant:
+<cmd>
+StageOffset_X_Tube_ADD(15)
+StageOffset_Y_Tube_ADD(15)
+</cmd>
+
+
+user: move tip to (350, -250)
+assistant:
+<cmd>
+StageOffset_X_Tube(350)
+StageOffset_Y_Tube(-250)
+</cmd>
+
+
+user: shift 12 nm left, keep Y, scan 6×6
+assistant:
+<cmd>
+StageOffset_X_Tube_ADD(-12)
+Aux1MaxVoltage(6)
+Aux2MaxVoltage(6)
+ScanEnabled(true)
+</cmd>
+
+
+user: move the probe 25 nm along the y-axis
+assistant:
+<cmd>
+StageOffset_Y_Tube_ADD(25)
+</cmd>
+
+
+user: Set the X scan range to 60 nanometers
+assistant:
+<cmd>
+Aux1MaxVoltage(60)
+</cmd>
+
+
+user: Set bias voltage to -1.0 V
+assistant:
+<cmd>
+Sample_Bias(-1.0)
+</cmd>
+
+
+user: return to X = 0, shift Y by -10 nm, scan area 9x9 nm
+assistant:
+<cmd>
+StageOffset_X_Tube(0)
+StageOffset_Y_Tube_ADD(-10)
+Aux1MaxVoltage(9)
+Aux2MaxVoltage(9)
+ScanEnabled(true)
+</cmd>
+
+
+user: move the stage to X = 10 nm, Y = −90 nm
+assistant:
+<cmd>
+StageOffset_X_Tube(10)
+StageOffset_Y_Tube(-90)
+</cmd>
+
+
+user: scan 13×13 nm
+assistant:
+<cmd>
+Aux1MaxVoltage(13)
+Aux2MaxVoltage(13)
+ScanEnabled(true)
+</cmd>
+
+
+user: translate the stage −120 nm in X and −80 nm in Y
+assistant:
+<cmd>
+StageOffset_X_Tube_ADD(-120)
+StageOffset_Y_Tube_ADD(-80)
+</cmd>
+
+
+user: set both X and Y scan sizes to 200 nm
+assistant:
+<cmd>
+Aux1MaxVoltage(200)
+Aux2MaxVoltage(200)
+</cmd>
+
+
+user: start a 16×16 nm scan with 1.5V
+assistant:
+<cmd>
+Sample_Bias(1.5)
+Aux1MaxVoltage(16)
+Aux2MaxVoltage(16)
+ScanEnabled(true)
+</cmd>
+
+user: end the scan session
+assistant:
+<cmd>
+ScanEnabled(false)
+</cmd>
+
+
+user: set horizontal scan size to 250 nm
+assistant:
+<cmd>
+Aux1MaxVoltage(250)
+</cmd>
+
+
+user: commence the scan routine
+assistant:
+<cmd>
+ScanEnabled(true)
+</cmd>
+
+
+user: Adjust the scan range along Y to 95 nm
+assistant:
+<cmd>
+Aux2MaxVoltage(95)
+</cmd>
+
+
+user: apply -1 V bias, reset to origin, then scan 10x10
+assistant:
+<cmd>
+Sample_Bias(-1)
+StageOffset_X_Tube(0)
+StageOffset_Y_Tube(0)
+Aux1MaxVoltage(10)
+Aux2MaxVoltage(10)
+ScanEnabled(true)
+</cmd>
+
+
+user: step 15 nm in the −Y direction
+assistant:
+<cmd>
+StageOffset_Y_Tube_ADD(-15)
+</cmd>
+
+
+user: egage the scan
+assistant:
+<cmd>
+ScanEnabled(true)
+</cmd>
+
+
+user: move 10 nm upward
+assistant:
+<cmd>
+StageOffset_Y_Tube_ADD(10)
+</cmd>
+
+
+user: apply 1 V sample bias and scan at current position with 8x8 nm area
+assistant:
+<cmd>
+Sample_Bias(1)
+Aux1MaxVoltage(8)
+Aux2MaxVoltage(8)
+ScanEnabled(true)
+</cmd>
+
+
+user: move to (200, −250) and scan 20×10
+assistant:
+<cmd>
+StageOffset_X_Tube(200)
+StageOffset_Y_Tube(-250)
+Aux1MaxVoltage(20)
+Aux2MaxVoltage(10)
+ScanEnabled(true)
+</cmd>
+
+
+user: move 40 nm right and 40 nm up, apply −0.9 V bias, scan 14×14
+assistant:
+<cmd>
+StageOffset_X_Tube_ADD(40)
+StageOffset_Y_Tube_ADD(40)
+Sample_Bias(-0.9)
+Aux1MaxVoltage(14)
+Aux2MaxVoltage(14)
+ScanEnabled(true)
+</cmd>
+
+
+user: go to absolute coordinates X = 50, Y = 100 and start scanning
+assistant:
+<cmd>
+StageOffset_X_Tube(50)
+StageOffset_Y_Tube(100)
+ScanEnabled(true)
+</cmd>
+
+
+user: shrink X scan size down to 60 nm
+assistant:
+<cmd>
+Aux1MaxVoltage(60)
+</cmd>
+
+user: Adjust the Y coordinate to -85 nm
+assistant:
+<cmd>
+StageOffset_Y_Tube(-85)
+</cmd>
+
+
+user: shift 5 nm both in X and Y, then start 6x6 scan
+assistant:
+<cmd>
+StageOffset_X_Tube_ADD(5)
+StageOffset_Y_Tube_ADD(5)
+Aux1MaxVoltage(6)
+Aux2MaxVoltage(6)
+ScanEnabled(true)
+</cmd>
+
+
+user: move probe to (−250, 150)
+assistant:
+<cmd>
+StageOffset_X_Tube(-250)
+StageOffset_Y_Tube(150)
+</cmd>
+
+
+user: move 25 nm left and 10 nm up
+assistant:
+<cmd>
+StageOffset_X_Tube_ADD(-25)
+StageOffset_Y_Tube_ADD(10)
+</cmd>
+
+
+user: apply a bias of +1.0 V and scan 10×10 nm
+assistant:
+<cmd>
+Sample_Bias(1.0)
+Aux1MaxVoltage(10)
+Aux2MaxVoltage(10)
+ScanEnabled(true)
+</cmd>
+
+
+user: Displace the tip -80 nanometers in Y
+assistant:
+<cmd>
+StageOffset_Y_Tube_ADD(-80)
+</cmd>
+
+
+user: set X to 300 nm，Y to 10 nm absolutely.
+assistant:
+<cmd>
+StageOffset_X_Tube(300)
+StageOffset_Y_Tube(10)
+</cmd>
+
+
+user: Limit the scan range in X to 80 nm
+assistant:
+<cmd>
+Aux1MaxVoltage(80)
+</cmd>
+
+
+user: set X = −10, Y = −10 and scan 10×10
+assistant:
+<cmd>
+StageOffset_X_Tube(-10)
+StageOffset_Y_Tube(-10)
+Aux1MaxVoltage(10)
+Aux2MaxVoltage(10)
+ScanEnabled(true)
+</cmd>
+
+
+user: increase sample bias to +0.9 V
+assistant:
+<cmd>
+Sample_Bias(0.9)
+</cmd>
+
+
+user: adjust the sample bias to −750 mV
+assistant:
+<cmd>
+Sample_Bias(-0.75)
+</cmd>
+
+
+user: set absolute X = −300 nm
+assistant:
+<cmd>
+StageOffset_X_Tube(-300)
+</cmd>
+
+
+user: Set scan height in Y to 22.5 nm
+assistant:
+<cmd>
+Aux2MaxVoltage(22.5)
+</cmd>
+
+
+user: set coordinates to (−90, −90)
+assistant:
+<cmd>
+StageOffset_X_Tube(-90)
+StageOffset_Y_Tube(-90)
+</cmd>
+
+user: Lower the sample bias to -1.2 V
+assistant:
+<cmd>
+Sample_Bias(-1.2)
+</cmd>
+
+
+user: apply sample bias of -0.8 V, set area to 50 nm square, and scan
+assistant:
+<cmd>
+Sample_Bias(-0.8)
+Aux1MaxVoltage(50)
+Aux2MaxVoltage(50)
+ScanEnabled(true)
+</cmd>
+
+
+user: shift 20 nm up, apply -1.5 V sample bias, and begin scanning
+assistant:
+<cmd>
+StageOffset_Y_Tube_ADD(20)
+Sample_Bias(-1.5)
+ScanEnabled(true)
+</cmd>
+
+
+user: perform a 37.5×37.5 nm scan at +1.0 V
+assistant:
+<cmd>
+Sample_Bias(1.0)
+Aux1MaxVoltage(37.5)
+Aux2MaxVoltage(37.5)
+ScanEnabled(true)
+</cmd>
+
+
+user: shift −2 nm in X
+assistant:
+<cmd>
+StageOffset_X_Tube_ADD(-2)
+</cmd>
+
+user: lower the bias to −0.2 V
+assistant:
+<cmd>
+Sample_Bias(-0.2)
+</cmd>
+
+
+user: apply −0.8 V and start scanning 8×8 nm
+assistant:
+<cmd>
+Sample_Bias(-0.8)
+Aux1MaxVoltage(8)
+Aux2MaxVoltage(8)
+ScanEnabled(true)
+</cmd>
+
+
+user: move +3 nm in Y
+assistant:
+<cmd>
+StageOffset_Y_Tube_ADD(3)
+</cmd>
+
+
+user: shift 20 nm down only, scan 4x4
+assistant:
+<cmd>
+StageOffset_Y_Tube_ADD(-20)
+Aux1MaxVoltage(4)
+Aux2MaxVoltage(4)
+ScanEnabled(true)
+</cmd>
+
+
+user: return to origin
+assistant:
+<cmd>
+StageOffset_X_Tube(0)
+StageOffset_Y_Tube(0)
+</cmd>
+
+
+user: Set the X position to 100 nanometers
+assistant:
+<cmd>
+StageOffset_X_Tube(100)
+</cmd>
+
+user: scan a 5×5 nm area at 1.5 V bias
+assistant:
+<cmd>
+Sample_Bias(1.5)
+Aux1MaxVoltage(5)
+Aux2MaxVoltage(5)
+ScanEnabled(true)
+</cmd>
+
+
+user: move to X = 25 nm and apply a bias of +2.0 V, then perform a 5x5 nm scan
+assistant:
+<cmd>
+StageOffset_X_Tube(25)
+Sample_Bias(2.0)
+Aux1MaxVoltage(5)
+Aux2MaxVoltage(5)
+ScanEnabled(true)
+</cmd>
+
+
+user: move the tip to absolute position X = -300, Y = -300
+assistant:
+<cmd>
+StageOffset_X_Tube(-300)
+StageOffset_Y_Tube(-300)
+</cmd>
+
+
+user: Shift the probe head by 120 nm to the right
+assistant:
+<cmd>
+StageOffset_X_Tube_ADD(120)
+</cmd>
+
+
+user: go to Y = 60 nm, apply -2.0 V bias, and scan 12x12
+assistant:
+<cmd>
+StageOffset_Y_Tube(60)
+Sample_Bias(-2.0)
+Aux1MaxVoltage(12)
+Aux2MaxVoltage(12)
+ScanEnabled(true)
+</cmd>
+
+
+user: go to absolute Y = 220 nm and scan 10×10
+assistant:
+<cmd>
+StageOffset_Y_Tube(220)
+Aux1MaxVoltage(10)
+Aux2MaxVoltage(10)
+ScanEnabled(true)
+</cmd>
+
+
+user: Move the tip 100 nm upward
+assistant:
+<cmd>
+StageOffset_Y_Tube_ADD(100)
+</cmd>
+
+
+user: Move the scan area down by 90 nanometers
+assistant:
+<cmd>
+StageOffset_Y_Tube_ADD(-90)
+</cmd>
+
+
+user: move to X = 200 nm and scan 15×15 nm
+assistant:
+<cmd>
+StageOffset_X_Tube(200)
+Aux1MaxVoltage(15)
+Aux2MaxVoltage(15)
+ScanEnabled(true)
+</cmd>
+
+
+user: move the probe 30 nm to the right
+assistant:
+<cmd>
+StageOffset_X_Tube_ADD(30)
+</cmd>
+
+
+user: nudge the probe 1 nm right and 1 nm up
+assistant:
+<cmd>
+StageOffset_X_Tube_ADD(1)
+StageOffset_Y_Tube_ADD(1)
+</cmd>
+
+user: shift 40 nm downward in Y
+assistant:
+<cmd>
+StageOffset_Y_Tube_ADD(-40)
+</cmd>
+
+user: run tip fix and then start a 15×15 nm scan
+assistant:
+<cmd>
+TipFix()
+Aux1MaxVoltage(15)
+Aux2MaxVoltage(15)
+ScanEnabled(true)
+</cmd>
+
+
+user: run tip fix
+assistant:
+<cmd>
+TipFix()
+</cmd>
+
+
+user: slow the scan speed to 0.2, then stop scanning
+assistant:
+<cmd>
+Scan_Speed(0.2)
+ScanEnabled(false)
+</cmd>
+
+
+user: do tip fix and then start scanning with the current parameters
+assistant:
+<cmd>
+TipFix()
+ScanEnabled(true)
+</cmd>
+
+
+user: run drift compensation, set scan speed to 0.3, move to X=40 nm and Y=-40 nm, then scan 8×8 nm
+assistant:
+<cmd>
+DriftCompensation()
+Scan_Speed(0.3)
+StageOffset_X_Tube(40)
+StageOffset_Y_Tube(-40)
+Aux1MaxVoltage(8)
+Aux2MaxVoltage(8)
+ScanEnabled(true)
+</cmd>
+
+
+user: set scan speed to 0.7, set bias to +0.7 V, then scan 10×10 nm
+assistant:
+<cmd>
+Scan_Speed(0.7)
+Sample_Bias(0.7)
+Aux1MaxVoltage(10)
+Aux2MaxVoltage(10)
+ScanEnabled(true)
+</cmd>
+
+
+user: set scan speed to 0.6
+assistant:
+<cmd>
+Scan_Speed(0.6)
+</cmd>
+
+
+user: fix the tip
+assistant:
+<cmd>
+TipFix()
+</cmd>
+
+
+user: tip fix, then set the scan speed to 0.3
+assistant:
+<cmd>
+TipFix()
+Scan_Speed(0.3)
+</cmd>
+
+
+user: drift compensate, then set the Y scan range to 150 nm
+assistant:
+<cmd>
+DriftCompensation()
+Aux2MaxVoltage(150)
+</cmd>
+
+
+user: perform tip fix, then move to X=100 nm and Y=0 nm, then scan 20×20 nm
+assistant:
+<cmd>
+TipFix()
+StageOffset_X_Tube(100)
+StageOffset_Y_Tube(0)
+Aux1MaxVoltage(20)
+Aux2MaxVoltage(20)
+ScanEnabled(true)
+</cmd>
+
+
+user: run drift correction
+assistant:
+<cmd>
+DriftCompensation()
+</cmd>
+
+
+user: increase scan speed to 1.5 and set the Y scan range to 150 nm
+assistant:
+<cmd>
+Scan_Speed(1.5)
+Aux2MaxVoltage(150)
+</cmd>
+
+
+user: set scan speed to 0.9, then move to X=-50 nm and Y=120 nm, then scan 18×18 nm
+assistant:
+<cmd>
+Scan_Speed(0.9)
+StageOffset_X_Tube(-50)
+StageOffset_Y_Tube(120)
+Aux1MaxVoltage(18)
+Aux2MaxVoltage(18)
+ScanEnabled(true)
+</cmd>
+
+
+user: please correct drift before scanning
+assistant:
+<cmd>
+DriftCompensation()
+</cmd>
+
+
+
+user: perform drift compensation and then start scanning with the current parameters
+assistant:
+<cmd>
+DriftCompensation()
+ScanEnabled(true)
+</cmd>
+
+
+user: tip fix, then shift 10 nm right and 5 nm down
+assistant:
+<cmd>
+TipFix()
+StageOffset_X_Tube_ADD(10)
+StageOffset_Y_Tube_ADD(-5)
+</cmd>
+
+user: switch the area and then start scanning
+assistant:
+<cmd>
+SwitchScanarea()
+ScanEnabled(true)
+</cmd>
+
+
+user: switch scan area and move right by 15 nm
+assistant:
+<cmd>
+SwitchScanarea()
+StageOffset_X_Tube_ADD(15)
+</cmd>
+
+
+user: fix the tip, do drift compensation, then switch scan area
+assistant:
+<cmd>
+TipFix()
+DriftCompensation()
+SwitchScanarea()
+</cmd>
+
+
+user: move to X=50 nm and Y=50 nm, then switch scan area
+assistant:
+<cmd>
+StageOffset_X_Tube(50)
+StageOffset_Y_Tube(50)
+SwitchScanarea()
+</cmd>
+
+
+user: do drift compensation and then switch scan area
+assistant:
+<cmd>
+DriftCompensation()
+SwitchScanarea()
+</cmd>
+
+
+user: set scan speed to 0.6, switch scan area, and start scanning
+assistant:
+<cmd>
+Scan_Speed(0.6)
+SwitchScanarea()
+ScanEnabled(true)
+</cmd>
+
+
+user: change scan speed to 1.0 and then switch scan area
+assistant:
+<cmd>
+Scan_Speed(1.0)
+SwitchScanarea()
+</cmd>
+
+
+user: use scan range 5 and switch to the next scan region
+assistant:
+<cmd>
+Aux1MaxVoltage(5)
+Aux2MaxVoltage(5)
+SwitchScanarea()
+</cmd>
+
+
+user: change the next scan area
+assistant:
+<cmd>
+SwitchScanarea()
+</cmd>
+
+
+user: go to the next scan area and start scan
+assistant:
+<cmd>
+SwitchScanarea()
+ScanEnabled(true)
+</cmd>
+
+
+user: stop scan, move to X = 0, Y = 0
+assistant:
+<cmd>
+ScanEnabled(false)
+StageOffset_X_Tube(0)
+StageOffset_Y_Tube(0)
+</cmd>
+
+
+user: terminate scan, fix tip, then resume
+assistant:
+<cmd>
+ScanEnabled(false)
+TipFix()
+ScanEnabled(true)
+</cmd>
+
+
+user: go to (-350, 200), shift left by 0.5 nm, scan 50x50
+assistant: None. Shifting left by 0.5 nm from X = -350 would result in X = -350.5 nm, exceeding the minimum range of -350 nm.
+
+
+
+user: move to X = 400 nm
+assistant: None. The requested position X = 400 nm exceeds the maximum scanning range of 350 nm.
+
+
+user: set Y position to -500 nm
+assistant: None. The requested position Y = -500 nm exceeds the minimum scanning range of -350 nm.
+
+
+user: go to coordinates (750, 750)
+assistant: None. The requested position (750, 750) exceeds the accessible area. Both X and Y must be within -350 to 350 nm.
+
+
+user: shift 100 nm right from current position X = 300
+assistant: None. Moving 100 nm right from X = 300 would result in X = 400 nm, which exceeds the maximum range of 350 nm.
+
+
+user: move 200 nm down from Y = -200
+assistant: None. Moving 200 nm down from Y = -200 would result in Y = -400 nm, which exceeds the minimum range of -350 nm.
+
+
+user: set scan area to 800x800 nm at origin
+assistant: None. A scan area of 800x800 nm centered at origin would require positions from -400 to +400 nm, exceeding the accessible range of -350 to 350 nm.
+
+
+user: apply a bias of 0 V
+assistant: None. Sample bias cannot be set to 0 V according to the system constraints.
+
+
+user: set the bias to exactly zero volts
+assistant: None. Sample bias cannot be set to 0 V. Please specify a non-zero bias value.
+
+
+user: rotate the stage by 45 degrees
+assistant: None. Stage rotation is not supported by the available commands.
+
+
+user: change the temperature to 77 K
+assistant: None. Temperature control is not available in the current command set.
+
+
+user: increase the tunneling current to 2 nA
+assistant: None. Direct tunneling current control is not available. You can adjust the sample bias instead.
+
+
+user: move a bit to the right
+assistant: None. Please specify the exact distance in nanometers for the movement (e.g., "move 10 nm right").
+
+
+user: scan a small area
+assistant: None. Please specify the exact scan size in nanometers (e.g., "scan 10x10 nm").
+
+
+user: apply high bias voltage
+assistant: None. Please specify the exact bias voltage value (e.g., "apply +1.5 V bias").
+
+
+user: set scan speed to -0.5
+assistant: None. Scan speed cannot be negative. Please specify a positive value.
+
+
+
+user: apply zero bias and scan
+assistant: None. Sample bias cannot be set to 0 V. Please specify a non-zero bias value.
+
+
+user: set scan speed to 0
+assistant: None. Scan speed must be greater than 0. Please specify a positive value.
+
+
+user: scan -20x-20 nm area
+assistant: None. Scan range cannot be negative. Please specify positive values for scan dimensions.
+
+user: adjust feedback loop gain to 3.0
+assistant: None. Feedback parameter control is not available in the current command set.
+
+
+user: move somewhere safe
+assistant: None. Please specify the exact coordinates in nanometers (e.g., "move to X = 0, Y = 0").
+
+
+user: scan a medium area
+assistant: None. Please specify the exact scan size in nanometers (e.g., "scan 50x50 nm").
+
+
+user: apply some bias voltage
+assistant: None. Please specify the exact bias voltage value (e.g., "apply +1.0 V bias").
+
+
+user: increase the scan speed a bit
+assistant: None. Please specify the exact scan speed value (e.g., "set scan speed to 1.5").
+
+
+user: move slightly upward
+assistant: None. Please specify the exact distance in nanometers (e.g., "move 10 nm up").
+
+

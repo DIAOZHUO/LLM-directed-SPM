@@ -1,0 +1,14 @@
+The fine-tuned model files total 10.8 GB and need to be obtained from elsewhere.
+
+The following is the folder directory that needs to be obtained separately:
+
+
+Llama-3.2-3B-Instruct_distill_unsloth_results
+Llama-3.2-3B-Instruct_unsloth_results
+LLAMA_unsloth_spmcmd
+mistral-7b-instruct-v0.3-bnb-4bit_distill_unsloth_results
+mistral-7b-instruct-v0.3-bnb-4bit_unsloth_results
+mistral_unsloth_spmcmd
+Phi-4-unsloth-bnb-4bit_distill_unsloth_results
+Phi-4-unsloth-bnb-4bit_unsloth_results
+Phi-4_unsloth_spmcmd
