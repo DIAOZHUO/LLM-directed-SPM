@@ -179,3 +179,11 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+/spm_gpt/finetune/Llama-3.2-3B-Instruct_distill_unsloth_results/
+/spm_gpt/finetune/Llama-3.2-3B-Instruct_unsloth_results/
+/spm_gpt/finetune/LLAMA_unsloth_spmcmd/
+/spm_gpt/finetune/mistral-7b-instruct-v0.3-bnb-4bit_distill_unsloth_results/
+/spm_gpt/finetune/mistral-7b-instruct-v0.3-bnb-4bit_unsloth_results/
+/spm_gpt/finetune/mistral_unsloth_spmcmd/
+/spm_gpt/finetune/Phi-4-unsloth-bnb-4bit_distill_unsloth_results/
+/spm_gpt/finetune/Phi-4-unsloth-bnb-4bit_unsloth_results/
