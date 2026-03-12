@@ -52,6 +52,9 @@ The sample paper used in this demonstration (https://doi.org/10.1002/smtd.202400
 
 The models include fine-tuned and distilled versions of the Knowledge-Base SLM, alongside fine-tuned versions of the Command SLM.
 
+All model files total 10.8 GB and need to be downloaded separately（see [how to get models](spm_gpt/finetune/how%20to%20get%20models)）
+
+
 knowledge-base SLM
 
 | Model Category      | Fine-tuned Model       | Distilled Model                |

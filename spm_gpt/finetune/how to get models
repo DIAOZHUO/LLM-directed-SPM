@@ -1,4 +1,5 @@
 The fine-tuned model files total 10.8 GB and need to be obtained from elsewhere.
+(https://drive.google.com/drive/folders/1Z53pr9RtRoZcVaA7rzan3AvnC_VDW2Iw?usp=drive_link)
 
 The following is the folder directory that needs to be obtained separately:
 
@@ -12,3 +13,4 @@ mistral_unsloth_spmcmd
 Phi-4-unsloth-bnb-4bit_distill_unsloth_results
 Phi-4-unsloth-bnb-4bit_unsloth_results
 Phi-4_unsloth_spmcmd
+
