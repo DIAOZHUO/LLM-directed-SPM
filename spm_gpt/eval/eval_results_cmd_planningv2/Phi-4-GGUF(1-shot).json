@@ -1,0 +1,1864 @@
+{
+    "config": {
+        "model": "phi-4",
+        "mode": "prompt",
+        "k": 1,
+        "selection": "similar",
+        "thinking": false,
+        "sampling": {
+            "temperature": 0,
+            "presence_penalty": 0.0,
+            "seed": 0,
+            "max_tokens": 1024,
+            "extra_body": {
+                "min_p": 0.0,
+                "repeat_penalty": 1.0
+            }
+        }
+    },
+    "questions": [
+        "Acquire atomic resolution at room temperature over a 6 × 6 nm area, considering potential failure modes and applying countermeasures.",
+        "Perform atomic-resolution imaging at room temperature in a 1 × 1 nm region.",
+        "Image surface morphology quickly over a 15 × 15 nm area at room temperature.",
+        "Survey surface topography over an 80 × 80 nm area at room temperature.",
+        "Obtain atomic lattice contrast at room temperature in a 3.5 × 3.5 nm area.",
+        "Perform a fast overview scan of a 12 × 12 nm region.",
+        "Image a flat terrace at room temperature over a 7 × 7 nm area.",
+        "Attempt atomic-resolution imaging at low temperature in a 2 × 2 nm region.",
+        "Image atomic corrugation at room temperature in a 5 × 5 nm area.",
+        "Acquire a morphology image over a 35 × 35 nm area at room temperature.",
+        "Image individual atoms at room temperature in a 2 × 2 nm region.",
+        "Quickly check surface roughness in a 18 × 18 nm area.",
+        "Perform high-quality atomic imaging at room temperature over a 6 × 6 nm region.",
+        "Image surface morphology over a 60 × 60 nm area.",
+        "Obtain atomic contrast at room temperature in a 3 × 3 nm clean region.",
+        "Perform a quick scan of a 22 × 22 nm region at room temperature.",
+        "Image atomic rows at room temperature in a 4.5 × 4.5 nm area.",
+        "Scan a wide area (90 × 90 nm) to locate interesting features.",
+        "Acquire atomic-resolution data at room temperature over a 2.8 × 2.8 nm area.",
+        "Image surface features at room temperature over a 14 × 14 nm region.",
+        "Image morphology over a 5 × 5 nm area at low temperature.",
+        "Move to X=100, Y=-100, set bias to -0.5 V, and acquire atomic resolution over a 2 × 2 nm area at room temperature.",
+        "The current 5 × 5 nm region has debris, the tip is unstable, and there's drift. Move to a clean area and fix everything.",
+        "Atomic contrast is lost and the image becomes unstable during a 3 × 3 nm scan at room temperature.",
+        "Perform atomic-resolution imaging at low temperature over a 6 × 6 nm area.",
+        "Quickly survey a 150 × 150 nm region at room temperature.",
+        "Perform a rapid overview scan of a 40 × 40 nm area to locate features.",
+        "Atomic features look unstable in a 2.5 × 2.5 nm scan. Fix it.",
+        "The 10 × 10 nm region has a step edge and the image is unusable. Same conditions, move sideways.",
+        "Adsorbates dominate the 8 × 8 nm scan. Don't change parameters, just relocate.",
+        "Atomic resolution is poor and drifts during a 2 × 2 nm scan at room temperature.",
+        "The 4 × 4 nm scan at room temperature shows blurry atoms, drift, and contamination in the region.",
+        "During a 3 × 3 nm atomic scan at room temperature, the image is smeared, drifts, and has adsorbates.",
+        "During a 12×12 nm scan at room temperature, the image slowly deforms over time.",
+        "Perform atomic-resolution imaging at low temperature in a 1 × 1 nm region.",
+        "Attempt atomic-resolution imaging at room temperature in a 2 × 2 nm region.",
+        "Perform high-quality atomic imaging at low temperature over a 6 × 6 nm region.",
+        "Quickly image the surface morphology at room temperature in a 2 × 2 nm region.",
+        "Image individual atoms on a flat terrace at room temperature over a 7 × 7 nm area.",
+        "Take a quick overview of a 3.5 × 3.5 nm area at room temperature; atomic contrast is not needed.",
+        "Perform high-quality atomic imaging at room temperature over a 6 × 6 nm region. The tip has just been conditioned and already gives sharp atomic contrast.",
+        "Obtain atomic lattice contrast at room temperature in a 3.5 × 3.5 nm area. The previous image showed doubled atoms.",
+        "Atomic features look sharp in a 2.5 × 2.5 nm scan, but the image slowly shifts. Fix it.",
+        "During a 12 × 12 nm scan at room temperature, the image slowly deforms over time and every feature appears with a faint duplicate.",
+        "Survey surface topography over an 80 × 80 nm area at room temperature. The last frames showed double-tip artifacts.",
+        "Adsorbates dominate the 8 × 8 nm scan, and the atoms also appear doubled. Don't change parameters, just relocate.",
+        "The current 5 × 5 nm region is clean, but the tip is unstable and there's drift. Stay in this area and fix everything.",
+        "During a 3 × 3 nm atomic scan at room temperature, the atoms are sharp, but the image drifts and has adsorbates.",
+        "Atomic contrast is lost during a 3 × 3 nm scan at room temperature, but the image position is stable and the region is clean.",
+        "Obtain atomic contrast at room temperature in a 3 × 3 nm region; the current region is covered with adsorbates.",
+        "Adsorbates dominate the 8 × 8 nm scan at low temperature. Don't change parameters, just relocate.",
+        "Perform atomic-resolution imaging at room temperature in a 1 × 1 nm region. The region is free of adsorbates and step edges.",
+        "Image individual atoms at room temperature in a 2 × 2 nm region. There are no signs of a double tip.",
+        "In the 3 × 3 nm image at room temperature, every atom is accompanied by a fainter copy displaced in the same direction.",
+        "Successive frames of the same 2 × 2 nm area at room temperature are offset from each other by several lattice constants.",
+        "The atomic rows at room temperature are sheared, and the shear grows from the first to the last scan line.",
+        "Halfway through the 3 × 3 nm image at room temperature, the contrast suddenly changed and the atoms became fuzzy.",
+        "A bright cluster several nanometres wide covers most of the 5 × 5 nm frame. Keep the same settings.",
+        "The 6 × 6 nm frame contains a terrace boundary with a one-layer height jump. Keep the settings and image a flat area instead.",
+        "All atoms in the 3 × 3 nm image at room temperature appear elongated in the same direction, although the surface region is clean.",
+        "The 2.5 × 2.5 nm atomic image at room temperature looks crisp, but all features move steadily toward the upper-right corner from frame to frame.",
+        "The 20 × 20 nm image is dominated by vacancy islands. Keep the same settings and find a cleaner area.",
+        "Perform atomic-resolution imaging at 4.5 K over a 3 × 3 nm area.",
+        "Perform atomic-resolution imaging at 300 K over a 3 × 3 nm area.",
+        "With the cryostat filled with liquid helium, image individual atoms in a 2 × 2 nm region.",
+        "I have plenty of time and want the best possible atomic image at room temperature over a 5 × 5 nm area.",
+        "I only need a rough look at a 5 × 5 nm area at room temperature; atomic resolution is not required."
+    ],
+    "predictions": [
+        "Expert Experimental Plan:\n- drift compensation and tip conditioning can ensure atomic resolution at small scan area but cost additional time\n- user has strong sense to ensure quality for atomic contrast\n- Room temperature increases the risk of thermal drift, so drift compensation is necessary\n- Preemptively condition the tip to minimize the risk of double-tip or apex instability\n- Configure scan parameters\n- Start scan\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Room temperature conditions\n- Low thermal drift expected\n- Skip drift compensation\n- Configure scan range\n- Start scan\n\n<cmd>\nAux1MaxVoltage(1)\nAux2MaxVoltage(1)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Drift impact is tolerable at this scale\n- Skip drift compensation to reduce experiment time\n- Configure scan range\n- Increase scan speed for quicker imaging\n- Start scan\n\n<cmd>\nAux1MaxVoltage(15)\nAux2MaxVoltage(15)\nScan_Speed(100)  # Assuming 100 µs is a faster speed; adjust based on system capabilities\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Large scan area tolerates thermal drift\n- Skip drift compensation\n- Configure scan range\n- Start scan\n\n<cmd>\nAux1MaxVoltage(80)\nAux2MaxVoltage(80)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Atomic-scale imaging is sensitive to drift at room temperature\n- Perform drift compensation\n- Configure scan range (3.5 × 3.5 nm)\n- Start scan\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(3.5)\nAux2MaxVoltage(3.5)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- User requests overview rather than atomic precision\n- Skip time-loss operation such as drift compensation and tip condition\n- Configure scan range\n- Start scan\n\n<cmd>\nAux1MaxVoltage(12)\nAux2MaxVoltage(12)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Small scan area requires high precision\n- Enable drift compensation to ensure accuracy\n- Configure scan range (7 × 7 nm)\n- Start scan\n\n<cmd>\nAux1MaxVoltage(7)\nAux2MaxVoltage(7)\nDriftCompensation()\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Atomic resolution requires high positional stability\n- Perform drift compensation at low temperature\n- Configure scan range\n- Start scan\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Verify tip stability\n- Perform drift compensation due to high sensitivity at atomic scale\n- Configure scan range\n- Start scan\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Drift impact is tolerable at this scale\n- Skip drift compensation to reduce experiment time\n- Configure scan range\n- Start scan\n\n<cmd>\nAux1MaxVoltage(35)\nAux2MaxVoltage(35)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Atomic-scale sensitivity expected\n- Perform drift compensation\n- Configure scan parameters\n- Start scan\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- User prioritizes speed over ultimate atomic precision\n- Skip time-loss operation such as drift compensation and tip condition\n- Configure scan range\n- Start scan\n\n<cmd>\nAux1MaxVoltage(18)\nAux2MaxVoltage(18)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Switch scan area context before atomic imaging\n- Larger scan area at room temperature requires drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nSwitchScanarea()\nDriftCompensation()\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Overview morphology imaging is tolerant to drift\n- Skip drift compensation to reduce experiment time\n- Configure scan range\n- Start scan\n\n<cmd>\nAux1MaxVoltage(60)\nAux2MaxVoltage(60)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Ensure tip condition is suitable for atomic contrast\n- Perform drift compensation\n- Configure scan range\n- Start scan\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- User requests overview rather than atomic precision\n- Skip time-loss operation such as drift compensation and tip condition\n- Configure scan range\n- Start scan\n\n<cmd>\nAux1MaxVoltage(22)\nAux2MaxVoltage(22)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Verify tip stability\n- Perform drift compensation due to high sensitivity at atomic scale\n- Configure scan range\n- Start scan\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(4.5)\nAux2MaxVoltage(4.5)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- User prioritizes speed over ultimate atomic precision\n- Skip time-loss operation such as drift compensation and tip condition\n- Configure scan range\n- Start scan\n\n<cmd>\nAux1MaxVoltage(90)\nAux2MaxVoltage(90)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Enable drift compensation for room temperature\n- Configure scan parameters\n- Start scan\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(2.8)\nAux2MaxVoltage(2.8)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- User prioritizes speed over atomic precision\n- Skip drift compensation\n- Configure scan range (14 × 14 nm)\n- Start scan\n\n<cmd>\nAux1MaxVoltage(14)\nAux2MaxVoltage(14)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Drift impact is tolerable at this scale\n- Skip drift compensation to reduce experiment time\n- Configure scan range\n- Start scan\n\n<cmd>\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Move to the specified coordinates\n- Set the sample bias\n- Configure scan parameters\n- Start scan\n- Perform drift compensation due to room temperature\n\n<cmd>\nStageOffset_X_Tube_ADD(100)\nStageOffset_Y_Tube_ADD(-100)\nSample_Bias(-0.5)\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\nDriftCompensation()\n</cmd>",
+        "Expert Experimental Plan:\n- Debris and instability indicate tip issues\n- Drift suggests environmental or mechanical instability\n- Fix tip, stabilize, and relocate\n- Resume scanning\n\n<cmd>\nTipFix()\nDriftCompensation()\nSwitchScanarea()\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Loss of atomic contrast suggests degraded tip condition\n- Unstable image indicates drift during acquisition\n- The current scan region may not be representative\n- Restore tip quality, change scan area, and apply drift compensation\n- Resume scanning\n\n<cmd>\nTipFix()\nSwitchScanarea()\nDriftCompensation()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Low thermal drift expected\n- Skip drift compensation\n- Configure scan range\n- Start scan\n\n<cmd>\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- User prioritizes speed over atomic precision\n- Skip drift compensation\n- Configure scan range (150 × 150 nm)\n- Start scan\n\n<cmd>\nAux1MaxVoltage(150)\nAux2MaxVoltage(150)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- User requests overview rather than atomic precision\n- Skip time-loss operation such as drift compensation and tip condition\n- Configure scan range\n- Start scan\n\n<cmd>\nAux1MaxVoltage(40)\nAux2MaxVoltage(40)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Unstable atomic features suggest poor tip condition\n- Perform tip conditioning\n- Apply drift compensation and resume scanning\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(2.5)\nAux2MaxVoltage(2.5)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Step edge interaction likely degraded tip condition\n- Restore tip quality before relocating\n- Low temperature suppresses drift\n- Switch scan area and resume scanning\n\n<cmd>\nTipFix()\nSwitchScanarea()\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Adsorbates locally degrade atomic contrast\n- Preserve all scan settings\n- Switch scan area and continue\n\n<cmd>\nSwitchScanarea()\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Poor atomic resolution and drift during a 2 × 2 nm scan at room temperature suggest multiple issues:\n  - Tip condition may be degraded, affecting resolution.\n  - Drift indicates positional instability, possibly due to thermal effects or mechanical vibrations.\n  - Local surface conditions might be affecting image quality.\n- To address these issues:\n  - Perform tip conditioning to improve resolution.\n  - Apply drift compensation to stabilize the scan.\n  - Consider changing the scan area to avoid problematic regions.\n  - Resume scanning with adjusted parameters.\n\n<cmd>\nTipFix()\nDriftCompensation()\nSwitchScanarea()\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Blurry atoms, drift, and contamination suggest an unstable or multi-atom tip, drift, and contamination\n- Perform tip conditioning\n- Apply drift compensation\n- Clean the sample\n- Reapply the same scan range (4 × 4 nm)\n- Resume scanning\n\n<cmd>\nTipFix()\nDriftCompensation()\nSample_Bias(0)  # Assuming cleaning involves setting the bias to 0 or a specific cleaning voltage\nAux1MaxVoltage(4)\nAux2MaxVoltage(4)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Image smearing and drift indicate potential tip contamination or instability\n- Adsorbates suggest surface contamination or instability\n- Address tip condition and drift first\n- Clean the surface or adjust conditions to minimize adsorbates\n\n<cmd>\nTipFix()\nDriftCompensation()\nSample_Bias(0)  // Assuming a non-zero bias is needed; adjust as necessary\n</cmd>",
+        "Expert Experimental Plan:\n- Slow deformation indicates drift during acquisition\n- The current scan region may not be representative\n- Apply drift compensation\n- Resume scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(12)\nAux2MaxVoltage(12)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Low thermal drift expected\n- Skip drift compensation\n- Configure scan range\n- Start scan\n\n<cmd>\nAux1MaxVoltage(1)\nAux2MaxVoltage(1)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Atomic resolution requires high positional stability\n- Perform drift compensation at room temperature\n- Configure scan range\n- Start scan\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Low thermal drift expected\n- Skip drift compensation\n- Configure scan range\n- Start scan\n\n<cmd>\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Overview morphology imaging is tolerant to drift\n- Skip drift compensation to reduce experiment time\n- Configure scan range\n- Start scan\n\n<cmd>\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Atomic-scale sensitivity expected\n- Perform drift compensation\n- Configure scan parameters\n- Start scan\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(7)\nAux2MaxVoltage(7)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Overview scan prioritizes speed\n- Skip drift compensation and tip fix\n- Configure scan range (3.5 × 3.5 nm)\n- Start scan\n\n<cmd>\nAux1MaxVoltage(3.5)\nAux2MaxVoltage(3.5)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- The tip is already conditioned and provides sharp atomic contrast\n- Set scan parameters for a 6 × 6 nm region\n- Enable scanning for high-quality atomic imaging\n\n<cmd>\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Doubled atoms in the image suggest a scan area that is too large or a scan speed that is too fast.\n- Adjust the scan range to 3.5 × 3.5 nm.\n- Reduce the scan speed to improve resolution.\n- Perform drift compensation to ensure stability.\n- Start the scan.\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(3.5)\nAux2MaxVoltage(3.5)\nScan_Speed(Scan_Speed() * 1.5)  // Assuming the current speed is too fast, increase the time by 50% to slow it down.\nScanEnabled(True)\n</cmd>\n\nNote: The `Scan_Speed()` command is used with a multiplier to adjust the speed. The exact value to multiply by depends on the current speed and the desired resolution. If the current speed is unknown, a trial-and-error approach may be necessary to find the optimal speed.",
+        "Expert Experimental Plan:\n- Image shift indicates drift during scanning\n- Apply drift compensation to stabilize the image\n- Resume scanning with the current scan size\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(2.5)\nAux2MaxVoltage(2.5)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Slow deformation indicates drift during acquisition\n- Faint duplicates suggest tip convolution\n- The current scan region may not be representative\n- Apply drift compensation, change scan area, and restore tip quality\n- Resume scanning\n\n<cmd>\nTipFix()\nSwitchScanarea()\nDriftCompensation()\nAux1MaxVoltage(12)\nAux2MaxVoltage(12)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Large scan area tolerates thermal drift\n- Skip drift compensation\n- Configure scan range\n- Fix the tip\n- Start scan\n\n<cmd>\nAux1MaxVoltage(80)\nAux2MaxVoltage(80)\nTipFix()\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Adsorbates and doubled atoms indicate a local issue with the scan area\n- Restore tip condition to ensure stable imaging\n- Switch scan area without changing parameters\n- Resume scanning\n\n<cmd>\nTipFix()\nSwitchScanarea()\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Current area is clean\n- Tip instability and drift detected\n- Fix tip and compensate for drift\n- Resume scanning in the same area\n\n<cmd>\nTipFix()\nDriftCompensation()\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Image drift suggests thermal drift or instability\n- Perform drift compensation\n- Recondition the tip to ensure sharp imaging\n- Switch scan area to avoid adsorbates\n- Resume scanning\n\n<cmd>\nDriftCompensation()\nTipFix()\nSwitchScanarea()\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Atomic contrast loss suggests tip degradation\n- Image position stability indicates no stage drift\n- Clean region implies no sample contamination\n- Restore tip condition and resume scanning\n\n<cmd>\nTipFix()\nScanEnabled(True)\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\n</cmd>",
+        "Expert Experimental Plan:\n- Ensure tip condition is suitable for atomic contrast\n- Perform drift compensation\n- Configure scan range\n- Start scan\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>\n\nNote: The presence of adsorbates may affect the quality of atomic contrast. Consider cleaning the sample surface if necessary before scanning.",
+        "Expert Experimental Plan:\n- Adsorbates dominate the current scan region\n- Restore tip condition to ensure stable imaging\n- Switch scan area without changing parameters\n- Resume scanning\n\n<cmd>\nTipFix()\nSwitchScanarea()\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Low thermal drift expected\n- Skip drift compensation\n- Configure scan range\n- Start scan\n\n<cmd>\nAux1MaxVoltage(1)\nAux2MaxVoltage(1)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Atomic-scale sensitivity expected\n- Perform drift compensation\n- Configure scan parameters\n- Start scan\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- The fainter copy of each atom suggests a possible double imaging effect or drift\n- Perform drift compensation to correct any lateral drift\n- Re-scan the area to verify if the issue persists\n- If the issue persists, consider tip condition or sample bias adjustments\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- The offset indicates drift, which needs to be compensated\n- Restore tip condition as a precaution\n- Apply drift compensation and resume scanning\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Shearing of atomic rows indicates a tilted tip\n- The shear grows from the first to the last scan line, suggesting a time-dependent drift\n- The current site may contain local defects or adsorbates\n- Recondition the tip, select a more suitable scan area, and correct drift\n- Resume scanning\n\n<cmd>\nTipFix()\nSwitchScanarea()\nDriftCompensation()\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Contrast change likely due to tip degradation\n- Restore tip quality before relocating\n- Room temperature increases drift\n- Switch scan area and resume scanning\n\n<cmd>\nTipFix()\nSwitchScanarea()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>",
+        "The instruction to \"keep the same settings\" implies that no changes should be made to the current configuration of the scanning probe microscopy. Since there are no specific actions or parameter adjustments requested, no programmatic commands are necessary. Therefore, the response is:\n\nNone\n\nThe current settings remain unchanged as per the instruction.",
+        "Expert Experimental Plan:\n- Current frame contains a terrace boundary with a height jump, which is not ideal for imaging a flat area\n- Restore tip condition as a precaution\n- Switch scan area to a flatter region\n- Apply drift compensation and resume scanning\n\n<cmd>\nTipFix()\nSwitchScanarea()\nDriftCompensation()\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(True)\n</cmd>",
+        "Expert Analysis:\n- Elongation of atoms suggests a systematic error\n- Possible causes: drift, tip convolution, or sample tilt\n- Drift unlikely due to short scan time\n- Tip convolution unlikely due to clean surface\n- Sample tilt likely cause\n- Suggest realignment of sample\n\n<cmd>\nSwitchScanarea()\n</cmd>",
+        "Expert Experimental Plan:\n- Steady movement of features indicates drift\n- Apply drift compensation\n- Re-scan the area to verify stability\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(2.5)\nAux2MaxVoltage(2.5)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- The current field of view is dominated by vacancy islands\n- Keep the same scan conditions to compare morphology\n- Switch to a different scan area nearby\n- Restart scan\n\n<cmd>\nSwitchScanarea()\nAux1MaxVoltage(20)\nAux2MaxVoltage(20)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Low thermal drift expected at 4.5 K\n- Skip drift compensation\n- Configure scan range\n- Start scan\n\n<cmd>\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- High thermal drift expected\n- Perform drift compensation\n- Configure scan range\n- Start scan\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Atomic-scale sensitivity expected\n- Perform drift compensation\n- Configure scan parameters\n- Start scan\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Verify tip stability\n- Perform drift compensation due to high sensitivity at atomic scale\n- Configure scan range\n- Set slow scan speed for high resolution\n- Start scan\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScan_Speed(1000)  # Assuming 1000 µs is a slow speed for high resolution\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Skip drift compensation as atomic resolution is not required\n- Configure scan parameters for a rough look\n- Start scan\n\n<cmd>\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(True)\n</cmd>"
+    ],
+    "ground truth": [
+        "Expert Experimental Plan:\n- Atomic imaging at this scale is sensitive to thermal drift\n- Verify tip condition for atomic contrast\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Extremely small scan area is highly drift-sensitive\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(1)\nAux2MaxVoltage(1)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- User prioritizes speed over atomic precision\n- Drift impact is acceptable at this scale\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(15)\nAux2MaxVoltage(15)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Large-area morphology imaging tolerates drift\n- Skip drift compensation to save time\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(80)\nAux2MaxVoltage(80)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Atomic lattice imaging requires positional stability\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(3.5)\nAux2MaxVoltage(3.5)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Overview scan does not require atomic stability\n- Skip drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(12)\nAux2MaxVoltage(12)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Moderate resolution imaging at this scale\n- Drift impact is limited\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(7)\nAux2MaxVoltage(7)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Low temperature suppresses thermal drift\n- Drift compensation is not strictly required\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Atomic corrugation imaging is drift-sensitive at room temperature\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Feature size is well above atomic scale\n- Drift impact is acceptable\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(35)\nAux2MaxVoltage(35)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Atomic imaging at room temperature requires high stability\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Roughness evaluation does not require atomic precision\n- Skip drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(18)\nAux2MaxVoltage(18)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Atomic-scale imaging is drift-sensitive at room temperature\n- Ensure tip is suitable for atomic contrast\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Large-area morphology imaging tolerates drift\n- Skip drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(60)\nAux2MaxVoltage(60)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Atomic contrast requires positional stability\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- User requests a rapid overview\n- Drift compensation is unnecessary at this scale\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(22)\nAux2MaxVoltage(22)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Atomic row imaging requires high positional stability\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(4.5)\nAux2MaxVoltage(4.5)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Feature search does not require atomic stability\n- Skip drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(90)\nAux2MaxVoltage(90)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Atomic-resolution imaging is sensitive to drift\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(2.8)\nAux2MaxVoltage(2.8)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Surface feature imaging does not require atomic precision\n- Drift impact is acceptable\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(14)\nAux2MaxVoltage(14)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Small scan at low temperature\n- Thermal drift is negligible\n- Skip drift compensation\n- Configure scan parameters\n- Start scan\n\n<cmd>\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Move to specified position\n- Apply requested bias for filled-state imaging\n- Atomic imaging requires drift compensation\n- Configure all parameters\n- Start scan\n\n<cmd>\nStageOffset_X_Tube(100)\nStageOffset_Y_Tube(-100)\nSample_Bias(-0.5)\nDriftCompensation()\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Multiple issues: debris (location), tip instability, and drift\n- Address all problems systematically\n- Switch to clean area\n- Restore tip condition\n- Compensate drift\n- Resume scanning\n\n<cmd>\nTipFix()\nSwitchScanarea()\nDriftCompensation()\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Loss of atomic contrast suggests degraded tip condition\n- Instability indicates drift during imaging\n- Local surface condition may not be optimal\n- Restore tip quality, change scan area, and apply drift compensation\n- Resume scanning\n\n<cmd>\nTipFix()\nSwitchScanarea()\nDriftCompensation()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Low temperature suppresses thermal drift\n- Skip drift compensation\n- Configure scan range\n- Start scan\n\n<cmd>\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Survey scan prioritizes speed over precision\n- Skip drift compensation and tip conditioning\n- Configure scan range\n- Start scan\n\n<cmd>\nAux1MaxVoltage(150)\nAux2MaxVoltage(150)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Overview scan emphasizes speed\n- Skip time-consuming operations\n- Configure scan range\n- Start scan\n\n<cmd>\nAux1MaxVoltage(40)\nAux2MaxVoltage(40)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Unstable atomic features suggest poor tip condition\n- Perform tip conditioning\n- Apply drift compensation and resume scanning\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(2.5)\nAux2MaxVoltage(2.5)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Step edge interaction likely degraded tip condition\n- Step edge makes current region unsuitable\n- Preserve scan conditions\n- Switch scan area laterally\n- Resume scanning\n\n<cmd>\nTipFix()\nSwitchScanarea()\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Local adsorbates degrade image quality\n- Maintain all scan parameters\n- Switch to nearby clean area\n- Resume scanning\n\n<cmd>\nSwitchScanarea()\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Poor resolution suggests tip issues\n- Drift indicates position instability\n- Address both problems\n- Resume scanning\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Multiple issues: tip instability, drift, and local contamination\n- Address all systematically\n- Restore tip, switch area, compensate drift\n- Resume scanning\n\n<cmd>\nTipFix()\nSwitchScanarea()\nDriftCompensation()\nAux1MaxVoltage(4)\nAux2MaxVoltage(4)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Triple problem: tip degradation, drift, contamination\n- Fix tip apex\n- Move to clean area\n- Stabilize position\n- Resume scanning\n\n<cmd>\nTipFix()\nSwitchScanarea()\nDriftCompensation()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Time-dependent deformation indicates drift\n- Perform drift compensation\n- Configure scan range\n- Resume scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(12)\nAux2MaxVoltage(12)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Low temperature suppresses thermal drift\n- Skip drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(1)\nAux2MaxVoltage(1)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Atomic imaging at room temperature is drift-sensitive\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- User requests high-quality atomic contrast\n- Ensure tip is suitable for atomic contrast\n- Low temperature suppresses drift; skip drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nTipFix()\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- User prioritizes speed over atomic precision\n- Skip drift compensation and tip conditioning\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Atomic imaging at room temperature is drift-sensitive\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(7)\nAux2MaxVoltage(7)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Atomic contrast is not required\n- Skip drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(3.5)\nAux2MaxVoltage(3.5)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Tip condition is already confirmed\n- Skip tip conditioning\n- Atomic imaging at room temperature is drift-sensitive\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Doubled atoms indicate a double tip\n- Perform tip conditioning\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(3.5)\nAux2MaxVoltage(3.5)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Sharp atomic features indicate the tip is acceptable\n- Slow shift indicates drift\n- Perform drift compensation and resume scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(2.5)\nAux2MaxVoltage(2.5)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Faint duplicates indicate a double tip\n- Time-dependent deformation indicates drift\n- Perform tip conditioning and drift compensation\n- Resume scanning\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(12)\nAux2MaxVoltage(12)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Double-tip artifacts indicate poor tip apex\n- Perform tip conditioning\n- Large-area survey tolerates drift\n- Configure scan range and start scanning\n\n<cmd>\nTipFix()\nAux1MaxVoltage(80)\nAux2MaxVoltage(80)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Doubled atoms indicate a double tip\n- Adsorbates make the current area unsuitable\n- Perform tip conditioning, then switch scan area\n- Resume scanning\n\n<cmd>\nTipFix()\nSwitchScanarea()\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- The region is clean and the user forbids moving\n- Restore tip condition\n- Compensate drift\n- Resume scanning in the same area\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Sharp atoms indicate the tip is acceptable\n- Adsorbates make the current area unsuitable\n- Switch scan area\n- Compensate drift and resume scanning\n\n<cmd>\nSwitchScanarea()\nDriftCompensation()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Loss of atomic contrast suggests degraded tip\n- Image is stable and region is clean\n- Perform tip conditioning\n- Resume scanning\n\n<cmd>\nTipFix()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Adsorbates make the current area unsuitable\n- Switch scan area\n- Atomic imaging at room temperature requires drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nSwitchScanarea()\nDriftCompensation()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Adsorbates degrade image quality locally\n- Maintain all scan parameters\n- Switch to nearby clean area\n- Resume scanning\n\n<cmd>\nSwitchScanarea()\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Region is clean; no need to switch scan area\n- Extremely small scan area is drift-sensitive\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(1)\nAux2MaxVoltage(1)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- No indication of tip problems\n- Atomic imaging at room temperature requires drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- A fainter copy of every atom indicates a double tip\n- Perform tip conditioning\n- Resume scanning\n\n<cmd>\nTipFix()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Frame-to-frame offset indicates drift\n- Perform drift compensation\n- Resume scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Shear increasing with time indicates drift\n- Perform drift compensation\n- Resume scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(4)\nAux2MaxVoltage(4)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- A sudden contrast change indicates a tip change\n- Perform tip conditioning\n- Resume scanning\n\n<cmd>\nTipFix()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- A large cluster makes the current area unsuitable\n- Keep scan settings\n- Switch scan area\n- Resume scanning\n\n<cmd>\nSwitchScanarea()\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- A terrace boundary makes the current area unsuitable\n- Keep scan settings\n- Switch scan area\n- Resume scanning\n\n<cmd>\nSwitchScanarea()\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Uniform elongation of atoms indicates an asymmetric tip\n- Perform tip conditioning\n- Resume scanning\n\n<cmd>\nTipFix()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Crisp features indicate the tip is acceptable\n- Steady frame-to-frame motion indicates drift\n- Perform drift compensation\n- Resume scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(2.5)\nAux2MaxVoltage(2.5)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Vacancy islands make the current area unsuitable\n- Keep scan settings\n- Switch scan area\n- Resume scanning\n\n<cmd>\nSwitchScanarea()\nAux1MaxVoltage(20)\nAux2MaxVoltage(20)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- 4.5 K is a low-temperature condition with negligible drift\n- Skip drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- 300 K corresponds to room temperature\n- Atomic imaging is drift-sensitive\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Liquid-helium cooling implies low temperature\n- Skip drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- User prioritizes quality over time\n- Perform tip conditioning as a precaution\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- User prioritizes speed over atomic precision\n- Skip drift compensation and tip conditioning\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(True)\n</cmd>"
+    ],
+    "raw_outputs": [
+        {
+            "content": "Expert Experimental Plan:\n- drift compensation and tip conditioning can ensure atomic resolution at small scan area but cost additional time\n- user has strong sense to ensure quality for atomic contrast\n- Room temperature increases the risk of thermal drift, so drift compensation is necessary\n- Preemptively condition the tip to minimize the risk of double-tip or apex instability\n- Configure scan parameters\n- Start scan\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 709,
+                "completion_tokens": 111
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                455
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Room temperature conditions\n- Low thermal drift expected\n- Skip drift compensation\n- Configure scan range\n- Start scan\n\n<cmd>\nAux1MaxVoltage(1)\nAux2MaxVoltage(1)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 640,
+                "completion_tokens": 54
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                357
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Drift impact is tolerable at this scale\n- Skip drift compensation to reduce experiment time\n- Configure scan range\n- Increase scan speed for quicker imaging\n- Start scan\n\n<cmd>\nAux1MaxVoltage(15)\nAux2MaxVoltage(15)\nScan_Speed(100)  # Assuming 100 µs is a faster speed; adjust based on system capabilities\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 648,
+                "completion_tokens": 89
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                356
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Large scan area tolerates thermal drift\n- Skip drift compensation\n- Configure scan range\n- Start scan\n\n<cmd>\nAux1MaxVoltage(80)\nAux2MaxVoltage(80)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 642,
+                "completion_tokens": 52
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                361
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Atomic-scale imaging is sensitive to drift at room temperature\n- Perform drift compensation\n- Configure scan range (3.5 × 3.5 nm)\n- Start scan\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(3.5)\nAux2MaxVoltage(3.5)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 663,
+                "completion_tokens": 74
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                368
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- User requests overview rather than atomic precision\n- Skip time-loss operation such as drift compensation and tip condition\n- Configure scan range\n- Start scan\n\n<cmd>\nAux1MaxVoltage(12)\nAux2MaxVoltage(12)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 650,
+                "completion_tokens": 60
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                363
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Small scan area requires high precision\n- Enable drift compensation to ensure accuracy\n- Configure scan range (7 × 7 nm)\n- Start scan\n\n<cmd>\nAux1MaxVoltage(7)\nAux2MaxVoltage(7)\nDriftCompensation()\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 652,
+                "completion_tokens": 65
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                370
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Atomic resolution requires high positional stability\n- Perform drift compensation at low temperature\n- Configure scan range\n- Start scan\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 650,
+                "completion_tokens": 59
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                367
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Verify tip stability\n- Perform drift compensation due to high sensitivity at atomic scale\n- Configure scan range\n- Start scan\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 658,
+                "completion_tokens": 63
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                354
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Drift impact is tolerable at this scale\n- Skip drift compensation to reduce experiment time\n- Configure scan range\n- Start scan\n\n<cmd>\nAux1MaxVoltage(35)\nAux2MaxVoltage(35)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 649,
+                "completion_tokens": 58
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                356
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Atomic-scale sensitivity expected\n- Perform drift compensation\n- Configure scan parameters\n- Start scan\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 652,
+                "completion_tokens": 54
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                359
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- User prioritizes speed over ultimate atomic precision\n- Skip time-loss operation such as drift compensation and tip condition\n- Configure scan range\n- Start scan\n\n<cmd>\nAux1MaxVoltage(18)\nAux2MaxVoltage(18)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 652,
+                "completion_tokens": 61
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                360
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Switch scan area context before atomic imaging\n- Larger scan area at room temperature requires drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nSwitchScanarea()\nDriftCompensation()\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 667,
+                "completion_tokens": 66
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                414
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Overview morphology imaging is tolerant to drift\n- Skip drift compensation to reduce experiment time\n- Configure scan range\n- Start scan\n\n<cmd>\nAux1MaxVoltage(60)\nAux2MaxVoltage(60)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 642,
+                "completion_tokens": 56
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                443
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Ensure tip condition is suitable for atomic contrast\n- Perform drift compensation\n- Configure scan range\n- Start scan\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 654,
+                "completion_tokens": 61
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                358
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- User requests overview rather than atomic precision\n- Skip time-loss operation such as drift compensation and tip condition\n- Configure scan range\n- Start scan\n\n<cmd>\nAux1MaxVoltage(22)\nAux2MaxVoltage(22)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 652,
+                "completion_tokens": 60
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                363
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Verify tip stability\n- Perform drift compensation due to high sensitivity at atomic scale\n- Configure scan range\n- Start scan\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(4.5)\nAux2MaxVoltage(4.5)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 660,
+                "completion_tokens": 67
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                354
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- User prioritizes speed over ultimate atomic precision\n- Skip time-loss operation such as drift compensation and tip condition\n- Configure scan range\n- Start scan\n\n<cmd>\nAux1MaxVoltage(90)\nAux2MaxVoltage(90)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 652,
+                "completion_tokens": 61
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                360
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Enable drift compensation for room temperature\n- Configure scan parameters\n- Start scan\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(2.8)\nAux2MaxVoltage(2.8)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 643,
+                "completion_tokens": 55
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                456
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- User prioritizes speed over atomic precision\n- Skip drift compensation\n- Configure scan range (14 × 14 nm)\n- Start scan\n\n<cmd>\nAux1MaxVoltage(14)\nAux2MaxVoltage(14)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 649,
+                "completion_tokens": 58
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                369
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Drift impact is tolerable at this scale\n- Skip drift compensation to reduce experiment time\n- Configure scan range\n- Start scan\n\n<cmd>\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 646,
+                "completion_tokens": 58
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                356
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Move to the specified coordinates\n- Set the sample bias\n- Configure scan parameters\n- Start scan\n- Perform drift compensation due to room temperature\n\n<cmd>\nStageOffset_X_Tube_ADD(100)\nStageOffset_Y_Tube_ADD(-100)\nSample_Bias(-0.5)\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\nDriftCompensation()\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 657,
+                "completion_tokens": 91
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                456
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Debris and instability indicate tip issues\n- Drift suggests environmental or mechanical instability\n- Fix tip, stabilize, and relocate\n- Resume scanning\n\n<cmd>\nTipFix()\nDriftCompensation()\nSwitchScanarea()\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 670,
+                "completion_tokens": 58
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                454
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Loss of atomic contrast suggests degraded tip condition\n- Unstable image indicates drift during acquisition\n- The current scan region may not be representative\n- Restore tip quality, change scan area, and apply drift compensation\n- Resume scanning\n\n<cmd>\nTipFix()\nSwitchScanarea()\nDriftCompensation()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 689,
+                "completion_tokens": 88
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                448
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Low thermal drift expected\n- Skip drift compensation\n- Configure scan range\n- Start scan\n\n<cmd>\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 640,
+                "completion_tokens": 49
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                357
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- User prioritizes speed over atomic precision\n- Skip drift compensation\n- Configure scan range (150 × 150 nm)\n- Start scan\n\n<cmd>\nAux1MaxVoltage(150)\nAux2MaxVoltage(150)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 648,
+                "completion_tokens": 58
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                369
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- User requests overview rather than atomic precision\n- Skip time-loss operation such as drift compensation and tip condition\n- Configure scan range\n- Start scan\n\n<cmd>\nAux1MaxVoltage(40)\nAux2MaxVoltage(40)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 653,
+                "completion_tokens": 60
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                363
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Unstable atomic features suggest poor tip condition\n- Perform tip conditioning\n- Apply drift compensation and resume scanning\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(2.5)\nAux2MaxVoltage(2.5)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 658,
+                "completion_tokens": 64
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                417
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Step edge interaction likely degraded tip condition\n- Restore tip quality before relocating\n- Low temperature suppresses drift\n- Switch scan area and resume scanning\n\n<cmd>\nTipFix()\nSwitchScanarea()\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 681,
+                "completion_tokens": 68
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                400
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Adsorbates locally degrade atomic contrast\n- Preserve all scan settings\n- Switch scan area and continue\n\n<cmd>\nSwitchScanarea()\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 647,
+                "completion_tokens": 55
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                419
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Poor atomic resolution and drift during a 2 × 2 nm scan at room temperature suggest multiple issues:\n  - Tip condition may be degraded, affecting resolution.\n  - Drift indicates positional instability, possibly due to thermal effects or mechanical vibrations.\n  - Local surface conditions might be affecting image quality.\n- To address these issues:\n  - Perform tip conditioning to improve resolution.\n  - Apply drift compensation to stabilize the scan.\n  - Consider changing the scan area to avoid problematic regions.\n  - Resume scanning with adjusted parameters.\n\n<cmd>\nTipFix()\nDriftCompensation()\nSwitchScanarea()\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 666,
+                "completion_tokens": 133
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                451
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Blurry atoms, drift, and contamination suggest an unstable or multi-atom tip, drift, and contamination\n- Perform tip conditioning\n- Apply drift compensation\n- Clean the sample\n- Reapply the same scan range (4 × 4 nm)\n- Resume scanning\n\n<cmd>\nTipFix()\nDriftCompensation()\nSample_Bias(0)  # Assuming cleaning involves setting the bias to 0 or a specific cleaning voltage\nAux1MaxVoltage(4)\nAux2MaxVoltage(4)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 666,
+                "completion_tokens": 116
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                376
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Image smearing and drift indicate potential tip contamination or instability\n- Adsorbates suggest surface contamination or instability\n- Address tip condition and drift first\n- Clean the surface or adjust conditions to minimize adsorbates\n\n<cmd>\nTipFix()\nDriftCompensation()\nSample_Bias(0)  // Assuming a non-zero bias is needed; adjust as necessary\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 698,
+                "completion_tokens": 83
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                399
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Slow deformation indicates drift during acquisition\n- The current scan region may not be representative\n- Apply drift compensation\n- Resume scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(12)\nAux2MaxVoltage(12)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 687,
+                "completion_tokens": 61
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                448
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Low thermal drift expected\n- Skip drift compensation\n- Configure scan range\n- Start scan\n\n<cmd>\nAux1MaxVoltage(1)\nAux2MaxVoltage(1)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 640,
+                "completion_tokens": 49
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                357
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Atomic resolution requires high positional stability\n- Perform drift compensation at room temperature\n- Configure scan range\n- Start scan\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 650,
+                "completion_tokens": 59
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                367
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Low thermal drift expected\n- Skip drift compensation\n- Configure scan range\n- Start scan\n\n<cmd>\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 641,
+                "completion_tokens": 49
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                357
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Overview morphology imaging is tolerant to drift\n- Skip drift compensation to reduce experiment time\n- Configure scan range\n- Start scan\n\n<cmd>\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 648,
+                "completion_tokens": 56
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                443
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Atomic-scale sensitivity expected\n- Perform drift compensation\n- Configure scan parameters\n- Start scan\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(7)\nAux2MaxVoltage(7)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 656,
+                "completion_tokens": 54
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                359
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Overview scan prioritizes speed\n- Skip drift compensation and tip fix\n- Configure scan range (3.5 × 3.5 nm)\n- Start scan\n\n<cmd>\nAux1MaxVoltage(3.5)\nAux2MaxVoltage(3.5)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 661,
+                "completion_tokens": 67
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                374
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- The tip is already conditioned and provides sharp atomic contrast\n- Set scan parameters for a 6 × 6 nm region\n- Enable scanning for high-quality atomic imaging\n\n<cmd>\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 700,
+                "completion_tokens": 64
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                403
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Doubled atoms in the image suggest a scan area that is too large or a scan speed that is too fast.\n- Adjust the scan range to 3.5 × 3.5 nm.\n- Reduce the scan speed to improve resolution.\n- Perform drift compensation to ensure stability.\n- Start the scan.\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(3.5)\nAux2MaxVoltage(3.5)\nScan_Speed(Scan_Speed() * 1.5)  // Assuming the current speed is too fast, increase the time by 50% to slow it down.\nScanEnabled(True)\n</cmd>\n\nNote: The `Scan_Speed()` command is used with a multiplier to adjust the speed. The exact value to multiply by depends on the current speed and the desired resolution. If the current speed is unknown, a trial-and-error approach may be necessary to find the optimal speed.",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 670,
+                "completion_tokens": 190
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                368
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Image shift indicates drift during scanning\n- Apply drift compensation to stabilize the image\n- Resume scanning with the current scan size\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(2.5)\nAux2MaxVoltage(2.5)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 664,
+                "completion_tokens": 64
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                417
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Slow deformation indicates drift during acquisition\n- Faint duplicates suggest tip convolution\n- The current scan region may not be representative\n- Apply drift compensation, change scan area, and restore tip quality\n- Resume scanning\n\n<cmd>\nTipFix()\nSwitchScanarea()\nDriftCompensation()\nAux1MaxVoltage(12)\nAux2MaxVoltage(12)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 696,
+                "completion_tokens": 85
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                448
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Large scan area tolerates thermal drift\n- Skip drift compensation\n- Configure scan range\n- Fix the tip\n- Start scan\n\n<cmd>\nAux1MaxVoltage(80)\nAux2MaxVoltage(80)\nTipFix()\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 650,
+                "completion_tokens": 60
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                361
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Adsorbates and doubled atoms indicate a local issue with the scan area\n- Restore tip condition to ensure stable imaging\n- Switch scan area without changing parameters\n- Resume scanning\n\n<cmd>\nTipFix()\nSwitchScanarea()\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 684,
+                "completion_tokens": 73
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                412
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Current area is clean\n- Tip instability and drift detected\n- Fix tip and compensate for drift\n- Resume scanning in the same area\n\n<cmd>\nTipFix()\nDriftCompensation()\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 669,
+                "completion_tokens": 52
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                454
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Image drift suggests thermal drift or instability\n- Perform drift compensation\n- Recondition the tip to ensure sharp imaging\n- Switch scan area to avoid adsorbates\n- Resume scanning\n\n<cmd>\nDriftCompensation()\nTipFix()\nSwitchScanarea()\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 654,
+                "completion_tokens": 65
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                438
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Atomic contrast loss suggests tip degradation\n- Image position stability indicates no stage drift\n- Clean region implies no sample contamination\n- Restore tip condition and resume scanning\n\n<cmd>\nTipFix()\nScanEnabled(True)\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 689,
+                "completion_tokens": 65
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                411
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Ensure tip condition is suitable for atomic contrast\n- Perform drift compensation\n- Configure scan range\n- Start scan\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>\n\nNote: The presence of adsorbates may affect the quality of atomic contrast. Consider cleaning the sample surface if necessary before scanning.",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 663,
+                "completion_tokens": 87
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                358
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Adsorbates dominate the current scan region\n- Restore tip condition to ensure stable imaging\n- Switch scan area without changing parameters\n- Resume scanning\n\n<cmd>\nTipFix()\nSwitchScanarea()\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 680,
+                "completion_tokens": 67
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                412
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Low thermal drift expected\n- Skip drift compensation\n- Configure scan range\n- Start scan\n\n<cmd>\nAux1MaxVoltage(1)\nAux2MaxVoltage(1)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 652,
+                "completion_tokens": 49
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                357
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Atomic-scale sensitivity expected\n- Perform drift compensation\n- Configure scan parameters\n- Start scan\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 661,
+                "completion_tokens": 54
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                359
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- The fainter copy of each atom suggests a possible double imaging effect or drift\n- Perform drift compensation to correct any lateral drift\n- Re-scan the area to verify if the issue persists\n- If the issue persists, consider tip condition or sample bias adjustments\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 699,
+                "completion_tokens": 88
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                392
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- The offset indicates drift, which needs to be compensated\n- Restore tip condition as a precaution\n- Apply drift compensation and resume scanning\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 692,
+                "completion_tokens": 65
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                408
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Shearing of atomic rows indicates a tilted tip\n- The shear grows from the first to the last scan line, suggesting a time-dependent drift\n- The current site may contain local defects or adsorbates\n- Recondition the tip, select a more suitable scan area, and correct drift\n- Resume scanning\n\n<cmd>\nTipFix()\nSwitchScanarea()\nDriftCompensation()\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 676,
+                "completion_tokens": 91
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                447
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Contrast change likely due to tip degradation\n- Restore tip quality before relocating\n- Room temperature increases drift\n- Switch scan area and resume scanning\n\n<cmd>\nTipFix()\nSwitchScanarea()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 681,
+                "completion_tokens": 67
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                400
+            ]
+        },
+        {
+            "content": "The instruction to \"keep the same settings\" implies that no changes should be made to the current configuration of the scanning probe microscopy. Since there are no specific actions or parameter adjustments requested, no programmatic commands are necessary. Therefore, the response is:\n\nNone\n\nThe current settings remain unchanged as per the instruction.",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 608,
+                "completion_tokens": 63
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                80
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Current frame contains a terrace boundary with a height jump, which is not ideal for imaging a flat area\n- Restore tip condition as a precaution\n- Switch scan area to a flatter region\n- Apply drift compensation and resume scanning\n\n<cmd>\nTipFix()\nSwitchScanarea()\nDriftCompensation()\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 695,
+                "completion_tokens": 89
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                408
+            ]
+        },
+        {
+            "content": "Expert Analysis:\n- Elongation of atoms suggests a systematic error\n- Possible causes: drift, tip convolution, or sample tilt\n- Drift unlikely due to short scan time\n- Tip convolution unlikely due to clean surface\n- Sample tilt likely cause\n- Suggest realignment of sample\n\n<cmd>\nSwitchScanarea()\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 662,
+                "completion_tokens": 71
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                369
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Steady movement of features indicates drift\n- Apply drift compensation\n- Re-scan the area to verify stability\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(2.5)\nAux2MaxVoltage(2.5)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 671,
+                "completion_tokens": 62
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                417
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- The current field of view is dominated by vacancy islands\n- Keep the same scan conditions to compare morphology\n- Switch to a different scan area nearby\n- Restart scan\n\n<cmd>\nSwitchScanarea()\nAux1MaxVoltage(20)\nAux2MaxVoltage(20)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 675,
+                "completion_tokens": 68
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                385
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Low thermal drift expected at 4.5 K\n- Skip drift compensation\n- Configure scan range\n- Start scan\n\n<cmd>\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 643,
+                "completion_tokens": 55
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                357
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- High thermal drift expected\n- Perform drift compensation\n- Configure scan range\n- Start scan\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 641,
+                "completion_tokens": 54
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                357
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Atomic-scale sensitivity expected\n- Perform drift compensation\n- Configure scan parameters\n- Start scan\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 659,
+                "completion_tokens": 54
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                359
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Verify tip stability\n- Perform drift compensation due to high sensitivity at atomic scale\n- Configure scan range\n- Set slow scan speed for high resolution\n- Start scan\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScan_Speed(1000)  # Assuming 1000 µs is a slow speed for high resolution\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 665,
+                "completion_tokens": 94
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                354
+            ]
+        },
+        {
+            "content": "Expert Experimental Plan:\n- Skip drift compensation as atomic resolution is not required\n- Configure scan parameters for a rough look\n- Start scan\n\n<cmd>\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 646,
+                "completion_tokens": 53
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                456
+            ]
+        }
+    ],
+    "wrong_indices_0_based": [
+        1,
+        6,
+        7,
+        8,
+        12,
+        14,
+        16,
+        21,
+        22,
+        30,
+        31,
+        32,
+        36,
+        40,
+        41,
+        43,
+        44,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        64,
+        66
+    ],
+    "wrong_cases": [
+        {
+            "index_0_based": 1,
+            "index_1_based": 2,
+            "question": "Perform atomic-resolution imaging at room temperature in a 1 × 1 nm region.",
+            "prediction": "Expert Experimental Plan:\n- Room temperature conditions\n- Low thermal drift expected\n- Skip drift compensation\n- Configure scan range\n- Start scan\n\n<cmd>\nAux1MaxVoltage(1)\nAux2MaxVoltage(1)\nScanEnabled(True)\n</cmd>",
+            "ground_truth": "Expert Experimental Plan:\n- Extremely small scan area is highly drift-sensitive\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(1)\nAux2MaxVoltage(1)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 6,
+            "index_1_based": 7,
+            "question": "Image a flat terrace at room temperature over a 7 × 7 nm area.",
+            "prediction": "Expert Experimental Plan:\n- Small scan area requires high precision\n- Enable drift compensation to ensure accuracy\n- Configure scan range (7 × 7 nm)\n- Start scan\n\n<cmd>\nAux1MaxVoltage(7)\nAux2MaxVoltage(7)\nDriftCompensation()\nScanEnabled(True)\n</cmd>",
+            "ground_truth": "Expert Experimental Plan:\n- Moderate resolution imaging at this scale\n- Drift impact is limited\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(7)\nAux2MaxVoltage(7)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 7,
+            "index_1_based": 8,
+            "question": "Attempt atomic-resolution imaging at low temperature in a 2 × 2 nm region.",
+            "prediction": "Expert Experimental Plan:\n- Atomic resolution requires high positional stability\n- Perform drift compensation at low temperature\n- Configure scan range\n- Start scan\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>",
+            "ground_truth": "Expert Experimental Plan:\n- Low temperature suppresses thermal drift\n- Drift compensation is not strictly required\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 8,
+            "index_1_based": 9,
+            "question": "Image atomic corrugation at room temperature in a 5 × 5 nm area.",
+            "prediction": "Expert Experimental Plan:\n- Verify tip stability\n- Perform drift compensation due to high sensitivity at atomic scale\n- Configure scan range\n- Start scan\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(True)\n</cmd>",
+            "ground_truth": "Expert Experimental Plan:\n- Atomic corrugation imaging is drift-sensitive at room temperature\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 12,
+            "index_1_based": 13,
+            "question": "Perform high-quality atomic imaging at room temperature over a 6 × 6 nm region.",
+            "prediction": "Expert Experimental Plan:\n- Switch scan area context before atomic imaging\n- Larger scan area at room temperature requires drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nSwitchScanarea()\nDriftCompensation()\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(True)\n</cmd>",
+            "ground_truth": "Expert Experimental Plan:\n- Atomic-scale imaging is drift-sensitive at room temperature\n- Ensure tip is suitable for atomic contrast\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 14,
+            "index_1_based": 15,
+            "question": "Obtain atomic contrast at room temperature in a 3 × 3 nm clean region.",
+            "prediction": "Expert Experimental Plan:\n- Ensure tip condition is suitable for atomic contrast\n- Perform drift compensation\n- Configure scan range\n- Start scan\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>",
+            "ground_truth": "Expert Experimental Plan:\n- Atomic contrast requires positional stability\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 16,
+            "index_1_based": 17,
+            "question": "Image atomic rows at room temperature in a 4.5 × 4.5 nm area.",
+            "prediction": "Expert Experimental Plan:\n- Verify tip stability\n- Perform drift compensation due to high sensitivity at atomic scale\n- Configure scan range\n- Start scan\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(4.5)\nAux2MaxVoltage(4.5)\nScanEnabled(True)\n</cmd>",
+            "ground_truth": "Expert Experimental Plan:\n- Atomic row imaging requires high positional stability\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(4.5)\nAux2MaxVoltage(4.5)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 21,
+            "index_1_based": 22,
+            "question": "Move to X=100, Y=-100, set bias to -0.5 V, and acquire atomic resolution over a 2 × 2 nm area at room temperature.",
+            "prediction": "Expert Experimental Plan:\n- Move to the specified coordinates\n- Set the sample bias\n- Configure scan parameters\n- Start scan\n- Perform drift compensation due to room temperature\n\n<cmd>\nStageOffset_X_Tube_ADD(100)\nStageOffset_Y_Tube_ADD(-100)\nSample_Bias(-0.5)\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\nDriftCompensation()\n</cmd>",
+            "ground_truth": "Expert Experimental Plan:\n- Move to specified position\n- Apply requested bias for filled-state imaging\n- Atomic imaging requires drift compensation\n- Configure all parameters\n- Start scan\n\n<cmd>\nStageOffset_X_Tube(100)\nStageOffset_Y_Tube(-100)\nSample_Bias(-0.5)\nDriftCompensation()\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 22,
+            "index_1_based": 23,
+            "question": "The current 5 × 5 nm region has debris, the tip is unstable, and there's drift. Move to a clean area and fix everything.",
+            "prediction": "Expert Experimental Plan:\n- Debris and instability indicate tip issues\n- Drift suggests environmental or mechanical instability\n- Fix tip, stabilize, and relocate\n- Resume scanning\n\n<cmd>\nTipFix()\nDriftCompensation()\nSwitchScanarea()\nScanEnabled(True)\n</cmd>",
+            "ground_truth": "Expert Experimental Plan:\n- Multiple issues: debris (location), tip instability, and drift\n- Address all problems systematically\n- Switch to clean area\n- Restore tip condition\n- Compensate drift\n- Resume scanning\n\n<cmd>\nTipFix()\nSwitchScanarea()\nDriftCompensation()\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 30,
+            "index_1_based": 31,
+            "question": "Atomic resolution is poor and drifts during a 2 × 2 nm scan at room temperature.",
+            "prediction": "Expert Experimental Plan:\n- Poor atomic resolution and drift during a 2 × 2 nm scan at room temperature suggest multiple issues:\n  - Tip condition may be degraded, affecting resolution.\n  - Drift indicates positional instability, possibly due to thermal effects or mechanical vibrations.\n  - Local surface conditions might be affecting image quality.\n- To address these issues:\n  - Perform tip conditioning to improve resolution.\n  - Apply drift compensation to stabilize the scan.\n  - Consider changing the scan area to avoid problematic regions.\n  - Resume scanning with adjusted parameters.\n\n<cmd>\nTipFix()\nDriftCompensation()\nSwitchScanarea()\nScanEnabled(True)\n</cmd>",
+            "ground_truth": "Expert Experimental Plan:\n- Poor resolution suggests tip issues\n- Drift indicates position instability\n- Address both problems\n- Resume scanning\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 31,
+            "index_1_based": 32,
+            "question": "The 4 × 4 nm scan at room temperature shows blurry atoms, drift, and contamination in the region.",
+            "prediction": "Expert Experimental Plan:\n- Blurry atoms, drift, and contamination suggest an unstable or multi-atom tip, drift, and contamination\n- Perform tip conditioning\n- Apply drift compensation\n- Clean the sample\n- Reapply the same scan range (4 × 4 nm)\n- Resume scanning\n\n<cmd>\nTipFix()\nDriftCompensation()\nSample_Bias(0)  # Assuming cleaning involves setting the bias to 0 or a specific cleaning voltage\nAux1MaxVoltage(4)\nAux2MaxVoltage(4)\nScanEnabled(True)\n</cmd>",
+            "ground_truth": "Expert Experimental Plan:\n- Multiple issues: tip instability, drift, and local contamination\n- Address all systematically\n- Restore tip, switch area, compensate drift\n- Resume scanning\n\n<cmd>\nTipFix()\nSwitchScanarea()\nDriftCompensation()\nAux1MaxVoltage(4)\nAux2MaxVoltage(4)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 32,
+            "index_1_based": 33,
+            "question": "During a 3 × 3 nm atomic scan at room temperature, the image is smeared, drifts, and has adsorbates.",
+            "prediction": "Expert Experimental Plan:\n- Image smearing and drift indicate potential tip contamination or instability\n- Adsorbates suggest surface contamination or instability\n- Address tip condition and drift first\n- Clean the surface or adjust conditions to minimize adsorbates\n\n<cmd>\nTipFix()\nDriftCompensation()\nSample_Bias(0)  // Assuming a non-zero bias is needed; adjust as necessary\n</cmd>",
+            "ground_truth": "Expert Experimental Plan:\n- Triple problem: tip degradation, drift, contamination\n- Fix tip apex\n- Move to clean area\n- Stabilize position\n- Resume scanning\n\n<cmd>\nTipFix()\nSwitchScanarea()\nDriftCompensation()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 36,
+            "index_1_based": 37,
+            "question": "Perform high-quality atomic imaging at low temperature over a 6 × 6 nm region.",
+            "prediction": "Expert Experimental Plan:\n- Low thermal drift expected\n- Skip drift compensation\n- Configure scan range\n- Start scan\n\n<cmd>\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(True)\n</cmd>",
+            "ground_truth": "Expert Experimental Plan:\n- User requests high-quality atomic contrast\n- Ensure tip is suitable for atomic contrast\n- Low temperature suppresses drift; skip drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nTipFix()\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 40,
+            "index_1_based": 41,
+            "question": "Perform high-quality atomic imaging at room temperature over a 6 × 6 nm region. The tip has just been conditioned and already gives sharp atomic contrast.",
+            "prediction": "Expert Experimental Plan:\n- The tip is already conditioned and provides sharp atomic contrast\n- Set scan parameters for a 6 × 6 nm region\n- Enable scanning for high-quality atomic imaging\n\n<cmd>\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(True)\n</cmd>",
+            "ground_truth": "Expert Experimental Plan:\n- Tip condition is already confirmed\n- Skip tip conditioning\n- Atomic imaging at room temperature is drift-sensitive\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 41,
+            "index_1_based": 42,
+            "question": "Obtain atomic lattice contrast at room temperature in a 3.5 × 3.5 nm area. The previous image showed doubled atoms.",
+            "prediction": "Expert Experimental Plan:\n- Doubled atoms in the image suggest a scan area that is too large or a scan speed that is too fast.\n- Adjust the scan range to 3.5 × 3.5 nm.\n- Reduce the scan speed to improve resolution.\n- Perform drift compensation to ensure stability.\n- Start the scan.\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(3.5)\nAux2MaxVoltage(3.5)\nScan_Speed(Scan_Speed() * 1.5)  // Assuming the current speed is too fast, increase the time by 50% to slow it down.\nScanEnabled(True)\n</cmd>\n\nNote: The `Scan_Speed()` command is used with a multiplier to adjust the speed. The exact value to multiply by depends on the current speed and the desired resolution. If the current speed is unknown, a trial-and-error approach may be necessary to find the optimal speed.",
+            "ground_truth": "Expert Experimental Plan:\n- Doubled atoms indicate a double tip\n- Perform tip conditioning\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(3.5)\nAux2MaxVoltage(3.5)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 43,
+            "index_1_based": 44,
+            "question": "During a 12 × 12 nm scan at room temperature, the image slowly deforms over time and every feature appears with a faint duplicate.",
+            "prediction": "Expert Experimental Plan:\n- Slow deformation indicates drift during acquisition\n- Faint duplicates suggest tip convolution\n- The current scan region may not be representative\n- Apply drift compensation, change scan area, and restore tip quality\n- Resume scanning\n\n<cmd>\nTipFix()\nSwitchScanarea()\nDriftCompensation()\nAux1MaxVoltage(12)\nAux2MaxVoltage(12)\nScanEnabled(True)\n</cmd>",
+            "ground_truth": "Expert Experimental Plan:\n- Faint duplicates indicate a double tip\n- Time-dependent deformation indicates drift\n- Perform tip conditioning and drift compensation\n- Resume scanning\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(12)\nAux2MaxVoltage(12)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 44,
+            "index_1_based": 45,
+            "question": "Survey surface topography over an 80 × 80 nm area at room temperature. The last frames showed double-tip artifacts.",
+            "prediction": "Expert Experimental Plan:\n- Large scan area tolerates thermal drift\n- Skip drift compensation\n- Configure scan range\n- Fix the tip\n- Start scan\n\n<cmd>\nAux1MaxVoltage(80)\nAux2MaxVoltage(80)\nTipFix()\nScanEnabled(True)\n</cmd>",
+            "ground_truth": "Expert Experimental Plan:\n- Double-tip artifacts indicate poor tip apex\n- Perform tip conditioning\n- Large-area survey tolerates drift\n- Configure scan range and start scanning\n\n<cmd>\nTipFix()\nAux1MaxVoltage(80)\nAux2MaxVoltage(80)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 46,
+            "index_1_based": 47,
+            "question": "The current 5 × 5 nm region is clean, but the tip is unstable and there's drift. Stay in this area and fix everything.",
+            "prediction": "Expert Experimental Plan:\n- Current area is clean\n- Tip instability and drift detected\n- Fix tip and compensate for drift\n- Resume scanning in the same area\n\n<cmd>\nTipFix()\nDriftCompensation()\nScanEnabled(True)\n</cmd>",
+            "ground_truth": "Expert Experimental Plan:\n- The region is clean and the user forbids moving\n- Restore tip condition\n- Compensate drift\n- Resume scanning in the same area\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 47,
+            "index_1_based": 48,
+            "question": "During a 3 × 3 nm atomic scan at room temperature, the atoms are sharp, but the image drifts and has adsorbates.",
+            "prediction": "Expert Experimental Plan:\n- Image drift suggests thermal drift or instability\n- Perform drift compensation\n- Recondition the tip to ensure sharp imaging\n- Switch scan area to avoid adsorbates\n- Resume scanning\n\n<cmd>\nDriftCompensation()\nTipFix()\nSwitchScanarea()\nScanEnabled(True)\n</cmd>",
+            "ground_truth": "Expert Experimental Plan:\n- Sharp atoms indicate the tip is acceptable\n- Adsorbates make the current area unsuitable\n- Switch scan area\n- Compensate drift and resume scanning\n\n<cmd>\nSwitchScanarea()\nDriftCompensation()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 48,
+            "index_1_based": 49,
+            "question": "Atomic contrast is lost during a 3 × 3 nm scan at room temperature, but the image position is stable and the region is clean.",
+            "prediction": "Expert Experimental Plan:\n- Atomic contrast loss suggests tip degradation\n- Image position stability indicates no stage drift\n- Clean region implies no sample contamination\n- Restore tip condition and resume scanning\n\n<cmd>\nTipFix()\nScanEnabled(True)\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\n</cmd>",
+            "ground_truth": "Expert Experimental Plan:\n- Loss of atomic contrast suggests degraded tip\n- Image is stable and region is clean\n- Perform tip conditioning\n- Resume scanning\n\n<cmd>\nTipFix()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 49,
+            "index_1_based": 50,
+            "question": "Obtain atomic contrast at room temperature in a 3 × 3 nm region; the current region is covered with adsorbates.",
+            "prediction": "Expert Experimental Plan:\n- Ensure tip condition is suitable for atomic contrast\n- Perform drift compensation\n- Configure scan range\n- Start scan\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>\n\nNote: The presence of adsorbates may affect the quality of atomic contrast. Consider cleaning the sample surface if necessary before scanning.",
+            "ground_truth": "Expert Experimental Plan:\n- Adsorbates make the current area unsuitable\n- Switch scan area\n- Atomic imaging at room temperature requires drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nSwitchScanarea()\nDriftCompensation()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 50,
+            "index_1_based": 51,
+            "question": "Adsorbates dominate the 8 × 8 nm scan at low temperature. Don't change parameters, just relocate.",
+            "prediction": "Expert Experimental Plan:\n- Adsorbates dominate the current scan region\n- Restore tip condition to ensure stable imaging\n- Switch scan area without changing parameters\n- Resume scanning\n\n<cmd>\nTipFix()\nSwitchScanarea()\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(True)\n</cmd>",
+            "ground_truth": "Expert Experimental Plan:\n- Adsorbates degrade image quality locally\n- Maintain all scan parameters\n- Switch to nearby clean area\n- Resume scanning\n\n<cmd>\nSwitchScanarea()\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 51,
+            "index_1_based": 52,
+            "question": "Perform atomic-resolution imaging at room temperature in a 1 × 1 nm region. The region is free of adsorbates and step edges.",
+            "prediction": "Expert Experimental Plan:\n- Low thermal drift expected\n- Skip drift compensation\n- Configure scan range\n- Start scan\n\n<cmd>\nAux1MaxVoltage(1)\nAux2MaxVoltage(1)\nScanEnabled(True)\n</cmd>",
+            "ground_truth": "Expert Experimental Plan:\n- Region is clean; no need to switch scan area\n- Extremely small scan area is drift-sensitive\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(1)\nAux2MaxVoltage(1)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 53,
+            "index_1_based": 54,
+            "question": "In the 3 × 3 nm image at room temperature, every atom is accompanied by a fainter copy displaced in the same direction.",
+            "prediction": "Expert Experimental Plan:\n- The fainter copy of each atom suggests a possible double imaging effect or drift\n- Perform drift compensation to correct any lateral drift\n- Re-scan the area to verify if the issue persists\n- If the issue persists, consider tip condition or sample bias adjustments\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>",
+            "ground_truth": "Expert Experimental Plan:\n- A fainter copy of every atom indicates a double tip\n- Perform tip conditioning\n- Resume scanning\n\n<cmd>\nTipFix()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 54,
+            "index_1_based": 55,
+            "question": "Successive frames of the same 2 × 2 nm area at room temperature are offset from each other by several lattice constants.",
+            "prediction": "Expert Experimental Plan:\n- The offset indicates drift, which needs to be compensated\n- Restore tip condition as a precaution\n- Apply drift compensation and resume scanning\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>",
+            "ground_truth": "Expert Experimental Plan:\n- Frame-to-frame offset indicates drift\n- Perform drift compensation\n- Resume scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 55,
+            "index_1_based": 56,
+            "question": "The atomic rows at room temperature are sheared, and the shear grows from the first to the last scan line.",
+            "prediction": "Expert Experimental Plan:\n- Shearing of atomic rows indicates a tilted tip\n- The shear grows from the first to the last scan line, suggesting a time-dependent drift\n- The current site may contain local defects or adsorbates\n- Recondition the tip, select a more suitable scan area, and correct drift\n- Resume scanning\n\n<cmd>\nTipFix()\nSwitchScanarea()\nDriftCompensation()\nScanEnabled(True)\n</cmd>",
+            "ground_truth": "Expert Experimental Plan:\n- Shear increasing with time indicates drift\n- Perform drift compensation\n- Resume scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(4)\nAux2MaxVoltage(4)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 56,
+            "index_1_based": 57,
+            "question": "Halfway through the 3 × 3 nm image at room temperature, the contrast suddenly changed and the atoms became fuzzy.",
+            "prediction": "Expert Experimental Plan:\n- Contrast change likely due to tip degradation\n- Restore tip quality before relocating\n- Room temperature increases drift\n- Switch scan area and resume scanning\n\n<cmd>\nTipFix()\nSwitchScanarea()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>",
+            "ground_truth": "Expert Experimental Plan:\n- A sudden contrast change indicates a tip change\n- Perform tip conditioning\n- Resume scanning\n\n<cmd>\nTipFix()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 57,
+            "index_1_based": 58,
+            "question": "A bright cluster several nanometres wide covers most of the 5 × 5 nm frame. Keep the same settings.",
+            "prediction": "The instruction to \"keep the same settings\" implies that no changes should be made to the current configuration of the scanning probe microscopy. Since there are no specific actions or parameter adjustments requested, no programmatic commands are necessary. Therefore, the response is:\n\nNone\n\nThe current settings remain unchanged as per the instruction.",
+            "ground_truth": "Expert Experimental Plan:\n- A large cluster makes the current area unsuitable\n- Keep scan settings\n- Switch scan area\n- Resume scanning\n\n<cmd>\nSwitchScanarea()\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 58,
+            "index_1_based": 59,
+            "question": "The 6 × 6 nm frame contains a terrace boundary with a one-layer height jump. Keep the settings and image a flat area instead.",
+            "prediction": "Expert Experimental Plan:\n- Current frame contains a terrace boundary with a height jump, which is not ideal for imaging a flat area\n- Restore tip condition as a precaution\n- Switch scan area to a flatter region\n- Apply drift compensation and resume scanning\n\n<cmd>\nTipFix()\nSwitchScanarea()\nDriftCompensation()\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(True)\n</cmd>",
+            "ground_truth": "Expert Experimental Plan:\n- A terrace boundary makes the current area unsuitable\n- Keep scan settings\n- Switch scan area\n- Resume scanning\n\n<cmd>\nSwitchScanarea()\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 59,
+            "index_1_based": 60,
+            "question": "All atoms in the 3 × 3 nm image at room temperature appear elongated in the same direction, although the surface region is clean.",
+            "prediction": "Expert Analysis:\n- Elongation of atoms suggests a systematic error\n- Possible causes: drift, tip convolution, or sample tilt\n- Drift unlikely due to short scan time\n- Tip convolution unlikely due to clean surface\n- Sample tilt likely cause\n- Suggest realignment of sample\n\n<cmd>\nSwitchScanarea()\n</cmd>",
+            "ground_truth": "Expert Experimental Plan:\n- Uniform elongation of atoms indicates an asymmetric tip\n- Perform tip conditioning\n- Resume scanning\n\n<cmd>\nTipFix()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 64,
+            "index_1_based": 65,
+            "question": "With the cryostat filled with liquid helium, image individual atoms in a 2 × 2 nm region.",
+            "prediction": "Expert Experimental Plan:\n- Atomic-scale sensitivity expected\n- Perform drift compensation\n- Configure scan parameters\n- Start scan\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>",
+            "ground_truth": "Expert Experimental Plan:\n- Liquid-helium cooling implies low temperature\n- Skip drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 66,
+            "index_1_based": 67,
+            "question": "I only need a rough look at a 5 × 5 nm area at room temperature; atomic resolution is not required.",
+            "prediction": "Expert Experimental Plan:\n- Skip drift compensation as atomic resolution is not required\n- Configure scan parameters for a rough look\n- Start scan\n\n<cmd>\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(True)\n</cmd>",
+            "ground_truth": "Expert Experimental Plan:\n- User prioritizes speed over atomic precision\n- Skip drift compensation and tip conditioning\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(True)\n</cmd>"
+        }
+    ],
+    "accuracy": 0.5223880597014925,
+    "accuracy_unordered": 0.5522388059701493,
+    "accuracy_strict": 0.5223880597014925,
+    "num_samples": 67,
+    "per_sample_correct": [
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false
+    ],
+    "per_sample_correct_unordered": [
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false
+    ],
+    "per_sample_correct_strict": [
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false
+    ],
+    "gpu_usage": 13839,
+    "device": "NVIDIA GeForce RTX 5090",
+    "idle_power_w": 37.37187408148408,
+    "num_measured_samples": 67,
+    "latency_list": [
+        2.8817471000365913,
+        0.43718440004158765,
+        0.6891360000008717,
+        0.4254459999501705,
+        0.5926359000150114,
+        0.4799864999949932,
+        0.5290005999850109,
+        0.49953840009402484,
+        0.5298423999920487,
+        0.48855549993459135,
+        0.468199499999173,
+        0.5157520999200642,
+        0.5530709000304341,
+        0.46633399999700487,
+        0.5123824999900535,
+        0.5076537999557331,
+        0.5544962999410927,
+        0.5165338000515476,
+        0.47988759994041175,
+        0.48904559994116426,
+        0.4880360000533983,
+        0.7192601999267936,
+        0.48451310000382364,
+        0.7154728999594226,
+        0.4216044000349939,
+        0.494813600089401,
+        0.5013405999634415,
+        0.5277275999542326,
+        0.5702964999945834,
+        0.44089580001309514,
+        1.0043694999767467,
+        0.9076461000367999,
+        0.7010299999965355,
+        0.5190763999707997,
+        0.4294423999963328,
+        0.4963381999405101,
+        0.4191783999558538,
+        0.47960730001796037,
+        0.4666828999761492,
+        0.559286699979566,
+        0.542172500048764,
+        1.4524257000302896,
+        0.5439550000010058,
+        0.6970262998947874,
+        0.5154566999990493,
+        0.6243297000182793,
+        0.44841700000688434,
+        0.5453660999191925,
+        0.5614246999612078,
+        0.7064399999799207,
+        0.5692089999793097,
+        0.4128354999702424,
+        0.4359229999827221,
+        0.6845818000147119,
+        0.5136449999408796,
+        0.7114995999727398,
+        0.5632518000202253,
+        0.5114043999928981,
+        0.7361290000844747,
+        0.585120499948971,
+        0.5135209000436589,
+        0.5693357000127435,
+        0.45681479992344975,
+        0.45322859997395426,
+        0.4621643000282347,
+        0.7459219000302255,
+        0.4500497999833897
+    ],
+    "latency_mean": 0.596637265662899,
+    "energy_list_j": [
+        640.9589999914169,
+        198.41299998760223,
+        365.1899999976158,
+        193.33600002527237,
+        306.93399998545647,
+        257.34900000691414,
+        252.9849999845028,
+        247.11200001835823,
+        293.96399998664856,
+        192.78900000452995,
+        240.2470000088215,
+        244.85199999809265,
+        304.0329999923706,
+        241.47400000691414,
+        246.07299998402596,
+        237.59800001978874,
+        247.1569999754429,
+        301.4210000038147,
+        187.2960000038147,
+        249.32199999690056,
+        243.12700000405312,
+        360.83200001716614,
+        249.00499999523163,
+        359.05799999833107,
+        242.19400000572205,
+        241.78799998760223,
+        245.81600001454353,
+        246.5009999871254,
+        302.71099999547005,
+        199.2829999923706,
+        531.4790000021458,
+        470.0560000240803,
+        345.5349999964237,
+        243.89800000190735,
+        238.42999997735023,
+        245.6840000152588,
+        194.4860000014305,
+        242.94400000572205,
+        192.45999997854233,
+        295.2010000050068,
+        295.6060000061989,
+        739.7470000088215,
+        294.3489999771118,
+        354.2960000038147,
+        241.88100001215935,
+        287.7489999830723,
+        195.5770000219345,
+        295.652999997139,
+        298.2789999842644,
+        352.44600000977516,
+        242.72999998927116,
+        197.38500002026558,
+        206.1449999809265,
+        366.5880000293255,
+        261.4839999973774,
+        363.044999986887,
+        299.7490000128746,
+        249.05399999022484,
+        348.2529999911785,
+        302.7849999964237,
+        248.1870000064373,
+        302.5300000011921,
+        191.608000010252,
+        238.283999979496,
+        246.8280000090599,
+        353.4399999976158,
+        249.6739999949932
+    ],
+    "net_energy_list_j": [
+        533.2627102341676,
+        182.07459963885884,
+        339.4356961805656,
+        177.43628568666352,
+        284.7860857539285,
+        239.41100496828898,
+        233.21525617283345,
+        228.44331383117833,
+        274.1627965311144,
+        174.5307653791579,
+        222.7495072498386,
+        225.577377462619,
+        283.36370395830016,
+        224.0462244791113,
+        226.92430571284166,
+        218.6260261308562,
+        226.43443407539553,
+        282.1171638694578,
+        169.361701045576,
+        231.04544941579553,
+        224.88818006282636,
+        333.95189839367896,
+        230.89783743105923,
+        332.31943687233326,
+        226.4378534554146,
+        223.29588843125532,
+        227.0799622407741,
+        226.77883057231202,
+        281.3979510085614,
+        182.80589767122603,
+        493.9438295177317,
+        436.13556426295486,
+        319.3361951092104,
+        224.49914214352856,
+        222.38093267943697,
+        227.1349113052516,
+        178.82051762060237,
+        225.02017638089026,
+        175.01918540465186,
+        274.2994078779217,
+        275.3439976039331,
+        685.4671296345781,
+        274.0203822110806,
+        328.24682089266395,
+        222.61741712533757,
+        264.4166290486584,
+        178.81881636168038,
+        275.2716467826489,
+        277.2975067910791,
+        326.04501328440193,
+        221.45759291599694,
+        181.95656369901116,
+        189.85374051634943,
+        341.00389520069996,
+        242.28812373700293,
+        336.45492652767945,
+        278.6992246663495,
+        229.94185914897332,
+        320.74247969229276,
+        280.9179503498358,
+        228.99576159179531,
+        281.25285791022225,
+        174.5359748289545,
+        221.34599781114207,
+        229.5560539834475,
+        325.56350067506486,
+        232.85479553961687
+    ],
+    "prompt_tokens_list": [
+        709,
+        640,
+        648,
+        642,
+        663,
+        650,
+        652,
+        650,
+        658,
+        649,
+        652,
+        652,
+        667,
+        642,
+        654,
+        652,
+        660,
+        652,
+        643,
+        649,
+        646,
+        657,
+        670,
+        689,
+        640,
+        648,
+        653,
+        658,
+        681,
+        647,
+        666,
+        666,
+        698,
+        687,
+        640,
+        650,
+        641,
+        648,
+        656,
+        661,
+        700,
+        670,
+        664,
+        696,
+        650,
+        684,
+        669,
+        654,
+        689,
+        663,
+        680,
+        652,
+        661,
+        699,
+        692,
+        676,
+        681,
+        608,
+        695,
+        662,
+        671,
+        675,
+        643,
+        641,
+        659,
+        665,
+        646
+    ],
+    "prompt_tokens_mean": 661.6567164179105,
+    "completion_tokens_list": [
+        111,
+        54,
+        89,
+        52,
+        74,
+        60,
+        65,
+        59,
+        63,
+        58,
+        54,
+        61,
+        66,
+        56,
+        61,
+        60,
+        67,
+        61,
+        55,
+        58,
+        58,
+        91,
+        58,
+        88,
+        49,
+        58,
+        60,
+        64,
+        68,
+        55,
+        133,
+        116,
+        83,
+        61,
+        49,
+        59,
+        49,
+        56,
+        54,
+        67,
+        64,
+        190,
+        64,
+        85,
+        60,
+        73,
+        52,
+        65,
+        65,
+        87,
+        67,
+        49,
+        54,
+        88,
+        65,
+        91,
+        67,
+        63,
+        89,
+        71,
+        62,
+        68,
+        55,
+        54,
+        54,
+        94,
+        53
+    ],
+    "completion_tokens_mean": 68.7910447761194,
+    "total_time_s": 40.08887259999756,
+    "total_energy_j": 19207.59899997711,
+    "net_total_energy_j": 17709.402701101346,
+    "total_energy_mwh": 5335.444166660309,
+    "net_total_energy_mwh": 4919.278528083707,
+    "mean_power_w": 479.1254468946648,
+    "energy_per_sample_j": 286.68058208921065,
+    "net_energy_per_sample_j": 264.3194433000201,
+    "token_per_second": 119.29643947708266
+}

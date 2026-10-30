@@ -1,0 +1,3777 @@
+{
+    "config": {
+        "model": "qwen3.8-27b",
+        "mode": "prompt",
+        "k": 3,
+        "selection": "similar",
+        "thinking": true,
+        "sampling": {
+            "temperature": 1.0,
+            "top_p": 0.95,
+            "presence_penalty": 0.0,
+            "seed": 0,
+            "max_tokens": 16384,
+            "reasoning_effort": "high",
+            "extra_body": {
+                "top_k": 20,
+                "min_p": 0.0,
+                "repeat_penalty": 1.0
+            }
+        }
+    },
+    "questions": [
+        "shift -10 nm in X and +5 nm in Y, scan 6×6nm",
+        "translate the probe 8 nm along the x-axis",
+        "Go to Y position 200 nanometers",
+        "Move the tip to absolute X = 150 nm",
+        "go to X = 10, Y = 90",
+        "widen X and Y scan to 22 nm",
+        "move to X = 30 nm, keep Y unchanged",
+        "go to (X = 100, Y = −200) and apply −0.5 V",
+        "step down 35 nm in Y and scan 7×7",
+        "increase Y by 12 nm in the positive direction and scan 9×9",
+        "move 10 nm left and scan a 5x5 nm area",
+        "move 10 nm left and 10 nm down, apply +0.3 V, scan 8×8",
+        "adjust Y scan height to 12 nm",
+        "Set vertical scan height to 110 nanometers",
+        "Slide the tip 90 nanometers to the right",
+        "Adjust the scanner 50 nanometers right",
+        "apply -1.0 V and scan 12×12 nm",
+        "stop measuring with the scanner",
+        "shift in y direction by 20 nm",
+        "shift the probe by 30 nm in Y direction",
+        "enable scanning with current settings",
+        "Set the sample bias to 1.2 V",
+        "Subtract 100 nm from the Y position",
+        "stop scanning now",
+        "set both scan sizes to 240 nm and resume scanning",
+        "move 100 nm left along X",
+        "set Y coordinate to -350 nm",
+        "enable scan mode.",
+        "shift in y direction by 5 nm",
+        "Move the stage to Y = 130 nm",
+        "decrease bias to -0.4 V",
+        "move diagonally 15 nm right and 15 nm up",
+        "move tip to (350, -250)",
+        "shift 12 nm left, keep Y, scan 6×6",
+        "move the probe 25 nm along the y-axis",
+        "Set the X scan range to 60 nanometers",
+        "Set bias voltage to -1.0 V",
+        "return to X = 0, shift Y by -10 nm, scan area 9x9 nm",
+        "move the stage to X = 10 nm, Y = −90 nm",
+        "scan 13×13 nm",
+        "translate the stage −120 nm in X and −80 nm in Y",
+        "set both X and Y scan sizes to 200 nm",
+        "start a 16×16 nm scan with 1.5V",
+        "end the scan session",
+        "set horizontal scan size to 250 nm",
+        "commence the scan routine",
+        "Adjust the scan range along Y to 95 nm",
+        "apply -1 V bias, reset to origin, then scan 10x10",
+        "step 15 nm in the −Y direction",
+        "egage the scan",
+        "move 10 nm upward",
+        "apply 1 V sample bias and scan at current position with 8x8 nm area",
+        "move to (200, −250) and scan 20×10",
+        "move 40 nm right and 40 nm up, apply −0.9 V bias, scan 14×14",
+        "go to absolute coordinates X = 50, Y = 100 and start scanning",
+        "shrink X scan size down to 60 nm",
+        "Adjust the Y coordinate to -85 nm",
+        "shift 5 nm both in X and Y, then start 6x6 scan",
+        "move probe to (−250, 150)",
+        "move 25 nm left and 10 nm up",
+        "apply a bias of +1.0 V and scan 10×10 nm",
+        "Displace the tip -80 nanometers in Y",
+        "set X to 300 nm，Y to 10 nm absolutely.",
+        "Limit the scan range in X to 80 nm",
+        "set X = −10, Y = −10 and scan 10×10",
+        "increase sample bias to +0.9 V",
+        "adjust the sample bias to −750 mV",
+        "set absolute X = −300 nm",
+        "Set scan height in Y to 22.5 nm",
+        "set coordinates to (−90, −90)",
+        "Lower the sample bias to -1.2 V",
+        "apply sample bias of -0.8 V, set area to 50 nm square, and scan",
+        "shift 20 nm up, apply -1.5 V sample bias, and begin scanning",
+        "perform a 37.5×37.5 nm scan at +1.0 V",
+        "shift −2 nm in X",
+        "lower the bias to −0.2 V",
+        "apply −0.8 V and start scanning 8×8 nm",
+        "move +3 nm in Y",
+        "shift 20 nm down only, scan 4x4",
+        "return to origin",
+        "Set the X position to 100 nanometers",
+        "scan a 5×5 nm area at 1.5 V bias",
+        "move to X = 25 nm and apply a bias of +2.0 V, then perform a 5x5 nm scan",
+        "move the tip to absolute position X = -300, Y = -300",
+        "Shift the probe head by 120 nm to the right",
+        "go to Y = 60 nm, apply -2.0 V bias, and scan 12x12",
+        "go to absolute Y = 220 nm and scan 10×10",
+        "Move the tip 100 nm upward",
+        "Move the scan area down by 90 nanometers",
+        "move to X = 200 nm and scan 15×15 nm",
+        "move the probe 30 nm to the right",
+        "nudge the probe 1 nm right and 1 nm up",
+        "shift 40 nm downward in Y",
+        "run tip fix and then start a 15×15 nm scan",
+        "run tip fix",
+        "slow the scan speed to 0.2, then stop scanning",
+        "do tip fix and then start scanning with the current parameters",
+        "run drift compensation, set scan speed to 0.3, move to X=40 nm and Y=-40 nm, then scan 8×8 nm",
+        "set scan speed to 0.7, set bias to +0.7 V, then scan 10×10 nm",
+        "set scan speed to 0.6",
+        "fix the tip",
+        "tip fix, then set the scan speed to 0.3",
+        "drift compensate, then set the Y scan range to 150 nm",
+        "perform tip fix, then move to X=100 nm and Y=0 nm, then scan 20×20 nm",
+        "run drift correction",
+        "increase scan speed to 1.5 and set the Y scan range to 150 nm",
+        "set scan speed to 0.9, then move to X=-50 nm and Y=120 nm, then scan 18×18 nm",
+        "please correct drift before scanning",
+        "perform drift compensation and then start scanning with the current parameters",
+        "tip fix, then shift 10 nm right and 5 nm down",
+        "switch the area and then start scanning",
+        "switch scan area and move right by 15 nm",
+        "fix the tip, do drift compensation, then switch scan area",
+        "move to X=50 nm and Y=50 nm, then switch scan area",
+        "do drift compensation and then switch scan area",
+        "set scan speed to 0.6, switch scan area, and start scanning",
+        "change scan speed to 1.0 and then switch scan area",
+        "use scan range 5 and switch to the next scan region",
+        "change the next scan area",
+        "go to the next scan area and start scan",
+        "stop scan, move to X = 0, Y = 0",
+        "terminate scan, fix tip, then resume",
+        "go to (-350, 200), shift left by 0.5 nm, scan 50x50",
+        "move to X = 400 nm",
+        "set Y position to -500 nm",
+        "go to coordinates (750, 750)",
+        "shift 100 nm right from current position X = 300",
+        "move 200 nm down from Y = -200",
+        "set scan area to 800x800 nm at origin",
+        "apply a bias of 0 V",
+        "set the bias to exactly zero volts",
+        "rotate the stage by 45 degrees",
+        "change the temperature to 77 K",
+        "increase the tunneling current to 2 nA",
+        "move a bit to the right",
+        "scan a small area",
+        "apply high bias voltage",
+        "set scan speed to -0.5",
+        "apply zero bias and scan",
+        "set scan speed to 0",
+        "scan -20x-20 nm area",
+        "adjust feedback loop gain to 3.0",
+        "move somewhere safe",
+        "scan a medium area",
+        "apply some bias voltage",
+        "increase the scan speed a bit",
+        "move slightly upward"
+    ],
+    "predictions": [
+        "<cmd>\nStageOffset_X_Tube_ADD(-10)\nStageOffset_Y_Tube_ADD(5)\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(8)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube(200)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(150)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(10)\nStageOffset_Y_Tube(90)\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(22)\nAux2MaxVoltage(22)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(30)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(100)\nStageOffset_Y_Tube(-200)\nSample_Bias(-0.5)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(-35)\nAux1MaxVoltage(7)\nAux2MaxVoltage(7)\nScanEnabled(True)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(12)\nAux1MaxVoltage(9)\nAux2MaxVoltage(9)\nScanEnabled(True)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(-10)\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(True)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(-10)\nStageOffset_Y_Tube_ADD(-10)\nSample_Bias(0.3)\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nAux2MaxVoltage(12)\n</cmd>",
+        "<cmd>\nAux2MaxVoltage(110)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(90)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(50)\n</cmd>",
+        "<cmd>\nSample_Bias(-1.0)\nAux1MaxVoltage(12)\nAux2MaxVoltage(12)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nScanEnabled(false)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(20)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(30)\n</cmd>",
+        "<cmd>\nScanEnabled(True)\n</cmd>",
+        "<cmd>\nSample_Bias(1.2)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(-100)\n</cmd>",
+        "<cmd>\nScanEnabled(false)\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(240)\nAux2MaxVoltage(240)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(-100)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube(-350)\n</cmd>",
+        "<cmd>\nScanEnabled(True)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(5)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube(130)\n</cmd>",
+        "<cmd>\nSample_Bias(-0.4)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(15)\nStageOffset_Y_Tube_ADD(15)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(350)\nStageOffset_Y_Tube(-250)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(-12)\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(25)\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(60)\n</cmd>",
+        "<cmd>\nSample_Bias(-1.0)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(0)\nStageOffset_Y_Tube_ADD(-10)\nAux1MaxVoltage(9)\nAux2MaxVoltage(9)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(10)\nStageOffset_Y_Tube(-90)\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(13)\nAux2MaxVoltage(13)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(-120)\nStageOffset_Y_Tube_ADD(-80)\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(200)\nAux2MaxVoltage(200)\n</cmd>",
+        "<cmd>\nSample_Bias(1.5)\nAux1MaxVoltage(16)\nAux2MaxVoltage(16)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nScanEnabled(false)\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(250)\n</cmd>",
+        "<cmd>\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nAux2MaxVoltage(95)\n</cmd>",
+        "<cmd>\nSample_Bias(-1.0)\nStageOffset_X_Tube(0)\nStageOffset_Y_Tube(0)\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(-15)\n</cmd>",
+        "<cmd>\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(10)\n</cmd>",
+        "<cmd>\nSample_Bias(1)\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(200)\nStageOffset_Y_Tube(-250)\nAux1MaxVoltage(20)\nAux2MaxVoltage(10)\nScanEnabled(True)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(40)\nStageOffset_Y_Tube_ADD(40)\nSample_Bias(-0.9)\nAux1MaxVoltage(14)\nAux2MaxVoltage(14)\nScanEnabled(True)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(50)\nStageOffset_Y_Tube(100)\nScanEnabled(True)\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(60)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube(-85)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(5)\nStageOffset_Y_Tube_ADD(5)\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(-250)\nStageOffset_Y_Tube(150)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(-25)\nStageOffset_Y_Tube_ADD(10)\n</cmd>",
+        "<cmd>\nSample_Bias(1.0)\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(-80)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(300)\nStageOffset_Y_Tube(10)\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(80)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(-10)\nStageOffset_Y_Tube(-10)\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nSample_Bias(0.9)\n</cmd>",
+        "<cmd>\nSample_Bias(-0.75)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(-300)\n</cmd>",
+        "<cmd>\nAux2MaxVoltage(22.5)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(-90)\nStageOffset_Y_Tube(-90)\n</cmd>",
+        "<cmd>\nSample_Bias(-1.2)\n</cmd>",
+        "<cmd>\nSample_Bias(-0.8)\nAux1MaxVoltage(50)\nAux2MaxVoltage(50)\nScanEnabled(True)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(20)\nSample_Bias(-1.5)\nScanEnabled(True)\n</cmd>",
+        "<cmd>\nSample_Bias(1.0)\nAux1MaxVoltage(37.5)\nAux2MaxVoltage(37.5)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(-2)\n</cmd>",
+        "<cmd>\nSample_Bias(-0.2)\n</cmd>",
+        "<cmd>\nSample_Bias(-0.8)\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(3)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(-20)\nAux1MaxVoltage(4)\nAux2MaxVoltage(4)\nScanEnabled(True)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(0)\nStageOffset_Y_Tube(0)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(100)\n</cmd>",
+        "<cmd>\nSample_Bias(1.5)\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(True)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(25)\nSample_Bias(2.0)\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(True)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(-300)\nStageOffset_Y_Tube(-300)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(120)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube(60)\nSample_Bias(-2.0)\nAux1MaxVoltage(12)\nAux2MaxVoltage(12)\nScanEnabled(True)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube(220)\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(True)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(100)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(-90)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(200)\nAux1MaxVoltage(15)\nAux2MaxVoltage(15)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(30)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(1)\nStageOffset_Y_Tube_ADD(1)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(-40)\n</cmd>",
+        "<cmd>\nTipFix()\nAux1MaxVoltage(15)\nAux2MaxVoltage(15)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nTipFix()\n</cmd>",
+        "<cmd>\nScan_Speed(0.2)\nScanEnabled(false)\n</cmd>",
+        "<cmd>\nTipFix()\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nDriftCompensation()\nScan_Speed(0.3)\nStageOffset_X_Tube(40)\nStageOffset_Y_Tube(-40)\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nScan_Speed(0.7)\nSample_Bias(0.7)\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nScan_Speed(0.6)\n</cmd>",
+        "<cmd>\nTipFix()\n</cmd>",
+        "<cmd>\nTipFix()\nScan_Speed(0.3)\n</cmd>",
+        "<cmd>\nDriftCompensation()\nAux2MaxVoltage(150)\n</cmd>",
+        "<cmd>\nTipFix()\nStageOffset_X_Tube(100)\nStageOffset_Y_Tube(0)\nAux1MaxVoltage(20)\nAux2MaxVoltage(20)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nDriftCompensation()\n</cmd>",
+        "<cmd>\nScan_Speed(1.5)\nAux2MaxVoltage(150)\n</cmd>",
+        "<cmd>\nScan_Speed(0.9)\nStageOffset_X_Tube(-50)\nStageOffset_Y_Tube(120)\nAux1MaxVoltage(18)\nAux2MaxVoltage(18)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nDriftCompensation()\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nDriftCompensation()\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nTipFix()\nStageOffset_X_Tube_ADD(10)\nStageOffset_Y_Tube_ADD(-5)\n</cmd>",
+        "<cmd>\nSwitchScanarea()\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nSwitchScanarea()\nStageOffset_X_Tube_ADD(15)\n</cmd>",
+        "<cmd>\nTipFix()\nDriftCompensation()\nSwitchScanarea()\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(50)\nStageOffset_Y_Tube(50)\nSwitchScanarea()\n</cmd>",
+        "<cmd>\nDriftCompensation()\nSwitchScanarea()\n</cmd>",
+        "<cmd>\nScan_Speed(0.6)\nSwitchScanarea()\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nScan_Speed(1.0)\nSwitchScanarea()\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nSwitchScanarea()\n</cmd>",
+        "<cmd>\nSwitchScanarea()\n</cmd>",
+        "<cmd>\nSwitchScanarea()\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nScanEnabled(false)\nStageOffset_X_Tube(0)\nStageOffset_Y_Tube(0)\n</cmd>",
+        "<cmd>\nScanEnabled(false)\nTipFix()\nScanEnabled(True)\n</cmd>",
+        "None. Shifting left by 0.5 nm from X = -350 nm would move the tip to X = -350.5 nm, which exceeds the minimum allowed range of -350 nm.",
+        "None\nThe requested X coordinate of 400 nm is outside the allowed scanning range of -350 to 350 nm.",
+        "None. The requested Y position (-500 nm) is outside the allowed scanning range of -350 to 350 nm.",
+        "None. The requested position (750, 750) exceeds the accessible scanning area. Both X and Y must be within -350 to 350 nm.",
+        "None. Shifting 100 nm right from X = 300 would move to X = 400 nm, which exceeds the allowed scanning range of -350 to 350 nm.",
+        "None. Moving 200 nm down from Y = -200 would result in Y = -400 nm, which exceeds the minimum range of -350 nm.",
+        "None. An 800×800 nm scan centered at origin would extend from −400 to +400 nm, which exceeds the allowed scanning range of −350 to 350 nm.",
+        "None. The sample bias cannot be set to 0 V. Please specify a non-zero bias value.",
+        "None. The sample bias cannot be set to 0 V. Please specify a non-zero voltage value.",
+        "None. The available commands do not support rotating the stage.",
+        "None. There is no temperature control command available in the provided command set.",
+        "None. Direct tunneling current control is not available. You can adjust the sample bias instead.",
+        "None. Please specify the exact distance in nanometers to move to the right (e.g., \"move 10 nm to the right\").",
+        "None. Please specify the exact scan size in nanometers.",
+        "None. Please specify the exact bias voltage value you want to apply.",
+        "None. Scan speed must be a positive value (it represents time in µs). Please specify a positive value.",
+        "None. The sample bias cannot be set to 0 V, so the request cannot be carried out as specified.",
+        "None. Scan speed cannot be 0, as it represents the time (µs) required for scanning and must be a positive value. Please specify a positive value.",
+        "None. Scan ranges cannot be negative; please specify positive scan dimensions in nanometers.",
+        "None\nThe provided command set does not include a command to adjust feedback loop gain.",
+        "None. Please specify a safe coordinate within −350 to 350 nm for both X and Y.",
+        "<cmd>\nAux1MaxVoltage(100)\nAux2MaxVoltage(100)\n</cmd>",
+        "None. Please specify the exact bias voltage value (e.g., “apply 1.0 V bias”).",
+        "<cmd>\nScan_Speed(2.1)\n</cmd>",
+        "None. Please specify the exact distance in nanometers (e.g., \"move 10 nm upward\")."
+    ],
+    "ground truth": [
+        "<cmd>\nStageOffset_X_Tube_ADD(-10)\nStageOffset_Y_Tube_ADD(5)\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(8)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube(200)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(150)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(10)\nStageOffset_Y_Tube(90)\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(22)\nAux2MaxVoltage(22)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(30)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(100)\nStageOffset_Y_Tube(-200)\nSample_Bias(-0.5)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(-35)\nAux1MaxVoltage(7)\nAux2MaxVoltage(7)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(12)\nAux1MaxVoltage(9)\nAux2MaxVoltage(9)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(-10)\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(-10)\nStageOffset_Y_Tube_ADD(-10)\nSample_Bias(0.3)\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nAux2MaxVoltage(12)\n</cmd>",
+        "<cmd>\nAux2MaxVoltage(110)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(90)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(50)\n</cmd>",
+        "<cmd>\nSample_Bias(-1.0)\nAux1MaxVoltage(12)\nAux2MaxVoltage(12)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nScanEnabled(false)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(20)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(30)\n</cmd>",
+        "<cmd>\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nSample_Bias(1.2)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(-100)\n</cmd>",
+        "<cmd>\nScanEnabled(false)\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(240)\nAux2MaxVoltage(240)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(-100)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube(-350)\n</cmd>",
+        "<cmd>\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(5)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube(130)\n</cmd>",
+        "<cmd>\nSample_Bias(-0.4)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(15)\nStageOffset_Y_Tube_ADD(15)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(350)\nStageOffset_Y_Tube(-250)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(-12)\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(25)\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(60)\n</cmd>",
+        "<cmd>\nSample_Bias(-1.0)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(0)\nStageOffset_Y_Tube_ADD(-10)\nAux1MaxVoltage(9)\nAux2MaxVoltage(9)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(10)\nStageOffset_Y_Tube(-90)\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(13)\nAux2MaxVoltage(13)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(-120)\nStageOffset_Y_Tube_ADD(-80)\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(200)\nAux2MaxVoltage(200)\n</cmd>",
+        "<cmd>\nSample_Bias(1.5)\nAux1MaxVoltage(16)\nAux2MaxVoltage(16)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nScanEnabled(false)\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(250)\n</cmd>",
+        "<cmd>\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nAux2MaxVoltage(95)\n</cmd>",
+        "<cmd>\nSample_Bias(-1)\nStageOffset_X_Tube(0)\nStageOffset_Y_Tube(0)\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(-15)\n</cmd>",
+        "<cmd>\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(10)\n</cmd>",
+        "<cmd>\nSample_Bias(1)\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(200)\nStageOffset_Y_Tube(-250)\nAux1MaxVoltage(20)\nAux2MaxVoltage(10)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(40)\nStageOffset_Y_Tube_ADD(40)\nSample_Bias(-0.9)\nAux1MaxVoltage(14)\nAux2MaxVoltage(14)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(50)\nStageOffset_Y_Tube(100)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(60)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube(-85)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(5)\nStageOffset_Y_Tube_ADD(5)\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(-250)\nStageOffset_Y_Tube(150)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(-25)\nStageOffset_Y_Tube_ADD(10)\n</cmd>",
+        "<cmd>\nSample_Bias(1.0)\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(-80)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(300)\nStageOffset_Y_Tube(10)\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(80)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(-10)\nStageOffset_Y_Tube(-10)\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nSample_Bias(0.9)\n</cmd>",
+        "<cmd>\nSample_Bias(-0.75)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(-300)\n</cmd>",
+        "<cmd>\nAux2MaxVoltage(22.5)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(-90)\nStageOffset_Y_Tube(-90)\n</cmd>",
+        "<cmd>\nSample_Bias(-1.2)\n</cmd>",
+        "<cmd>\nSample_Bias(-0.8)\nAux1MaxVoltage(50)\nAux2MaxVoltage(50)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(20)\nSample_Bias(-1.5)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nSample_Bias(1.0)\nAux1MaxVoltage(37.5)\nAux2MaxVoltage(37.5)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(-2)\n</cmd>",
+        "<cmd>\nSample_Bias(-0.2)\n</cmd>",
+        "<cmd>\nSample_Bias(-0.8)\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(3)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(-20)\nAux1MaxVoltage(4)\nAux2MaxVoltage(4)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(0)\nStageOffset_Y_Tube(0)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(100)\n</cmd>",
+        "<cmd>\nSample_Bias(1.5)\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(25)\nSample_Bias(2.0)\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(-300)\nStageOffset_Y_Tube(-300)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(120)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube(60)\nSample_Bias(-2.0)\nAux1MaxVoltage(12)\nAux2MaxVoltage(12)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube(220)\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(100)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(-90)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(200)\nAux1MaxVoltage(15)\nAux2MaxVoltage(15)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(30)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(1)\nStageOffset_Y_Tube_ADD(1)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(-40)\n</cmd>",
+        "<cmd>\nTipFix()\nAux1MaxVoltage(15)\nAux2MaxVoltage(15)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nTipFix()\n</cmd>",
+        "<cmd>\nScan_Speed(0.2)\nScanEnabled(false)\n</cmd>",
+        "<cmd>\nTipFix()\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nDriftCompensation()\nScan_Speed(0.3)\nStageOffset_X_Tube(40)\nStageOffset_Y_Tube(-40)\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nScan_Speed(0.7)\nSample_Bias(0.7)\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nScan_Speed(0.6)\n</cmd>",
+        "<cmd>\nTipFix()\n</cmd>",
+        "<cmd>\nTipFix()\nScan_Speed(0.3)\n</cmd>",
+        "<cmd>\nDriftCompensation()\nAux2MaxVoltage(150)\n</cmd>",
+        "<cmd>\nTipFix()\nStageOffset_X_Tube(100)\nStageOffset_Y_Tube(0)\nAux1MaxVoltage(20)\nAux2MaxVoltage(20)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nDriftCompensation()\n</cmd>",
+        "<cmd>\nScan_Speed(1.5)\nAux2MaxVoltage(150)\n</cmd>",
+        "<cmd>\nScan_Speed(0.9)\nStageOffset_X_Tube(-50)\nStageOffset_Y_Tube(120)\nAux1MaxVoltage(18)\nAux2MaxVoltage(18)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nDriftCompensation()\n</cmd>",
+        "<cmd>\nDriftCompensation()\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nTipFix()\nStageOffset_X_Tube_ADD(10)\nStageOffset_Y_Tube_ADD(-5)\n</cmd>",
+        "<cmd>\nSwitchScanarea()\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nSwitchScanarea()\nStageOffset_X_Tube_ADD(15)\n</cmd>",
+        "<cmd>\nTipFix()\nDriftCompensation()\nSwitchScanarea()\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(50)\nStageOffset_Y_Tube(50)\nSwitchScanarea()\n</cmd>",
+        "<cmd>\nDriftCompensation()\nSwitchScanarea()\n</cmd>",
+        "<cmd>\nScan_Speed(0.6)\nSwitchScanarea()\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nScan_Speed(1.0)\nSwitchScanarea()\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nSwitchScanarea()\n</cmd>",
+        "<cmd>\nSwitchScanarea()\n</cmd>",
+        "<cmd>\nSwitchScanarea()\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nScanEnabled(false)\nStageOffset_X_Tube(0)\nStageOffset_Y_Tube(0)\n</cmd>",
+        "<cmd>\nScanEnabled(false)\nTipFix()\nScanEnabled(true)\n</cmd>",
+        "None. Shifting left by 0.5 nm from X = -350 would result in X = -350.5 nm, exceeding the minimum range of -350 nm.",
+        "None. The requested position X = 400 nm exceeds the maximum scanning range of 350 nm.",
+        "None. The requested position Y = -500 nm exceeds the minimum scanning range of -350 nm.",
+        "None. The requested position (750, 750) exceeds the accessible area. Both X and Y must be within -350 to 350 nm.",
+        "None. Moving 100 nm right from X = 300 would result in X = 400 nm, which exceeds the maximum range of 350 nm.",
+        "None. Moving 200 nm down from Y = -200 would result in Y = -400 nm, which exceeds the minimum range of -350 nm.",
+        "None. A scan area of 800x800 nm centered at origin would require positions from -400 to +400 nm, exceeding the accessible range of -350 to 350 nm.",
+        "None. Sample bias cannot be set to 0 V according to the system constraints.",
+        "None. Sample bias cannot be set to 0 V. Please specify a non-zero bias value.",
+        "None. Stage rotation is not supported by the available commands.",
+        "None. Temperature control is not available in the current command set.",
+        "None. Direct tunneling current control is not available. You can adjust the sample bias instead.",
+        "None. Please specify the exact distance in nanometers for the movement (e.g., \"move 10 nm right\").",
+        "None. Please specify the exact scan size in nanometers (e.g., \"scan 10x10 nm\").",
+        "None. Please specify the exact bias voltage value (e.g., \"apply +1.5 V bias\").",
+        "None. Scan speed cannot be negative. Please specify a positive value.",
+        "None. Sample bias cannot be set to 0 V. Please specify a non-zero bias value.",
+        "None. Scan speed must be greater than 0. Please specify a positive value.",
+        "None. Scan range cannot be negative. Please specify positive values for scan dimensions.",
+        "None. Feedback parameter control is not available in the current command set.",
+        "None. Please specify the exact coordinates in nanometers (e.g., \"move to X = 0, Y = 0\").",
+        "None. Please specify the exact scan size in nanometers (e.g., \"scan 50x50 nm\").",
+        "None. Please specify the exact bias voltage value (e.g., \"apply +1.0 V bias\").",
+        "None. Please specify the exact scan speed value (e.g., \"set scan speed to 1.5\").",
+        "None. Please specify the exact distance in nanometers (e.g., \"move 10 nm up\")."
+    ],
+    "raw_outputs": [
+        {
+            "content": "<cmd>\nStageOffset_X_Tube_ADD(-10)\nStageOffset_Y_Tube_ADD(5)\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(true)\n</cmd>",
+            "reasoning": "We need answer user's request. Need produce final with cmd block. User: \"shift -10 nm in X and +5 nm in Y, scan 6×6nm\". Commands: StageOffset_X_Tube_ADD(-10), StageOffset_Y_Tube_ADD(5), Aux1MaxVoltage(6), Aux2MaxVoltage(6), ScanEnabled(true) likely. Need check accessible range? Current position unknown? The instruction says user command should NOT cause probe exceed scanning area. Since no current offset given, maybe assume relative shifts acceptable? But if current unknown, could be risk. In previous examples we accepted relative shifts without current state. Need maybe if cannot guarantee? But likely expected relative commands. Need ensure scan enabled? \"scan 6x6nm\" implies set scan range and start scan. Output multi-line cmd. No bias.\nNeed think if scan speed? no. final only cmd. Ensure values type? numeric.\n",
+            "usage": {
+                "prompt_tokens": 908,
+                "completion_tokens": 246
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                22,
+                156,
+                220
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube_ADD(8)\n</cmd>",
+            "reasoning": "User: “translate the probe 8 nm along the x-axis”. Need command StageOffset_X_Tube_ADD(8). Must enclose in cmd block. Need ensure no bias change. Output only command.\n",
+            "usage": {
+                "prompt_tokens": 801,
+                "completion_tokens": 63
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                205,
+                164,
+                196
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_Y_Tube(200)\n</cmd>",
+            "reasoning": "We need answer user's request. Need produce final with command. User: \"Go to Y position 200 nanometers\". Command StageOffset_Y_Tube(arg) coordinate value of X? typo but Y coordinate in nm. Range -350 to 350, 200 valid. Output only cmd block likely.\n",
+            "usage": {
+                "prompt_tokens": 755,
+                "completion_tokens": 92
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                132,
+                170,
+                44
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube(150)\n</cmd>",
+            "reasoning": "We need answer user: \"Move the tip to absolute X = 150 nm\". Need output cmd only likely. Need ensure within -350 to 350. X=150 ok. Use StageOffset_X_Tube(150). Final with cmd tags.\n",
+            "usage": {
+                "prompt_tokens": 774,
+                "completion_tokens": 83
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                13,
+                98,
+                11
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube(10)\nStageOffset_Y_Tube(90)\n</cmd>",
+            "reasoning": "Need answer command. Ensure coordinates within -350 to 350. 10,90 ok. Output cmd block.\n",
+            "usage": {
+                "prompt_tokens": 810,
+                "completion_tokens": 60
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                291,
+                144,
+                86
+            ]
+        },
+        {
+            "content": "<cmd>\nAux1MaxVoltage(22)\nAux2MaxVoltage(22)\n</cmd>",
+            "reasoning": "We need answer user: \"widen X and Y scan to 22 nm\". Need translate to commands. Need use same language? User English. Need think. Commands: Aux1MaxVoltage scan range X, Aux2MaxVoltage scan range Y. \"widen ... to 22 nm\" likely set scan size to 22 nm. But word widen could mean increase by? They say to 22 nm, so set both to 22. Need ensure valid? Scan range maybe positive? 22 okay. Output multi-line cmd. Need no extra. Final with cmd.\n",
+            "usage": {
+                "prompt_tokens": 775,
+                "completion_tokens": 152
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                121,
+                137,
+                76
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube(30)\n</cmd>",
+            "reasoning": "We need answer user's request. Need produce command. User: \"move to X = 30 nm, keep Y unchanged\". Need use StageOffset_X_Tube(arg) coordinate value. Range -350 to 350, 30 ok. Output only cmd block likely. Need ensure tags exact.\n",
+            "usage": {
+                "prompt_tokens": 755,
+                "completion_tokens": 87
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                260,
+                243,
+                106
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube(100)\nStageOffset_Y_Tube(-200)\nSample_Bias(-0.5)\n</cmd>",
+            "reasoning": "We need answer user's request. Need produce final with cmd. Need ensure valid: go to X=100 Y=-200 within -350 to 350. apply -0.5 V sample bias. Commands: StageOffset_X_Tube(100), StageOffset_Y_Tube(-200), Sample_Bias(-0.5). Sample bias cannot be 0, okay. Need maybe order stage then bias. Final only cmd block.\n",
+            "usage": {
+                "prompt_tokens": 821,
+                "completion_tokens": 142
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                61,
+                153,
+                86
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_Y_Tube_ADD(-35)\nAux1MaxVoltage(7)\nAux2MaxVoltage(7)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "We need respond to user: \"step down 35 nm in Y and scan 7×7\". Need translate to commands. Need think in English? User English, okay. Need determine commands:\n- \"step down 35 nm in Y\": move Y downward by 35 nm. In coordinate Y likely positive up? Down negative. Use StageOffset_Y_Tube_ADD(-35).\n- \"scan 7×7\" likely set scan range X and Y to 7 nm. Commands Aux1MaxVoltage(arg) = scan range of X direction in nanometers; Aux2MaxVoltage(arg) = scan range of Y direction in nanometers. Also maybe need enable scan? \"and scan 7x7\" could mean set scan size to 7 nm by 7 nm, not start? Could include ScanEnabled(True)? The command ScanEnabled true to start scan. \"scan 7x7\" likely set scan area 7x7 and maybe start? Previous instructions \"shut down the scan\" used ScanEnabled(false). For \"step down ... and scan 7x7\" likely means move stage and set scan size. Does it imply start scanning? The word scan might mean perform scan. But commands include ScanEnabled. If user says scan 7x7, probably set scan range to 7x7; if scan is already running? Need best interpretation. If instructions can be accomplished by multiple step commands sequentially. We can set Aux1MaxVoltage(7), Aux2MaxVoltage(7). Do we need ScanEnabled(True)? If \"scan\" as verb means start scanning at 7x7. But if scan was shut down previous turn, then this likely wants to scan after moving. So include ScanEnabled(True). However maybe changing scan range while scanning? Could be okay. Need not change sample bias.\nCoordinate constraints: We don't know current position, so can't validate. But ADD command could exceed range; instructions say user command should NOT cause probe to exceed scanning area. We don't know current offset. In previous tasks they didn't track state? We may need assume valid unless known. Could mention if current position near boundary? But expected output likely just commands. Need no None unless cannot. Since no current position, proceed.\nOrder: move first then set scan size then enable scan? \"step down ... and scan\" Move then scan. If enabling scan, likely after moving and setting range. Output:\n<cmd>\nStageOffset_Y_Tube_ADD(-35)\nAux1MaxVoltage(7)\nAux2MaxVoltage(7)\nScanEnabled(True)\n</cmd>\nCould there be Scan_Speed? No. \"7x7\" scan size in nm. Aux commands named MaxVoltage but description says scan range. Use 7.\nNeed final only cmd. Ensure boolean capitalization? Example CommandB(True). Use True.\n",
+            "usage": {
+                "prompt_tokens": 768,
+                "completion_tokens": 639
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                7,
+                100,
+                49
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_Y_Tube_ADD(12)\nAux1MaxVoltage(9)\nAux2MaxVoltage(9)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "We need respond to user: \"increase Y by 12 nm in the positive direction and scan 9×9\". Need produce commands. Need think in English same language. Need parse. Commands:\nStageOffset_Y_Tube_ADD(arg) distance move in Y nm positive? likely yes.\nAux1MaxVoltage(arg) scan range of X direction in nm. Aux2MaxVoltage(arg) scan range of Y direction in nm. ScanEnabled(true) to start scan.\n\"increase Y by 12 nm in positive direction\" -> StageOffset_Y_Tube_ADD(12).\n\"scan 9×9\" likely set scan range X=9, Y=9 and enable scan. Need ensure coordinate range accessible? current unknown. But command to move +12 may exceed if near boundary? We don't know current coordinate. The instruction only shift; maybe assume valid? But need not cause probe exceed. Since no current position, cannot validate. Usually output commands if valid. Need sequence: move, set scan ranges, start scan.\nOrder: shift first then set scan? likely.\nAux1MaxVoltage(9), Aux2MaxVoltage(9), ScanEnabled(True).\nNeed enclose multi-line cmd.\nNo sample bias.\nFinal concise.\n",
+            "usage": {
+                "prompt_tokens": 756,
+                "completion_tokens": 305
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                99,
+                334,
+                158
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube_ADD(-10)\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "We need answer user's request. Need produce final with cmd. User: \"move 10 nm left and scan a 5x5 nm area\". Need commands: move left 10 nm = StageOffset_X_Tube_ADD(-10). Scan 5x5 nm area: Aux1MaxVoltage (scan range X) arg = 5? Aux2MaxVoltage = 5? Then start scan? The phrase \"scan a 5x5 nm area\" likely set scan range and enable scan. Commands list: Aux1MaxVoltage(arg) ... scan range X direction in nm; Aux2MaxVoltage Y; ScanEnabled(true) start scan. Need check coordinate range? We don't know current position. Move 10 left could exceed -350/350 if current near edge? No current state given. Usually assume not exceeding? The instruction says user command should NOT cause probe exceed scanning area. Without current coordinates, we cannot verify. But for ADD relative move, maybe assume valid? Previous examples accepted without current. We need output commands. Need maybe set scan range before enabling? Yes. Could also not change sample bias. So:\n<cmd>\nStageOffset_X_Tube_ADD(-10)\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(True)\n</cmd>\nNeed ensure argument types: boolean lowercase? In examples user command stop scan used ScanEnabled(false). But system says CommandB(True). In provided command list says true to start scan and false to stop. In final should probably use True? They said provide appropriate values within parentheses; type defined maybe bool? In Python bool capital True? Previous assistant used false lowercase? In first? For stop scan used ScanEnabled(false). User didn't correct. But exact format sample uses CommandB(True). Need choose True? The command arg_description: true to start the scan and false to stop the scan. Could be lowercase true? In CSV maybe arg type bool? In prior final used false lowercase. To be safe? The instruction: All commands must be enclosed ... CommandB(True). That suggests Python booleans capital. But previous model used lowercase false. Hmm. We need likely use True. But if system expects lowercase? The sample format explicitly True. Use True.\nNeed consider if \"scan a 5x5 nm area\" means after moving, enable scan. Yes.\nFinal only cmd block.\n",
+            "usage": {
+                "prompt_tokens": 768,
+                "completion_tokens": 543
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                118,
+                117,
+                189
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube_ADD(-10)\nStageOffset_Y_Tube_ADD(-10)\nSample_Bias(0.3)\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(true)\n</cmd>",
+            "reasoning": "We need answer user's request. Need produce commands. User: \"move 10 nm left and 10 nm down, apply +0.3 V, scan 8×8\". Need consider coordinate accessibility? We don't know current position. Incremental moves are okay unless could exceed? Since no current, assume valid? But policy says user command should NOT cause probe to exceed scanning area. Without current can't know, but likely use commands. Left = negative X, down = negative Y? Previous: right +X, down -Y. apply +0.3 sample bias. scan 8x8 set Aux1MaxVoltage and Aux2MaxVoltage 8 and ScanEnabled true. Need output cmd block. Ensure sample bias can not be 0, 0.3 ok.\n",
+            "usage": {
+                "prompt_tokens": 853,
+                "completion_tokens": 226
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                226,
+                181,
+                189
+            ]
+        },
+        {
+            "content": "<cmd>\nAux2MaxVoltage(12)\n</cmd>",
+            "reasoning": "We need answer user: \"adjust Y scan height to 12 nm\". Need command Aux2MaxVoltage(arg) described as scan range of Y direction in nanometers. Need enclose cmd. No scan start/stop. Need maybe ensure within -350 to350? scan range 12 positive valid. Output only cmd block likely.\n",
+            "usage": {
+                "prompt_tokens": 753,
+                "completion_tokens": 93
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                151,
+                29,
+                15
+            ]
+        },
+        {
+            "content": "<cmd>\nAux2MaxVoltage(110)\n</cmd>",
+            "reasoning": "The user wants to set the vertical scan height to 110 nanometers.\nLooking at the available commands:\n- `Aux2MaxVoltage(arg)` is described as \"scan range of the Y direction in nanometers\".\nSo I should use `Aux2MaxVoltage(110)`.\n\nCheck constraints:\n- Valid argument type: number (nanometers).\n- Scan area limits: The scan range is 110 nm, which is well within the -350 to 350 nm accessible area limits (assuming it's centered or offset, 110 is a valid size).\n- Format: `<cmd>\\nCommand(arg)\\n</cmd>`\n\nCommand: `Aux2MaxVoltage(110)`\n",
+            "usage": {
+                "prompt_tokens": 774,
+                "completion_tokens": 178
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                37,
+                132,
+                165
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube_ADD(90)\n</cmd>",
+            "reasoning": "We need answer user's request. Need produce command. User: \"Slide the tip 90 nanometers to the right\". Right likely +X. Use StageOffset_X_Tube_ADD(90). Need only cmd block. Ensure no exceed? We don't know current position, but ADD command may be assumed. The instruction says coordinate range accessible -350 to 350. We don't have current coordinates; but previous commands in conversation may imply current? Let's track? The user sequence maybe independent? In prior turns: Set Y scan range 150. Move tip left by 30 nm. Move tip 100 nm right. Now slide tip 90 nm right. If starting at unknown 0? We need maybe consider cumulative stage offset? The system likely expects relative ADD. If starting at 0, after left 30 = -30, right 100 = 70, right 90 = 160, within -350 to 350. Good. Output cmd.\n",
+            "usage": {
+                "prompt_tokens": 756,
+                "completion_tokens": 243
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                191,
+                24,
+                80
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube_ADD(50)\n</cmd>",
+            "reasoning": "We need answer user's request. Need produce command. User: \"Adjust the scanner 50 nanometers right\". In previous context, right likely +X. Need use StageOffset_X_Tube_ADD(50). Need ensure not exceed scanning area? No current position unknown? We can assume relative move okay? They said coordinate range accessible is -350 to 350, but we don't know current state from previous? In this conversation previous commands: set X -120, then move +100 -> -20. Now adjust +50 -> 30, within range. Y maybe 40? Actually first lower scanner head by 40 mapped to Y_ADD(-40) weird. But X known maybe -20, so +50 = 30 valid. Output cmd block.\n",
+            "usage": {
+                "prompt_tokens": 755,
+                "completion_tokens": 196
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                120,
+                53,
+                80
+            ]
+        },
+        {
+            "content": "<cmd>\nSample_Bias(-1.0)\nAux1MaxVoltage(12)\nAux2MaxVoltage(12)\nScanEnabled(true)\n</cmd>",
+            "reasoning": "User wants sample bias -1.0 V and scan 12x12 nm. Use Sample_Bias(-1.0), Aux1MaxVoltage(12), Aux2MaxVoltage(12). Should we start scan? Instruction says \"apply ... and scan 12x12 nm\". Ambiguous whether to start. Prior examples started scan. But current position not mentioned; likely just set bias and scan range. However \"scan\" might imply start. Previous similar \"apply +1.8 V and scan 12×12 at current position\" used ScanEnabled(true). Here no \"at current position\" but says scan. I'd include ScanEnabled(true) to execute scan. Need ensure bias not zero okay. Output cmd block.\n",
+            "usage": {
+                "prompt_tokens": 842,
+                "completion_tokens": 199
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                225,
+                3,
+                167
+            ]
+        },
+        {
+            "content": "<cmd>\nScanEnabled(false)\n</cmd>",
+            "reasoning": "User: “stop measuring with the scanner”. Need output command. Map to ScanEnabled(False). Must enclose in <cmd>. Ensure bool lowercase? Previous examples used false. Command list says true/false. Need final concise.\n",
+            "usage": {
+                "prompt_tokens": 717,
+                "completion_tokens": 61
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                130,
+                135,
+                154
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_Y_Tube_ADD(20)\n</cmd>",
+            "reasoning": "The user wants to shift in the y direction by 20 nm.\nLooking at the commands:\nStageOffset_Y_Tube(arg) - Coordinate value of Y in nanometers.\nStageOffset_Y_Tube_ADD(arg) - Distance to be move in Y, in nanometers.\n\nThe user says \"shift in y direction by 20 nm\", which implies an additive movement.\nSo I should use StageOffset_Y_Tube_ADD(20).\nCheck constraints:\nAccessible range is -350 to 350 nm. Since we don't know the current position, but the prompt says \"The user command should NOT causes the probe to exceed the scanning area.\"\nWait, if I don't know the current position, I usually just output the ADD command unless it's obviously impossible. Let's assume it's valid.\nI will output StageOffset_Y_Tube_ADD(20).\n",
+            "usage": {
+                "prompt_tokens": 747,
+                "completion_tokens": 210
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                157,
+                105,
+                99
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_Y_Tube_ADD(30)\n</cmd>",
+            "reasoning": "We need answer user: \"shift the probe by 30 nm in Y direction\". Need output command in cmd tags. Need consider if current position unknown? We have previous shifts: +50 X, +10 Y, +30 X, now +30 Y. But using ADD is relative. If accessible range -350 to 350 in both x/y. Unknown initial offset, but assuming ADD is safe? We only need translate instruction. Use StageOffset_Y_Tube_ADD(30). Ensure format. Final only cmd.\n",
+            "usage": {
+                "prompt_tokens": 749,
+                "completion_tokens": 137
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                105,
+                99,
+                157
+            ]
+        },
+        {
+            "content": "<cmd>\nScanEnabled(True)\n</cmd>",
+            "reasoning": "We need answer user's request: \"enable scanning with current settings\". Need use commands. Need produce final with cmd block. Need likely just ScanEnabled(True) or true? The command list says ScanEnabled(arg) ... true to start scan and false to stop the scan. Example in prompt: CommandB(True). Function argument should follow type defined; maybe boolean. In previous assistant output used true lowercase, but prompt says CommandB(True) exact format? They show true in description but sample uses True. We need decide. Usually in these tasks Python-like commands, booleans True/False? The table says true/false lower. But prompt exact format example uses CommandB(True). User: enable scanning with current settings. So only ScanEnabled(True) (or true). Keep current settings unchanged. Ensure no other commands. Need final only <cmd>...</cmd>.\n",
+            "usage": {
+                "prompt_tokens": 748,
+                "completion_tokens": 189
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                241,
+                323,
+                243
+            ]
+        },
+        {
+            "content": "<cmd>\nSample_Bias(1.2)\n</cmd>",
+            "reasoning": "We need answer user: \"Set the sample bias to 1.2 V\". Need use commands. Sample_Bias(arg) value cannot be 0. 1.2 valid. Need output multi-line cmd. Need maybe only command. Ensure no extra? Final should contain <cmd> block.\n",
+            "usage": {
+                "prompt_tokens": 737,
+                "completion_tokens": 81
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                34,
+                302,
+                281
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_Y_Tube_ADD(-100)\n</cmd>",
+            "reasoning": "The user wants to subtract 100 nm from the Y position. This is a relative move, so I should use StageOffset_Y_Tube_ADD with -100.\n\nI don't know the current Y position, so I can't verify if this would go out of bounds. However, the instruction says to use the commands as given. The relative move command doesn't require knowing the absolute position. But the rule says \"The user command should NOT causes the probe to exceed the scanning area.\" Since I don't know the current position, I can't be sure. \n\nHowever, looking at the previous interactions, when the user asked to \"move 100 nm up from Y = 280\", I refused because I could calculate the absolute position. Here, the user is asking for a relative move without specifying the current position. I think the reasonable interpretation is to just execute the relative command since I have no way to know the current position. The system would presumably handle bounds checking at execution time.\n\nLet me just use StageOffset_Y_Tube_ADD(-100).\n",
+            "usage": {
+                "prompt_tokens": 792,
+                "completion_tokens": 247
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                288,
+                9,
+                44
+            ]
+        },
+        {
+            "content": "<cmd>\nScanEnabled(false)\n</cmd>",
+            "reasoning": "The user is asking to stop scanning now. Looking at the available commands, I need to use `ScanEnabled(arg)` where the argument should be `false` to stop the scan.\n\nThis is a straightforward command that can be executed directly.\n",
+            "usage": {
+                "prompt_tokens": 706,
+                "completion_tokens": 65
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                206,
+                130,
+                32
+            ]
+        },
+        {
+            "content": "<cmd>\nAux1MaxVoltage(240)\nAux2MaxVoltage(240)\nScanEnabled(true)\n</cmd>",
+            "reasoning": "We need answer user: \"set both scan sizes to 240 nm and resume scanning\". Need output commands. Need think in English? User English, okay. Need ensure valid: Aux1MaxVoltage and Aux2MaxVoltage set scan range X/Y nm. ScanEnabled(true) to start/resume. 240 within -? scan size positive. No sample bias. Need exact format multiline cmd. Could include both lines. Final only commands likely.\n",
+            "usage": {
+                "prompt_tokens": 785,
+                "completion_tokens": 130
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                190,
+                213,
+                311
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube_ADD(-100)\n</cmd>",
+            "reasoning": "We need answer user: \"move 100 nm left along X\". Need use command. Need final only command block. Left likely negative X. Use StageOffset_X_Tube_ADD(-100). Check constraints? We don't know current position; but command could exceed range? User asks relative move; likely assume valid. Output multi-line cmd.\n",
+            "usage": {
+                "prompt_tokens": 752,
+                "completion_tokens": 96
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                189,
+                13,
+                117
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_Y_Tube(-350)\n</cmd>",
+            "reasoning": "We need answer user: \"set Y coordinate to -350 nm\". Need command StageOffset_Y_Tube(arg) coordinate value in nm. Range -350 to 350 inclusive. So command StageOffset_Y_Tube(-350). Need enclosed in multi-line cmd block. Ensure only one command.\n",
+            "usage": {
+                "prompt_tokens": 773,
+                "completion_tokens": 89
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                284,
+                202,
+                92
+            ]
+        },
+        {
+            "content": "<cmd>\nScanEnabled(True)\n</cmd>",
+            "reasoning": "We need answer user's request: \"enable scan mode.\" Need use command list. Command ScanEnabled(arg) true to start scan false to stop. Need output in cmd block. Need ensure not change bias etc. Need likely just ScanEnabled(True). Need maybe language Python True or true? User examples? The command description says true/false but in programmatic commands likely boolean. In format sample CommandB(True). So use True. Final only cmd block.\n",
+            "usage": {
+                "prompt_tokens": 727,
+                "completion_tokens": 107
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                0,
+                330,
+                323
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_Y_Tube_ADD(5)\n</cmd>",
+            "reasoning": "The user wants to shift in y direction by 5 nm.\nI should use the command StageOffset_Y_Tube_ADD with argument 5.\nChecking constraints:\n- Coordinate range is -350 to 350 nm.\n- Adding 5 nm to current Y offset. I don't know the current offset, but the prompt says \"The user command should NOT causes the probe to exceed the scanning area.\" Usually, if the current position is unknown, we assume it's within bounds and adding a small amount is okay, unless we are tracking state. Wait, I don't have state tracking in this prompt format, so I just output the command.\nWait, let's output the command.\nCommand: StageOffset_Y_Tube_ADD(5)\nNo other commands needed.\nFormat:\n<cmd>\nStageOffset_Y_Tube_ADD(5)\n</cmd>\n",
+            "usage": {
+                "prompt_tokens": 746,
+                "completion_tokens": 206
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                157,
+                105,
+                99
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_Y_Tube(130)\n</cmd>",
+            "reasoning": "The user wants to move the stage to Y = 130 nm.\nLooking at the available commands:\n`StageOffset_Y_Tube(arg)` sets the coordinate value of Y in nanometers.\n130 nm is within the accessible range (-350 to 350 nm).\nI need to output the command in the specified format.\nCommand: `StageOffset_Y_Tube(130)`\n",
+            "usage": {
+                "prompt_tokens": 748,
+                "completion_tokens": 111
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                13,
+                82,
+                27
+            ]
+        },
+        {
+            "content": "<cmd>\nSample_Bias(-0.4)\n</cmd>",
+            "reasoning": "The user wants to decrease the sample bias to -0.4 V. Looking at the command list, Sample_Bias(arg) sets the sample bias. The description says \"the value of the sample bias. It CAN NOT be 0...\" - so -0.4 should be valid since it's not 0.\n\nThe user is explicitly requesting to change the bias to -0.4 V, so I should use Sample_Bias(-0.4).\n",
+            "usage": {
+                "prompt_tokens": 744,
+                "completion_tokens": 114
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                188,
+                31,
+                334
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube_ADD(15)\nStageOffset_Y_Tube_ADD(15)\n</cmd>",
+            "reasoning": "We need answer user: \"move diagonally 15 nm right and 15 nm up\". Need produce commands in <cmd> block. Need ensure coordinate range? We don't know current position, but command is relative ADD, no current position given. In previous responses accepted relative. Right = +X 15, up = +Y 15. Output commands sequentially.\n",
+            "usage": {
+                "prompt_tokens": 791,
+                "completion_tokens": 112
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                100,
+                91,
+                118
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube(350)\nStageOffset_Y_Tube(-250)\n</cmd>",
+            "reasoning": "We need answer user: \"move tip to (350, -250)\". Need produce commands. Need ensure within range -350 to 350 both. 350 and -250 valid. Need likely use absolute commands StageOffset_X_Tube(350) StageOffset_Y_Tube(-250). Need enclose in cmd multiline. Ensure no sample bias. Could include both. Final concise.\n",
+            "usage": {
+                "prompt_tokens": 830,
+                "completion_tokens": 126
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                13,
+                351,
+                295
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube_ADD(-12)\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(true)\n</cmd>",
+            "reasoning": "We need answer user's request. Need produce final with cmd. Need interpret: shift 12 nm left = negative X 12. keep Y. scan 6x6. Use StageOffset_X_Tube_ADD(-12), Aux1MaxVoltage(6), Aux2MaxVoltage(6), maybe ScanEnabled(true) because scan 6x6 implies start scanning? Previous responses included ScanEnabled(true). Need only if scan. Yes. Ensure within range? No current position unknown but assume okay? We cannot check current; instructions can cause exceed if current near boundary. We likely assume not. Need no bias. Output cmd block.\n",
+            "usage": {
+                "prompt_tokens": 877,
+                "completion_tokens": 174
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                156,
+                22,
+                51
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_Y_Tube_ADD(25)\n</cmd>",
+            "reasoning": "User: “move the probe 25 nm along the y-axis” No direction explicitly given, but likely positive? Prior commands: “Shift the probe y axis by 60 nanometers” used ADD(60). “translate the probe 5 nm along the y-axis” used ADD(5). For this, likely ADD(25). Need ensure within range; unknown current offset. Instruction says coordinate range accessible is -350 to 350. We don't know current position, but relative add likely safe? The previous accepted without checking. Need output only cmd. Use StageOffset_Y_Tube_ADD(25).\n",
+            "usage": {
+                "prompt_tokens": 755,
+                "completion_tokens": 154
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                162,
+                57,
+                196
+            ]
+        },
+        {
+            "content": "<cmd>\nAux1MaxVoltage(60)\n</cmd>",
+            "reasoning": "We need answer user's request. Need produce command. User: \"Set the X scan range to 60 nanometers\". Command Aux1MaxVoltage(arg) description scan range of X direction in nanometers. Argument 60. Need enclose in <cmd>.\n",
+            "usage": {
+                "prompt_tokens": 755,
+                "completion_tokens": 75
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                53,
+                170,
+                191
+            ]
+        },
+        {
+            "content": "<cmd>\nSample_Bias(-1.0)\n</cmd>",
+            "reasoning": "We need answer user: \"Set bias voltage to -1.0 V\". Need use command. Need likely just output cmd. Need ensure sample bias not 0, -1.0 okay. Final concise.\n",
+            "usage": {
+                "prompt_tokens": 744,
+                "completion_tokens": 63
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                30,
+                2,
+                87
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube(0)\nStageOffset_Y_Tube_ADD(-10)\nAux1MaxVoltage(9)\nAux2MaxVoltage(9)\n</cmd>",
+            "reasoning": "We need answer user's request. Need produce commands. User: \"return to X = 0, shift Y by -10 nm, scan area 9x9 nm\". Need set X to 0 (absolute), shift Y by -10 nm relative (Y_Tube_ADD(-10)), scan range X and Y 9 nm. Commands: StageOffset_X_Tube(0), StageOffset_Y_Tube_ADD(-10), Aux1MaxVoltage(9), Aux2MaxVoltage(9). Check bounds? If current unknown, but relative -10 likely within accessible? We can assume? The coordinate range accessible -350 to 350. Without current can't guarantee, but likely okay. \"scan area 9x9 nm\" is scan range. Need output cmd block only maybe. Ensure sample bias unchanged.\n",
+            "usage": {
+                "prompt_tokens": 789,
+                "completion_tokens": 222
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                114,
+                262,
+                146
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube(10)\nStageOffset_Y_Tube(-90)\n</cmd>",
+            "reasoning": "We need answer user's request. Need produce final with cmd block. User: move the stage to X = 10 nm, Y = −90 nm. Commands: StageOffset_X_Tube(arg), StageOffset_Y_Tube(arg). Coordinates within -350 to 350. Need maybe both commands sequential. Ensure enclose in multi-line cmd. Negative sign okay. No scan etc.\n",
+            "usage": {
+                "prompt_tokens": 754,
+                "completion_tokens": 115
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                26,
+                13,
+                27
+            ]
+        },
+        {
+            "content": "<cmd>\nAux1MaxVoltage(13)\nAux2MaxVoltage(13)\nScanEnabled(true)\n</cmd>",
+            "reasoning": "Need to output commands. User says scan 13x13 nm. Need likely set scan range X/Y to 13 nm and start scan? Previous \"quick 3x3 nm scan\" output enabled true. \"scan 13x13 nm\" likely start scan. Need use Aux1MaxVoltage for X range and Aux2MaxVoltage for Y. No speed mentioned. Must not change bias. Enclose in cmd. Need maybe true.\n",
+            "usage": {
+                "prompt_tokens": 786,
+                "completion_tokens": 129
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                309,
+                225,
+                56
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube_ADD(-120)\nStageOffset_Y_Tube_ADD(-80)\n</cmd>",
+            "reasoning": "We need answer user's request. Need translate stage -120 nm X and -80 nm Y. Need use commands. Check coordinate range accessible -350 to 350 nm in both. But we don't know current position. However instruction likely acceptable? The system says user command should NOT causes probe to exceed scanning area. Without current offset, cannot guarantee. But typical these tasks assume starting from 0 or relative moves within? Previous commands accepted relative moves. Need output commands only? The instruction: if cannot carried out or params invalid respond None first and reason. Here parameters valid. Need StageOffset_X_Tube_ADD(-120), StageOffset_Y_Tube_ADD(-80). Enclose in cmd multiline. Ensure no extra? Final only cmd.\n",
+            "usage": {
+                "prompt_tokens": 846,
+                "completion_tokens": 193
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                209,
+                164,
+                196
+            ]
+        },
+        {
+            "content": "<cmd>\nAux1MaxVoltage(200)\nAux2MaxVoltage(200)\n</cmd>",
+            "reasoning": "We need answer user: \"set both X and Y scan sizes to 200 nm\". Need use commands Aux1MaxVoltage and Aux2MaxVoltage for scan range X/Y in nanometers. Need enclose in multi-line cmd. Need ensure not change bias. Could be 200 valid. Coordinate accessible -350 to 350, scan range 200 within? Yes likely. Output exact.\n",
+            "usage": {
+                "prompt_tokens": 780,
+                "completion_tokens": 120
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                190,
+                121,
+                311
+            ]
+        },
+        {
+            "content": "<cmd>\nSample_Bias(1.5)\nAux1MaxVoltage(16)\nAux2MaxVoltage(16)\nScanEnabled(true)\n</cmd>",
+            "reasoning": "We need answer user: \"start a 16×16 nm scan with 1.5V\". Need translate to commands. Need think in English same language. Need use commands: Aux1MaxVoltage X scan range nm, Aux2MaxVoltage Y scan range nm, Sample_Bias value sample bias cannot be 0. User wants start scan with area 16x16 and with 1.5V. Likely set sample bias to 1.5, scan ranges 16, 16, scan enabled true. Need ensure coordinate range? No coordinates specified. Bias can be nonzero. Output multi-line cmd. Could be:\n<cmd>\nSample_Bias(1.5)\nAux1MaxVoltage(16)\nAux2MaxVoltage(16)\nScanEnabled(true)\n</cmd>\nNeed ensure arg types maybe float/int? It says value, probably ok. Final only command.\n",
+            "usage": {
+                "prompt_tokens": 746,
+                "completion_tokens": 237
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                58,
+                176,
+                134
+            ]
+        },
+        {
+            "content": "<cmd>\nScanEnabled(false)\n</cmd>",
+            "reasoning": "We need respond to user: \"end the scan session\". Need output command likely ScanEnabled(false). Need ensure only command? final with cmd block. Need consider \"end scanning\" previous. The command list includes ScanEnabled(arg) true to start scan false to stop scan. Ending scan session likely stop scan. Could maybe DriftCompensation/TipFix? No. So output cmd.\n",
+            "usage": {
+                "prompt_tokens": 708,
+                "completion_tokens": 94
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                263,
+                154,
+                140
+            ]
+        },
+        {
+            "content": "<cmd>\nAux1MaxVoltage(250)\n</cmd>",
+            "reasoning": "We need answer user's request. Need produce final with command. Need understand mapping: \"set horizontal scan size to 250 nm\" likely Aux1MaxVoltage(arg) scan range of X direction in nanometers. Need ensure within accessible? Scan range is scan size maybe width. 250 nm okay? Need maybe coordinate not causing probe exceed scanning area? If changing scan size only no current position known? Previous maybe x offset 750? Wait earlier user asked change horizontal position to 750, which we erroneously output despite constraint -350 to 350. The system says user command should NOT causes probe to exceed scanning area. But previous answer already done. Now set horizontal scan size 250. Could command be invalid if position 750 plus scan range half? But current position maybe 750? Actually earlier we allowed 750 which exceeds range. But now maybe should consider combined? The instruction only scan size. Need use Aux1MaxVoltage(250). But check: accessible coordinate range -350 to 350 both x,y. If current x is 750 from previous, any scan enabled? But command doesn't move. However setting scan size at x=750 could exceed area if scan centered at 750? The prompt says user's instructions should not causes probe to exceed scanning area. Setting scan size alone with current offset 750 might cause probe scan area 625 to 875 if enabled, exceeding. But we are not enabling scan. But \"horizontal scan size\" could mean scan range, independent. However because prior position invalid? We need maybe respond None because current horizontal position 750 is outside accessible area, so cannot set scan size without causing exceed? Need infer from conversation.\n\nWe are robot controlling SPM. Commands: Aux1MaxVoltage scan range X. User: set horizontal scan size to 250 nm. The value is valid (likely positive). Does it cause probe to exceed scanning area? If scan area is centered at stage offset. If offset currently 750 from previous (though invalid), 250 nm range means from 625 to 875, exceeding -350 to 350. But maybe stage offset was set to 750 (invalid) and should not have happened. Should we now output None? The current state is problematic. But maybe each user request is independent? The conversation includes prior commands. We need maintain state? Usually yes. But first request was invalid; model failed. Now to correct maybe need say None? The current instruction itself is just set scan size, can be done by Aux1MaxVoltage(250). The constraint says \"The user command should NOT causes the probe to exceed the scanning area.\" If setting scan size while at x=750 would cause probe to exceed if scan active, but scan not necessarily active. But \"scan size\" means the scan area size; if current offset outside, the scan area is outside. We can't guarantee no exceed. But maybe Aux1MaxVoltage only sets width and doesn't move; doesn't cause immediate exceed. Yet if current offset is 750, it's already exceeding, but not due to this command.\n\nNeed likely follow simple pattern from examples: horizontal scan size -> Aux1MaxVoltage. So final <cmd> Aux1MaxVoltage(250) </cmd>. Ensure no extra. But think about \"horizontal scan width\" earlier used Aux1MaxVoltage. So yes.\n\nNeed only final.\n",
+            "usage": {
+                "prompt_tokens": 752,
+                "completion_tokens": 770
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                62,
+                37,
+                168
+            ]
+        },
+        {
+            "content": "<cmd>\nScanEnabled(true)\n</cmd>",
+            "reasoning": "We need respond to user: \"commence the scan routine\". Need output command. Done. Need think in English same language. User asks start scanning. Command ScanEnabled(true). Need enclose in multi-line cmd tags. Ensure no other. Final only cmd block.\n",
+            "usage": {
+                "prompt_tokens": 735,
+                "completion_tokens": 70
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                240,
+                244,
+                215
+            ]
+        },
+        {
+            "content": "<cmd>\nAux2MaxVoltage(95)\n</cmd>",
+            "reasoning": "The user wants to adjust the scan range along Y to 95 nm. Looking at the commands:\n- Aux1MaxVoltage(arg) - scan range of the X direction in nanometers\n- Aux2MaxVoltage(arg) - scan range of the Y direction in nanometers\n\nSo I need to use Aux2MaxVoltage(95).\n",
+            "usage": {
+                "prompt_tokens": 747,
+                "completion_tokens": 91
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                29,
+                20,
+                151
+            ]
+        },
+        {
+            "content": "<cmd>\nSample_Bias(-1.0)\nStageOffset_X_Tube(0)\nStageOffset_Y_Tube(0)\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(true)\n</cmd>",
+            "reasoning": "We need answer user's request. Need produce final with cmd. Need parse: \"apply -1 V bias, reset to origin, then scan 10x10\". Commands: StageOffset_X_Tube, StageOffset_Y_Tube, Sample_Bias, Aux1MaxVoltage, Aux2MaxVoltage, ScanEnabled. Reset to origin = set X=0 Y=0. apply -1 V bias. scan 10x10 means set scan range X/Y 10 and enable scan true. Coordinate within range. Bias nonzero. Output multi-line cmd. Could include only commands. Need maybe order: apply bias, reset origin, scan. Commands sequential: Sample_Bias(-1.0), StageOffset_X_Tube(0), StageOffset_Y_Tube(0), Aux1MaxVoltage(10), Aux2MaxVoltage(10), ScanEnabled(true). Need no extra explanation likely.\n",
+            "usage": {
+                "prompt_tokens": 887,
+                "completion_tokens": 249
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                161,
+                300,
+                352
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_Y_Tube_ADD(-15)\n</cmd>",
+            "reasoning": "We need answer user's request. Need produce command for step 15 nm in -Y direction. Use StageOffset_Y_Tube_ADD(-15). Need ensure within coordinate range? Current position unknown, but previous moves: +30 X, +10 Y, +25 Y, now -15 Y. We don't have absolute coordinates, but accessible -350 to 350. User commands should not cause probe exceed. Without current state, assume valid? In these tasks, relative ADD commands okay if no info. Could be okay. Need only cmd block. Final concise.\n",
+            "usage": {
+                "prompt_tokens": 748,
+                "completion_tokens": 147
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                16,
+                99,
+                64
+            ]
+        },
+        {
+            "content": "<cmd>\nScanEnabled(true)\n</cmd>",
+            "reasoning": "The user is asking to \"egage the scan\", which is likely a typo for \"engage the scan\" or \"start the scan\". Based on the available commands, the appropriate command to start/engage a scan is ScanEnabled(true).\n\nLet me verify:\n- Command 7: ScanEnabled(arg) - true to start the scan and false to stop the scan\n\n\"Engage the scan\" means to start the scan, so I should use ScanEnabled(true).\n",
+            "usage": {
+                "prompt_tokens": 715,
+                "completion_tokens": 112
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                134,
+                27,
+                154
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_Y_Tube_ADD(10)\n</cmd>",
+            "reasoning": "Need: user asks move 10 nm upward. Use StageOffset_Y_Tube_ADD(10). Need ensure coordinate range? We don't know current position, but relative move could potentially exceed range if near edge. The instruction says user command should NOT causes probe to exceed scanning area. Without current coordinates, maybe we cannot verify. However earlier system likely expects direct relative commands, and no current position available. Need perhaps output None? Let's analyze carefully.\n\nWe are controlling SPM. Commands include absolute StageOffset_X_Tube, Y_Tube and relative ADD. User says move 10 nm upward. We don't know current offset. The accessible coordinate range is -350 to 350 nm both x/y. If current Y unknown, cannot guarantee not exceeding. But in these tasks, usually expected to issue relative command unless impossible due to lacking state? The prompt: \"If the user's instructions can be accomplished by multiple step commands... If the user's instructions cannot be carried out by the commands provided above alone, or the parameters are invalid, please respond with 'None' first and then give a reason to user. Otherwise, reply with names...\" We don't have current state, but command can be carried out. The range constraint may require checking if it would exceed. But with relative move and unknown current position, cannot validate. Yet likely expected to assume within range and issue. Need not overcomplicate.\n\nNeed final exact cmd block.\n",
+            "usage": {
+                "prompt_tokens": 756,
+                "completion_tokens": 321
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                118,
+                96,
+                90
+            ]
+        },
+        {
+            "content": "<cmd>\nSample_Bias(1)\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(true)\n</cmd>",
+            "reasoning": "The user wants to:\n1. Apply 1 V sample bias\n2. Scan at current position with 8x8 nm area\n\nCommands needed:\n- Sample_Bias(1) - to set 1 V bias\n- Aux1MaxVoltage(8) - to set X scan range to 8 nm\n- Aux2MaxVoltage(8) - to set Y scan range to 8 nm\n- ScanEnabled(true) - to start the scan\n\nNo stage movement is needed since it's \"at current position\".\nThe scan area is 8x8 nm which is well within the -350 to 350 nm range.\n\nThis looks straightforward.\n",
+            "usage": {
+                "prompt_tokens": 810,
+                "completion_tokens": 181
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                107,
+                5,
+                3
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube(200)\nStageOffset_Y_Tube(-250)\nAux1MaxVoltage(20)\nAux2MaxVoltage(10)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "We need answer user's request. Need produce final with commands or None. User: move to (200, −250) and scan 20×10.\nNeed parse. Commands: StageOffset_X_Tube(arg), StageOffset_Y_Tube(arg) coordinate values in nm. Coordinate accessible -350 to 350 both x y. Scan 20x10 likely X 20 nm Y 10 nm using Aux1MaxVoltage and Aux2MaxVoltage (descriptions weird: X scan range, Y scan range). Need maybe start scan? Instruction says scan 20x10, likely set scan sizes and enable scan? Prior example did ScanEnabled(true). Should include. Bias unchanged. Position (200,-250) within range. Scan area centered? Need ensure scan area on? It says coordinate range accessible by SPM tip and scan area on is -350 to 350 both x and y. User command should not cause probe exceed scanning area. If scan 20x10 centered at (200,-250), extends X 190-210, Y -255 to -245, within. So commands:\nStageOffset_X_Tube(200)\nStageOffset_Y_Tube(-250)\nAux1MaxVoltage(20)\nAux2MaxVoltage(10)\nScanEnabled(true)\nNeed exact format. Could maybe use negative number with parentheses. Fine.\n",
+            "usage": {
+                "prompt_tokens": 904,
+                "completion_tokens": 378
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                296,
+                161,
+                350
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube_ADD(40)\nStageOffset_Y_Tube_ADD(40)\nSample_Bias(-0.9)\nAux1MaxVoltage(14)\nAux2MaxVoltage(14)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "We need answer user's request. Need produce final with commands. Need ensure no exceed? We don't know current position, but likely just relative moves. Need commands: StageOffset_X_Tube_ADD(40), StageOffset_Y_Tube_ADD(40), Sample_Bias(-0.9), Aux1MaxVoltage(14), Aux2MaxVoltage(14), maybe ScanEnabled(True)? User says scan 14x14, implies start scan? Previous examples included ScanEnabled(true) for scan size. But maybe \"scan 14×14\" means set scan range and start scan. In previous assistant did that. Need output only cmd. Ensure bias not 0. Use True? Command arg boolean probably true/False. In previous used true lower-case. Need exact? Could use ScanEnabled(True) or true. The format example uses CommandB(True). But table says true/false. User previous accepted true. We'll follow maybe ScanEnabled(True)? Hmm. In initial examples from system: CommandB(True). But previous model output used true. Need choose. Function argument should follow type defined; likely Python bool? The list says true to start scan and false to stop. Could be boolean. Use True. But previous? Let's be consistent with system sample: ScanEnabled(True). However in SPM maybe expects lowercase? The prompt: \"ScanEnabled(arg) ... true to start the scan and false to stop the scan\". It says true/false lower-case. The multi-line format example uses CommandB(True). That's Python bool. Which is safer? In previous conversation, user didn't correct. Need final likely:\n<cmd>\nStageOffset_X_Tube_ADD(40)\nStageOffset_Y_Tube_ADD(40)\nSample_Bias(-0.9)\nAux1MaxVoltage(14)\nAux2MaxVoltage(14)\nScanEnabled(True)\n</cmd>\nBut if expected lower-case true, maybe fail. The prior answer used true. Need maybe use True because example. Let's inspect: \"The sample bias should not be changed unless there are instructions to change it.\" We do. \"If user's instructions can be accomplished by multiple step commands, output sequentially\". \"scan 14x14\" maybe just set scan range, not necessarily start? But in previous assistant included ScanEnabled(true). Do same.\nNeed only final.\n",
+            "usage": {
+                "prompt_tokens": 854,
+                "completion_tokens": 562
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                118,
+                38,
+                91
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube(50)\nStageOffset_Y_Tube(100)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "We need answer user's request. Need produce final with cmd. Need ensure coordinate range: X=50, Y=100 within -350 to 350. Start scanning -> ScanEnabled(True). Need likely set coordinates then scan. Commands sequential new line. Need exact format.\n",
+            "usage": {
+                "prompt_tokens": 811,
+                "completion_tokens": 99
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                92,
+                95,
+                129
+            ]
+        },
+        {
+            "content": "<cmd>\nAux1MaxVoltage(60)\n</cmd>",
+            "reasoning": "We need answer user's request. Need produce command. User: shrink X scan size down to 60 nm. Command Aux1MaxVoltage(arg) scan range X in nm. Need likely just Aux1MaxVoltage(60). Ensure no other. Need final with cmd block.\n",
+            "usage": {
+                "prompt_tokens": 784,
+                "completion_tokens": 78
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                121,
+                115,
+                166
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_Y_Tube(-85)\n</cmd>",
+            "reasoning": "The user wants to set the Y coordinate to -85 nm.\nThe command is StageOffset_Y_Tube(arg) where arg is the coordinate value in nanometers.\n-85 is within the range [-350, 350].\nSo, StageOffset_Y_Tube(-85) is the correct command.\n",
+            "usage": {
+                "prompt_tokens": 765,
+                "completion_tokens": 91
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                92,
+                202,
+                172
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube_ADD(5)\nStageOffset_Y_Tube_ADD(5)\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(true)\n</cmd>",
+            "reasoning": "We need answer user's request. Need produce final with cmd. Need ensure no exceed range? User says shift 5 nm both in X and Y, then start 6x6 scan. We don't know current coordinates. But if no current position, probably relative ADD ok? The constraint: user command should not causes probe to exceed scanning area. Without current position cannot verify absolute. But maybe using ADD is allowed and assume not exceed? Need maybe cannot determine if exceeds? In previous examples they used ADD. We can output sequential. Scan speed? none. sample bias no. Commands: StageOffset_X_Tube_ADD(5), StageOffset_Y_Tube_ADD(5), Aux1MaxVoltage(6), Aux2MaxVoltage(6), ScanEnabled(true). Need exact format. Could there be issue \"shift 5 nm both in X and Y\" means +5? likely +5. final concise.\n",
+            "usage": {
+                "prompt_tokens": 858,
+                "completion_tokens": 237
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                249,
+                220,
+                134
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube(-250)\nStageOffset_Y_Tube(150)\n</cmd>",
+            "reasoning": "We need answer user's request. Need produce final with cmd. Need ensure within -350 to 350. (-250,150) valid. Commands: StageOffset_X_Tube(-250), StageOffset_Y_Tube(150). Maybe no scan. final.\n",
+            "usage": {
+                "prompt_tokens": 796,
+                "completion_tokens": 98
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                122,
+                11,
+                131
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube_ADD(-25)\nStageOffset_Y_Tube_ADD(10)\n</cmd>",
+            "reasoning": "We need answer user: \"move 25 nm left and 10 nm up\". Need produce command. Need consider coordinate accessible -350 to 350. We don't know current position? ADD commands relative, likely allowed unless cannot determine exceed? Instruction says user command should NOT causes probe to exceed scanning area. But we only have relative moves, no current position. Usually just use ADD. Need output multi-line cmd. Left X negative 25, up Y positive 10. Need ensure sample bias not changed. Commands:\nStageOffset_X_Tube_ADD(-25)\nStageOffset_Y_Tube_ADD(10)\nNeed enclose. Final only command.\n",
+            "usage": {
+                "prompt_tokens": 765,
+                "completion_tokens": 177
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                189,
+                117,
+                118
+            ]
+        },
+        {
+            "content": "<cmd>\nSample_Bias(1.0)\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(true)\n</cmd>",
+            "reasoning": "The user wants to:\n1. Apply a bias of +1.0 V → Sample_Bias(1.0)\n2. Scan 10×10 nm → Aux1MaxVoltage(10) and Aux2MaxVoltage(10), then ScanEnabled(true)\n\nThis is straightforward.\n",
+            "usage": {
+                "prompt_tokens": 871,
+                "completion_tokens": 108
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                167,
+                161,
+                141
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_Y_Tube_ADD(-80)\n</cmd>",
+            "reasoning": "Need answer command for displace tip -80 nm in Y. Need ensure coordinate bounds? User only gives relative move. We don't know current position. The system says user command should not cause probe exceed scanning area. But without current offset, cannot verify if -80 would exceed. However previous pattern accepted relative without knowing current. We probably should output StageOffset_Y_Tube_ADD(-80). Need consider if impossible? We lack current position. The instructions say if cannot be carried out by commands or parameters invalid respond None. -80 valid distance. Since no current position provided, assume safe? In previous examples accepted. Final with cmd tags.\n",
+            "usage": {
+                "prompt_tokens": 758,
+                "completion_tokens": 155
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                80,
+                24,
+                162
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube(300)\nStageOffset_Y_Tube(10)\n</cmd>",
+            "reasoning": "We need answer user: \"set X to 300 nm，Y to 10 nm absolutely.\" Need produce commands. Done. Need think: coordinates accessible -350 to 350. X=300, Y=10 valid. Use StageOffset_X_Tube(300), StageOffset_Y_Tube(10). Output only cmd block.\n",
+            "usage": {
+                "prompt_tokens": 796,
+                "completion_tokens": 113
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                98,
+                59,
+                11
+            ]
+        },
+        {
+            "content": "<cmd>\nAux1MaxVoltage(80)\n</cmd>",
+            "reasoning": "User instruction: “Limit the scan range in X to 80 nm”\nInterpret: set scan range X direction to 80 nm. Command list: Aux1MaxVoltage(arg) description: scan range of the X direction in nanometers. Valid? 80 nm positive. Coordinate constraints? scan area is 80 within range. No need to disable scan. Output exact cmd.\n",
+            "usage": {
+                "prompt_tokens": 753,
+                "completion_tokens": 102
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                325,
+                309,
+                183
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube(-10)\nStageOffset_Y_Tube(-10)\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(true)\n</cmd>",
+            "reasoning": "Need answer command only likely. Need ensure coordinates within -350 to 350 and scan 10x10 at -10,-10 means scan area maybe -15 to -5? within. Commands: StageOffset_X_Tube(-10), StageOffset_Y_Tube(-10), Aux1MaxVoltage(10), Aux2MaxVoltage(10), ScanEnabled(true). Need not change bias/speed unless instructed. \"scan\" implies enable scan. Use exact multi-line cmd.\n",
+            "usage": {
+                "prompt_tokens": 880,
+                "completion_tokens": 163
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                251,
+                141,
+                161
+            ]
+        },
+        {
+            "content": "<cmd>\nSample_Bias(0.9)\n</cmd>",
+            "reasoning": "We need answer user: \"increase sample bias to +0.9 V\". Need use command Sample_Bias(arg) value sample bias, cannot be 0. +0.9 valid nonzero. Need enclose command in multi-line <cmd>. Need likely only command. final.\n",
+            "usage": {
+                "prompt_tokens": 744,
+                "completion_tokens": 77
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                31,
+                334,
+                188
+            ]
+        },
+        {
+            "content": "<cmd>\nSample_Bias(-0.75)\n</cmd>",
+            "reasoning": "We need answer user's request. Need produce final. User: adjust sample bias to −750 mV. Command Sample_Bias(arg) value? likely volts? Previous -0.3 V used -0.3. -750 mV = -0.75 V. Sample bias cannot be 0, this ok. Need output cmd block.\n",
+            "usage": {
+                "prompt_tokens": 738,
+                "completion_tokens": 97
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                34,
+                281,
+                29
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube(-300)\n</cmd>",
+            "reasoning": "User asks to set absolute X = -300 nm. Valid within -350 to 350. Use StageOffset_X_Tube(-300). Need only X.\n",
+            "usage": {
+                "prompt_tokens": 786,
+                "completion_tokens": 62
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                98,
+                11,
+                95
+            ]
+        },
+        {
+            "content": "<cmd>\nAux2MaxVoltage(22.5)\n</cmd>",
+            "reasoning": "We need answer user: \"Set scan height in Y to 22.5 nm\". Need produce command. Need ensure within -350 to 350? scan range? Aux2MaxVoltage described scan range of Y direction in nanometers. 22.5 valid. Need output only cmd likely. Need final.\n",
+            "usage": {
+                "prompt_tokens": 772,
+                "completion_tokens": 91
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                39,
+                190,
+                15
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube(-90)\nStageOffset_Y_Tube(-90)\n</cmd>",
+            "reasoning": "We need answer user: \"set coordinates to (−90, −90)\" in same style. Need use StageOffset_X_Tube and StageOffset_Y_Tube. Coordinates within range. Need multi-line cmd. Ensure no sample bias. Final only commands.\n",
+            "usage": {
+                "prompt_tokens": 798,
+                "completion_tokens": 85
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                294,
+                92,
+                284
+            ]
+        },
+        {
+            "content": "<cmd>\nSample_Bias(-1.2)\n</cmd>",
+            "reasoning": "We need answer user: \"Lower the sample bias to -1.2 V\". Need use commands. Sample_Bias arg: value of sample bias. It CAN NOT be 0? Need maybe cannot be 0, but -1.2 valid. We should output <cmd> Sample_Bias(-1.2) </cmd>. But \"lower\" could imply relative reduction? However target explicitly to -1.2 V, so set. Ensure tags multi-line.\n",
+            "usage": {
+                "prompt_tokens": 738,
+                "completion_tokens": 116
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                69,
+                34,
+                281
+            ]
+        },
+        {
+            "content": "<cmd>\nSample_Bias(-0.8)\nAux1MaxVoltage(50)\nAux2MaxVoltage(50)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "We need respond to user: \"apply sample bias of -0.8 V, set area to 50 nm square, and scan\". Need produce commands. Need think in English? User English, OK. Need ensure commands: Sample_Bias(-0.8), Aux1MaxVoltage(50), Aux2MaxVoltage(50), ScanEnabled(True). Need multi-line cmd. Sample bias can be negative nonzero OK. Scan area 50 nm square: Aux1MaxVoltage is scan range X nm, Aux2 Y nm. Good. No stage offsets. Need output only? final with cmd block. Ensure no extra? likely OK.\n",
+            "usage": {
+                "prompt_tokens": 761,
+                "completion_tokens": 176
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                270,
+                281,
+                109
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_Y_Tube_ADD(20)\nSample_Bias(-1.5)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "We need answer user's request. Need produce final with cmd block. User: \"shift 20 nm up, apply -1.5 V sample bias, and begin scanning\". Commands: StageOffset_Y_Tube_ADD(20), Sample_Bias(-1.5), ScanEnabled(true). Need ensure scan maybe true. \"up\" positive Y. bias not zero valid. No coordinates beyond? shift relative; no current coordinate given, assume allowed. Need only cmd.\n",
+            "usage": {
+                "prompt_tokens": 834,
+                "completion_tokens": 133
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                42,
+                70,
+                78
+            ]
+        },
+        {
+            "content": "<cmd>\nSample_Bias(1.0)\nAux1MaxVoltage(37.5)\nAux2MaxVoltage(37.5)\nScanEnabled(true)\n</cmd>",
+            "reasoning": "The user wants to perform a 37.5×37.5 nm scan at +1.0 V bias.\n\nLooking at the commands:\n- Sample_Bias(arg): the value of the sample bias. It CAN NOT be 0...\n- Aux1MaxVoltage(arg): scan range of the X direction in nanometers\n- Aux2MaxVoltage(arg): scan range of the Y direction in nanometers\n- ScanEnabled(arg): true to start the scan and false to stop the scan\n\nSo I need:\n- Sample_Bias(1.0)\n- Aux1MaxVoltage(37.5)\n- Aux2MaxVoltage(37.5)\n- ScanEnabled(true)\n\nLet me check if these values are valid:\n- Sample bias: +1.0 V, not 0, so valid.\n- Scan range: 37.5 nm, within reasonable limits.\n- Scan enabled: true to start the scan.\n\nThis looks straightforward.\n",
+            "usage": {
+                "prompt_tokens": 904,
+                "completion_tokens": 256
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                85,
+                78,
+                139
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube_ADD(-2)\n</cmd>",
+            "reasoning": "We need answer user's request. Need produce final with command. User: \"shift −2 nm in X\". Use StageOffset_X_Tube_ADD(arg) distance to move in X in nanometers. -2 allowed. Need ensure no exceed? We don't know current coordinates. The instruction is relative small. If cannot verify? The prompt says user command should NOT cause probe exceed scanning area. We only know accessible -350 to 350, but no current position. Usually assume within? Need output command if can. For shift relative, we can issue ADD(-2). Could there be issue with unicode minus? Use -2. Final only cmd block.\n",
+            "usage": {
+                "prompt_tokens": 763,
+                "completion_tokens": 158
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                89,
+                157,
+                105
+            ]
+        },
+        {
+            "content": "<cmd>\nSample_Bias(-0.2)\n</cmd>",
+            "reasoning": "We need respond to user: \"lower the bias to −0.2 V\". Need output command. Need think in English same language. Need ensure sample bias not 0. -0.2 valid? likely voltage can be negative, not zero. Need output cmd block with Sample_Bias(-0.2). The phrase \"lower the bias\" could imply current bias maybe positive? But command directly sets sample bias. No other params. Need final only. Ensure tags.\n",
+            "usage": {
+                "prompt_tokens": 746,
+                "completion_tokens": 116
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                120,
+                184,
+                169
+            ]
+        },
+        {
+            "content": "<cmd>\nSample_Bias(-0.8)\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(true)\n</cmd>",
+            "reasoning": "We need respond to user: \"apply −0.8 V and start scanning 8×8 nm\". Need produce commands. Need analyze in English same language. Need ensure commands valid. Provided commands: Sample_Bias(arg) value of sample bias, cannot be 0 maybe. Aux1MaxVoltage(arg) scan range X in nm, Aux2MaxVoltage(arg) scan range Y in nm. Start scanning ScanEnabled(true). Apply -0.8 V means Sample_Bias(-0.8). Start scanning 8x8 nm means set Aux1MaxVoltage(8), Aux2MaxVoltage(8), ScanEnabled(true). Need maybe negative sign? Use -0.8. Need output in cmd block. Ensure no exceeding area; 8 nm ok. Could order: sample bias, scan ranges, scan enabled. User says apply and start scanning 8x8. Could set scan ranges before start. final concise.\n",
+            "usage": {
+                "prompt_tokens": 742,
+                "completion_tokens": 230
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                75,
+                274,
+                233
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_Y_Tube_ADD(3)\n</cmd>",
+            "reasoning": "We need answer user's request. Need produce final with command. User: \"move +3 nm in Y\". We have command StageOffset_Y_Tube_ADD(arg) distance to move in Y nm. +3 so 3. Need ensure no bias change etc. Output in <cmd> block. Could just one line.\n",
+            "usage": {
+                "prompt_tokens": 807,
+                "completion_tokens": 87
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                156,
+                82,
+                64
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_Y_Tube_ADD(-20)\nAux1MaxVoltage(4)\nAux2MaxVoltage(4)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "We need answer user: \"shift 20 nm down only, scan 4x4\". Need translate to commands. Need think in English same language. Need use commands. Shift down Y negative 20 nm. \"scan 4x4\" ambiguous: scan area 4 nm x 4 nm? likely Aux1MaxVoltage/Aux2MaxVoltage? In description: Aux1MaxVoltage scan range of X direction in nanometers, Aux2MaxVoltage scan range of Y direction in nanometers. But command names MaxVoltage maybe values are nm. Need set scan range to 4 and 4. Also maybe need enable scan? \"scan 4x4\" could mean start scanning at 4x4 nm. Provided command ScanEnabled(true) to start scan. Need decide. User says shift 20 nm down only, scan 4x4. Likely shift Y -20, set X range 4, Y range 4, enable scan true. Need check coordinate constraints. Current position unknown? The accessible range is -350 to 350. But relative shift by ADD doesn't know if exceeds? We cannot know current position; likely assume valid. If current Y near -330, -20 could exceed, but no current state. The system says user command should NOT cause probe to exceed scanning area. Since relative shifts without current coords? Maybe can use ADD and assume not exceed? In prior examples they accepted relative shifts. Need output sequential.\n\nCommands:\nStageOffset_Y_Tube_ADD(-20)\nAux1MaxVoltage(4)\nAux2MaxVoltage(4)\nScanEnabled(True)\nShould sample bias not changed. Good.\n\nNeed final only cmd block. Ensure exact format. Could \"4x4\" mean 4x magnification? But scan range likely 4 nm by 4 nm. Use Aux commands. Could need ScanEnabled(True) because \"scan\" means start. Yes.\n",
+            "usage": {
+                "prompt_tokens": 792,
+                "completion_tokens": 448
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                100,
+                49,
+                63
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube(0)\nStageOffset_Y_Tube(0)\n</cmd>",
+            "reasoning": "The user wants to return to origin, which means setting X and Y coordinates to 0. This is straightforward - use StageOffset_X_Tube(0) and StageOffset_Y_Tube(0).\n",
+            "usage": {
+                "prompt_tokens": 773,
+                "completion_tokens": 70
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                143,
+                114,
+                146
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube(100)\n</cmd>",
+            "reasoning": "We need respond to user: \"Set the X position to 100 nanometers\". Need output command in <cmd>. Need ensure coordinate within -350 to 350. 100 valid. Use StageOffset_X_Tube(arg) coordinate value X in nm. So:\n<cmd>\nStageOffset_X_Tube(100)\n</cmd>\nNeed no extra. final only.\n",
+            "usage": {
+                "prompt_tokens": 759,
+                "completion_tokens": 111
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                80,
+                132,
+                44
+            ]
+        },
+        {
+            "content": "<cmd>\nSample_Bias(1.5)\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "We need answer user: \"scan a 5×5 nm area at 1.5 V bias\". Need output command block. Need think in English same language. Need use commands. Scan area 5x5 nm: Aux1MaxVoltage(5), Aux2MaxVoltage(5). Sample bias 1.5. Maybe also need enable scan? User says scan, likely start scan: ScanEnabled(True). But command set includes ScanEnabled. Previous user \"scan a 5x5 nm area at 1.5 V bias\" should set scan range, bias, start scan. Need ensure sample bias not 0, ok. No coordinate constraints. Could output Sample_Bias(1.5), Aux1MaxVoltage(5), Aux2MaxVoltage(5), ScanEnabled(True). Order? Set bias before enabling scan maybe. Need only commands inside multi-line cmd. Ensure no extra? final with cmd.\n",
+            "usage": {
+                "prompt_tokens": 763,
+                "completion_tokens": 229
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                270,
+                188,
+                268
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube(25)\nSample_Bias(2.0)\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "We need respond to user: \"move to X = 25 nm and apply a bias of +2.0 V, then perform a 5x5 nm scan\". Need output commands in <cmd> multi-line. Need ensure within coordinate range -350 to 350. Commands: StageOffset_X_Tube(25), Sample_Bias(2.0), Aux1MaxVoltage(5), Aux2MaxVoltage(5), ScanEnabled(True). Need maybe order: move, bias, set scan size, start scan. Could include scan enabled true because perform scan. Need exact boolean? Command list says ScanEnabled(arg) true to start scan false to stop. In previous examples used true lowercase? They say appropriate values within parentheses; maybe Python bool True/False? The format sample shows CommandB(True). But command description says true. The table: ScanEnabled(arg) true to start... We need decide. In previous assistant used lowercase true. But user/system format says CommandB(True). They say function argument should follow type I defined. Not explicit type. In previous output we used true; maybe acceptable? Let's think. They require exact format? \"All commands must be enclosed inside a multi-line <cmd> block using the following exact format:\n<cmd>\nCommandA()\nCommandB(True)\n</cmd>\" This example uses True. So should use True likely. But previous used true. Need be safe? If argument type is boolean, Python-like True. They say \"true\" in description. Could use True. Need not include Scan_Speed. Sample bias nonzero. Move X only, Y remains? Use StageOffset_X_Tube sets coordinate. Scan range 5x5 nm. Need ensure not exceed scanning area? If current Y unknown? User says move to X=25; setting X absolute. If Y currently unknown but command only moves X. Scan 5x5 centered? The scan area on is -350 to 350 both x and y. If X=25 and scan range 5 nm, likely within if centered? If scan extent ±2.5, 22.5-27.5 ok. If scan range full 5? AuxMaxVoltage scan range of X direction in nanometers; likely full range, so within. Good.\nNeed final only cmd block.\n",
+            "usage": {
+                "prompt_tokens": 796,
+                "completion_tokens": 537
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                167,
+                104,
+                312
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube(-300)\nStageOffset_Y_Tube(-300)\n</cmd>",
+            "reasoning": "We need answer user's request. Need produce command. User: move tip to absolute X=-300, Y=-300. Coordinates within -350 to 350. Need use StageOffset_X_Tube and StageOffset_Y_Tube. Multi-line cmd. No extra. Ensure values numeric likely nm. final concise.\n",
+            "usage": {
+                "prompt_tokens": 798,
+                "completion_tokens": 104
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                11,
+                98,
+                59
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube_ADD(120)\n</cmd>",
+            "reasoning": "We need answer user: \"Shift the probe head by 120 nm to the right\". Need output command. Need consider coordinate accessible -350 to 350. But we don't know current position. Instructions only shift relative. If can exceed? \"The user command should NOT causes the probe to exceed the scanning area.\" Since no current position, cannot guarantee? In previous turns accepted relative moves. We probably use StageOffset_X_Tube_ADD(120). Right likely +X. Need only command block. Ensure no invalid. final.\n",
+            "usage": {
+                "prompt_tokens": 787,
+                "completion_tokens": 138
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                125,
+                89,
+                65
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_Y_Tube(60)\nSample_Bias(-2.0)\nAux1MaxVoltage(12)\nAux2MaxVoltage(12)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "Need answer with cmd. Need ensure Y=60 within -350 to350. User says go to Y=60 nm, apply -2.0 V bias, scan 12x12. Use StageOffset_Y_Tube(60), Sample_Bias(-2.0), Aux1MaxVoltage(12), Aux2MaxVoltage(12), ScanEnabled(true). No need move X. Need output only cmd likely.\n",
+            "usage": {
+                "prompt_tokens": 900,
+                "completion_tokens": 149
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                167,
+                181,
+                161
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_Y_Tube(220)\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "We need answer user: \"go to absolute Y = 220 nm and scan 10×10\". Need produce command block. Need analyze constraints. Commands: StageOffset_X_Tube, StageOffset_Y_Tube absolute coordinates nm. Aux1MaxVoltage(arg) scan range X nm, Aux2MaxVoltage scan range Y nm. ScanEnabled true to start. User says go absolute Y=220 and scan 10x10. Need maybe set Y offset 220, set Aux1MaxVoltage(10), Aux2MaxVoltage(10), ScanEnabled(True). But check coordinate range accessible by SPM tip and scan area is -350 to 350 nm in both x and y. User command should NOT causes probe to exceed scanning area. If center Y=220 and scan 10x10, Y extends 215-225 within 350. X unspecified absolute maybe current X. Need ensure scan area doesn't exceed based on current? We don't know current X. Could assume current X remains and likely within enough? But if current X near 350, 10nm scan could exceed. However instructions only specify Y absolute and scan 10x10, no X. We can set Y and scan sizes and enable scan. Maybe no need ScanEnabled? \"scan 10×10\" means set scan range? Could also start scan? Command ScanEnabled true to start. Usually if says scan, maybe enable. Need include ScanEnabled(True). But if scan range 10x10, Aux1/Aux2 MaxVoltage? arg descriptions weird: Aux1MaxVoltage scan range of X direction in nm, Aux2 Y. So use 10. Need not change sample bias. Output only commands. Ensure tags multi-line.\nPotential issue: If current X unknown, enabling scan may exceed area if X >345 or < -345. But no current state. System says user command should not causes probe to exceed scanning area. We only set Y=220, X unchanged. Without current, cannot guarantee. But likely assume valid. Maybe should not include ScanEnabled if not explicitly start? \"scan 10×10\" could mean set scan area to 10x10. But command ScanEnabled true to start. In many tasks, if user says scan, start scanning. We can output StageOffset_Y_Tube(220), Aux1MaxVoltage(10), Aux2MaxVoltage(10), ScanEnabled(True). Need final concise.\n",
+            "usage": {
+                "prompt_tokens": 797,
+                "completion_tokens": 589
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                11,
+                98,
+                59
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_Y_Tube_ADD(100)\n</cmd>",
+            "reasoning": "We need respond to user: \"Move the tip 100 nm upward\". Need output command. Upward likely +Y. Use StageOffset_Y_Tube_ADD(100). Need ensure no exceed area? We don't know current position, but instruction is relative move. The system says coordinate range accessible is -350 to 350. If relative move could exceed but we don't know current; typically just command. Previous examples used ADD. Need final only cmd block.\n",
+            "usage": {
+                "prompt_tokens": 749,
+                "completion_tokens": 125
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                96,
+                13,
+                90
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_Y_Tube_ADD(-90)\n</cmd>",
+            "reasoning": "We need answer user's request. Need produce final with command. Need interpret \"Move the scan area down by 90 nanometers\". Commands: StageOffset_X_Tube_ADD, StageOffset_Y_Tube_ADD distance to move in Y. Down likely negative Y. Need use StageOffset_Y_Tube_ADD(-90). Need ensure no coordinates specified but relative move. Output only cmd block likely. Ensure exact format.\n",
+            "usage": {
+                "prompt_tokens": 754,
+                "completion_tokens": 107
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                80,
+                198,
+                24
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube(200)\nAux1MaxVoltage(15)\nAux2MaxVoltage(15)\nScanEnabled(true)\n</cmd>",
+            "reasoning": "We need respond to user: \"move to X = 200 nm and scan 15×15 nm\". Need use commands. Need think in English? User English. We need output commands only maybe. Need ensure coordinate within -350 to 350. X=200 nm okay. Set StageOffset_X_Tube(200). Scan 15x15: Aux1MaxVoltage(15), Aux2MaxVoltage(15), ScanEnabled(true). Sample bias unchanged unless instructed; no bias. Need maybe if moving absolute X, use StageOffset_X_Tube(arg). Need command block. Final concise.\n",
+            "usage": {
+                "prompt_tokens": 874,
+                "completion_tokens": 182
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                85,
+                38,
+                48
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube_ADD(30)\n</cmd>",
+            "reasoning": "User: \"move the probe 30 nm to the right\"\nNeed respond command. Need think. Right is +X likely. Use StageOffset_X_Tube_ADD(30). Ensure no coordinates? only relative. Final cmd block.\n",
+            "usage": {
+                "prompt_tokens": 767,
+                "completion_tokens": 72
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                80,
+                122,
+                118
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube_ADD(1)\nStageOffset_Y_Tube_ADD(1)\n</cmd>",
+            "reasoning": "We need answer user: \"nudge the probe 1 nm right and 1 nm up\". Need output commands in <cmd>. Need ensure within range? We don't know current position, but relative move 1 nm likely okay? The instruction says user command should NOT causes probe to exceed scanning area. Without current coords, cannot verify? Prior examples accepted relative moves without current pos. Need use ADD. Right = +X, up = +Y presumably. Commands:\nStageOffset_X_Tube_ADD(1)\nStageOffset_Y_Tube_ADD(1)\nNeed final only cmd. Ensure no extra.\n",
+            "usage": {
+                "prompt_tokens": 784,
+                "completion_tokens": 156
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                147,
+                106,
+                118
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_Y_Tube_ADD(-40)\n</cmd>",
+            "reasoning": "We need answer user's request: \"shift 40 nm downward in Y\". Need produce command. Done. Need think: downward likely negative Y. Use StageOffset_Y_Tube_ADD(-40). Ensure not exceed? Relative shift no current position known? We only ensure command itself doesn't exceed? Usually okay unless current unknown. Could respond None if cannot guarantee? But relative shift is allowed if command doesn't specify current? Prior examples accepted. So final cmd block.\n",
+            "usage": {
+                "prompt_tokens": 764,
+                "completion_tokens": 118
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                89,
+                90,
+                198
+            ]
+        },
+        {
+            "content": "<cmd>\nTipFix()\nAux1MaxVoltage(15)\nAux2MaxVoltage(15)\nScanEnabled(true)\n</cmd>",
+            "reasoning": "The user asks to:\n1. run tip fix -> TipFix()\n2. start a 15x15 nm scan -> set scan range X and Y to 15 nm, and enable scan.\n\nNeed respond with cmd block. Check coordinate constraints irrelevant. Sample bias unchanged.\n",
+            "usage": {
+                "prompt_tokens": 761,
+                "completion_tokens": 99
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                134,
+                224,
+                232
+            ]
+        },
+        {
+            "content": "<cmd>\nTipFix()\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 765,
+                "completion_tokens": 14
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                267,
+                221,
+                232
+            ]
+        },
+        {
+            "content": "<cmd>\nScan_Speed(0.2)\nScanEnabled(false)\n</cmd>",
+            "reasoning": "User wants slow scan speed to 0.2, then stop scanning. Use Scan_Speed(0.2), ScanEnabled(false).\n",
+            "usage": {
+                "prompt_tokens": 755,
+                "completion_tokens": 51
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                336,
+                248,
+                242
+            ]
+        },
+        {
+            "content": "<cmd>\nTipFix()\nScanEnabled(true)\n</cmd>",
+            "reasoning": "We need to answer user's request: \"do tip fix and then start scanning with the current parameters\". Need output commands enclosed in multi-line cmd block. Commands: TipFix() no args, ScanEnabled(True) probably boolean. Need not change sample bias. The user's current parameters remain. Need ensure command names exactly? Provided list: ScanEnabled(arg) true to start scan. In examples they used ScanEnabled(true). Need maybe lowercase true? The instructions say enclose commands, function argument follow type. Could use True? Earlier assistant used true. Should be consistent. Need final only <cmd>... Need maybe no extra explanation.\n",
+            "usage": {
+                "prompt_tokens": 746,
+                "completion_tokens": 148
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                274,
+                207,
+                241
+            ]
+        },
+        {
+            "content": "<cmd>\nDriftCompensation()\nScan_Speed(0.3)\nStageOffset_X_Tube(40)\nStageOffset_Y_Tube(-40)\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(true)\n</cmd>",
+            "reasoning": "We need respond to user: \"run drift compensation, set scan speed to 0.3, move to X=40 nm and Y=-40 nm, then scan 8×8 nm\"\nNeed produce commands in multi-line cmd block. Commands: DriftCompensation(), Scan_Speed(0.3), StageOffset_X_Tube(40), StageOffset_Y_Tube(-40), Aux1MaxVoltage(8), Aux2MaxVoltage(8), ScanEnabled(true). Need ensure coordinates within -350 to 350; yes. scan range 8x8 at center 40,-40 gives x 36-44, y -44 to -36 within bounds. Sample bias not mentioned, don't change. Need final only cmd block.\n",
+            "usage": {
+                "prompt_tokens": 897,
+                "completion_tokens": 233
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                238,
+                234,
+                226
+            ]
+        },
+        {
+            "content": "<cmd>\nScan_Speed(0.7)\nSample_Bias(0.7)\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(true)\n</cmd>",
+            "reasoning": "Need answer with cmd. Need ensure scan speed arg? Description says time µs required ... user says 0.7 maybe allowed? In previous accepted 0.8/0.4, so likely unit? Keep 0.7. Bias +0.7. Aux 10 each. Scan enabled true.\n",
+            "usage": {
+                "prompt_tokens": 884,
+                "completion_tokens": 116
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                210,
+                251,
+                218
+            ]
+        },
+        {
+            "content": "<cmd>\nScan_Speed(0.6)\n</cmd>",
+            "reasoning": "We need answer user's request: \"set scan speed to 0.6\". Need output command. Done. Need ensure valid. Command list: Scan_Speed(arg) time µs required to... probably float? examples: 1, 0.5, 0? invalid zero. 0.6 likely valid. Need enclose multiline cmd. No extra.\n",
+            "usage": {
+                "prompt_tokens": 730,
+                "completion_tokens": 94
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                230,
+                219,
+                305
+            ]
+        },
+        {
+            "content": "<cmd>\nTipFix()\n</cmd>",
+            "reasoning": "We need answer user: \"fix the tip\". Need produce command only likely. Need use TipFix(). Must enclose in cmd block. Ensure no extra. Final.\n",
+            "usage": {
+                "prompt_tokens": 724,
+                "completion_tokens": 49
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                250,
+                232,
+                267
+            ]
+        },
+        {
+            "content": "<cmd>\nTipFix()\nScan_Speed(0.3)\n</cmd>",
+            "reasoning": "We need respond to user: \"tip fix, then set the scan speed to 0.3\". Need output commands. Need consider scan speed argument type? In table: Scan_Speed(arg) ... time (µs) required t... User says 0.3 likely unit? Previous accepted 0.3 and 0.8. Commands: TipFix() no args. Scan_Speed(0.3). No scan area? Just set speed. Need ensure sample bias not changed. Output cmd block.\nNeed maybe tip fix then set scan speed. Yes.\n",
+            "usage": {
+                "prompt_tokens": 809,
+                "completion_tokens": 138
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                251,
+                305,
+                238
+            ]
+        },
+        {
+            "content": "<cmd>\nDriftCompensation()\nAux2MaxVoltage(150)\n</cmd>",
+            "reasoning": "We need answer user's request. Need produce final with cmd block. User: \"drift compensate, then set the Y scan range to 150 nm\". Commands: DriftCompensation(), Aux2MaxVoltage(150). Need ensure order. No sample bias. Valid range? 150 nm scan range Y OK. Output only cmd likely. Ensure exact format.\n",
+            "usage": {
+                "prompt_tokens": 833,
+                "completion_tokens": 107
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                222,
+                272,
+                236
+            ]
+        },
+        {
+            "content": "<cmd>\nTipFix()\nStageOffset_X_Tube(100)\nStageOffset_Y_Tube(0)\nAux1MaxVoltage(20)\nAux2MaxVoltage(20)\nScanEnabled(true)\n</cmd>",
+            "reasoning": "We need respond to user: \"perform tip fix, then move to X=100 nm and Y=0 nm, then scan 20×20 nm\". Need output commands in multi-line cmd block. Need analyze if valid. Commands:\nTipFix()\nStageOffset_X_Tube(100)\nStageOffset_Y_Tube(0)\nAux1MaxVoltage(20)\nAux2MaxVoltage(20)\nScanEnabled(true)\nCheck coordinate range -350 to 350, okay. Sample bias not change. Scan 20x20 means scan range X and Y 20 nm via Aux1MaxVoltage Aux2MaxVoltage. Start scan with ScanEnabled(true). Order as requested: tip fix, move, scan. Could scan mean enable scan after setting scan area. Good.\nNeed ensure command names exactly: TipFix() no arg. StageOffset_X_Tube(arg). StageOffset_Y_Tube(arg). Aux1MaxVoltage(arg) scan range X in nm, Aux2MaxVoltage Y. ScanEnabled(true). Output only cmd? likely yes. Need final with <cmd>...</cmd>.\n",
+            "usage": {
+                "prompt_tokens": 855,
+                "completion_tokens": 300
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                13,
+                276,
+                148
+            ]
+        },
+        {
+            "content": "<cmd>\nDriftCompensation()\n</cmd>",
+            "reasoning": "The user wants to run drift correction. Looking at the available commands, I can see command #9 is DriftCompensation() which has no arguments. This is a straightforward request.\n",
+            "usage": {
+                "prompt_tokens": 726,
+                "completion_tokens": 54
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                277,
+                255,
+                254
+            ]
+        },
+        {
+            "content": "<cmd>\nScan_Speed(1.5)\nAux2MaxVoltage(150)\n</cmd>",
+            "reasoning": "We need answer user: \"increase scan speed to 1.5 and set the Y scan range to 150 nm\". Need use commands. Need think in English? User English, okay. Need produce cmd block. Commands: Scan_Speed(arg) arg represents time? It says scan speed? But user says scan speed to 1.5. Use Scan_Speed(1.5). Aux2MaxVoltage(arg) ... scan range of Y direction in nm. Set Y scan range to 150 nm => Aux2MaxVoltage(150). Need ensure valid. No coordinate issues. Output only cmd block.\n",
+            "usage": {
+                "prompt_tokens": 754,
+                "completion_tokens": 157
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                188,
+                273,
+                237
+            ]
+        },
+        {
+            "content": "<cmd>\nScan_Speed(0.9)\nStageOffset_X_Tube(-50)\nStageOffset_Y_Tube(120)\nAux1MaxVoltage(18)\nAux2MaxVoltage(18)\nScanEnabled(true)\n</cmd>",
+            "reasoning": "We need answer user's request. Need produce final with commands. Need ensure constraints: coordinates -50,120 within -350 to350. scan 18x18. Command list: Scan_Speed(arg) time µs? user 0.9 maybe valid? Previous rejected 0, 0.7 accepted. So 0.9 ok. Aux1MaxVoltage 18 X, Aux2 18 Y. Need start scan? \"then scan 18x18 nm\" implies start scanning? Could include ScanEnabled(true). Need not change sample bias. Need sequence: Scan_Speed(0.9), StageOffset_X_Tube(-50), StageOffset_Y_Tube(120), Aux1MaxVoltage(18), Aux2MaxVoltage(18), ScanEnabled(true). Enclose multi-line cmd.\n",
+            "usage": {
+                "prompt_tokens": 861,
+                "completion_tokens": 245
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                305,
+                234,
+                276
+            ]
+        },
+        {
+            "content": "<cmd>\nDriftCompensation()\nScanEnabled(true)\n</cmd>",
+            "reasoning": "We need respond to user: \"please correct drift before scanning\". Need output command block likely DriftCompensation() then ScanEnabled(true). Need ensure no sample bias. Use exact format. final only cmd.\n",
+            "usage": {
+                "prompt_tokens": 720,
+                "completion_tokens": 64
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                255,
+                254,
+                130
+            ]
+        },
+        {
+            "content": "<cmd>\nDriftCompensation()\nScanEnabled(true)\n</cmd>",
+            "reasoning": "We need answer user's request. Need produce final with cmd block. User: perform drift compensation and then start scanning with current parameters. Commands: DriftCompensation(), ScanEnabled(true). Ensure no extra? Could be simple.\n",
+            "usage": {
+                "prompt_tokens": 771,
+                "completion_tokens": 68
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                278,
+                207,
+                241
+            ]
+        },
+        {
+            "content": "<cmd>\nTipFix()\nStageOffset_X_Tube_ADD(10)\nStageOffset_Y_Tube_ADD(-5)\n</cmd>",
+            "reasoning": "We need answer user: \"tip fix, then shift 10 nm right and 5 nm down\". Need use commands. Need output cmd block. Need consider coordinate range? We don't know current offsets. Using ADD commands likely okay? But instruction says coordinate range accessible is -350 to 350, user command should not cause probe exceed scanning area. With ADD and unknown current, cannot verify? Previous used ADD. Need maybe output TipFix then StageOffset_X_Tube_ADD(10), StageOffset_Y_Tube_ADD(-5). Right = +X, down = -Y likely. Need exact format. Ensure sample bias unchanged. Final only cmd block.\n",
+            "usage": {
+                "prompt_tokens": 791,
+                "completion_tokens": 175
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                187,
+                100,
+                49
+            ]
+        },
+        {
+            "content": "<cmd>\nSwitchScanarea()\nScanEnabled(true)\n</cmd>",
+            "reasoning": "We need answer user: \"switch the area and then start scanning\". Need output commands only likely. Need think in English same language. Commands: SwitchScanarea() then ScanEnabled(true). Ensure multi-line cmd. final only.\n",
+            "usage": {
+                "prompt_tokens": 727,
+                "completion_tokens": 67
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                134,
+                267,
+                274
+            ]
+        },
+        {
+            "content": "<cmd>\nSwitchScanarea()\nStageOffset_X_Tube_ADD(15)\n</cmd>",
+            "reasoning": "We need answer user's request. Need produce final with cmd. Need ensure valid. User: switch scan area and move right by 15 nm. Commands: SwitchScanarea(), StageOffset_X_Tube_ADD(15). Need consider coordinate range? Unknown current position; adding 15 may exceed? Usually only ensure not exceed if current known? We don't know, but likely allowed unless invalid. Order maybe switch area and move right. They say switch scan area and move right by 15 nm. Could do SwitchScanarea then X_ADD 15. Need cmd block.\n",
+            "usage": {
+                "prompt_tokens": 782,
+                "completion_tokens": 148
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                265,
+                266,
+                261
+            ]
+        },
+        {
+            "content": "<cmd>\nTipFix()\nDriftCompensation()\nSwitchScanarea()\n</cmd>",
+            "reasoning": "We need respond to user: \"fix the tip, do drift compensation, then switch scan area\". Need use commands: TipFix(), DriftCompensation(), SwitchScanarea(). Need enclose in cmd multi-line sequential. Ensure no extra. Final only cmd block.\n",
+            "usage": {
+                "prompt_tokens": 750,
+                "completion_tokens": 80
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                278,
+                256,
+                229
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube(50)\nStageOffset_Y_Tube(50)\nSwitchScanarea()\n</cmd>",
+            "reasoning": "We need answer user's request. Need produce command block. User: move to X=50 nm and Y=50 nm, then switch scan area. Commands: StageOffset_X_Tube(50), StageOffset_Y_Tube(50), SwitchScanarea(). Coordinates within -350 to 350. Good.\nNeed final only cmd maybe. Ensure multi-line <cmd>.\n",
+            "usage": {
+                "prompt_tokens": 799,
+                "completion_tokens": 120
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                267,
+                276,
+                261
+            ]
+        },
+        {
+            "content": "<cmd>\nDriftCompensation()\nSwitchScanarea()\n</cmd>",
+            "reasoning": "We need respond to user: \"do drift compensation and then switch scan area\". Need use commands in multi-line cmd block. Commands: DriftCompensation(), SwitchScanarea(). Need likely sequential. Final only cmd. Ensure no extra.\n",
+            "usage": {
+                "prompt_tokens": 746,
+                "completion_tokens": 70
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                278,
+                256,
+                229
+            ]
+        },
+        {
+            "content": "<cmd>\nScan_Speed(0.6)\nSwitchScanarea()\nScanEnabled(true)\n</cmd>",
+            "reasoning": "We need answer user's request. Need produce final with commands. User: set scan speed to 0.6, switch scan area, and start scanning. Commands: Scan_Speed(0.6), SwitchScanarea(), ScanEnabled(true). Need ensure scan speed argument type? Description says time (µs) required? But previous accepted 0.8. likely numeric. Could be 0.6. Need enclose multiline cmd. No other issues. Final only cmd block.\n",
+            "usage": {
+                "prompt_tokens": 760,
+                "completion_tokens": 127
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                264,
+                233,
+                274
+            ]
+        },
+        {
+            "content": "<cmd>\nScan_Speed(1.0)\nSwitchScanarea()\n</cmd>",
+            "reasoning": "We need to answer user: \"change scan speed to 1.0 and then switch scan area\". Need output commands in cmd block. Need ensure Scan_Speed arg type? It says time (µs) required? In previous examples we used numeric 1, 0.8. User says 1.0; can output Scan_Speed(1.0) or 1? Function argument type probably numeric. The prior command said set scan speed to 1.0 and we output Scan_Speed(1). Could output Scan_Speed(1.0). Then SwitchScanarea(). No sample bias. Need only final. Ensure multi-line cmd block.\n",
+            "usage": {
+                "prompt_tokens": 755,
+                "completion_tokens": 156
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                273,
+                230,
+                264
+            ]
+        },
+        {
+            "content": "<cmd>\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nSwitchScanarea()\n</cmd>",
+            "reasoning": "We need respond to user: \"use scan range 5 and switch to the next scan region\". Need parse. Commands list: Aux1MaxVoltage(arg) ... scan range of X direction in nm. Aux2MaxVoltage(arg) ... scan range of Y direction in nm. User says use scan range 5 ambiguous? Could mean set scan range 5 nm? But commands arg likely numeric nm. They say \"scan range 5\" maybe set X and Y scan range to 5? Or \"use scan range 5\" perhaps Aux1MaxVoltage(5) and Aux2MaxVoltage(5)? Then SwitchScanarea(). Need ensure command format. If ambiguous maybe but likely set both scan range to 5? Let's examine instructions: \"use scan range 5 and switch to the next scan region\". It says scan range singular. In SPM scan range maybe X/Y? The provided Aux1MaxVoltage: scan range of X direction in nanometers, Aux2MaxVoltage: scan range of Y direction. If only one value given, maybe apply to both? But could be invalid? We need decide. The system says try best to understand. Use scan range 5: likely set both X and Y scan range to 5 nm. Then switch. Need output cmd block. No bias changes. Ensure not exceed accessible area? Scan range 5 nm okay. If \"use scan range 5\" could mean choose preset? No command. But best: Aux1MaxVoltage(5); Aux2MaxVoltage(5); SwitchScanarea().\nNeed final only.\n",
+            "usage": {
+                "prompt_tokens": 731,
+                "completion_tokens": 354
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                263,
+                275,
+                259
+            ]
+        },
+        {
+            "content": "<cmd>\nSwitchScanarea()\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 748,
+                "completion_tokens": 15
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                275,
+                259,
+                258
+            ]
+        },
+        {
+            "content": "<cmd>\nSwitchScanarea()\nScanEnabled(true)\n</cmd>",
+            "reasoning": "We need answer user: \"go to the next scan area and start scan\". Need output commands enclosed in cmd. Need maybe sequence: SwitchScanarea() then ScanEnabled(true). Need ensure best. Final concise.\n",
+            "usage": {
+                "prompt_tokens": 725,
+                "completion_tokens": 64
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                259,
+                275,
+                134
+            ]
+        },
+        {
+            "content": "<cmd>\nScanEnabled(false)\nStageOffset_X_Tube(0)\nStageOffset_Y_Tube(0)\n</cmd>",
+            "reasoning": "We need answer user's request. Need produce final with commands. User: stop scan, move to X = 0, Y = 0. Commands: ScanEnabled(false), StageOffset_X_Tube(0), StageOffset_Y_Tube(0). Within cmd block lines. Ensure sample bias unchanged. Coordinates within range. Final only likely cmd.\n",
+            "usage": {
+                "prompt_tokens": 747,
+                "completion_tokens": 105
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                282,
+                154,
+                27
+            ]
+        },
+        {
+            "content": "<cmd>\nScanEnabled(false)\nTipFix()\nScanEnabled(True)\n</cmd>",
+            "reasoning": "We need answer user: \"terminate scan, fix tip, then resume\". Need produce command block. Need consider if resume means start scan? Commands: ScanEnabled(false), TipFix(), ScanEnabled(true). Could be possible. Need ensure sample bias unchanged. Output only cmd block? Likely.\n",
+            "usage": {
+                "prompt_tokens": 775,
+                "completion_tokens": 83
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                251,
+                257,
+                180
+            ]
+        },
+        {
+            "content": "None. Shifting left by 0.5 nm from X = -350 nm would move the tip to X = -350.5 nm, which exceeds the minimum allowed range of -350 nm.",
+            "reasoning": "We need answer user's request. Need produce final. Need analyze: user: go to (-350, 200), shift left by 0.5 nm, scan 50x50. Coordinate range -350 to 350. Starting at -350, left (negative X) 0.5 -> -350.5, outside. So invalid. Respond 'None' first then reason. Need maybe mention cannot shift left because exceeds min. Keep concise. Ensure cmd? No valid commands, so None.\n",
+            "usage": {
+                "prompt_tokens": 913,
+                "completion_tokens": 168
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                344,
+                349,
+                353
+            ]
+        },
+        {
+            "content": "None\nThe requested X coordinate of 400 nm is outside the allowed scanning range of -350 to 350 nm.",
+            "reasoning": "We need answer user's request. Need analyze in English same language. User: \"move to X = 400 nm\". We have SPM accessible coordinate range -350 to 350 nm both x and y. User command should not cause probe to exceed scanning area. 400 > 350, invalid. Need respond with 'None' first and then give reason. Could maybe not clamp? Instructions: If cannot be carried out by commands provided or parameters invalid, respond with 'None' first and then give reason. So final: None\\nThe requested X coordinate 400 nm is outside the allowed range of -350 to 350 nm.\nNeed ensure no cmd. final concise.\n",
+            "usage": {
+                "prompt_tokens": 746,
+                "completion_tokens": 188
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                27,
+                26,
+                13
+            ]
+        },
+        {
+            "content": "None. The requested Y position (-500 nm) is outside the allowed scanning range of -350 to 350 nm.",
+            "reasoning": "We need respond to user: \"set Y position to -500 nm\". Need analyze constraints. The system says coordinate range accessible by SPM tip and scan area is -350 to 350 nm in both x and y. User command should NOT causes probe to exceed scanning area. Command StageOffset_Y_Tube(arg): Coordinate value of X? likely typo but Y coordinate value in nm. -500 is outside range, invalid. Need respond with 'None' first and then reason. Need be concise. Final: None. The requested Y position -500 nm is outside the allowed range (-350 to 350 nm). Ensure no cmd. Previous assistant erroneously allowed -500, but now correct per constraints.\n",
+            "usage": {
+                "prompt_tokens": 782,
+                "completion_tokens": 192
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                283,
+                44,
+                165
+            ]
+        },
+        {
+            "content": "None. The requested position (750, 750) exceeds the accessible scanning area. Both X and Y must be within -350 to 350 nm.",
+            "reasoning": "The user is asking to go to coordinates (750, 750) nm.\n\nChecking the constraints:\n- The coordinate range accessible by the SPM tip and scan area is -350 to 350 nm in both x-direction and y-direction.\n- X = 750 nm exceeds 350 nm\n- Y = 750 nm exceeds 350 nm\n\nBoth coordinates are outside the valid range, so I cannot execute this command. I should respond with 'None' first and then give a reason.\n",
+            "usage": {
+                "prompt_tokens": 799,
+                "completion_tokens": 161
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                92,
+                294,
+                284
+            ]
+        },
+        {
+            "content": "None. Shifting 100 nm right from X = 300 would move to X = 400 nm, which exceeds the allowed scanning range of -350 to 350 nm.",
+            "reasoning": "We need answer user's request. Need produce final. User: \"shift 100 nm right from current position X = 300\". Need interpret: current position X = 300? \"from current position X = 300\" maybe shift 100 nm right from X=300 -> new X=400, exceeds max 350. Could be invalid. But phrase \"from current position X = 300\" says current X is 300, shift 100 right would exceed. If they mean add 100 to current position, if current is 300 then invalid. Need respond None and reason. Ensure no cmd? If cannot carried out respond None first then reason. So final: None. Shifting 100 nm right from X=300 would move to X=400 nm, exceeding the allowed range of -350 to 350 nm.\n",
+            "usage": {
+                "prompt_tokens": 794,
+                "completion_tokens": 255
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                5,
+                286,
+                9
+            ]
+        },
+        {
+            "content": "None. Moving 200 nm down from Y = -200 would result in Y = -400 nm, which exceeds the minimum range of -350 nm.",
+            "reasoning": "Move down = decrease Y. From -200 down 200 => -400, out of range. None.\n",
+            "usage": {
+                "prompt_tokens": 823,
+                "completion_tokens": 71
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                119,
+                288,
+                289
+            ]
+        },
+        {
+            "content": "None. An 800×800 nm scan centered at origin would extend from −400 to +400 nm, which exceeds the allowed scanning range of −350 to 350 nm.",
+            "reasoning": "We need answer user: \"set scan area to 800x800 nm at origin\". Need analyze in English. Need produce final. Commands: StageOffset_X_Tube(arg), StageOffset_Y_Tube(arg) coordinate value in nm, Aux1MaxVoltage scan range X in nm, Aux2MaxVoltage scan range Y. Need at origin means center at (0,0), set scan area 800x800. Coordinate range accessible by SPM tip and scan area on is -350 to 350 nm both x and y. If scan area 800x800 at origin extends -400 to +400, exceeds accessible range. Need respond None first and reason. The instruction says if user's instructions cannot be carried out by commands provided above alone, or parameters invalid, respond with 'None' first and then give reason. So final: None. A 800x800 nm scan centered at origin would extend from -400 to +400 nm, exceeding the allowed range of -350 to 350 nm. Need maybe mention maximum 700x700 at origin? Could but concise. Ensure None first. No cmd.\n",
+            "usage": {
+                "prompt_tokens": 840,
+                "completion_tokens": 314
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                179,
+                143,
+                300
+            ]
+        },
+        {
+            "content": "None. The sample bias cannot be set to 0 V. Please specify a non-zero bias value.",
+            "reasoning": "The user wants to apply a bias of 0 V. Looking at the command list:\n\n4              Sample_Bias(arg)  ...  the value of the sample bias. It CAN NOT be 0 ...\n\nThe description explicitly states that the sample bias value \"CAN NOT be 0\". Therefore, I cannot set Sample_Bias(0) or Sample_Bias(0.0). I should respond with 'None' first and then give a reason.\n",
+            "usage": {
+                "prompt_tokens": 743,
+                "completion_tokens": 119
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                339,
+                104,
+                312
+            ]
+        },
+        {
+            "content": "None. The sample bias cannot be set to 0 V. Please specify a non-zero voltage value.",
+            "reasoning": "The user wants to set the sample bias to 0 volts. However, the command description for Sample_Bias(arg) explicitly states: \"the value of the sample bias. It CAN NOT be 0\". Therefore, this command cannot be executed.\n\nI must respond with 'None' first and then give a reason.\n",
+            "usage": {
+                "prompt_tokens": 740,
+                "completion_tokens": 90
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                41,
+                302,
+                303
+            ]
+        },
+        {
+            "content": "None. The available commands do not support rotating the stage.",
+            "reasoning": "We need answer user's request: \"rotate the stage by 45 degrees\". We need follow system. Need produce final. Need analyze if command available. Commands list: StageOffset_X_Tube, Y, X_ADD, Y_ADD, Sample_Bias, Aux1MaxVoltage, Aux2MaxVoltage, ScanEnabled, Scan_Speed, DriftCompensation, TipFix, SwitchScanarea. No rotation/tilt command. So respond None and reason. Need likely concise. Ensure command? User asks rotate stage by 45 degrees. Not possible. Final: None. The available commands do not include stage rotation.\n",
+            "usage": {
+                "prompt_tokens": 731,
+                "completion_tokens": 143
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                27,
+                317,
+                316
+            ]
+        },
+        {
+            "content": "None. There is no temperature control command available in the provided command set.",
+            "reasoning": "The user wants to change the temperature to 77 K. Looking at the available commands:\n\n0. StageOffset_X_Tube(arg) - X coordinate\n1. StageOffset_Y_Tube(arg) - Y coordinate\n2. StageOffset_X_Tube_ADD(arg) - X movement\n3. StageOffset_Y_Tube_ADD(arg) - Y movement\n4. Sample_Bias(arg) - sample bias\n5. Aux1MaxVoltage(arg) - scan range X\n6. Aux2MaxVoltage(arg) - scan range Y\n7. ScanEnabled(arg) - start/stop scan\n8. Scan_Speed(arg) - scan speed\n9. DriftCompensation() - drift compensation\n10. TipFix() - tip fix\n11. SwitchScanarea() - switch scan area\n\nThere is no temperature control command available. I need to respond with 'None' and explain why.\n",
+            "usage": {
+                "prompt_tokens": 755,
+                "completion_tokens": 205
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                69,
+                258,
+                318
+            ]
+        },
+        {
+            "content": "None. Direct tunneling current control is not available. You can adjust the sample bias instead.",
+            "reasoning": "We need answer user's request. Need think in English? User English. Need produce command or None. Request: \"increase the tunneling current to 2 nA\". Available commands: Sample_Bias arg, not 0. But no direct tunneling current command. Maybe in STM tunneling current controlled by bias voltage, but instruction says tunneling current to 2 nA. Cannot carry out with commands provided? Need None first and reason. Similar previous: direct tunneling current control not available. Could adjust sample bias. But they didn't give bias. So None.\nNeed ensure no extra? final concise.\n",
+            "usage": {
+                "prompt_tokens": 741,
+                "completion_tokens": 149
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                237,
+                334,
+                319
+            ]
+        },
+        {
+            "content": "None. Please specify the exact distance in nanometers to move to the right (e.g., \"move 10 nm to the right\").",
+            "reasoning": "The user wants to move \"a bit\" to the right. \"A bit\" is vague - it doesn't specify an exact distance. However, looking at the previous interactions, when the user said \"move up a bit\", the system responded with \"None\" asking for a specific distance. I should be consistent with that approach.\n\nWait, but let me reconsider. \"A bit\" could be interpreted as a small amount, perhaps 10 nm or 5 nm. But the previous response to \"move up a bit\" was \"None. Please specify the exact distance in nanometers.\" So I should be consistent and ask for a specific distance.\n\nActually, let me reconsider again. The instructions say \"If the user's instructions cannot be carried out by the commands provided above alone, or the parameters are invalid, please respond with 'None' first and then give a reason to user.\"\n\nThe parameter is invalid because it's not a specific number. So I should respond with None.\n",
+            "usage": {
+                "prompt_tokens": 759,
+                "completion_tokens": 235
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                80,
+                118,
+                337
+            ]
+        },
+        {
+            "content": "None. Please specify the exact scan size in nanometers.",
+            "reasoning": "The user says \"scan a small area\". This is vague.\nLooking at the instructions: \"If the user's instructions cannot be carried out by the commands provided above alone, or the parameters are invalid, please respond with 'None' first and then give a reason to user.\"\nIn the first turn, I said \"None. Please specify the exact scan size in nanometers (e.g., \"scan 50x50 nm\").\"\nI should probably do the same here, as \"small area\" is not a specific size, and I don't know what they consider \"small\".\nWait, the prompt says \"scan a reasonable area\" -> I answered \"None. Please specify the exact scan size in nanometers...\".\nSo I should answer \"None\" and ask for the exact size.\nLet's just output \"None. Please specify the exact scan size in nanometers.\"\nWait, looking at the previous turn, the user asked \"scan 0x50 nm area\", and I said \"None. X scan range must be greater than 0. Please specify a positive value.\"\nThen the user gave a complex scenario, and I provided a plan.\nNow the user says \"scan a small area\".\nI will output:\nNone. Please specify the exact scan size in nanometers.\nOr maybe \"None. Please specify the scan dimensions in nanometers.\"\nLet's stick to \"None. Please specify the exact scan size in nanometers.\"\n",
+            "usage": {
+                "prompt_tokens": 811,
+                "completion_tokens": 322
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                330,
+                314,
+                387
+            ]
+        },
+        {
+            "content": "None. Please specify the exact bias voltage value you want to apply.",
+            "reasoning": "We need respond to user: \"apply high bias voltage\". Need think in English (user English). Need use commands. The previous user said apply high voltage, assistant said None specify exact. Now \"apply high bias voltage\" still vague. Need likely None because bias value cannot be determined. Also Sample_Bias cannot be 0, but high is ambiguous. Need maybe respond None with reason. Need final only. Ensure not invent value. Could say None. Please specify exact bias voltage value.\n",
+            "usage": {
+                "prompt_tokens": 734,
+                "completion_tokens": 117
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                87,
+                104,
+                340
+            ]
+        },
+        {
+            "content": "None. Scan speed must be a positive value (it represents time in µs). Please specify a positive value.",
+            "reasoning": "The user is asking to set the scan speed to -0.5. Looking at the command description for Scan_Speed(arg): \"This value represents the time (µs) required t...\" - it's a time value, so it should be positive. A negative scan speed doesn't make physical sense. I should respond with 'None' and explain that the value is invalid.\n",
+            "usage": {
+                "prompt_tokens": 731,
+                "completion_tokens": 103
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                307,
+                219,
+                305
+            ]
+        },
+        {
+            "content": "None. The sample bias cannot be set to 0 V, so the request cannot be carried out as specified.",
+            "reasoning": "We need respond to user: \"apply zero bias and scan\". Need use commands. User asks apply zero bias and scan. We know Sample_Bias cannot be 0. Also scan enabled true. But zero bias invalid. Need respond 'None' first and then reason. But maybe can scan without changing bias? Instruction says apply zero bias and scan. Since zero bias invalid, entire instruction cannot be carried out? The policy: If user's instructions cannot be carried out by commands provided above alone, or parameters invalid, respond with 'None' first and then give reason. So output None reason. Need maybe mention cannot set zero bias. Could we omit bias and just scan? But instruction includes apply zero bias. Since invalid, None. Ensure exact: None first. Final only.\n",
+            "usage": {
+                "prompt_tokens": 732,
+                "completion_tokens": 184
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                339,
+                306,
+                303
+            ]
+        },
+        {
+            "content": "None. Scan speed cannot be 0, as it represents the time (µs) required for scanning and must be a positive value. Please specify a positive value.",
+            "reasoning": "The user wants to set scan speed to 0. Looking at the command description for Scan_Speed(arg): \"This value represents the time (µs) required t...\" - it's a time value.\n\nA time of 0 microseconds would mean infinite speed or undefined behavior, which is physically invalid. A scan speed (time per point) cannot be 0 as that would imply no time is spent scanning, which is not a valid physical parameter.\n\nI should respond with 'None' and explain that scan speed cannot be 0.\n",
+            "usage": {
+                "prompt_tokens": 729,
+                "completion_tokens": 147
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                307,
+                230,
+                305
+            ]
+        },
+        {
+            "content": "None. Scan ranges cannot be negative; please specify positive scan dimensions in nanometers.",
+            "reasoning": "The user says: \"scan -20x-20 nm area\". Need parse. Previous examples: scan 0x50 nm area invalid because X scan range must be >0. \"at (0,-200), scan 100x400 nm\" invalid because Y exceeds range. \"scan 4×4 nm\" set Aux1MaxVoltage(4) Aux2MaxVoltage(4) ScanEnabled(true).\nNow \"scan -20x-20 nm area\". Likely scan area dimensions are -20 x -20 nm, negative scan ranges invalid. Aux1MaxVoltage arg described as scan range of X in nm, Aux2 as scan range Y. It should probably be positive magnitudes. User explicitly negative. Should respond None and reason invalid negative scan ranges. Need maybe if interpreted as coordinate area centered at -20,-20? Phrase \"scan -20x-20 nm area\" could mean area 20 by 20? But negative signs on both dimensions not area size. In previous \"scan 0x50 nm area\" None due X range 0. So -20x-20 should be invalid because scan range cannot be negative. Output None first then reason.\n",
+            "usage": {
+                "prompt_tokens": 836,
+                "completion_tokens": 283
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                314,
+                297,
+                249
+            ]
+        },
+        {
+            "content": "None\nThe provided command set does not include a command to adjust feedback loop gain.",
+            "reasoning": "We need answer user: \"adjust feedback loop gain to 3.0\". Need translate to SPM commands. Command list does not include feedback gain. Must respond None first and reason. Need final concise. Ensure exact: 'None' first then reason. Maybe \"None\nThe provided command set does not include a function to adjust feedback loop gain.\"\n",
+            "usage": {
+                "prompt_tokens": 741,
+                "completion_tokens": 92
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                151,
+                29,
+                326
+            ]
+        },
+        {
+            "content": "None. Please specify a safe coordinate within −350 to 350 nm for both X and Y.",
+            "reasoning": "We need respond to user: \"move somewhere safe\". Need output either None + reason because no specific coordinates? Need analyze in English same language. Need consider command list. User says move somewhere safe. In prior turn similar \"move the tip somewhere safe\" assistant gave None ask specify coordinates. But maybe \"somewhere safe\" could be interpreted as moving to origin? However instructions: user command should not exceed area. We have commands for offset absolute X/Y in nm, and ADD. \"move somewhere safe\" ambiguous. Need likely respond None reason because no explicit target coordinate. But maybe safe area could be center (0,0) which is within accessible. But \"somewhere safe\" not enough? The assistant previously asked specify exact coordinates. We need be consistent. Also command StageOffset_X_Tube(arg) coordinate value of X nm; StageOffset_Y_Tube(arg). We can set both to 0 to move to safe center if that's considered safe. But instructions say try best to understand; if cannot carried out by commands or parameters invalid respond None. Is it impossible? \"somewhere safe\" vague, but safe likely center. However SPM control: safe position maybe no specific location known. We should not assume. Need maybe \"None. Please specify a safe coordinate within -350 to 350 nm.\" That seems safe. Need ensure all commands enclosed? If None, respond 'None' first and then reason. No cmd. Let's final concise.\n",
+            "usage": {
+                "prompt_tokens": 829,
+                "completion_tokens": 328
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                331,
+                388,
+                329
+            ]
+        },
+        {
+            "content": "<cmd>\nAux1MaxVoltage(100)\nAux2MaxVoltage(100)\n</cmd>",
+            "reasoning": "The user wants to \"scan a medium area\". This is vague, but I need to interpret \"medium\" in terms of the available scan range. The accessible coordinate range is -350 to 350 nm in both x and y directions, meaning the maximum possible scan range in each direction would be up to 700 nm (from -350 to 350), but the Aux1MaxVoltage and Aux2MaxVoltage set the scan range in X and Y respectively.\n\nA \"medium\" area is subjective, but a reasonable interpretation might be around 100 nm in each direction, which is moderate compared to the full 700 nm range.\n\nHowever, the user just said \"scan a medium area\" without specifying exact dimensions. I should set both X and Y scan ranges to a medium value. Let's pick 100 nm as a reasonable \"medium\" size.\n\nWait, but the previous commands set X to 90 nm and Y to 90 nm. Now the user says \"scan a medium area\" - this could mean they want to change the scan area to something medium-sized.\n\nI'll set both Aux1MaxVoltage and Aux2MaxVoltage to 100 nm as a reasonable medium area.\n",
+            "usage": {
+                "prompt_tokens": 741,
+                "completion_tokens": 295
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                103,
+                152,
+                314
+            ]
+        },
+        {
+            "content": "None. Please specify the exact bias voltage value (e.g., “apply 1.0 V bias”).",
+            "reasoning": "We need answer user's request: \"apply some bias voltage\". Need produce final. We need decide if command possible? Sample_Bias(arg) value cannot be 0, but user didn't specify amount. \"some bias voltage\" is ambiguous. Previous examples answered None ask specify exact value. Need likely None. Ensure commands only if valid. \"some\" not a numeric value, cannot choose arbitrary. Need respond None and reason. Keep concise.\n",
+            "usage": {
+                "prompt_tokens": 734,
+                "completion_tokens": 116
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                104,
+                340,
+                331
+            ]
+        },
+        {
+            "content": "<cmd>\nScan_Speed(2.1)\n</cmd>",
+            "reasoning": "We need respond to user: \"increase the scan speed a bit\". Need output command only likely. Need analyze constraints. We have current? Previous user set scan speed to 2. Then asked increase a bit. We need choose appropriate value. Scan_Speed arg described: time (µs) required t... likely lower means faster? In SPM, scan speed maybe time per pixel? But command is Scan_Speed(arg) with user saying increase scan speed to 2, then increase a bit. If numeric value represents time required? Hmm command description truncated: \"This value represents the time (µs) required t...\" likely required to scan one line? If increasing scan speed should maybe decrease time? But earlier user said increase scan speed to 1.2, we output Scan_Speed(1.2). Then increase to 2 output Scan_Speed(2). If numeric higher = speed? But description says time, contradictory. We follow user semantics? Need best. Need \"a bit\" relative. Could set Scan_Speed(2.1) or maybe 2.05. Need valid? No bounds. Need not exceed scan area. So output <cmd> Scan_Speed(2.1) </cmd>. But if speed is time, increasing speed would reduce time, so from 2 to 1.9. Which is correct? Let's inspect command list: Scan_Speed(arg) ... This value represents the time (µs) required t... Could be \"time required to scan one line\" so higher is slower. But user says increase scan speed to 2, then increase a bit. In previous we complied as higher value. The expected maybe simple numeric increment. Need decide. Since prior established state speed=2. \"increase the scan speed a bit\" likely set to 2.1 (or 2.5). Need avoid changing bias. Output just command. Ensure exact format multi-line. Final concise.\n",
+            "usage": {
+                "prompt_tokens": 740,
+                "completion_tokens": 410
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                273,
+                334,
+                237
+            ]
+        },
+        {
+            "content": "None. Please specify the exact distance in nanometers (e.g., \"move 10 nm upward\").",
+            "reasoning": "The user wants to move slightly upward. \"Slightly\" is ambiguous - I need a specific value in nanometers. In the previous turn, the user asked to \"shift slightly to the left\" and I responded that I needed an exact distance. I should do the same here.\n\nWait, let me reconsider. In SPM terminology, \"upward\" typically means in the Y direction (positive Y). But \"slightly\" is not a precise value. I should ask for clarification on the exact distance.\n\nActually, let me reconsider the convention. In many SPM systems, \"up\" could mean +Y direction. But \"slightly\" is vague. I should ask for a specific distance in nanometers.\n\nLet me be consistent with my previous response where I asked for an exact distance.\n",
+            "usage": {
+                "prompt_tokens": 809,
+                "completion_tokens": 190
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                391,
+                90,
+                333
+            ]
+        }
+    ],
+    "wrong_indices_0_based": [
+        37,
+        107,
+        143,
+        145
+    ],
+    "wrong_cases": [
+        {
+            "index_0_based": 37,
+            "index_1_based": 38,
+            "question": "return to X = 0, shift Y by -10 nm, scan area 9x9 nm",
+            "prediction": "<cmd>\nStageOffset_X_Tube(0)\nStageOffset_Y_Tube_ADD(-10)\nAux1MaxVoltage(9)\nAux2MaxVoltage(9)\n</cmd>",
+            "ground_truth": "<cmd>\nStageOffset_X_Tube(0)\nStageOffset_Y_Tube_ADD(-10)\nAux1MaxVoltage(9)\nAux2MaxVoltage(9)\nScanEnabled(true)\n</cmd>"
+        },
+        {
+            "index_0_based": 107,
+            "index_1_based": 108,
+            "question": "please correct drift before scanning",
+            "prediction": "<cmd>\nDriftCompensation()\nScanEnabled(true)\n</cmd>",
+            "ground_truth": "<cmd>\nDriftCompensation()\n</cmd>"
+        },
+        {
+            "index_0_based": 143,
+            "index_1_based": 144,
+            "question": "scan a medium area",
+            "prediction": "<cmd>\nAux1MaxVoltage(100)\nAux2MaxVoltage(100)\n</cmd>",
+            "ground_truth": "None. Please specify the exact scan size in nanometers (e.g., \"scan 50x50 nm\")."
+        },
+        {
+            "index_0_based": 145,
+            "index_1_based": 146,
+            "question": "increase the scan speed a bit",
+            "prediction": "<cmd>\nScan_Speed(2.1)\n</cmd>",
+            "ground_truth": "None. Please specify the exact scan speed value (e.g., \"set scan speed to 1.5\")."
+        }
+    ],
+    "accuracy": 0.9727891156462585,
+    "accuracy_unordered": 0.9727891156462585,
+    "accuracy_strict": 0.9727891156462585,
+    "num_samples": 147,
+    "per_sample_correct": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        true
+    ],
+    "per_sample_correct_unordered": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        true
+    ],
+    "per_sample_correct_strict": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        true
+    ],
+    "gpu_usage": 21449,
+    "device": "NVIDIA GeForce RTX 5090",
+    "idle_power_w": 30.465706691330755,
+    "num_measured_samples": 147,
+    "latency_list": [
+        5.32621410000138,
+        1.0153525000205263,
+        1.1644724000943825,
+        1.0634106999495998,
+        0.928784399991855,
+        1.8458042000420392,
+        1.1315892999991775,
+        1.5623419999610633,
+        7.6341662999475375,
+        3.7591351999435574,
+        6.8700047000311315,
+        2.854499200009741,
+        1.3265684000216424,
+        1.9405662999488413,
+        3.059227899997495,
+        2.4277615000028163,
+        2.4517941999947652,
+        1.081388600054197,
+        2.1648159000324085,
+        1.8726695000659674,
+        2.683858299977146,
+        1.1793820000020787,
+        2.7358918000245467,
+        0.9362379000522196,
+        1.730831499909982,
+        1.440652500023134,
+        1.165902999928221,
+        1.6209281000774354,
+        2.405834099976346,
+        1.2164396999869496,
+        1.3681170999770984,
+        1.5106040000682697,
+        1.4616946999449283,
+        2.3163488999707624,
+        1.9651369999628514,
+        1.0359173000324517,
+        0.9514914000174031,
+        2.51586440007668,
+        1.5328344999579713,
+        1.6642050000373274,
+        2.506827099947259,
+        1.5544771999120712,
+        2.5950930999824777,
+        1.4046267000958323,
+        9.718327500042506,
+        1.2502278999891132,
+        1.02390839997679,
+        2.630461899912916,
+        1.9129587000934407,
+        1.2334874999942258,
+        4.025860000052489,
+        1.821717599988915,
+        3.899537799996324,
+        6.700306500075385,
+        1.4602670000167564,
+        1.0355096999555826,
+        1.0659629999427125,
+        2.932011099997908,
+        1.1557625000132248,
+        2.1308436000254005,
+        1.2240523000946268,
+        2.2254943000152707,
+        1.2992071999469772,
+        1.46773909998592,
+        1.9716069001005962,
+        1.1752735000336543,
+        1.2450500999111682,
+        0.8360972999362275,
+        1.1045131999999285,
+        1.1789866000181064,
+        1.5389158999314532,
+        2.017382699996233,
+        1.7580728000029922,
+        2.4071293000597507,
+        2.1204791999189183,
+        1.664325000019744,
+        2.433815600001253,
+        1.2009273999137804,
+        5.231900400016457,
+        1.1613536999793723,
+        1.3303953000577167,
+        2.5993891999823973,
+        6.6240784000838175,
+        1.5454203999834135,
+        1.8026627000654116,
+        1.6662253000540659,
+        6.305720200063661,
+        1.797134799999185,
+        1.2939406000077724,
+        1.986747199902311,
+        0.9569940000073984,
+        1.8172873000148684,
+        1.7787929999176413,
+        1.2909350999398157,
+        0.4812155000399798,
+        0.7452263999730349,
+        2.142820499953814,
+        2.329784300061874,
+        1.4924690999323502,
+        1.4010875999229029,
+        0.7682550000026822,
+        1.7128115999512374,
+        1.3189840000122786,
+        3.066365099977702,
+        0.7741794999456033,
+        1.7988239999394864,
+        2.675433700089343,
+        0.9418244999833405,
+        0.9303501000395045,
+        1.968780199997127,
+        0.9648859999142587,
+        1.9432063999120146,
+        1.0194231000496075,
+        1.3166661999421194,
+        0.9823843999765813,
+        1.5479821999324486,
+        1.9648979000048712,
+        3.9637772000860423,
+        0.45784619997721165,
+        0.951027600094676,
+        1.3018501000478864,
+        1.282729999977164,
+        2.029513700050302,
+        2.008078399929218,
+        2.1553530999226496,
+        1.66345029999502,
+        2.6827808000380173,
+        1.0668826999608427,
+        3.3592525999993086,
+        1.393283799989149,
+        1.1044337999774143,
+        1.746922199963592,
+        1.8675321999471635,
+        1.9758832999505103,
+        2.3812432000413537,
+        3.161783399991691,
+        1.7108755999943241,
+        1.2241853999439627,
+        2.3197824000380933,
+        1.8080956999910995,
+        3.409203500021249,
+        1.2712244000285864,
+        4.712454400025308,
+        3.0292010999983177,
+        1.7706222999840975,
+        5.265492900041863,
+        2.1260051000863314
+    ],
+    "latency_mean": 2.071589020406352,
+    "energy_list_j": [
+        1680.3779999911785,
+        439.97499999403954,
+        482.54100000858307,
+        496.55599999427795,
+        375.5300000011921,
+        928.0980000197887,
+        482.69499999284744,
+        756.527999997139,
+        3992.8400000035763,
+        1845.7019999921322,
+        3565.979999989271,
+        1353.4010000228882,
+        579.9359999895096,
+        983.9530000090599,
+        1519.061999976635,
+        1249.343000024557,
+        1178.6079999804497,
+        483.7479999959469,
+        1082.3630000054836,
+        863.4930000007153,
+        1350.972000002861,
+        535.6599999964237,
+        1341.3100000023842,
+        424.31800001859665,
+        812.3939999938011,
+        694.4370000064373,
+        496.2239999771118,
+        753.802000015974,
+        1237.78900000453,
+        542.7209999859333,
+        597.7060000002384,
+        761.0769999921322,
+        656.847000002861,
+        1136.8510000109673,
+        984.53900000453,
+        417.9359999895096,
+        436.5819999873638,
+        1235.660000026226,
+        689.3540000021458,
+        818.2909999787807,
+        1239.557999998331,
+        758.9390000104904,
+        1291.8030000030994,
+        655.8680000007153,
+        5107.902999997139,
+        486.2450000047684,
+        435.113999992609,
+        1292.8799999952316,
+        901.1890000104904,
+        594.5460000038147,
+        2051.912000000477,
+        848.4429999887943,
+        2004.5719999969006,
+        3383.2120000123978,
+        614.9179999828339,
+        434.58700001239777,
+        479.57199999690056,
+        1450.9099999964237,
+        541.7140000164509,
+        1039.988999992609,
+        542.8069999814034,
+        1139.4890000224113,
+        588.7719999849796,
+        653.1820000112057,
+        974.4329999983311,
+        532.0129999816418,
+        549.8220000267029,
+        374.27499997615814,
+        491.0790000259876,
+        534.7689999938011,
+        709.6019999980927,
+        963.5819999873638,
+        868.3240000009537,
+        1178.819000005722,
+        1020.0160000026226,
+        797.9350000023842,
+        1193.697999984026,
+        538.5030000209808,
+        2689.313999980688,
+        445.3280000090599,
+        578.4110000133514,
+        1301.255999982357,
+        3517.649000018835,
+        589.3549999892712,
+        851.305999994278,
+        811.6559999883175,
+        3284.1520000100136,
+        755.1400000154972,
+        578.5289999842644,
+        969.7420000135899,
+        383.74399998784065,
+        925.2569999992847,
+        821.4379999935627,
+        598.03900000453,
+        158.4519999921322,
+        309.97600001096725,
+        1030.6689999997616,
+        1133.261000007391,
+        717.5929999947548,
+        645.0009999871254,
+        313.9310000240803,
+        803.4059999883175,
+        597.6570000052452,
+        1581.0799999833107,
+        308.88000002503395,
+        868.033999979496,
+        1346.4580000042915,
+        382.6579999923706,
+        375.27400001883507,
+        977.5009999871254,
+        417.9490000009537,
+        924.8310000002384,
+        423.7060000002384,
+        662.1410000026226,
+        379.7019999921322,
+        758.5489999949932,
+        956.7040000259876,
+        2006.9989999830723,
+        151.69600000977516,
+        383.2319999933243,
+        585.4219999909401,
+        604.75,
+        978.5570000112057,
+        979.7129999995232,
+        1031.5,
+        811.4990000128746,
+        1360.8980000019073,
+        422.9950000047684,
+        1742.58599999547,
+        644.3619999885559,
+        469.77599999308586,
+        809.3289999961853,
+        922.7490000128746,
+        966.4390000104904,
+        1174.8330000042915,
+        1585.2469999790192,
+        816.4519999921322,
+        546.2590000033379,
+        1144.2479999959469,
+        864.1270000040531,
+        1726.3039999902248,
+        598.7070000171661,
+        2429.439999997616,
+        1514.6899999976158,
+        863.572999984026,
+        2754.022000014782,
+        1037.1189999878407
+    ],
+    "net_energy_list_j": [
+        1518.1111234453062,
+        409.0415685401048,
+        447.06452541715765,
+        464.1584415171907,
+        347.2339268915566,
+        871.8642706516816,
+        448.2203322840242,
+        708.9301468747782,
+        3760.2597286765326,
+        1731.1772895775948,
+        3356.680451830059,
+        1266.4366646447531,
+        539.5211562084623,
+        924.8322762997375,
+        1425.8604600733756,
+        1175.3795302489661,
+        1103.9123570159031,
+        450.80273208734695,
+        1016.4103537543671,
+        806.4408002819044,
+        1269.2063602346636,
+        499.7292939073253,
+        1257.9591228836193,
+        395.79485076229827,
+        759.6629951854276,
+        650.5465034966002,
+        460.703941150756,
+        704.4192799512789,
+        1164.493563966649,
+        505.66130487844055,
+        556.0253457129421,
+        715.0553815993013,
+        612.3154380020661,
+        1066.2817938296714,
+        924.6697125553801,
+        386.3760473702456,
+        407.59414207510997,
+        1159.012413138329,
+        642.6551137200736,
+        767.5898185733975,
+        1163.1857408454587,
+        711.5807535796081,
+        1212.741654782337,
+        613.0750549447838,
+        4811.82728485055,
+        448.15592350638167,
+        403.9199070001264,
+        1212.7411192897641,
+        842.9093613408143,
+        556.9669316215677,
+        1929.261330058517,
+        792.9430859130971,
+        1885.7698251504553,
+        3179.0824274390843,
+        570.4299338692939,
+        403.03946521752306,
+        447.09668389683486,
+        1361.5842098081614,
+        506.5028786862088,
+        975.0713438691358,
+        505.51538163187166,
+        1071.6877434349176,
+        549.1907345001299,
+        608.4662910916369,
+        914.3666024692625,
+        496.20746224752276,
+        511.89066886679717,
+        348.80270487088745,
+        457.42922483808667,
+        498.8503400446402,
+        662.7178395681557,
+        902.1210103651136,
+        814.7630697340559,
+        1105.4841047819934,
+        955.4141026528251,
+        747.2301627127337,
+        1119.5500877736026,
+        501.91589809762513,
+        2529.920456955531,
+        409.94653882059663,
+        537.8795670182681,
+        1222.0637710390804,
+        3315.841770381502,
+        542.2726753685774,
+        796.3866069106828,
+        760.8932687151957,
+        3092.0437779172744,
+        700.3890183139387,
+        539.108185188423,
+        909.2143425515434,
+        354.5885014782519,
+        869.8920581431514,
+        767.2458141934795,
+        558.7097498922197,
+        143.7914297125921,
+        287.27215109075246,
+        965.386459155998,
+        1062.2824748676385,
+        672.1238741503414,
+        602.3158761190136,
+        290.52556852985026,
+        751.2239841666941,
+        557.4732203303129,
+        1487.661020238857,
+        285.29407445325006,
+        813.2315556080132,
+        1264.949021625268,
+        353.9646510211689,
+        346.9302267507813,
+        917.5207198743134,
+        388.55306613699446,
+        865.6298437798022,
+        392.6485548397599,
+        622.0278337447969,
+        349.7729650043067,
+        711.3886283284503,
+        896.8419969260275,
+        1886.2397264154667,
+        137.74739197152905,
+        354.2582720734797,
+        545.7602166868016,
+        565.670724056525,
+        916.7264308994357,
+        918.5354724540829,
+        965.8356446415061,
+        760.8208110776202,
+        1279.1651870308156,
+        390.49166459370633,
+        1640.2439955818008,
+        601.9146244003038,
+        436.12864378298207,
+        756.1077806395202,
+        865.8533117726687,
+        906.2423189378994,
+        1102.2867431111058,
+        1488.9210342933538,
+        764.3289657773506,
+        508.96332667283565,
+        1073.574189808675,
+        809.0420867382679,
+        1622.4402061075193,
+        559.9782503070323,
+        2285.8717464501738,
+        1422.4032477760106,
+        809.6297403315809,
+        2593.605037736822,
+        972.3487521843372
+    ],
+    "prompt_tokens_list": [
+        908,
+        801,
+        755,
+        774,
+        810,
+        775,
+        755,
+        821,
+        768,
+        756,
+        768,
+        853,
+        753,
+        774,
+        756,
+        755,
+        842,
+        717,
+        747,
+        749,
+        748,
+        737,
+        792,
+        706,
+        785,
+        752,
+        773,
+        727,
+        746,
+        748,
+        744,
+        791,
+        830,
+        877,
+        755,
+        755,
+        744,
+        789,
+        754,
+        786,
+        846,
+        780,
+        746,
+        708,
+        752,
+        735,
+        747,
+        887,
+        748,
+        715,
+        756,
+        810,
+        904,
+        854,
+        811,
+        784,
+        765,
+        858,
+        796,
+        765,
+        871,
+        758,
+        796,
+        753,
+        880,
+        744,
+        738,
+        786,
+        772,
+        798,
+        738,
+        761,
+        834,
+        904,
+        763,
+        746,
+        742,
+        807,
+        792,
+        773,
+        759,
+        763,
+        796,
+        798,
+        787,
+        900,
+        797,
+        749,
+        754,
+        874,
+        767,
+        784,
+        764,
+        761,
+        765,
+        755,
+        746,
+        897,
+        884,
+        730,
+        724,
+        809,
+        833,
+        855,
+        726,
+        754,
+        861,
+        720,
+        771,
+        791,
+        727,
+        782,
+        750,
+        799,
+        746,
+        760,
+        755,
+        731,
+        748,
+        725,
+        747,
+        775,
+        913,
+        746,
+        782,
+        799,
+        794,
+        823,
+        840,
+        743,
+        740,
+        731,
+        755,
+        741,
+        759,
+        811,
+        734,
+        731,
+        732,
+        729,
+        836,
+        741,
+        829,
+        741,
+        734,
+        740,
+        809
+    ],
+    "prompt_tokens_mean": 779.2585034013606,
+    "completion_tokens_list": [
+        246,
+        63,
+        92,
+        83,
+        60,
+        152,
+        87,
+        142,
+        639,
+        305,
+        543,
+        226,
+        93,
+        178,
+        243,
+        196,
+        199,
+        61,
+        210,
+        137,
+        189,
+        81,
+        247,
+        65,
+        130,
+        96,
+        89,
+        107,
+        206,
+        111,
+        114,
+        112,
+        126,
+        174,
+        154,
+        75,
+        63,
+        222,
+        115,
+        129,
+        193,
+        120,
+        237,
+        94,
+        770,
+        70,
+        91,
+        249,
+        147,
+        112,
+        321,
+        181,
+        378,
+        562,
+        99,
+        78,
+        91,
+        237,
+        98,
+        177,
+        108,
+        155,
+        113,
+        102,
+        163,
+        77,
+        97,
+        62,
+        91,
+        85,
+        116,
+        176,
+        133,
+        256,
+        158,
+        116,
+        230,
+        87,
+        448,
+        70,
+        111,
+        229,
+        537,
+        104,
+        138,
+        149,
+        589,
+        125,
+        107,
+        182,
+        72,
+        156,
+        118,
+        99,
+        14,
+        51,
+        148,
+        233,
+        116,
+        94,
+        49,
+        138,
+        107,
+        300,
+        54,
+        157,
+        245,
+        64,
+        68,
+        175,
+        67,
+        148,
+        80,
+        120,
+        70,
+        127,
+        156,
+        354,
+        15,
+        64,
+        105,
+        83,
+        168,
+        188,
+        192,
+        161,
+        255,
+        71,
+        314,
+        119,
+        90,
+        143,
+        205,
+        149,
+        235,
+        322,
+        117,
+        103,
+        184,
+        147,
+        283,
+        92,
+        328,
+        295,
+        116,
+        410,
+        190
+    ],
+    "completion_tokens_mean": 168.04761904761904,
+    "total_time_s": 304.7659300999949,
+    "total_energy_j": 146721.72799998522,
+    "net_total_energy_j": 137436.81856404815,
+    "total_energy_mwh": 40756.03555555145,
+    "net_total_energy_mwh": 38176.89404556893,
+    "mean_power_w": 481.42431127995593,
+    "energy_per_sample_j": 998.1069931971783,
+    "net_energy_per_sample_j": 934.9443439731167,
+    "token_per_second": 79.04086492858939
+}
