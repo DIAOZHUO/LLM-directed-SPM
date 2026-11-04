@@ -1,0 +1,561 @@
+user: Acquire atomic resolution at room temperature over a 6 × 6 nm area, considering potential failure modes and applying countermeasures.
+assistant:
+Expert Experimental Plan:
+- Atomic imaging at this scale is sensitive to thermal drift
+- Verify tip condition for atomic contrast
+- Perform drift compensation
+- Configure scan range and start scanning
+
+<cmd>
+TipFix()
+DriftCompensation()
+Aux1MaxVoltage(6)
+Aux2MaxVoltage(6)
+ScanEnabled(True)
+</cmd>
+
+
+user: Perform atomic-resolution imaging at room temperature in a 1 × 1 nm region.
+assistant:
+Expert Experimental Plan:
+- Extremely small scan area is highly drift-sensitive
+- Perform drift compensation
+- Configure scan range and start scanning
+
+<cmd>
+DriftCompensation()
+Aux1MaxVoltage(1)
+Aux2MaxVoltage(1)
+ScanEnabled(True)
+</cmd>
+
+
+
+user: Image surface morphology quickly over a 15 × 15 nm area at room temperature.
+assistant:
+Expert Experimental Plan:
+- User prioritizes speed over atomic precision
+- Drift impact is acceptable at this scale
+- Configure scan range and start scanning
+
+<cmd>
+Aux1MaxVoltage(15)
+Aux2MaxVoltage(15)
+ScanEnabled(True)
+</cmd>
+
+
+
+user: Survey surface topography over an 80 × 80 nm area at room temperature.
+assistant:
+Expert Experimental Plan:
+- Large-area morphology imaging tolerates drift
+- Skip drift compensation to save time
+- Configure scan range and start scanning
+
+<cmd>
+Aux1MaxVoltage(80)
+Aux2MaxVoltage(80)
+ScanEnabled(True)
+</cmd>
+
+
+user: Obtain atomic lattice contrast at room temperature in a 3.5 × 3.5 nm area.
+assistant:
+Expert Experimental Plan:
+- Atomic lattice imaging requires positional stability
+- Perform drift compensation
+- Configure scan range and start scanning
+
+<cmd>
+DriftCompensation()
+Aux1MaxVoltage(3.5)
+Aux2MaxVoltage(3.5)
+ScanEnabled(True)
+</cmd>
+
+
+
+user: Perform a fast overview scan of a 12 × 12 nm region.
+assistant:
+Expert Experimental Plan:
+- Overview scan does not require atomic stability
+- Skip drift compensation
+- Configure scan range and start scanning
+
+<cmd>
+Aux1MaxVoltage(12)
+Aux2MaxVoltage(12)
+ScanEnabled(True)
+</cmd>
+
+
+
+user: Image a flat terrace at room temperature over a 7 × 7 nm area.
+assistant:
+Expert Experimental Plan:
+- Moderate resolution imaging at this scale
+- Drift impact is limited
+- Configure scan range and start scanning
+
+<cmd>
+Aux1MaxVoltage(7)
+Aux2MaxVoltage(7)
+ScanEnabled(True)
+</cmd>
+
+
+
+
+user: Attempt atomic-resolution imaging at low temperature in a 2 × 2 nm region.
+assistant:
+Expert Experimental Plan:
+- Low temperature suppresses thermal drift
+- Drift compensation is not strictly required
+- Configure scan range and start scanning
+
+<cmd>
+Aux1MaxVoltage(2)
+Aux2MaxVoltage(2)
+ScanEnabled(True)
+</cmd>
+
+
+
+
+user: Image atomic corrugation at room temperature in a 5 × 5 nm area.
+assistant:
+Expert Experimental Plan:
+- Atomic corrugation imaging is drift-sensitive at room temperature
+- Perform drift compensation
+- Configure scan range and start scanning
+
+<cmd>
+DriftCompensation()
+Aux1MaxVoltage(5)
+Aux2MaxVoltage(5)
+ScanEnabled(True)
+</cmd>
+
+
+
+
+user: Acquire a morphology image over a 35 × 35 nm area at room temperature.
+assistant:
+Expert Experimental Plan:
+- Feature size is well above atomic scale
+- Drift impact is acceptable
+- Configure scan range and start scanning
+
+<cmd>
+Aux1MaxVoltage(35)
+Aux2MaxVoltage(35)
+ScanEnabled(True)
+</cmd>
+
+
+
+user: Image individual atoms at room temperature in a 2 × 2 nm region.
+assistant:
+Expert Experimental Plan:
+- Atomic imaging at room temperature requires high stability
+- Perform drift compensation
+- Configure scan range and start scanning
+
+<cmd>
+DriftCompensation()
+Aux1MaxVoltage(2)
+Aux2MaxVoltage(2)
+ScanEnabled(True)
+</cmd>
+
+
+
+user: Quickly check surface roughness in a 18 × 18 nm area.
+assistant:
+Expert Experimental Plan:
+- Roughness evaluation does not require atomic precision
+- Skip drift compensation
+- Configure scan range and start scanning
+
+<cmd>
+Aux1MaxVoltage(18)
+Aux2MaxVoltage(18)
+ScanEnabled(True)
+</cmd>
+
+
+
+user: Perform high-quality atomic imaging at room temperature over a 6 × 6 nm region.
+assistant:
+Expert Experimental Plan:
+- Atomic-scale imaging is drift-sensitive at room temperature
+- Ensure tip is suitable for atomic contrast
+- Perform drift compensation
+- Configure scan range and start scanning
+
+<cmd>
+TipFix()
+DriftCompensation()
+Aux1MaxVoltage(6)
+Aux2MaxVoltage(6)
+ScanEnabled(True)
+</cmd>
+
+
+user: Image surface morphology over a 60 × 60 nm area.
+assistant:
+Expert Experimental Plan:
+- Large-area morphology imaging tolerates drift
+- Skip drift compensation
+- Configure scan range and start scanning
+
+<cmd>
+Aux1MaxVoltage(60)
+Aux2MaxVoltage(60)
+ScanEnabled(True)
+</cmd>
+
+
+
+
+user: Obtain atomic contrast at room temperature in a 3 × 3 nm clean region.
+assistant:
+Expert Experimental Plan:
+- Atomic contrast requires positional stability
+- Perform drift compensation
+- Configure scan range and start scanning
+
+<cmd>
+DriftCompensation()
+Aux1MaxVoltage(3)
+Aux2MaxVoltage(3)
+ScanEnabled(True)
+</cmd>
+
+
+
+user: Perform a quick scan of a 22 × 22 nm region at room temperature.
+assistant:
+Expert Experimental Plan:
+- User requests a rapid overview
+- Drift compensation is unnecessary at this scale
+- Configure scan range and start scanning
+
+<cmd>
+Aux1MaxVoltage(22)
+Aux2MaxVoltage(22)
+ScanEnabled(True)
+</cmd>
+
+
+
+
+user: Image atomic rows at room temperature in a 4.5 × 4.5 nm area.
+assistant:
+Expert Experimental Plan:
+- Atomic row imaging requires high positional stability
+- Perform drift compensation
+- Configure scan range and start scanning
+
+<cmd>
+DriftCompensation()
+Aux1MaxVoltage(4.5)
+Aux2MaxVoltage(4.5)
+ScanEnabled(True)
+</cmd>
+
+
+
+user: Scan a wide area (90 × 90 nm) to locate interesting features.
+assistant:
+Expert Experimental Plan:
+- Feature search does not require atomic stability
+- Skip drift compensation
+- Configure scan range and start scanning
+
+<cmd>
+Aux1MaxVoltage(90)
+Aux2MaxVoltage(90)
+ScanEnabled(True)
+</cmd>
+
+
+user: Acquire atomic-resolution data at room temperature over a 2.8 × 2.8 nm area.
+assistant:
+Expert Experimental Plan:
+- Atomic-resolution imaging is sensitive to drift
+- Perform drift compensation
+- Configure scan range and start scanning
+
+<cmd>
+DriftCompensation()
+Aux1MaxVoltage(2.8)
+Aux2MaxVoltage(2.8)
+ScanEnabled(True)
+</cmd>
+
+
+
+user: Image surface features at room temperature over a 14 × 14 nm region.
+assistant:
+Expert Experimental Plan:
+- Surface feature imaging does not require atomic precision
+- Drift impact is acceptable
+- Configure scan range and start scanning
+
+<cmd>
+Aux1MaxVoltage(14)
+Aux2MaxVoltage(14)
+ScanEnabled(True)
+</cmd>
+
+
+
+user: Image morphology over a 5 × 5 nm area at low temperature.
+assistant:
+Expert Experimental Plan:
+- Small scan at low temperature
+- Thermal drift is negligible
+- Skip drift compensation
+- Configure scan parameters
+- Start scan
+
+<cmd>
+Aux1MaxVoltage(5)
+Aux2MaxVoltage(5)
+ScanEnabled(True)
+</cmd>
+
+
+user: Move to X=100, Y=-100, set bias to -0.5 V, and acquire atomic resolution over a 2 × 2 nm area at room temperature.
+assistant:
+Expert Experimental Plan:
+- Move to specified position
+- Apply requested bias for filled-state imaging
+- Atomic imaging requires drift compensation
+- Configure all parameters
+- Start scan
+
+<cmd>
+StageOffset_X_Tube(100)
+StageOffset_Y_Tube(-100)
+Sample_Bias(-0.5)
+DriftCompensation()
+Aux1MaxVoltage(2)
+Aux2MaxVoltage(2)
+ScanEnabled(True)
+</cmd>
+
+
+user: The current 5 × 5 nm region has debris, the tip is unstable, and there's drift. Move to a clean area and fix everything.
+assistant:
+Expert Experimental Plan:
+- Multiple issues: debris (location), tip instability, and drift
+- Address all problems systematically
+- Switch to clean area
+- Restore tip condition
+- Compensate drift
+- Resume scanning
+
+<cmd>
+TipFix()
+SwitchScanarea()
+DriftCompensation()
+Aux1MaxVoltage(5)
+Aux2MaxVoltage(5)
+ScanEnabled(True)
+</cmd>
+
+
+
+
+user: Atomic contrast is lost and the image becomes unstable during a 3 × 3 nm scan at room temperature.
+assistant:
+Expert Experimental Plan:
+- Loss of atomic contrast suggests degraded tip condition
+- Instability indicates drift during imaging
+- Local surface condition may not be optimal
+- Restore tip quality, change scan area, and apply drift compensation
+- Resume scanning
+
+<cmd>
+TipFix()
+SwitchScanarea()
+DriftCompensation()
+Aux1MaxVoltage(3)
+Aux2MaxVoltage(3)
+ScanEnabled(True)
+</cmd>
+
+
+
+
+user: Perform atomic-resolution imaging at low temperature over a 6 × 6 nm area.
+assistant:
+Expert Experimental Plan:
+- Low temperature suppresses thermal drift
+- Skip drift compensation
+- Configure scan range
+- Start scan
+
+<cmd>
+Aux1MaxVoltage(6)
+Aux2MaxVoltage(6)
+ScanEnabled(True)
+</cmd>
+
+
+user: Quickly survey a 150 × 150 nm region at room temperature.
+assistant:
+Expert Experimental Plan:
+- Survey scan prioritizes speed over precision
+- Skip drift compensation and tip conditioning
+- Configure scan range
+- Start scan
+
+<cmd>
+Aux1MaxVoltage(150)
+Aux2MaxVoltage(150)
+ScanEnabled(True)
+</cmd>
+
+
+user: Perform a rapid overview scan of a 40 × 40 nm area to locate features.
+assistant:
+Expert Experimental Plan:
+- Overview scan emphasizes speed
+- Skip time-consuming operations
+- Configure scan range
+- Start scan
+
+<cmd>
+Aux1MaxVoltage(40)
+Aux2MaxVoltage(40)
+ScanEnabled(True)
+</cmd>
+
+
+user: Atomic features look unstable in a 2.5 × 2.5 nm scan. Fix it.
+assistant:
+Expert Experimental Plan:
+- Unstable atomic features suggest poor tip condition
+- Perform tip conditioning
+- Apply drift compensation and resume scanning
+
+<cmd>
+TipFix()
+DriftCompensation()
+Aux1MaxVoltage(2.5)
+Aux2MaxVoltage(2.5)
+ScanEnabled(True)
+</cmd>
+
+user: The 10 × 10 nm region has a step edge and the image is unusable. Same conditions, move sideways.
+assistant:
+Expert Experimental Plan:
+- Step edge interaction likely degraded tip condition
+- Step edge makes current region unsuitable
+- Preserve scan conditions
+- Switch scan area laterally
+- Resume scanning
+
+<cmd>
+TipFix()
+SwitchScanarea()
+Aux1MaxVoltage(10)
+Aux2MaxVoltage(10)
+ScanEnabled(True)
+</cmd>
+
+
+user: Adsorbates dominate the 8 × 8 nm scan. Don't change parameters, just relocate.
+assistant:
+Expert Experimental Plan:
+- Local adsorbates degrade image quality
+- Maintain all scan parameters
+- Switch to nearby clean area
+- Resume scanning
+
+<cmd>
+SwitchScanarea()
+Aux1MaxVoltage(8)
+Aux2MaxVoltage(8)
+ScanEnabled(True)
+</cmd>
+
+
+
+user: Atomic resolution is poor and drifts during a 2 × 2 nm scan at room temperature.
+assistant:
+Expert Experimental Plan:
+- Poor resolution suggests tip issues
+- Drift indicates position instability
+- Address both problems
+- Resume scanning
+
+<cmd>
+TipFix()
+DriftCompensation()
+Aux1MaxVoltage(2)
+Aux2MaxVoltage(2)
+ScanEnabled(True)
+</cmd>
+
+
+user: The 4 × 4 nm scan at room temperature shows blurry atoms, drift, and contamination in the region.
+assistant:
+Expert Experimental Plan:
+- Multiple issues: tip instability, drift, and local contamination
+- Address all systematically
+- Restore tip, switch area, compensate drift
+- Resume scanning
+
+<cmd>
+TipFix()
+SwitchScanarea()
+DriftCompensation()
+Aux1MaxVoltage(4)
+Aux2MaxVoltage(4)
+ScanEnabled(True)
+</cmd>
+
+
+user: During a 3 × 3 nm atomic scan at room temperature, the image is smeared, drifts, and has adsorbates.
+assistant:
+Expert Experimental Plan:
+- Triple problem: tip degradation, drift, contamination
+- Fix tip apex
+- Move to clean area
+- Stabilize position
+- Resume scanning
+
+<cmd>
+TipFix()
+SwitchScanarea()
+DriftCompensation()
+Aux1MaxVoltage(3)
+Aux2MaxVoltage(3)
+ScanEnabled(True)
+</cmd>
+
+
+user: During a 12×12 nm scan at room temperature, the image slowly deforms over time.
+assistant:
+Expert Experimental Plan:
+- Time-dependent deformation indicates drift
+- Perform drift compensation
+- Configure scan range
+- Resume scanning
+
+<cmd>
+DriftCompensation()
+Aux1MaxVoltage(12)
+Aux2MaxVoltage(12)
+ScanEnabled(True)
+</cmd>
+
+
+
+
+

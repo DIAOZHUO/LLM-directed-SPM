@@ -1,0 +1,2479 @@
+{
+    "config": {
+        "model": "phi-4",
+        "mode": "function_calling",
+        "k": 1,
+        "selection": "similar",
+        "thinking": false,
+        "sampling": {
+            "temperature": 0,
+            "presence_penalty": 0.0,
+            "seed": 0,
+            "max_tokens": 1024,
+            "extra_body": {
+                "min_p": 0.0,
+                "repeat_penalty": 1.0
+            }
+        }
+    },
+    "questions": [
+        "Acquire atomic resolution at room temperature over a 6 × 6 nm area, considering potential failure modes and applying countermeasures.",
+        "Perform atomic-resolution imaging at room temperature in a 1 × 1 nm region.",
+        "Image surface morphology quickly over a 15 × 15 nm area at room temperature.",
+        "Survey surface topography over an 80 × 80 nm area at room temperature.",
+        "Obtain atomic lattice contrast at room temperature in a 3.5 × 3.5 nm area.",
+        "Perform a fast overview scan of a 12 × 12 nm region.",
+        "Image a flat terrace at room temperature over a 7 × 7 nm area.",
+        "Attempt atomic-resolution imaging at low temperature in a 2 × 2 nm region.",
+        "Image atomic corrugation at room temperature in a 5 × 5 nm area.",
+        "Acquire a morphology image over a 35 × 35 nm area at room temperature.",
+        "Image individual atoms at room temperature in a 2 × 2 nm region.",
+        "Quickly check surface roughness in a 18 × 18 nm area.",
+        "Perform high-quality atomic imaging at room temperature over a 6 × 6 nm region.",
+        "Image surface morphology over a 60 × 60 nm area.",
+        "Obtain atomic contrast at room temperature in a 3 × 3 nm clean region.",
+        "Perform a quick scan of a 22 × 22 nm region at room temperature.",
+        "Image atomic rows at room temperature in a 4.5 × 4.5 nm area.",
+        "Scan a wide area (90 × 90 nm) to locate interesting features.",
+        "Acquire atomic-resolution data at room temperature over a 2.8 × 2.8 nm area.",
+        "Image surface features at room temperature over a 14 × 14 nm region.",
+        "Image morphology over a 5 × 5 nm area at low temperature.",
+        "Move to X=100, Y=-100, set bias to -0.5 V, and acquire atomic resolution over a 2 × 2 nm area at room temperature.",
+        "The current 5 × 5 nm region has debris, the tip is unstable, and there's drift. Move to a clean area and fix everything.",
+        "Atomic contrast is lost and the image becomes unstable during a 3 × 3 nm scan at room temperature.",
+        "Perform atomic-resolution imaging at low temperature over a 6 × 6 nm area.",
+        "Quickly survey a 150 × 150 nm region at room temperature.",
+        "Perform a rapid overview scan of a 40 × 40 nm area to locate features.",
+        "Atomic features look unstable in a 2.5 × 2.5 nm scan. Fix it.",
+        "The 10 × 10 nm region has a step edge and the image is unusable. Same conditions, move sideways.",
+        "Adsorbates dominate the 8 × 8 nm scan. Don't change parameters, just relocate.",
+        "Atomic resolution is poor and drifts during a 2 × 2 nm scan at room temperature.",
+        "The 4 × 4 nm scan at room temperature shows blurry atoms, drift, and contamination in the region.",
+        "During a 3 × 3 nm atomic scan at room temperature, the image is smeared, drifts, and has adsorbates.",
+        "During a 12×12 nm scan at room temperature, the image slowly deforms over time.",
+        "Perform atomic-resolution imaging at low temperature in a 1 × 1 nm region.",
+        "Attempt atomic-resolution imaging at room temperature in a 2 × 2 nm region.",
+        "Perform high-quality atomic imaging at low temperature over a 6 × 6 nm region.",
+        "Quickly image the surface morphology at room temperature in a 2 × 2 nm region.",
+        "Image individual atoms on a flat terrace at room temperature over a 7 × 7 nm area.",
+        "Take a quick overview of a 3.5 × 3.5 nm area at room temperature; atomic contrast is not needed.",
+        "Perform high-quality atomic imaging at room temperature over a 6 × 6 nm region. The tip has just been conditioned and already gives sharp atomic contrast.",
+        "Obtain atomic lattice contrast at room temperature in a 3.5 × 3.5 nm area. The previous image showed doubled atoms.",
+        "Atomic features look sharp in a 2.5 × 2.5 nm scan, but the image slowly shifts. Fix it.",
+        "During a 12 × 12 nm scan at room temperature, the image slowly deforms over time and every feature appears with a faint duplicate.",
+        "Survey surface topography over an 80 × 80 nm area at room temperature. The last frames showed double-tip artifacts.",
+        "Adsorbates dominate the 8 × 8 nm scan, and the atoms also appear doubled. Don't change parameters, just relocate.",
+        "The current 5 × 5 nm region is clean, but the tip is unstable and there's drift. Stay in this area and fix everything.",
+        "During a 3 × 3 nm atomic scan at room temperature, the atoms are sharp, but the image drifts and has adsorbates.",
+        "Atomic contrast is lost during a 3 × 3 nm scan at room temperature, but the image position is stable and the region is clean.",
+        "Obtain atomic contrast at room temperature in a 3 × 3 nm region; the current region is covered with adsorbates.",
+        "Adsorbates dominate the 8 × 8 nm scan at low temperature. Don't change parameters, just relocate.",
+        "Perform atomic-resolution imaging at room temperature in a 1 × 1 nm region. The region is free of adsorbates and step edges.",
+        "Image individual atoms at room temperature in a 2 × 2 nm region. There are no signs of a double tip.",
+        "In the 3 × 3 nm image at room temperature, every atom is accompanied by a fainter copy displaced in the same direction.",
+        "Successive frames of the same 2 × 2 nm area at room temperature are offset from each other by several lattice constants.",
+        "The atomic rows at room temperature are sheared, and the shear grows from the first to the last scan line.",
+        "Halfway through the 3 × 3 nm image at room temperature, the contrast suddenly changed and the atoms became fuzzy.",
+        "A bright cluster several nanometres wide covers most of the 5 × 5 nm frame. Keep the same settings.",
+        "The 6 × 6 nm frame contains a terrace boundary with a one-layer height jump. Keep the settings and image a flat area instead.",
+        "All atoms in the 3 × 3 nm image at room temperature appear elongated in the same direction, although the surface region is clean.",
+        "The 2.5 × 2.5 nm atomic image at room temperature looks crisp, but all features move steadily toward the upper-right corner from frame to frame.",
+        "The 20 × 20 nm image is dominated by vacancy islands. Keep the same settings and find a cleaner area.",
+        "Perform atomic-resolution imaging at 4.5 K over a 3 × 3 nm area.",
+        "Perform atomic-resolution imaging at 300 K over a 3 × 3 nm area.",
+        "With the cryostat filled with liquid helium, image individual atoms in a 2 × 2 nm region.",
+        "I have plenty of time and want the best possible atomic image at room temperature over a 5 × 5 nm area.",
+        "I only need a rough look at a 5 × 5 nm area at room temperature; atomic resolution is not required."
+    ],
+    "predictions": [
+        "Expert Experimental Plan:\n- Atomic resolution at small scan area requires drift compensation and tip conditioning\n- Room temperature increases thermal drift so drift compensation is necessary\n- Preemptively condition the tip to minimize the risk of double-tip or apex instability\n- Configure scan parameters\n- Start scan\n\n### Step-by-Step Execution:\n\n1. **Tip Conditioning:**\n   - Call the function to condition the tip to ensure stability and minimize double-tip formation.\n\n2. **Drift Compensation:**\n   - Enable drift compensation to counteract thermal drift at room temperature.\n\n3. **Configure Scan Parameters:**\n   - Set the scan area to 6 × 6 nm.\n   - Ensure the scan parameters are set for atomic resolution.\n\n4. **Start Scan:**\n   - Begin the scanning process.\n\n```python\ncondition_tip()\nenable_drift_compensation()\nset_scan_parameters(area=(6, 6), resolution='atomic')\nstart_scan()\n```",
+        "Expert Experimental Plan:\n- Room temperature expected\n- Skip drift compensation\n- Configure scan range\n- Start scan\n\n```python\nconfigure_scan_range(x_start=-0.5, x_end=0.5, y_start=-0.5, y_end=0.5)\nstart_scan()\n```",
+        "Expert Experimental Plan:\n- Drift impact is tolerable at this scale\n- Skip drift compensation to reduce experiment time\n- Configure scan range\n- Start scan\n\n```python\nset_scan_range(x_start=-7.5, x_end=7.5, y_start=-7.5, y_end=7.5)\nstart_scan()\n```",
+        "Expert Experimental Plan:\n- Large scan area tolerates thermal drift\n- Skip drift compensation\n- Configure scan range\n- Start scan\n\n```python\nconfigure_scan_range(x_start=-40, x_end=40, y_start=-40, y_end=40)\nstart_scan()\n```",
+        "Expert Experimental Plan:\n- Atomic-scale imaging is sensitive to drift at room temperature\n- Perform drift compensation\n- Configure scan range (3.5 × 3.5 nm)\n- Start scan\n\n```python\n# Perform drift compensation\nperform_drift_compensation()\n\n# Configure scan range\nset_scan_range(x_start=-1.75, x_end=1.75, y_start=-1.75, y_end=1.75)\n\n# Start scan\nstart_scan()\n```",
+        "Expert Experimental Plan:\n- User requests overview rather than atomic precision\n- Skip time-loss operation such as drift compensation and tip condition\n- Configure scan range\n- Start scan\n\n```python\nset_scan_parameters(scan_size=(12, 12), scan_speed='fast', precision='overview')\nstart_scan()\n```",
+        "Expert Experimental Plan:\n- Small scan area requires high precision\n- Enable drift compensation to ensure accuracy\n- Configure scan range (7 × 7 nm)\n- Start scan\n\n```python\nset_scan_range(x_start=-3.5, x_end=3.5, y_start=-3.5, y_end=3.5)\nenable_drift_compensation()\nstart_scan()\n```",
+        "Expert Experimental Plan:\n- Atomic resolution requires high positional stability\n- Perform drift compensation at low temperature\n- Configure scan range\n- Start scan\n\n```python\n# Perform drift compensation at low temperature\nperform_drift_compensation(temperature='low')\n\n# Configure scan range for a 2 × 2 nm region\nset_scan_range(x_start=-1, x_end=1, y_start=-1, y_end=1)\n\n# Start scan\nstart_scan()\n```",
+        "Expert Experimental Plan:\n- Verify tip stability\n- Perform drift compensation due to high sensitivity at atomic scale\n- Configure scan range\n- Start scan\n\n```python\n# Verify tip stability\nverify_tip_stability()\n\n# Perform drift compensation\nperform_drift_compensation()\n\n# Configure scan range for a 5 × 5 nm area\nconfigure_scan_range(x_start=-2.5, x_end=2.5, y_start=-2.5, y_end=2.5)\n\n# Start scan\nstart_scan()\n```",
+        "Expert Experimental Plan:\n- Drift impact is tolerable at this scale\n- Skip drift compensation to reduce experiment time\n- Configure scan range\n- Start scan\n\n```python\nset_scan_area(x_start=-17.5, x_end=17.5, y_start=-17.5, y_end=17.5)\nstart_scan()\n```",
+        "Expert Experimental Plan:\n- Atomic-scale sensitivity expected\n- Perform drift compensation\n- Configure scan parameters\n- Start scan\n\n```python\n# Perform drift compensation\ndrift_compensation()\n\n# Configure scan parameters for a 2 × 2 nm region\nset_scan_parameters(x_range=(-1, 1), y_range=(-1, 1), resolution='atomic')\n\n# Start the scan\nstart_scan()\n```",
+        "Expert Experimental Plan:\n- User prioritizes speed over ultimate atomic precision\n- Skip time-loss operation such as drift compensation and tip condition\n- Configure scan range\n- Start scan\n\n```python\nset_scan_range(x_start=-9, x_end=9, y_start=-9, y_end=9)\nstart_scan()\n```",
+        "Expert Experimental Plan:\n- Ensure scan area is within accessible range\n- Configure scan range for 6 × 6 nm\n- Set parameters for high-quality atomic imaging\n- Start scanning at room temperature\n\n```python\n# Set scan area to 6 × 6 nm\nset_scan_area(x_start=-3, x_end=3, y_start=-3, y_end=3)\n\n# Configure parameters for high-quality atomic imaging\nset_scan_parameters(mode='atomic', temperature='room', resolution='high')\n\n# Start scanning\nstart_scan()\n```",
+        "To image the surface morphology over a 60 × 60 nm area, I will configure the scan range and start the scan. Here are the steps:\n\n1. **Configure Scan Range**: Set the scan range to 60 nm in both the x and y directions.\n2. **Start Scan**: Begin the scanning process to capture the surface morphology.\n\nLet's proceed with these steps:\n\n1. **Configure Scan Range**:\n   - Set the x-range to 60 nm.\n   - Set the y-range to 60 nm.\n\n2. **Start Scan**:\n   - Initiate the scanning process.\n\n```plaintext\nconfigure_scan_range(x_range=60, y_range=60)\nstart_scan()\n```\n\nThis will capture the surface morphology over the specified area.",
+        "Expert Experimental Plan:\n- Ensure tip condition is suitable for atomic contrast\n- Perform drift compensation\n- Configure scan range\n- Start scan\n\nNone: The requested scan area of 3 × 3 nm is within the accessible range, but the specific location within the -350 to 350 nm coordinate range is not provided. Please specify the center coordinates for the scan area.",
+        "None. The requested scan area of 22 × 22 nm exceeds the accessible coordinate range of -350 to 350 nm in both x and y directions. The scan area must be within the limits of the scanning probe microscopy's capabilities.",
+        "Expert Experimental Plan:\n- Verify tip stability\n- Perform drift compensation due to high sensitivity at atomic scale\n- Configure scan range\n- Start scan\n\nFunction Calls:\n1. `configure_scan_range(x_start=-2.25, x_end=2.25, y_start=-2.25, y_end=2.25)`\n2. `start_scan()`",
+        "Expert Experimental Plan:\n- User prioritizes speed over ultimate atomic precision\n- Skip time-loss operation such as drift compensation and tip condition\n- Configure scan range\n- Start scan\n\n```python\nset_scan_area(-45, 45, -45, 45)\nstart_scan()\n```",
+        "Expert Experimental Plan:\n- Perform drift compensation\n- Configure scan parameters\n- Start scan\n\nLet's proceed with these steps:\n\n1. **Drift Compensation**: Ensure the system is stable and compensate for any drift at room temperature.\n2. **Configure Scan Parameters**: Set the scan area to 2.8 × 2.8 nm.\n3. **Start Scan**: Begin acquiring atomic-resolution data.\n\n```python\n# Step 1: Perform drift compensation\nperform_drift_compensation()\n\n# Step 2: Configure scan parameters\nset_scan_parameters(area_x=2.8, area_y=2.8, resolution='atomic')\n\n# Step 3: Start scan\nstart_scan()\n```",
+        "Expert Experimental Plan:\n- User prioritizes speed over atomic precision\n- Skip drift compensation\n- Configure scan range (14 × 14 nm)\n- Start scan\n\n```python\nset_scan_range(x_start=-7, x_end=7, y_start=-7, y_end=7)\nstart_scan()\n```",
+        "Expert Experimental Plan:\n- Drift impact is tolerable at this scale\n- Skip drift compensation to reduce experiment time\n- Configure scan range\n- Set temperature to low\n- Start scan\n\n```python\nconfigure_scan_range(-2.5, 2.5, -2.5, 2.5)\nset_temperature('low')\nstart_scan()\n```",
+        "1. Move to X=100, Y=-100\n2. Set bias to -0.5 V\n3. Configure scan parameters for atomic resolution\n4. Start scan\n\n```python\nmove_to(x=100, y=-100)\nset_bias(voltage=-0.5)\nconfigure_scan_parameters(resolution='atomic', area=(2, 2), temperature='room')\nstart_scan()\n```",
+        "1. **Move to a clean area:**\n   - Calculate a new position within the accessible range that avoids the current 5 × 5 nm region.\n   - Ensure the new position is within the -350 to 350 nm range in both x and y directions.\n\n2. **Fix the tip instability:**\n   - Perform a tip calibration or alignment procedure to stabilize the tip.\n\n3. **Address the drift:**\n   - Recalibrate the system to correct for any drift.\n\nHere are the steps to execute:\n\n1. **Move to a new position:**\n   - Assuming the current position is at the center of the 5 × 5 nm region, move to a new position, e.g., (0, 0) nm.\n\n   ```python\n   move_to_position(x=0, y=0)\n   ```\n\n2. **Calibrate the tip:**\n   - Perform a tip calibration procedure.\n\n   ```python\n   calibrate_tip()\n   ```\n\n3. **Recalibrate the system:**\n   - Perform a system recalibration to address drift.\n\n   ```python\n   recalibrate_system()\n   ```\n\nThese steps should address the issues and prepare the system for further scanning.",
+        "Expert Experimental Plan:\n- Loss of atomic contrast suggests degraded tip condition\n- Instability indicates drift during acquisition\n- The current scan region may not be representative\n- Restore tip quality, change scan area, and apply drift compensation\n- Resume scanning\n\nTo implement this plan, follow these steps:\n\n1. **Restore Tip Quality:**\n   - Perform a tip conditioning procedure to improve the tip's sharpness and quality.\n\n2. **Change Scan Area:**\n   - Select a new scan area within the accessible range (-350 to 350 nm in both x and y directions) to ensure it is representative and stable.\n\n3. **Apply Drift Compensation:**\n   - Enable drift compensation to stabilize the image during acquisition.\n\n4. **Resume Scanning:**\n   - Conduct the scan again with the adjusted parameters.\n\n```python\n# Step 1: Restore Tip Quality\ncondition_tip()\n\n# Step 2: Change Scan Area\n# Assuming a new scan area is chosen, for example, center at (0, 0) with a size of 5x5 nm\nset_scan_area(x_center=0, y_center=0, x_size=5, y_size=5)\n\n# Step 3: Apply Drift Compensation\nenable_drift_compensation()\n\n# Step 4: Resume Scanning\nstart_scan()\n```",
+        "None\n\nThe requested scan area of 6 × 6 nm exceeds the accessible coordinate range of -350 to 350 nm in both x and y directions. The maximum allowable scan area is 700 nm × 700 nm, but the scan must be centered within this range. A 6 × 6 nm scan is within the allowable range, but it must be specified with a center point that ensures the entire area is within the accessible range. Please provide a center point for the scan area.",
+        "Expert Experimental Plan:\n- User prioritizes speed over atomic precision\n- Skip drift compensation\n- Configure scan range (150 × 150 nm)\n- Start scan\n\n```python\nset_scan_range(x_start=-75, x_end=75, y_start=-75, y_end=75)\nstart_scan()\n```",
+        "Expert Experimental Plan:\n- User requests overview rather than atomic precision\n- Skip time-loss operation such as drift compensation and tip condition\n- Configure scan range\n- Start scan\n\nTo perform the scan, I will configure the scan range to 40 × 40 nm and initiate the scan.\n\n```plaintext\nset_scan_range(x_start=-20, x_end=20, y_start=-20, y_end=20)\nstart_scan()\n```",
+        "Expert Experimental Plan:\n- Unstable atomic features suggest poor tip condition\n- Perform tip conditioning\n- Apply drift compensation and resume scanning\n\n```python\n# Perform tip conditioning\ncondition_tip()\n\n# Apply drift compensation\napply_drift_compensation()\n\n# Resume scanning with the same parameters\nset_scan_parameters(x_range=(-1.25, 1.25), y_range=(-1.25, 1.25))\nstart_scan()\n```",
+        "Expert Experimental Plan:\n- Step edge interaction likely degraded tip condition\n- Restore tip quality before relocating\n- Low temperature suppresses drift\n- Switch scan area and resume scanning\n\n```python\n# Restore tip quality\nrestore_tip_quality()\n\n# Switch scan area to move sideways\nswitch_scan_area(new_x_start, new_x_end, new_y_start, new_y_end)\n\n# Resume scanning\nresume_scanning()\n```\n\nNote: Ensure that the new scan area coordinates (new_x_start, new_x_end, new_y_start, new_y_end) are within the accessible range of -350 to 350 nm in both x and y directions. Adjust the coordinates accordingly to avoid exceeding the scanning area.",
+        "To relocate the scan area to 8 × 8 nm without changing any parameters, we need to ensure the new scan area is within the accessible range of -350 to 350 nm in both x and y directions. Here's how we can proceed:\n\n1. Determine the current center of the scan area.\n2. Calculate the new center for the 8 × 8 nm scan area.\n3. Adjust the scan area to the new center while maintaining the same parameters.\n\nAssuming the current scan area is centered at (0, 0) for simplicity, the new center can be calculated as follows:\n\n- Current scan area: 15 × 15 nm\n- New scan area: 8 × 8 nm\n\nThe current scan area extends from -7.5 nm to 7.5 nm in both x and y directions. The new scan area should extend from -4 nm to 4 nm.\n\nLet's relocate the scan area to a new center, say (10, 10) nm, which is within the accessible range:\n\n```plaintext\nSetScanArea(center_x=10, center_y=10, width=8, height=8)\n```\n\nThis command will relocate the scan area to the new center while preserving all other parameters.",
+        "To address the issue of poor atomic resolution and drift during a 2 × 2 nm scan at room temperature, follow these steps:\n\n1. **Tip Conditioning**: Perform tip conditioning to improve the sharpness and stability of the probe tip.\n2. **Drift Compensation**: Enable drift compensation to counteract positional drift over time.\n3. **Scan Area Adjustment**: Reduce the scan area to a smaller region to minimize drift effects and improve resolution.\n4. **Resume Scanning**: After adjustments, resume scanning to check for improvements.\n\nHere are the function calls in order:\n\n1. `condition_tip()`\n2. `enable_drift_compensation()`\n3. `set_scan_area(x_start, x_end, y_start, y_end)` - Choose a smaller area within the accessible range, e.g., `set_scan_area(0, 2, 0, 2)`\n4. `resume_scanning()`",
+        "Expert Experimental Plan:\n1. **Tip Conditioning**: Perform tip conditioning to improve tip sharpness and stability.\n2. **Clean the Sample**: Remove contamination by cleaning the sample surface.\n3. **Reapply the Same Scan Range**: After cleaning and conditioning, reapply the 4 × 4 nm scan.\n4. **Resume Scanning**: Conduct the scan again to check for improvements.\n\nLet's start with tip conditioning.",
+        "To address the issues of smeared images, drift, and adsorbates during a 3 × 3 nm atomic scan at room temperature, follow these steps:\n\n1. **Tip Conditioning**: \n   - Perform a tip conditioning procedure to improve the tip quality and reduce smearing. This might involve gentle sputtering or controlled contact with a clean surface.\n\n2. **Drift Compensation**:\n   - Enable drift compensation to stabilize the scan and reduce image drift. This can be done by using a feedback loop that adjusts the scan in real-time.\n\n3. **Clean the Sample Surface**:\n   - If possible, clean the sample surface to remove adsorbates. This could involve gentle annealing or using a cleaning procedure like sputtering or exposure to a reactive gas.\n\n4. **Reposition the Scan Area**:\n   - Move to a nearby clean area on the sample to avoid contaminants. Ensure the new area is within the accessible coordinate range.\n\n5. **Re-scan**:\n   - Perform the scan again with the improved conditions.\n\nIf these steps are not feasible with the provided functions, please let me know.",
+        "To address the issue of image deformation during a 12×12 nm scan at room temperature, follow these steps:\n\n1. **Check for Drift Compensation**: Ensure that drift compensation is enabled to minimize image deformation over time.\n\n2. **Verify Tip Condition**: Inspect the tip condition. A degraded tip can lead to unstable imaging. If necessary, replace or recondition the tip.\n\n3. **Adjust Scan Parameters**: Consider reducing the scan speed to improve image stability.\n\n4. **Optimize Scan Area**: Ensure the scan area is representative and not too large, which might exacerbate drift effects.\n\n5. **Environmental Control**: Ensure that the environmental conditions (e.g., temperature, vibration) are stable.\n\nIf these steps are implemented, resume scanning with the adjusted parameters.",
+        "Expert Experimental Plan:\n- Low thermal drift expected\n- Skip drift compensation\n- Configure scan range\n- Start scan\n\n```python\nconfigure_scan_range(x_start=-0.5, x_end=0.5, y_start=-0.5, y_end=0.5)\nstart_scan()\n```",
+        "Expert Experimental Plan:\n- Atomic resolution requires high positional stability\n- Perform drift compensation at room temperature\n- Configure scan range\n- Start scan\n\n```python\n# Perform drift compensation at room temperature\nperform_drift_compensation()\n\n# Configure scan range for a 2 × 2 nm area\nset_scan_range(x_start=-1, x_end=1, y_start=-1, y_end=1)\n\n# Start the scan\nstart_scan()\n```",
+        "None\n\nThe requested scan area of 6 × 6 nm exceeds the accessible coordinate range of -350 to 350 nm in both x and y directions. The scan area must be within this range to ensure the probe does not exceed the scanning area. Please adjust the scan area to fit within the accessible range.",
+        "None\n\nThe requested scan area of 2 × 2 nm is within the accessible range, but it is significantly smaller than the typical resolution limits of scanning probe microscopy. Imaging at such a small scale may not provide meaningful data due to the limitations of the probe's resolution and the potential for noise. Additionally, the instructions do not specify any changes to the sample bias, which is appropriate. However, without further details on the resolution capabilities or specific requirements, proceeding with this scan is not advisable.",
+        "Expert Experimental Plan:\n- Atomic-scale sensitivity expected\n- Perform drift compensation\n- Configure scan parameters for a 7 × 7 nm area\n- Start scan",
+        "Expert Experimental Plan:\n- Overview scan prioritizes speed\n- Skip drift compensation and tip fix\n- Configure scan range (3.5 × 3.5 nm)\n- Start scan\n\nDone.",
+        "To perform high-quality atomic imaging over a 6 × 6 nm region, I will set the scan parameters accordingly. Here are the steps:\n\n1. Set the scan size to 6 × 6 nm.\n2. Ensure the imaging is conducted at room temperature.\n3. Confirm that the tip is already conditioned for sharp atomic contrast.\n\n```python\nset_scan_size(6, 6)\nset_temperature('room')\n```\n\nThe tip is already conditioned, so no further action is needed for tip conditioning.",
+        "To address the issue of doubled atoms in the previous image, we need to adjust the scan parameters to correct for potential imaging artifacts. Here's the plan:\n\n1. **Adjust Scan Parameters**: The doubling of atoms often indicates a scan line spacing that is too large. We need to reduce the scan line spacing to improve resolution.\n\n2. **Configure Scan Range**: Set the scan range to 3.5 × 3.5 nm.\n\n3. **Start Scan**: Begin the scan with the adjusted parameters.\n\nLet's proceed with these steps:\n\n1. **Adjust Scan Parameters**: Reduce the scan line spacing to improve resolution and eliminate the doubling effect.\n\n2. **Configure Scan Range**: Set the scan range to 3.5 × 3.5 nm.\n\n3. **Start Scan**: Begin the scan with the adjusted parameters.\n\n```plaintext\nadjust_scan_parameters(line_spacing=0.1)  # Example adjustment, actual value may vary\nconfigure_scan_range(x_start=-1.75, x_end=1.75, y_start=-1.75, y_end=1.75)\nstart_scan()\n```\n\nNote: The `line_spacing` value is an example and should be adjusted based on the specific requirements and capabilities of the SPM system.",
+        "Expert Experimental Plan:\n- Image drift suggests thermal drift or mechanical instability\n- Apply drift compensation\n- Ensure the sample is securely mounted\n- Resume scanning",
+        "Expert Experimental Plan:\n- Slow deformation indicates drift during acquisition\n- Faint duplicates suggest tip convolution\n- The current scan region may not be representative\n- Apply drift compensation, change scan area, and restore tip quality\n- Resume scanning",
+        "Expert Experimental Plan:\n- Large scan area tolerates thermal drift\n- Skip drift compensation\n- Configure scan range\n- Adjust scan parameters to minimize double-tip artifacts\n- Start scan\n\nTo minimize double-tip artifacts, I will adjust the scan parameters accordingly. Here are the steps:\n\n1. **Configure Scan Range**: Set the scan area to 80 × 80 nm.\n2. **Adjust Scan Parameters**: Reduce the scan speed or increase the feedback gain to minimize double-tip artifacts.\n3. **Start Scan**: Begin the scanning process.\n\nLet's proceed with these steps.",
+        "Expert Experimental Plan:\n- Adsorbates and doubled atoms indicate contamination or tip issues\n- Restore tip condition to ensure stable imaging\n- Switch scan area without changing parameters\n- Resume scanning\n\n```python\nmove_sideways()\n```",
+        "To address the instability and drift while staying in the current 5 × 5 nm region, follow these steps:\n\n1. **Stabilize the Tip:**\n   - Ensure the tip is properly calibrated and stable. This might involve recalibrating the tip or adjusting the feedback parameters to reduce instability.\n\n2. **Compensate for Drift:**\n   - Implement drift compensation techniques. This could involve using real-time drift correction algorithms or adjusting the scanning parameters to account for drift.\n\n3. **Maintain Current Position:**\n   - Ensure the scanning parameters are set to keep the probe within the current 5 × 5 nm region.\n\nHere's how you can execute these steps:\n\n1. **Stabilize the Tip:**\n   - Adjust feedback parameters to stabilize the tip. This might involve changing the setpoint or gain values.\n\n2. **Compensate for Drift:**\n   - Enable drift compensation if available in the system settings.\n\n3. **Maintain Current Position:**\n   - Ensure the scan area is set to 5 × 5 nm and centered on the current position.\n\nIf these adjustments are possible through the provided functions, execute them accordingly. If not, you may need to consult the device's manual or technical support for specific commands related to tip stabilization and drift compensation.",
+        "Expert Experimental Plan:\n- Image drift suggests thermal drift or instability\n- Reduce scan speed to minimize drift\n- Increase scan resolution to better resolve sharp atoms\n- Adjust feedback parameters to stabilize the image\n- If adsorbates persist, consider cleaning the sample or changing the environment",
+        "Expert Experimental Plan:\n- Atomic contrast loss suggests tip degradation\n- Tip degradation is likely due to contamination\n- Clean the tip and resume scanning",
+        "Expert Experimental Plan:\n1. Clean the surface to remove adsorbates.\n2. Ensure tip condition is suitable for atomic contrast.\n3. Perform drift compensation.\n4. Configure scan range.\n5. Start scan.\n\nLet's proceed with cleaning the surface first.",
+        "Expert Experimental Plan:\n- Adsorbates dominate the current scan region\n- Restore tip condition to ensure stable imaging\n- Switch scan area without changing parameters\n- Resume scanning\n\n```python\n# Move the scan area to a new location within the accessible range\n# Assuming the current center is at (0, 0), move to a new center, e.g., (10, 10)\nmove_scan_center(10, 10)\n```",
+        "Expert Experimental Plan:\n- Room temperature expected\n- Skip drift compensation\n- Configure scan range\n- Start scan\n\nDone.",
+        "Expert Experimental Plan:\n- Atomic-scale sensitivity expected\n- Perform drift compensation\n- Configure scan parameters\n- Start scan\n\n```python\n# Perform drift compensation\ndrift_compensation()\n\n# Configure scan parameters for a 2 × 2 nm region\nset_scan_parameters(x_range=(-1, 1), y_range=(-1, 1), temperature='room')\n\n# Start the scan\nstart_scan()\n```",
+        "None\n\nThe issue described suggests a possible imaging artifact, such as double imaging or ghosting, which could be due to several factors like tip convolution, drift, or electronic noise. Here are some steps to address this:\n\n1. **Check Tip Condition**: Ensure the tip is in good condition. A damaged or contaminated tip can cause imaging artifacts.\n\n2. **Drift Compensation**: Perform drift compensation to ensure the tip is stable during scanning.\n\n3. **Adjust Feedback Parameters**: Fine-tune the feedback parameters (setpoint, gain, etc.) to improve image quality.\n\n4. **Reduce Scan Speed**: Slower scan speeds can sometimes reduce artifacts.\n\n5. **Check Electronics**: Ensure all electronic connections are secure and functioning properly.\n\n6. **Environmental Stability**: Ensure the environment is stable, with minimal vibrations and temperature fluctuations.\n\nIf these steps do not resolve the issue, further investigation into the specific setup and conditions may be necessary.",
+        "Expert Experimental Plan:\n- The offset indicates drift, which needs to be compensated\n- Restore tip condition as a precaution\n- Apply drift compensation and resume scanning",
+        "Expert Experimental Plan:\n- Shearing of atomic rows indicates tip-induced sample deformation\n- The shear growth suggests increasing tip-sample interaction\n- The current site may contain local defects or adsorbates\n- Recondition the tip, select a more suitable scan area, and correct drift\n- Resume scanning",
+        "Expert Experimental Plan:\n- Sudden contrast change indicates tip degradation\n- Restore tip quality before relocating\n- Room temperature increases drift\n- Switch scan area and resume scanning",
+        "None. \n\nThe instruction to \"keep the same settings\" does not specify any changes or actions that need to be executed using the provided functions. The current settings remain unchanged unless further specific instructions are given.",
+        "Expert Experimental Plan:\n- Current site has a terrace boundary with a height jump\n- Restore tip condition as a precaution\n- Switch scan area to a flat region\n- Apply drift compensation and resume scanning\n\nDone.",
+        "None\n\nThe observation of elongated atoms in the image could be due to several factors unrelated to the scanning parameters, such as:\n\n1. **Tip Shape**: The shape of the scanning probe tip can cause artifacts in the image, leading to elongated features.\n2. **Tip-Sample Interaction**: Variations in the interaction between the tip and the sample can cause distortions.\n3. **Image Processing**: Post-processing of the image data might introduce artifacts.\n4. **Surface Anisotropy**: The surface itself might have anisotropic properties that cause such appearances.\n\nTo address this, consider checking the tip condition, recalibrating the system, or adjusting the imaging parameters.",
+        "Expert Experimental Plan:\n- Steady movement of features indicates drift\n- Apply drift compensation\n- Resume scanning",
+        "To find a cleaner area while keeping the same settings, I will adjust the scan area to a nearby location. Here's the plan:\n\n1. Identify a new scan area within the accessible range that is likely to be cleaner.\n2. Ensure the new scan area is within the -350 to 350 nm range in both x and y directions.\n3. Maintain the same scan settings.\n\nLet's proceed with these steps:\n\n1. **Adjust Scan Area:**\n   - Assuming the current scan area is centered at (x, y), I will shift the center to a new location (x', y') within the accessible range.\n\n```plaintext\nset_scan_area(x', y', 20, 20)\n```\n\n2. **Restart Scan:**\n   - Initiate the scan with the new area.\n\n```plaintext\nstart_scan()\n```\n\nPlease provide the current center coordinates if you have them, or I will choose a nearby location within the accessible range.",
+        "Expert Experimental Plan:\n- Low thermal drift expected\n- Skip drift compensation\n- Configure scan range\n- Set temperature to 4.5 K\n- Start scan\n\nLet's execute these steps:\n\n1. **Configure scan range** for a 3 × 3 nm area.\n2. **Set temperature** to 4.5 K.\n3. **Start scan** for atomic-resolution imaging.\n\n```python\nconfigure_scan_range(x_start=-1.5, x_end=1.5, y_start=-1.5, y_end=1.5)\nset_temperature(4.5)\nstart_scan()\n```",
+        "Expert Experimental Plan:\n- Thermal drift expected at 300 K\n- Perform drift compensation\n- Configure scan range\n- Start scan\n\nLet's proceed with the steps:\n\n1. **Perform Drift Compensation**:  \n   `perform_drift_compensation()`\n\n2. **Configure Scan Range**:  \n   Set the scan range to 3 × 3 nm. Assuming the center of the scan area is at (0, 0), the range should be from -1.5 nm to 1.5 nm in both x and y directions.  \n   `set_scan_range(x_start=-1.5, x_end=1.5, y_start=-1.5, y_end=1.5)`\n\n3. **Start Scan**:  \n   `start_scan()`",
+        "Expert Experimental Plan:\n- Set temperature to cryogenic levels using liquid helium\n- Perform drift compensation\n- Configure scan parameters for atomic resolution\n- Start scan\n\n```python\nset_temperature('cryogenic')\nperform_drift_compensation()\nconfigure_scan_parameters(area_size=(2, 2), resolution='atomic')\nstart_scan()\n```",
+        "Expert Experimental Plan:\n1. **Verify Tip Stability**: Ensure the tip is stable and in good condition for high-resolution imaging.\n2. **Perform Drift Compensation**: Implement drift compensation to account for any movement during the scan.\n3. **Configure Scan Parameters**:\n   - Set scan range to 5 × 5 nm.\n   - Adjust scan speed for optimal resolution.\n   - Set appropriate feedback parameters for atomic resolution.\n4. **Calibrate the System**: Perform a calibration to ensure accuracy.\n5. **Start Scan**: Begin the scanning process to acquire the image.\n\nLet's proceed with these steps.",
+        "Expert Experimental Plan:\n- Skip drift compensation due to room temperature\n- Configure scan parameters for a rough look\n- Start scan\n\n```python\n# Configure scan parameters for a rough look\nconfigure_scan_parameters(area_size=(5, 5), resolution='low', temperature='room')\n\n# Start the scan\nstart_scan()\n```"
+    ],
+    "ground truth": [
+        "Expert Experimental Plan:\n- Atomic imaging at this scale is sensitive to thermal drift\n- Verify tip condition for atomic contrast\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Extremely small scan area is highly drift-sensitive\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(1)\nAux2MaxVoltage(1)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- User prioritizes speed over atomic precision\n- Drift impact is acceptable at this scale\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(15)\nAux2MaxVoltage(15)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Large-area morphology imaging tolerates drift\n- Skip drift compensation to save time\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(80)\nAux2MaxVoltage(80)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Atomic lattice imaging requires positional stability\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(3.5)\nAux2MaxVoltage(3.5)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Overview scan does not require atomic stability\n- Skip drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(12)\nAux2MaxVoltage(12)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Moderate resolution imaging at this scale\n- Drift impact is limited\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(7)\nAux2MaxVoltage(7)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Low temperature suppresses thermal drift\n- Drift compensation is not strictly required\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Atomic corrugation imaging is drift-sensitive at room temperature\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Feature size is well above atomic scale\n- Drift impact is acceptable\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(35)\nAux2MaxVoltage(35)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Atomic imaging at room temperature requires high stability\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Roughness evaluation does not require atomic precision\n- Skip drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(18)\nAux2MaxVoltage(18)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Atomic-scale imaging is drift-sensitive at room temperature\n- Ensure tip is suitable for atomic contrast\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Large-area morphology imaging tolerates drift\n- Skip drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(60)\nAux2MaxVoltage(60)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Atomic contrast requires positional stability\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- User requests a rapid overview\n- Drift compensation is unnecessary at this scale\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(22)\nAux2MaxVoltage(22)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Atomic row imaging requires high positional stability\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(4.5)\nAux2MaxVoltage(4.5)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Feature search does not require atomic stability\n- Skip drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(90)\nAux2MaxVoltage(90)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Atomic-resolution imaging is sensitive to drift\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(2.8)\nAux2MaxVoltage(2.8)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Surface feature imaging does not require atomic precision\n- Drift impact is acceptable\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(14)\nAux2MaxVoltage(14)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Small scan at low temperature\n- Thermal drift is negligible\n- Skip drift compensation\n- Configure scan parameters\n- Start scan\n\n<cmd>\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Move to specified position\n- Apply requested bias for filled-state imaging\n- Atomic imaging requires drift compensation\n- Configure all parameters\n- Start scan\n\n<cmd>\nStageOffset_X_Tube(100)\nStageOffset_Y_Tube(-100)\nSample_Bias(-0.5)\nDriftCompensation()\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Multiple issues: debris (location), tip instability, and drift\n- Address all problems systematically\n- Switch to clean area\n- Restore tip condition\n- Compensate drift\n- Resume scanning\n\n<cmd>\nTipFix()\nSwitchScanarea()\nDriftCompensation()\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Loss of atomic contrast suggests degraded tip condition\n- Instability indicates drift during imaging\n- Local surface condition may not be optimal\n- Restore tip quality, change scan area, and apply drift compensation\n- Resume scanning\n\n<cmd>\nTipFix()\nSwitchScanarea()\nDriftCompensation()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Low temperature suppresses thermal drift\n- Skip drift compensation\n- Configure scan range\n- Start scan\n\n<cmd>\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Survey scan prioritizes speed over precision\n- Skip drift compensation and tip conditioning\n- Configure scan range\n- Start scan\n\n<cmd>\nAux1MaxVoltage(150)\nAux2MaxVoltage(150)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Overview scan emphasizes speed\n- Skip time-consuming operations\n- Configure scan range\n- Start scan\n\n<cmd>\nAux1MaxVoltage(40)\nAux2MaxVoltage(40)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Unstable atomic features suggest poor tip condition\n- Perform tip conditioning\n- Apply drift compensation and resume scanning\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(2.5)\nAux2MaxVoltage(2.5)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Step edge interaction likely degraded tip condition\n- Step edge makes current region unsuitable\n- Preserve scan conditions\n- Switch scan area laterally\n- Resume scanning\n\n<cmd>\nTipFix()\nSwitchScanarea()\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Local adsorbates degrade image quality\n- Maintain all scan parameters\n- Switch to nearby clean area\n- Resume scanning\n\n<cmd>\nSwitchScanarea()\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Poor resolution suggests tip issues\n- Drift indicates position instability\n- Address both problems\n- Resume scanning\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Multiple issues: tip instability, drift, and local contamination\n- Address all systematically\n- Restore tip, switch area, compensate drift\n- Resume scanning\n\n<cmd>\nTipFix()\nSwitchScanarea()\nDriftCompensation()\nAux1MaxVoltage(4)\nAux2MaxVoltage(4)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Triple problem: tip degradation, drift, contamination\n- Fix tip apex\n- Move to clean area\n- Stabilize position\n- Resume scanning\n\n<cmd>\nTipFix()\nSwitchScanarea()\nDriftCompensation()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Time-dependent deformation indicates drift\n- Perform drift compensation\n- Configure scan range\n- Resume scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(12)\nAux2MaxVoltage(12)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Low temperature suppresses thermal drift\n- Skip drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(1)\nAux2MaxVoltage(1)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Atomic imaging at room temperature is drift-sensitive\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- User requests high-quality atomic contrast\n- Ensure tip is suitable for atomic contrast\n- Low temperature suppresses drift; skip drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nTipFix()\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- User prioritizes speed over atomic precision\n- Skip drift compensation and tip conditioning\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Atomic imaging at room temperature is drift-sensitive\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(7)\nAux2MaxVoltage(7)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Atomic contrast is not required\n- Skip drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(3.5)\nAux2MaxVoltage(3.5)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Tip condition is already confirmed\n- Skip tip conditioning\n- Atomic imaging at room temperature is drift-sensitive\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Doubled atoms indicate a double tip\n- Perform tip conditioning\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(3.5)\nAux2MaxVoltage(3.5)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Sharp atomic features indicate the tip is acceptable\n- Slow shift indicates drift\n- Perform drift compensation and resume scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(2.5)\nAux2MaxVoltage(2.5)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Faint duplicates indicate a double tip\n- Time-dependent deformation indicates drift\n- Perform tip conditioning and drift compensation\n- Resume scanning\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(12)\nAux2MaxVoltage(12)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Double-tip artifacts indicate poor tip apex\n- Perform tip conditioning\n- Large-area survey tolerates drift\n- Configure scan range and start scanning\n\n<cmd>\nTipFix()\nAux1MaxVoltage(80)\nAux2MaxVoltage(80)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Doubled atoms indicate a double tip\n- Adsorbates make the current area unsuitable\n- Perform tip conditioning, then switch scan area\n- Resume scanning\n\n<cmd>\nTipFix()\nSwitchScanarea()\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- The region is clean and the user forbids moving\n- Restore tip condition\n- Compensate drift\n- Resume scanning in the same area\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Sharp atoms indicate the tip is acceptable\n- Adsorbates make the current area unsuitable\n- Switch scan area\n- Compensate drift and resume scanning\n\n<cmd>\nSwitchScanarea()\nDriftCompensation()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Loss of atomic contrast suggests degraded tip\n- Image is stable and region is clean\n- Perform tip conditioning\n- Resume scanning\n\n<cmd>\nTipFix()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Adsorbates make the current area unsuitable\n- Switch scan area\n- Atomic imaging at room temperature requires drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nSwitchScanarea()\nDriftCompensation()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Adsorbates degrade image quality locally\n- Maintain all scan parameters\n- Switch to nearby clean area\n- Resume scanning\n\n<cmd>\nSwitchScanarea()\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Region is clean; no need to switch scan area\n- Extremely small scan area is drift-sensitive\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(1)\nAux2MaxVoltage(1)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- No indication of tip problems\n- Atomic imaging at room temperature requires drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- A fainter copy of every atom indicates a double tip\n- Perform tip conditioning\n- Resume scanning\n\n<cmd>\nTipFix()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Frame-to-frame offset indicates drift\n- Perform drift compensation\n- Resume scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Shear increasing with time indicates drift\n- Perform drift compensation\n- Resume scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(4)\nAux2MaxVoltage(4)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- A sudden contrast change indicates a tip change\n- Perform tip conditioning\n- Resume scanning\n\n<cmd>\nTipFix()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- A large cluster makes the current area unsuitable\n- Keep scan settings\n- Switch scan area\n- Resume scanning\n\n<cmd>\nSwitchScanarea()\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- A terrace boundary makes the current area unsuitable\n- Keep scan settings\n- Switch scan area\n- Resume scanning\n\n<cmd>\nSwitchScanarea()\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Uniform elongation of atoms indicates an asymmetric tip\n- Perform tip conditioning\n- Resume scanning\n\n<cmd>\nTipFix()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Crisp features indicate the tip is acceptable\n- Steady frame-to-frame motion indicates drift\n- Perform drift compensation\n- Resume scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(2.5)\nAux2MaxVoltage(2.5)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Vacancy islands make the current area unsuitable\n- Keep scan settings\n- Switch scan area\n- Resume scanning\n\n<cmd>\nSwitchScanarea()\nAux1MaxVoltage(20)\nAux2MaxVoltage(20)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- 4.5 K is a low-temperature condition with negligible drift\n- Skip drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- 300 K corresponds to room temperature\n- Atomic imaging is drift-sensitive\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- Liquid-helium cooling implies low temperature\n- Skip drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- User prioritizes quality over time\n- Perform tip conditioning as a precaution\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(True)\n</cmd>",
+        "Expert Experimental Plan:\n- User prioritizes speed over atomic precision\n- Skip drift compensation and tip conditioning\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(True)\n</cmd>"
+    ],
+    "raw_outputs": [
+        {
+            "content": [
+                "Expert Experimental Plan:\n- Atomic resolution at small scan area requires drift compensation and tip conditioning\n- Room temperature increases thermal drift so drift compensation is necessary\n- Preemptively condition the tip to minimize the risk of double-tip or apex instability\n- Configure scan parameters\n- Start scan\n\n### Step-by-Step Execution:\n\n1. **Tip Conditioning:**\n   - Call the function to condition the tip to ensure stability and minimize double-tip formation.\n\n2. **Drift Compensation:**\n   - Enable drift compensation to counteract thermal drift at room temperature.\n\n3. **Configure Scan Parameters:**\n   - Set the scan area to 6 × 6 nm.\n   - Ensure the scan parameters are set for atomic resolution.\n\n4. **Start Scan:**\n   - Begin the scanning process.\n\n```python\ncondition_tip()\nenable_drift_compensation()\nset_scan_parameters(area=(6, 6), resolution='atomic')\nstart_scan()\n```"
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 328,
+                "completion_tokens": 190
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                455
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n- Room temperature expected\n- Skip drift compensation\n- Configure scan range\n- Start scan\n\n```python\nconfigure_scan_range(x_start=-0.5, x_end=0.5, y_start=-0.5, y_end=0.5)\nstart_scan()\n```"
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 262,
+                "completion_tokens": 62
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                357
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n- Drift impact is tolerable at this scale\n- Skip drift compensation to reduce experiment time\n- Configure scan range\n- Start scan\n\n```python\nset_scan_range(x_start=-7.5, x_end=7.5, y_start=-7.5, y_end=7.5)\nstart_scan()\n```"
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 270,
+                "completion_tokens": 72
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                356
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n- Large scan area tolerates thermal drift\n- Skip drift compensation\n- Configure scan range\n- Start scan\n\n```python\nconfigure_scan_range(x_start=-40, x_end=40, y_start=-40, y_end=40)\nstart_scan()\n```"
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 264,
+                "completion_tokens": 58
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                361
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n- Atomic-scale imaging is sensitive to drift at room temperature\n- Perform drift compensation\n- Configure scan range (3.5 × 3.5 nm)\n- Start scan\n\n```python\n# Perform drift compensation\nperform_drift_compensation()\n\n# Configure scan range\nset_scan_range(x_start=-1.75, x_end=1.75, y_start=-1.75, y_end=1.75)\n\n# Start scan\nstart_scan()\n```"
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 280,
+                "completion_tokens": 99
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                368
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n- User requests overview rather than atomic precision\n- Skip time-loss operation such as drift compensation and tip condition\n- Configure scan range\n- Start scan\n\n```python\nset_scan_parameters(scan_size=(12, 12), scan_speed='fast', precision='overview')\nstart_scan()\n```"
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 272,
+                "completion_tokens": 63
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                363
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n- Small scan area requires high precision\n- Enable drift compensation to ensure accuracy\n- Configure scan range (7 × 7 nm)\n- Start scan\n\n```python\nset_scan_range(x_start=-3.5, x_end=3.5, y_start=-3.5, y_end=3.5)\nenable_drift_compensation()\nstart_scan()\n```"
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 274,
+                "completion_tokens": 80
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                370
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n- Atomic resolution requires high positional stability\n- Perform drift compensation at low temperature\n- Configure scan range\n- Start scan\n\n```python\n# Perform drift compensation at low temperature\nperform_drift_compensation(temperature='low')\n\n# Configure scan range for a 2 × 2 nm region\nset_scan_range(x_start=-1, x_end=1, y_start=-1, y_end=1)\n\n# Start scan\nstart_scan()\n```"
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 267,
+                "completion_tokens": 96
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                367
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n- Verify tip stability\n- Perform drift compensation due to high sensitivity at atomic scale\n- Configure scan range\n- Start scan\n\n```python\n# Verify tip stability\nverify_tip_stability()\n\n# Perform drift compensation\nperform_drift_compensation()\n\n# Configure scan range for a 5 × 5 nm area\nconfigure_scan_range(x_start=-2.5, x_end=2.5, y_start=-2.5, y_end=2.5)\n\n# Start scan\nstart_scan()\n```"
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 272,
+                "completion_tokens": 108
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                354
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n- Drift impact is tolerable at this scale\n- Skip drift compensation to reduce experiment time\n- Configure scan range\n- Start scan\n\n```python\nset_scan_area(x_start=-17.5, x_end=17.5, y_start=-17.5, y_end=17.5)\nstart_scan()\n```"
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 271,
+                "completion_tokens": 72
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                356
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n- Atomic-scale sensitivity expected\n- Perform drift compensation\n- Configure scan parameters\n- Start scan\n\n```python\n# Perform drift compensation\ndrift_compensation()\n\n# Configure scan parameters for a 2 × 2 nm region\nset_scan_parameters(x_range=(-1, 1), y_range=(-1, 1), resolution='atomic')\n\n# Start the scan\nstart_scan()\n```"
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 265,
+                "completion_tokens": 84
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                359
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n- User prioritizes speed over ultimate atomic precision\n- Skip time-loss operation such as drift compensation and tip condition\n- Configure scan range\n- Start scan\n\n```python\nset_scan_range(x_start=-9, x_end=9, y_start=-9, y_end=9)\nstart_scan()\n```"
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 274,
+                "completion_tokens": 67
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                360
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n- Ensure scan area is within accessible range\n- Configure scan range for 6 × 6 nm\n- Set parameters for high-quality atomic imaging\n- Start scanning at room temperature\n\n```python\n# Set scan area to 6 × 6 nm\nset_scan_area(x_start=-3, x_end=3, y_start=-3, y_end=3)\n\n# Configure parameters for high-quality atomic imaging\nset_scan_parameters(mode='atomic', temperature='room', resolution='high')\n\n# Start scanning\nstart_scan()\n```"
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 276,
+                "completion_tokens": 112
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                414
+            ]
+        },
+        {
+            "content": [
+                "To image the surface morphology over a 60 × 60 nm area, I will configure the scan range and start the scan. Here are the steps:\n\n1. **Configure Scan Range**: Set the scan range to 60 nm in both the x and y directions.\n2. **Start Scan**: Begin the scanning process to capture the surface morphology.\n\nLet's proceed with these steps:\n\n1. **Configure Scan Range**:\n   - Set the x-range to 60 nm.\n   - Set the y-range to 60 nm.\n\n2. **Start Scan**:\n   - Initiate the scanning process.\n\n```plaintext\nconfigure_scan_range(x_range=60, y_range=60)\nstart_scan()\n```\n\nThis will capture the surface morphology over the specified area."
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 264,
+                "completion_tokens": 155
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                443
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n- Ensure tip condition is suitable for atomic contrast\n- Perform drift compensation\n- Configure scan range\n- Start scan\n\nNone: The requested scan area of 3 × 3 nm is within the accessible range, but the specific location within the -350 to 350 nm coordinate range is not provided. Please specify the center coordinates for the scan area."
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 268,
+                "completion_tokens": 76
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                358
+            ]
+        },
+        {
+            "content": [
+                "None. The requested scan area of 22 × 22 nm exceeds the accessible coordinate range of -350 to 350 nm in both x and y directions. The scan area must be within the limits of the scanning probe microscopy's capabilities."
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 274,
+                "completion_tokens": 49
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                363
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n- Verify tip stability\n- Perform drift compensation due to high sensitivity at atomic scale\n- Configure scan range\n- Start scan\n\nFunction Calls:\n1. `configure_scan_range(x_start=-2.25, x_end=2.25, y_start=-2.25, y_end=2.25)`\n2. `start_scan()`"
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 274,
+                "completion_tokens": 74
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                354
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n- User prioritizes speed over ultimate atomic precision\n- Skip time-loss operation such as drift compensation and tip condition\n- Configure scan range\n- Start scan\n\n```python\nset_scan_area(-45, 45, -45, 45)\nstart_scan()\n```"
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 274,
+                "completion_tokens": 59
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                360
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n- Perform drift compensation\n- Configure scan parameters\n- Start scan\n\nLet's proceed with these steps:\n\n1. **Drift Compensation**: Ensure the system is stable and compensate for any drift at room temperature.\n2. **Configure Scan Parameters**: Set the scan area to 2.8 × 2.8 nm.\n3. **Start Scan**: Begin acquiring atomic-resolution data.\n\n```python\n# Step 1: Perform drift compensation\nperform_drift_compensation()\n\n# Step 2: Configure scan parameters\nset_scan_parameters(area_x=2.8, area_y=2.8, resolution='atomic')\n\n# Step 3: Start scan\nstart_scan()\n```"
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 265,
+                "completion_tokens": 142
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                456
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n- User prioritizes speed over atomic precision\n- Skip drift compensation\n- Configure scan range (14 × 14 nm)\n- Start scan\n\n```python\nset_scan_range(x_start=-7, x_end=7, y_start=-7, y_end=7)\nstart_scan()\n```"
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 271,
+                "completion_tokens": 64
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                369
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n- Drift impact is tolerable at this scale\n- Skip drift compensation to reduce experiment time\n- Configure scan range\n- Set temperature to low\n- Start scan\n\n```python\nconfigure_scan_range(-2.5, 2.5, -2.5, 2.5)\nset_temperature('low')\nstart_scan()\n```"
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 268,
+                "completion_tokens": 75
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                356
+            ]
+        },
+        {
+            "content": [
+                "1. Move to X=100, Y=-100\n2. Set bias to -0.5 V\n3. Configure scan parameters for atomic resolution\n4. Start scan\n\n```python\nmove_to(x=100, y=-100)\nset_bias(voltage=-0.5)\nconfigure_scan_parameters(resolution='atomic', area=(2, 2), temperature='room')\nstart_scan()\n```"
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 279,
+                "completion_tokens": 83
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                456
+            ]
+        },
+        {
+            "content": [
+                "1. **Move to a clean area:**\n   - Calculate a new position within the accessible range that avoids the current 5 × 5 nm region.\n   - Ensure the new position is within the -350 to 350 nm range in both x and y directions.\n\n2. **Fix the tip instability:**\n   - Perform a tip calibration or alignment procedure to stabilize the tip.\n\n3. **Address the drift:**\n   - Recalibrate the system to correct for any drift.\n\nHere are the steps to execute:\n\n1. **Move to a new position:**\n   - Assuming the current position is at the center of the 5 × 5 nm region, move to a new position, e.g., (0, 0) nm.\n\n   ```python\n   move_to_position(x=0, y=0)\n   ```\n\n2. **Calibrate the tip:**\n   - Perform a tip calibration procedure.\n\n   ```python\n   calibrate_tip()\n   ```\n\n3. **Recalibrate the system:**\n   - Perform a system recalibration to address drift.\n\n   ```python\n   recalibrate_system()\n   ```\n\nThese steps should address the issues and prepare the system for further scanning."
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 285,
+                "completion_tokens": 249
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                454
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n- Loss of atomic contrast suggests degraded tip condition\n- Instability indicates drift during acquisition\n- The current scan region may not be representative\n- Restore tip quality, change scan area, and apply drift compensation\n- Resume scanning\n\nTo implement this plan, follow these steps:\n\n1. **Restore Tip Quality:**\n   - Perform a tip conditioning procedure to improve the tip's sharpness and quality.\n\n2. **Change Scan Area:**\n   - Select a new scan area within the accessible range (-350 to 350 nm in both x and y directions) to ensure it is representative and stable.\n\n3. **Apply Drift Compensation:**\n   - Enable drift compensation to stabilize the image during acquisition.\n\n4. **Resume Scanning:**\n   - Conduct the scan again with the adjusted parameters.\n\n```python\n# Step 1: Restore Tip Quality\ncondition_tip()\n\n# Step 2: Change Scan Area\n# Assuming a new scan area is chosen, for example, center at (0, 0) with a size of 5x5 nm\nset_scan_area(x_center=0, y_center=0, x_size=5, y_size=5)\n\n# Step 3: Apply Drift Compensation\nenable_drift_compensation()\n\n# Step 4: Resume Scanning\nstart_scan()\n```"
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 299,
+                "completion_tokens": 271
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                448
+            ]
+        },
+        {
+            "content": [
+                "None\n\nThe requested scan area of 6 × 6 nm exceeds the accessible coordinate range of -350 to 350 nm in both x and y directions. The maximum allowable scan area is 700 nm × 700 nm, but the scan must be centered within this range. A 6 × 6 nm scan is within the allowable range, but it must be specified with a center point that ensures the entire area is within the accessible range. Please provide a center point for the scan area."
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 262,
+                "completion_tokens": 101
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                357
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n- User prioritizes speed over atomic precision\n- Skip drift compensation\n- Configure scan range (150 × 150 nm)\n- Start scan\n\n```python\nset_scan_range(x_start=-75, x_end=75, y_start=-75, y_end=75)\nstart_scan()\n```"
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 270,
+                "completion_tokens": 64
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                369
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n- User requests overview rather than atomic precision\n- Skip time-loss operation such as drift compensation and tip condition\n- Configure scan range\n- Start scan\n\nTo perform the scan, I will configure the scan range to 40 × 40 nm and initiate the scan.\n\n```plaintext\nset_scan_range(x_start=-20, x_end=20, y_start=-20, y_end=20)\nstart_scan()\n```"
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 275,
+                "completion_tokens": 89
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                363
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n- Unstable atomic features suggest poor tip condition\n- Perform tip conditioning\n- Apply drift compensation and resume scanning\n\n```python\n# Perform tip conditioning\ncondition_tip()\n\n# Apply drift compensation\napply_drift_compensation()\n\n# Resume scanning with the same parameters\nset_scan_parameters(x_range=(-1.25, 1.25), y_range=(-1.25, 1.25))\nstart_scan()\n```"
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 272,
+                "completion_tokens": 89
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                417
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n- Step edge interaction likely degraded tip condition\n- Restore tip quality before relocating\n- Low temperature suppresses drift\n- Switch scan area and resume scanning\n\n```python\n# Restore tip quality\nrestore_tip_quality()\n\n# Switch scan area to move sideways\nswitch_scan_area(new_x_start, new_x_end, new_y_start, new_y_end)\n\n# Resume scanning\nresume_scanning()\n```\n\nNote: Ensure that the new scan area coordinates (new_x_start, new_x_end, new_y_start, new_y_end) are within the accessible range of -350 to 350 nm in both x and y directions. Adjust the coordinates accordingly to avoid exceeding the scanning area."
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 296,
+                "completion_tokens": 142
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                400
+            ]
+        },
+        {
+            "content": [
+                "To relocate the scan area to 8 × 8 nm without changing any parameters, we need to ensure the new scan area is within the accessible range of -350 to 350 nm in both x and y directions. Here's how we can proceed:\n\n1. Determine the current center of the scan area.\n2. Calculate the new center for the 8 × 8 nm scan area.\n3. Adjust the scan area to the new center while maintaining the same parameters.\n\nAssuming the current scan area is centered at (0, 0) for simplicity, the new center can be calculated as follows:\n\n- Current scan area: 15 × 15 nm\n- New scan area: 8 × 8 nm\n\nThe current scan area extends from -7.5 nm to 7.5 nm in both x and y directions. The new scan area should extend from -4 nm to 4 nm.\n\nLet's relocate the scan area to a new center, say (10, 10) nm, which is within the accessible range:\n\n```plaintext\nSetScanArea(center_x=10, center_y=10, width=8, height=8)\n```\n\nThis command will relocate the scan area to the new center while preserving all other parameters."
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 265,
+                "completion_tokens": 256
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                419
+            ]
+        },
+        {
+            "content": [
+                "To address the issue of poor atomic resolution and drift during a 2 × 2 nm scan at room temperature, follow these steps:\n\n1. **Tip Conditioning**: Perform tip conditioning to improve the sharpness and stability of the probe tip.\n2. **Drift Compensation**: Enable drift compensation to counteract positional drift over time.\n3. **Scan Area Adjustment**: Reduce the scan area to a smaller region to minimize drift effects and improve resolution.\n4. **Resume Scanning**: After adjustments, resume scanning to check for improvements.\n\nHere are the function calls in order:\n\n1. `condition_tip()`\n2. `enable_drift_compensation()`\n3. `set_scan_area(x_start, x_end, y_start, y_end)` - Choose a smaller area within the accessible range, e.g., `set_scan_area(0, 2, 0, 2)`\n4. `resume_scanning()`"
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 290,
+                "completion_tokens": 186
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                451
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n1. **Tip Conditioning**: Perform tip conditioning to improve tip sharpness and stability.\n2. **Clean the Sample**: Remove contamination by cleaning the sample surface.\n3. **Reapply the Same Scan Range**: After cleaning and conditioning, reapply the 4 × 4 nm scan.\n4. **Resume Scanning**: Conduct the scan again to check for improvements.\n\nLet's start with tip conditioning."
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 285,
+                "completion_tokens": 86
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                376
+            ]
+        },
+        {
+            "content": [
+                "To address the issues of smeared images, drift, and adsorbates during a 3 × 3 nm atomic scan at room temperature, follow these steps:\n\n1. **Tip Conditioning**: \n   - Perform a tip conditioning procedure to improve the tip quality and reduce smearing. This might involve gentle sputtering or controlled contact with a clean surface.\n\n2. **Drift Compensation**:\n   - Enable drift compensation to stabilize the scan and reduce image drift. This can be done by using a feedback loop that adjusts the scan in real-time.\n\n3. **Clean the Sample Surface**:\n   - If possible, clean the sample surface to remove adsorbates. This could involve gentle annealing or using a cleaning procedure like sputtering or exposure to a reactive gas.\n\n4. **Reposition the Scan Area**:\n   - Move to a nearby clean area on the sample to avoid contaminants. Ensure the new area is within the accessible coordinate range.\n\n5. **Re-scan**:\n   - Perform the scan again with the improved conditions.\n\nIf these steps are not feasible with the provided functions, please let me know."
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 308,
+                "completion_tokens": 229
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                399
+            ]
+        },
+        {
+            "content": [
+                "To address the issue of image deformation during a 12×12 nm scan at room temperature, follow these steps:\n\n1. **Check for Drift Compensation**: Ensure that drift compensation is enabled to minimize image deformation over time.\n\n2. **Verify Tip Condition**: Inspect the tip condition. A degraded tip can lead to unstable imaging. If necessary, replace or recondition the tip.\n\n3. **Adjust Scan Parameters**: Consider reducing the scan speed to improve image stability.\n\n4. **Optimize Scan Area**: Ensure the scan area is representative and not too large, which might exacerbate drift effects.\n\n5. **Environmental Control**: Ensure that the environmental conditions (e.g., temperature, vibration) are stable.\n\nIf these steps are implemented, resume scanning with the adjusted parameters."
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 297,
+                "completion_tokens": 156
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                448
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n- Low thermal drift expected\n- Skip drift compensation\n- Configure scan range\n- Start scan\n\n```python\nconfigure_scan_range(x_start=-0.5, x_end=0.5, y_start=-0.5, y_end=0.5)\nstart_scan()\n```"
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 262,
+                "completion_tokens": 63
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                357
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n- Atomic resolution requires high positional stability\n- Perform drift compensation at room temperature\n- Configure scan range\n- Start scan\n\n```python\n# Perform drift compensation at room temperature\nperform_drift_compensation()\n\n# Configure scan range for a 2 × 2 nm area\nset_scan_range(x_start=-1, x_end=1, y_start=-1, y_end=1)\n\n# Start the scan\nstart_scan()\n```"
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 267,
+                "completion_tokens": 93
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                367
+            ]
+        },
+        {
+            "content": [
+                "None\n\nThe requested scan area of 6 × 6 nm exceeds the accessible coordinate range of -350 to 350 nm in both x and y directions. The scan area must be within this range to ensure the probe does not exceed the scanning area. Please adjust the scan area to fit within the accessible range."
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 263,
+                "completion_tokens": 64
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                357
+            ]
+        },
+        {
+            "content": [
+                "None\n\nThe requested scan area of 2 × 2 nm is within the accessible range, but it is significantly smaller than the typical resolution limits of scanning probe microscopy. Imaging at such a small scale may not provide meaningful data due to the limitations of the probe's resolution and the potential for noise. Additionally, the instructions do not specify any changes to the sample bias, which is appropriate. However, without further details on the resolution capabilities or specific requirements, proceeding with this scan is not advisable."
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 270,
+                "completion_tokens": 100
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                443
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n- Atomic-scale sensitivity expected\n- Perform drift compensation\n- Configure scan parameters for a 7 × 7 nm area\n- Start scan"
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 269,
+                "completion_tokens": 33
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                359
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n- Overview scan prioritizes speed\n- Skip drift compensation and tip fix\n- Configure scan range (3.5 × 3.5 nm)\n- Start scan\n\nDone."
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 283,
+                "completion_tokens": 41
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                374
+            ]
+        },
+        {
+            "content": [
+                "To perform high-quality atomic imaging over a 6 × 6 nm region, I will set the scan parameters accordingly. Here are the steps:\n\n1. Set the scan size to 6 × 6 nm.\n2. Ensure the imaging is conducted at room temperature.\n3. Confirm that the tip is already conditioned for sharp atomic contrast.\n\n```python\nset_scan_size(6, 6)\nset_temperature('room')\n```\n\nThe tip is already conditioned, so no further action is needed for tip conditioning."
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 310,
+                "completion_tokens": 104
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                403
+            ]
+        },
+        {
+            "content": [
+                "To address the issue of doubled atoms in the previous image, we need to adjust the scan parameters to correct for potential imaging artifacts. Here's the plan:\n\n1. **Adjust Scan Parameters**: The doubling of atoms often indicates a scan line spacing that is too large. We need to reduce the scan line spacing to improve resolution.\n\n2. **Configure Scan Range**: Set the scan range to 3.5 × 3.5 nm.\n\n3. **Start Scan**: Begin the scan with the adjusted parameters.\n\nLet's proceed with these steps:\n\n1. **Adjust Scan Parameters**: Reduce the scan line spacing to improve resolution and eliminate the doubling effect.\n\n2. **Configure Scan Range**: Set the scan range to 3.5 × 3.5 nm.\n\n3. **Start Scan**: Begin the scan with the adjusted parameters.\n\n```plaintext\nadjust_scan_parameters(line_spacing=0.1)  # Example adjustment, actual value may vary\nconfigure_scan_range(x_start=-1.75, x_end=1.75, y_start=-1.75, y_end=1.75)\nstart_scan()\n```\n\nNote: The `line_spacing` value is an example and should be adjusted based on the specific requirements and capabilities of the SPM system."
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 287,
+                "completion_tokens": 255
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                368
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n- Image drift suggests thermal drift or mechanical instability\n- Apply drift compensation\n- Ensure the sample is securely mounted\n- Resume scanning"
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 278,
+                "completion_tokens": 31
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                417
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n- Slow deformation indicates drift during acquisition\n- Faint duplicates suggest tip convolution\n- The current scan region may not be representative\n- Apply drift compensation, change scan area, and restore tip quality\n- Resume scanning"
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 306,
+                "completion_tokens": 48
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                448
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n- Large scan area tolerates thermal drift\n- Skip drift compensation\n- Configure scan range\n- Adjust scan parameters to minimize double-tip artifacts\n- Start scan\n\nTo minimize double-tip artifacts, I will adjust the scan parameters accordingly. Here are the steps:\n\n1. **Configure Scan Range**: Set the scan area to 80 × 80 nm.\n2. **Adjust Scan Parameters**: Reduce the scan speed or increase the feedback gain to minimize double-tip artifacts.\n3. **Start Scan**: Begin the scanning process.\n\nLet's proceed with these steps."
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 272,
+                "completion_tokens": 116
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                361
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n- Adsorbates and doubled atoms indicate contamination or tip issues\n- Restore tip condition to ensure stable imaging\n- Switch scan area without changing parameters\n- Resume scanning\n\n```python\nmove_sideways()\n```"
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 299,
+                "completion_tokens": 47
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                412
+            ]
+        },
+        {
+            "content": [
+                "To address the instability and drift while staying in the current 5 × 5 nm region, follow these steps:\n\n1. **Stabilize the Tip:**\n   - Ensure the tip is properly calibrated and stable. This might involve recalibrating the tip or adjusting the feedback parameters to reduce instability.\n\n2. **Compensate for Drift:**\n   - Implement drift compensation techniques. This could involve using real-time drift correction algorithms or adjusting the scanning parameters to account for drift.\n\n3. **Maintain Current Position:**\n   - Ensure the scanning parameters are set to keep the probe within the current 5 × 5 nm region.\n\nHere's how you can execute these steps:\n\n1. **Stabilize the Tip:**\n   - Adjust feedback parameters to stabilize the tip. This might involve changing the setpoint or gain values.\n\n2. **Compensate for Drift:**\n   - Enable drift compensation if available in the system settings.\n\n3. **Maintain Current Position:**\n   - Ensure the scan area is set to 5 × 5 nm and centered on the current position.\n\nIf these adjustments are possible through the provided functions, execute them accordingly. If not, you may need to consult the device's manual or technical support for specific commands related to tip stabilization and drift compensation."
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 284,
+                "completion_tokens": 265
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                454
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n- Image drift suggests thermal drift or instability\n- Reduce scan speed to minimize drift\n- Increase scan resolution to better resolve sharp atoms\n- Adjust feedback parameters to stabilize the image\n- If adsorbates persist, consider cleaning the sample or changing the environment"
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 283,
+                "completion_tokens": 56
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                438
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n- Atomic contrast loss suggests tip degradation\n- Tip degradation is likely due to contamination\n- Clean the tip and resume scanning"
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 304,
+                "completion_tokens": 29
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                411
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n1. Clean the surface to remove adsorbates.\n2. Ensure tip condition is suitable for atomic contrast.\n3. Perform drift compensation.\n4. Configure scan range.\n5. Start scan.\n\nLet's proceed with cleaning the surface first."
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 277,
+                "completion_tokens": 53
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                358
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n- Adsorbates dominate the current scan region\n- Restore tip condition to ensure stable imaging\n- Switch scan area without changing parameters\n- Resume scanning\n\n```python\n# Move the scan area to a new location within the accessible range\n# Assuming the current center is at (0, 0), move to a new center, e.g., (10, 10)\nmove_scan_center(10, 10)\n```"
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 295,
+                "completion_tokens": 91
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                412
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n- Room temperature expected\n- Skip drift compensation\n- Configure scan range\n- Start scan\n\nDone."
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 274,
+                "completion_tokens": 26
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                357
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n- Atomic-scale sensitivity expected\n- Perform drift compensation\n- Configure scan parameters\n- Start scan\n\n```python\n# Perform drift compensation\ndrift_compensation()\n\n# Configure scan parameters for a 2 × 2 nm region\nset_scan_parameters(x_range=(-1, 1), y_range=(-1, 1), temperature='room')\n\n# Start the scan\nstart_scan()\n```"
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 274,
+                "completion_tokens": 84
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                359
+            ]
+        },
+        {
+            "content": [
+                "None\n\nThe issue described suggests a possible imaging artifact, such as double imaging or ghosting, which could be due to several factors like tip convolution, drift, or electronic noise. Here are some steps to address this:\n\n1. **Check Tip Condition**: Ensure the tip is in good condition. A damaged or contaminated tip can cause imaging artifacts.\n\n2. **Drift Compensation**: Perform drift compensation to ensure the tip is stable during scanning.\n\n3. **Adjust Feedback Parameters**: Fine-tune the feedback parameters (setpoint, gain, etc.) to improve image quality.\n\n4. **Reduce Scan Speed**: Slower scan speeds can sometimes reduce artifacts.\n\n5. **Check Electronics**: Ensure all electronic connections are secure and functioning properly.\n\n6. **Environmental Stability**: Ensure the environment is stable, with minimal vibrations and temperature fluctuations.\n\nIf these steps do not resolve the issue, further investigation into the specific setup and conditions may be necessary."
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 312,
+                "completion_tokens": 187
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                392
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n- The offset indicates drift, which needs to be compensated\n- Restore tip condition as a precaution\n- Apply drift compensation and resume scanning"
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 302,
+                "completion_tokens": 32
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                408
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n- Shearing of atomic rows indicates tip-induced sample deformation\n- The shear growth suggests increasing tip-sample interaction\n- The current site may contain local defects or adsorbates\n- Recondition the tip, select a more suitable scan area, and correct drift\n- Resume scanning"
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 300,
+                "completion_tokens": 60
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                447
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n- Sudden contrast change indicates tip degradation\n- Restore tip quality before relocating\n- Room temperature increases drift\n- Switch scan area and resume scanning"
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 296,
+                "completion_tokens": 35
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                400
+            ]
+        },
+        {
+            "content": [
+                "None. \n\nThe instruction to \"keep the same settings\" does not specify any changes or actions that need to be executed using the provided functions. The current settings remain unchanged unless further specific instructions are given."
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 240,
+                "completion_tokens": 42
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                80
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n- Current site has a terrace boundary with a height jump\n- Restore tip condition as a precaution\n- Switch scan area to a flat region\n- Apply drift compensation and resume scanning\n\nDone."
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 305,
+                "completion_tokens": 44
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                408
+            ]
+        },
+        {
+            "content": [
+                "None\n\nThe observation of elongated atoms in the image could be due to several factors unrelated to the scanning parameters, such as:\n\n1. **Tip Shape**: The shape of the scanning probe tip can cause artifacts in the image, leading to elongated features.\n2. **Tip-Sample Interaction**: Variations in the interaction between the tip and the sample can cause distortions.\n3. **Image Processing**: Post-processing of the image data might introduce artifacts.\n4. **Surface Anisotropy**: The surface itself might have anisotropic properties that cause such appearances.\n\nTo address this, consider checking the tip condition, recalibrating the system, or adjusting the imaging parameters."
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 284,
+                "completion_tokens": 138
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                369
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n- Steady movement of features indicates drift\n- Apply drift compensation\n- Resume scanning"
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 285,
+                "completion_tokens": 22
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                417
+            ]
+        },
+        {
+            "content": [
+                "To find a cleaner area while keeping the same settings, I will adjust the scan area to a nearby location. Here's the plan:\n\n1. Identify a new scan area within the accessible range that is likely to be cleaner.\n2. Ensure the new scan area is within the -350 to 350 nm range in both x and y directions.\n3. Maintain the same scan settings.\n\nLet's proceed with these steps:\n\n1. **Adjust Scan Area:**\n   - Assuming the current scan area is centered at (x, y), I will shift the center to a new location (x', y') within the accessible range.\n\n```plaintext\nset_scan_area(x', y', 20, 20)\n```\n\n2. **Restart Scan:**\n   - Initiate the scan with the new area.\n\n```plaintext\nstart_scan()\n```\n\nPlease provide the current center coordinates if you have them, or I will choose a nearby location within the accessible range."
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 293,
+                "completion_tokens": 194
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                385
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n- Low thermal drift expected\n- Skip drift compensation\n- Configure scan range\n- Set temperature to 4.5 K\n- Start scan\n\nLet's execute these steps:\n\n1. **Configure scan range** for a 3 × 3 nm area.\n2. **Set temperature** to 4.5 K.\n3. **Start scan** for atomic-resolution imaging.\n\n```python\nconfigure_scan_range(x_start=-1.5, x_end=1.5, y_start=-1.5, y_end=1.5)\nset_temperature(4.5)\nstart_scan()\n```"
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 265,
+                "completion_tokens": 127
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                357
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n- Thermal drift expected at 300 K\n- Perform drift compensation\n- Configure scan range\n- Start scan\n\nLet's proceed with the steps:\n\n1. **Perform Drift Compensation**:  \n   `perform_drift_compensation()`\n\n2. **Configure Scan Range**:  \n   Set the scan range to 3 × 3 nm. Assuming the center of the scan area is at (0, 0), the range should be from -1.5 nm to 1.5 nm in both x and y directions.  \n   `set_scan_range(x_start=-1.5, x_end=1.5, y_start=-1.5, y_end=1.5)`\n\n3. **Start Scan**:  \n   `start_scan()`"
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 263,
+                "completion_tokens": 159
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                357
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n- Set temperature to cryogenic levels using liquid helium\n- Perform drift compensation\n- Configure scan parameters for atomic resolution\n- Start scan\n\n```python\nset_temperature('cryogenic')\nperform_drift_compensation()\nconfigure_scan_parameters(area_size=(2, 2), resolution='atomic')\nstart_scan()\n```"
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 272,
+                "completion_tokens": 67
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                359
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n1. **Verify Tip Stability**: Ensure the tip is stable and in good condition for high-resolution imaging.\n2. **Perform Drift Compensation**: Implement drift compensation to account for any movement during the scan.\n3. **Configure Scan Parameters**:\n   - Set scan range to 5 × 5 nm.\n   - Adjust scan speed for optimal resolution.\n   - Set appropriate feedback parameters for atomic resolution.\n4. **Calibrate the System**: Perform a calibration to ensure accuracy.\n5. **Start Scan**: Begin the scanning process to acquire the image.\n\nLet's proceed with these steps."
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 279,
+                "completion_tokens": 123
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                354
+            ]
+        },
+        {
+            "content": [
+                "Expert Experimental Plan:\n- Skip drift compensation due to room temperature\n- Configure scan parameters for a rough look\n- Start scan\n\n```python\n# Configure scan parameters for a rough look\nconfigure_scan_parameters(area_size=(5, 5), resolution='low', temperature='room')\n\n# Start the scan\nstart_scan()\n```"
+            ],
+            "tool_calls": [],
+            "reasoning": [
+                ""
+            ],
+            "usage": {
+                "prompt_tokens": 268,
+                "completion_tokens": 67
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                456
+            ]
+        }
+    ],
+    "wrong_indices_0_based": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66
+    ],
+    "wrong_cases": [
+        {
+            "index_0_based": 0,
+            "index_1_based": 1,
+            "question": "Acquire atomic resolution at room temperature over a 6 × 6 nm area, considering potential failure modes and applying countermeasures.",
+            "prediction": "Expert Experimental Plan:\n- Atomic resolution at small scan area requires drift compensation and tip conditioning\n- Room temperature increases thermal drift so drift compensation is necessary\n- Preemptively condition the tip to minimize the risk of double-tip or apex instability\n- Configure scan parameters\n- Start scan\n\n### Step-by-Step Execution:\n\n1. **Tip Conditioning:**\n   - Call the function to condition the tip to ensure stability and minimize double-tip formation.\n\n2. **Drift Compensation:**\n   - Enable drift compensation to counteract thermal drift at room temperature.\n\n3. **Configure Scan Parameters:**\n   - Set the scan area to 6 × 6 nm.\n   - Ensure the scan parameters are set for atomic resolution.\n\n4. **Start Scan:**\n   - Begin the scanning process.\n\n```python\ncondition_tip()\nenable_drift_compensation()\nset_scan_parameters(area=(6, 6), resolution='atomic')\nstart_scan()\n```",
+            "ground_truth": "Expert Experimental Plan:\n- Atomic imaging at this scale is sensitive to thermal drift\n- Verify tip condition for atomic contrast\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 1,
+            "index_1_based": 2,
+            "question": "Perform atomic-resolution imaging at room temperature in a 1 × 1 nm region.",
+            "prediction": "Expert Experimental Plan:\n- Room temperature expected\n- Skip drift compensation\n- Configure scan range\n- Start scan\n\n```python\nconfigure_scan_range(x_start=-0.5, x_end=0.5, y_start=-0.5, y_end=0.5)\nstart_scan()\n```",
+            "ground_truth": "Expert Experimental Plan:\n- Extremely small scan area is highly drift-sensitive\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(1)\nAux2MaxVoltage(1)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 2,
+            "index_1_based": 3,
+            "question": "Image surface morphology quickly over a 15 × 15 nm area at room temperature.",
+            "prediction": "Expert Experimental Plan:\n- Drift impact is tolerable at this scale\n- Skip drift compensation to reduce experiment time\n- Configure scan range\n- Start scan\n\n```python\nset_scan_range(x_start=-7.5, x_end=7.5, y_start=-7.5, y_end=7.5)\nstart_scan()\n```",
+            "ground_truth": "Expert Experimental Plan:\n- User prioritizes speed over atomic precision\n- Drift impact is acceptable at this scale\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(15)\nAux2MaxVoltage(15)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 3,
+            "index_1_based": 4,
+            "question": "Survey surface topography over an 80 × 80 nm area at room temperature.",
+            "prediction": "Expert Experimental Plan:\n- Large scan area tolerates thermal drift\n- Skip drift compensation\n- Configure scan range\n- Start scan\n\n```python\nconfigure_scan_range(x_start=-40, x_end=40, y_start=-40, y_end=40)\nstart_scan()\n```",
+            "ground_truth": "Expert Experimental Plan:\n- Large-area morphology imaging tolerates drift\n- Skip drift compensation to save time\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(80)\nAux2MaxVoltage(80)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 4,
+            "index_1_based": 5,
+            "question": "Obtain atomic lattice contrast at room temperature in a 3.5 × 3.5 nm area.",
+            "prediction": "Expert Experimental Plan:\n- Atomic-scale imaging is sensitive to drift at room temperature\n- Perform drift compensation\n- Configure scan range (3.5 × 3.5 nm)\n- Start scan\n\n```python\n# Perform drift compensation\nperform_drift_compensation()\n\n# Configure scan range\nset_scan_range(x_start=-1.75, x_end=1.75, y_start=-1.75, y_end=1.75)\n\n# Start scan\nstart_scan()\n```",
+            "ground_truth": "Expert Experimental Plan:\n- Atomic lattice imaging requires positional stability\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(3.5)\nAux2MaxVoltage(3.5)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 5,
+            "index_1_based": 6,
+            "question": "Perform a fast overview scan of a 12 × 12 nm region.",
+            "prediction": "Expert Experimental Plan:\n- User requests overview rather than atomic precision\n- Skip time-loss operation such as drift compensation and tip condition\n- Configure scan range\n- Start scan\n\n```python\nset_scan_parameters(scan_size=(12, 12), scan_speed='fast', precision='overview')\nstart_scan()\n```",
+            "ground_truth": "Expert Experimental Plan:\n- Overview scan does not require atomic stability\n- Skip drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(12)\nAux2MaxVoltage(12)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 6,
+            "index_1_based": 7,
+            "question": "Image a flat terrace at room temperature over a 7 × 7 nm area.",
+            "prediction": "Expert Experimental Plan:\n- Small scan area requires high precision\n- Enable drift compensation to ensure accuracy\n- Configure scan range (7 × 7 nm)\n- Start scan\n\n```python\nset_scan_range(x_start=-3.5, x_end=3.5, y_start=-3.5, y_end=3.5)\nenable_drift_compensation()\nstart_scan()\n```",
+            "ground_truth": "Expert Experimental Plan:\n- Moderate resolution imaging at this scale\n- Drift impact is limited\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(7)\nAux2MaxVoltage(7)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 7,
+            "index_1_based": 8,
+            "question": "Attempt atomic-resolution imaging at low temperature in a 2 × 2 nm region.",
+            "prediction": "Expert Experimental Plan:\n- Atomic resolution requires high positional stability\n- Perform drift compensation at low temperature\n- Configure scan range\n- Start scan\n\n```python\n# Perform drift compensation at low temperature\nperform_drift_compensation(temperature='low')\n\n# Configure scan range for a 2 × 2 nm region\nset_scan_range(x_start=-1, x_end=1, y_start=-1, y_end=1)\n\n# Start scan\nstart_scan()\n```",
+            "ground_truth": "Expert Experimental Plan:\n- Low temperature suppresses thermal drift\n- Drift compensation is not strictly required\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 8,
+            "index_1_based": 9,
+            "question": "Image atomic corrugation at room temperature in a 5 × 5 nm area.",
+            "prediction": "Expert Experimental Plan:\n- Verify tip stability\n- Perform drift compensation due to high sensitivity at atomic scale\n- Configure scan range\n- Start scan\n\n```python\n# Verify tip stability\nverify_tip_stability()\n\n# Perform drift compensation\nperform_drift_compensation()\n\n# Configure scan range for a 5 × 5 nm area\nconfigure_scan_range(x_start=-2.5, x_end=2.5, y_start=-2.5, y_end=2.5)\n\n# Start scan\nstart_scan()\n```",
+            "ground_truth": "Expert Experimental Plan:\n- Atomic corrugation imaging is drift-sensitive at room temperature\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 9,
+            "index_1_based": 10,
+            "question": "Acquire a morphology image over a 35 × 35 nm area at room temperature.",
+            "prediction": "Expert Experimental Plan:\n- Drift impact is tolerable at this scale\n- Skip drift compensation to reduce experiment time\n- Configure scan range\n- Start scan\n\n```python\nset_scan_area(x_start=-17.5, x_end=17.5, y_start=-17.5, y_end=17.5)\nstart_scan()\n```",
+            "ground_truth": "Expert Experimental Plan:\n- Feature size is well above atomic scale\n- Drift impact is acceptable\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(35)\nAux2MaxVoltage(35)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 10,
+            "index_1_based": 11,
+            "question": "Image individual atoms at room temperature in a 2 × 2 nm region.",
+            "prediction": "Expert Experimental Plan:\n- Atomic-scale sensitivity expected\n- Perform drift compensation\n- Configure scan parameters\n- Start scan\n\n```python\n# Perform drift compensation\ndrift_compensation()\n\n# Configure scan parameters for a 2 × 2 nm region\nset_scan_parameters(x_range=(-1, 1), y_range=(-1, 1), resolution='atomic')\n\n# Start the scan\nstart_scan()\n```",
+            "ground_truth": "Expert Experimental Plan:\n- Atomic imaging at room temperature requires high stability\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 11,
+            "index_1_based": 12,
+            "question": "Quickly check surface roughness in a 18 × 18 nm area.",
+            "prediction": "Expert Experimental Plan:\n- User prioritizes speed over ultimate atomic precision\n- Skip time-loss operation such as drift compensation and tip condition\n- Configure scan range\n- Start scan\n\n```python\nset_scan_range(x_start=-9, x_end=9, y_start=-9, y_end=9)\nstart_scan()\n```",
+            "ground_truth": "Expert Experimental Plan:\n- Roughness evaluation does not require atomic precision\n- Skip drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(18)\nAux2MaxVoltage(18)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 12,
+            "index_1_based": 13,
+            "question": "Perform high-quality atomic imaging at room temperature over a 6 × 6 nm region.",
+            "prediction": "Expert Experimental Plan:\n- Ensure scan area is within accessible range\n- Configure scan range for 6 × 6 nm\n- Set parameters for high-quality atomic imaging\n- Start scanning at room temperature\n\n```python\n# Set scan area to 6 × 6 nm\nset_scan_area(x_start=-3, x_end=3, y_start=-3, y_end=3)\n\n# Configure parameters for high-quality atomic imaging\nset_scan_parameters(mode='atomic', temperature='room', resolution='high')\n\n# Start scanning\nstart_scan()\n```",
+            "ground_truth": "Expert Experimental Plan:\n- Atomic-scale imaging is drift-sensitive at room temperature\n- Ensure tip is suitable for atomic contrast\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 13,
+            "index_1_based": 14,
+            "question": "Image surface morphology over a 60 × 60 nm area.",
+            "prediction": "To image the surface morphology over a 60 × 60 nm area, I will configure the scan range and start the scan. Here are the steps:\n\n1. **Configure Scan Range**: Set the scan range to 60 nm in both the x and y directions.\n2. **Start Scan**: Begin the scanning process to capture the surface morphology.\n\nLet's proceed with these steps:\n\n1. **Configure Scan Range**:\n   - Set the x-range to 60 nm.\n   - Set the y-range to 60 nm.\n\n2. **Start Scan**:\n   - Initiate the scanning process.\n\n```plaintext\nconfigure_scan_range(x_range=60, y_range=60)\nstart_scan()\n```\n\nThis will capture the surface morphology over the specified area.",
+            "ground_truth": "Expert Experimental Plan:\n- Large-area morphology imaging tolerates drift\n- Skip drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(60)\nAux2MaxVoltage(60)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 14,
+            "index_1_based": 15,
+            "question": "Obtain atomic contrast at room temperature in a 3 × 3 nm clean region.",
+            "prediction": "Expert Experimental Plan:\n- Ensure tip condition is suitable for atomic contrast\n- Perform drift compensation\n- Configure scan range\n- Start scan\n\nNone: The requested scan area of 3 × 3 nm is within the accessible range, but the specific location within the -350 to 350 nm coordinate range is not provided. Please specify the center coordinates for the scan area.",
+            "ground_truth": "Expert Experimental Plan:\n- Atomic contrast requires positional stability\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 15,
+            "index_1_based": 16,
+            "question": "Perform a quick scan of a 22 × 22 nm region at room temperature.",
+            "prediction": "None. The requested scan area of 22 × 22 nm exceeds the accessible coordinate range of -350 to 350 nm in both x and y directions. The scan area must be within the limits of the scanning probe microscopy's capabilities.",
+            "ground_truth": "Expert Experimental Plan:\n- User requests a rapid overview\n- Drift compensation is unnecessary at this scale\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(22)\nAux2MaxVoltage(22)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 16,
+            "index_1_based": 17,
+            "question": "Image atomic rows at room temperature in a 4.5 × 4.5 nm area.",
+            "prediction": "Expert Experimental Plan:\n- Verify tip stability\n- Perform drift compensation due to high sensitivity at atomic scale\n- Configure scan range\n- Start scan\n\nFunction Calls:\n1. `configure_scan_range(x_start=-2.25, x_end=2.25, y_start=-2.25, y_end=2.25)`\n2. `start_scan()`",
+            "ground_truth": "Expert Experimental Plan:\n- Atomic row imaging requires high positional stability\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(4.5)\nAux2MaxVoltage(4.5)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 17,
+            "index_1_based": 18,
+            "question": "Scan a wide area (90 × 90 nm) to locate interesting features.",
+            "prediction": "Expert Experimental Plan:\n- User prioritizes speed over ultimate atomic precision\n- Skip time-loss operation such as drift compensation and tip condition\n- Configure scan range\n- Start scan\n\n```python\nset_scan_area(-45, 45, -45, 45)\nstart_scan()\n```",
+            "ground_truth": "Expert Experimental Plan:\n- Feature search does not require atomic stability\n- Skip drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(90)\nAux2MaxVoltage(90)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 18,
+            "index_1_based": 19,
+            "question": "Acquire atomic-resolution data at room temperature over a 2.8 × 2.8 nm area.",
+            "prediction": "Expert Experimental Plan:\n- Perform drift compensation\n- Configure scan parameters\n- Start scan\n\nLet's proceed with these steps:\n\n1. **Drift Compensation**: Ensure the system is stable and compensate for any drift at room temperature.\n2. **Configure Scan Parameters**: Set the scan area to 2.8 × 2.8 nm.\n3. **Start Scan**: Begin acquiring atomic-resolution data.\n\n```python\n# Step 1: Perform drift compensation\nperform_drift_compensation()\n\n# Step 2: Configure scan parameters\nset_scan_parameters(area_x=2.8, area_y=2.8, resolution='atomic')\n\n# Step 3: Start scan\nstart_scan()\n```",
+            "ground_truth": "Expert Experimental Plan:\n- Atomic-resolution imaging is sensitive to drift\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(2.8)\nAux2MaxVoltage(2.8)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 19,
+            "index_1_based": 20,
+            "question": "Image surface features at room temperature over a 14 × 14 nm region.",
+            "prediction": "Expert Experimental Plan:\n- User prioritizes speed over atomic precision\n- Skip drift compensation\n- Configure scan range (14 × 14 nm)\n- Start scan\n\n```python\nset_scan_range(x_start=-7, x_end=7, y_start=-7, y_end=7)\nstart_scan()\n```",
+            "ground_truth": "Expert Experimental Plan:\n- Surface feature imaging does not require atomic precision\n- Drift impact is acceptable\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(14)\nAux2MaxVoltage(14)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 20,
+            "index_1_based": 21,
+            "question": "Image morphology over a 5 × 5 nm area at low temperature.",
+            "prediction": "Expert Experimental Plan:\n- Drift impact is tolerable at this scale\n- Skip drift compensation to reduce experiment time\n- Configure scan range\n- Set temperature to low\n- Start scan\n\n```python\nconfigure_scan_range(-2.5, 2.5, -2.5, 2.5)\nset_temperature('low')\nstart_scan()\n```",
+            "ground_truth": "Expert Experimental Plan:\n- Small scan at low temperature\n- Thermal drift is negligible\n- Skip drift compensation\n- Configure scan parameters\n- Start scan\n\n<cmd>\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 21,
+            "index_1_based": 22,
+            "question": "Move to X=100, Y=-100, set bias to -0.5 V, and acquire atomic resolution over a 2 × 2 nm area at room temperature.",
+            "prediction": "1. Move to X=100, Y=-100\n2. Set bias to -0.5 V\n3. Configure scan parameters for atomic resolution\n4. Start scan\n\n```python\nmove_to(x=100, y=-100)\nset_bias(voltage=-0.5)\nconfigure_scan_parameters(resolution='atomic', area=(2, 2), temperature='room')\nstart_scan()\n```",
+            "ground_truth": "Expert Experimental Plan:\n- Move to specified position\n- Apply requested bias for filled-state imaging\n- Atomic imaging requires drift compensation\n- Configure all parameters\n- Start scan\n\n<cmd>\nStageOffset_X_Tube(100)\nStageOffset_Y_Tube(-100)\nSample_Bias(-0.5)\nDriftCompensation()\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 22,
+            "index_1_based": 23,
+            "question": "The current 5 × 5 nm region has debris, the tip is unstable, and there's drift. Move to a clean area and fix everything.",
+            "prediction": "1. **Move to a clean area:**\n   - Calculate a new position within the accessible range that avoids the current 5 × 5 nm region.\n   - Ensure the new position is within the -350 to 350 nm range in both x and y directions.\n\n2. **Fix the tip instability:**\n   - Perform a tip calibration or alignment procedure to stabilize the tip.\n\n3. **Address the drift:**\n   - Recalibrate the system to correct for any drift.\n\nHere are the steps to execute:\n\n1. **Move to a new position:**\n   - Assuming the current position is at the center of the 5 × 5 nm region, move to a new position, e.g., (0, 0) nm.\n\n   ```python\n   move_to_position(x=0, y=0)\n   ```\n\n2. **Calibrate the tip:**\n   - Perform a tip calibration procedure.\n\n   ```python\n   calibrate_tip()\n   ```\n\n3. **Recalibrate the system:**\n   - Perform a system recalibration to address drift.\n\n   ```python\n   recalibrate_system()\n   ```\n\nThese steps should address the issues and prepare the system for further scanning.",
+            "ground_truth": "Expert Experimental Plan:\n- Multiple issues: debris (location), tip instability, and drift\n- Address all problems systematically\n- Switch to clean area\n- Restore tip condition\n- Compensate drift\n- Resume scanning\n\n<cmd>\nTipFix()\nSwitchScanarea()\nDriftCompensation()\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 23,
+            "index_1_based": 24,
+            "question": "Atomic contrast is lost and the image becomes unstable during a 3 × 3 nm scan at room temperature.",
+            "prediction": "Expert Experimental Plan:\n- Loss of atomic contrast suggests degraded tip condition\n- Instability indicates drift during acquisition\n- The current scan region may not be representative\n- Restore tip quality, change scan area, and apply drift compensation\n- Resume scanning\n\nTo implement this plan, follow these steps:\n\n1. **Restore Tip Quality:**\n   - Perform a tip conditioning procedure to improve the tip's sharpness and quality.\n\n2. **Change Scan Area:**\n   - Select a new scan area within the accessible range (-350 to 350 nm in both x and y directions) to ensure it is representative and stable.\n\n3. **Apply Drift Compensation:**\n   - Enable drift compensation to stabilize the image during acquisition.\n\n4. **Resume Scanning:**\n   - Conduct the scan again with the adjusted parameters.\n\n```python\n# Step 1: Restore Tip Quality\ncondition_tip()\n\n# Step 2: Change Scan Area\n# Assuming a new scan area is chosen, for example, center at (0, 0) with a size of 5x5 nm\nset_scan_area(x_center=0, y_center=0, x_size=5, y_size=5)\n\n# Step 3: Apply Drift Compensation\nenable_drift_compensation()\n\n# Step 4: Resume Scanning\nstart_scan()\n```",
+            "ground_truth": "Expert Experimental Plan:\n- Loss of atomic contrast suggests degraded tip condition\n- Instability indicates drift during imaging\n- Local surface condition may not be optimal\n- Restore tip quality, change scan area, and apply drift compensation\n- Resume scanning\n\n<cmd>\nTipFix()\nSwitchScanarea()\nDriftCompensation()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 24,
+            "index_1_based": 25,
+            "question": "Perform atomic-resolution imaging at low temperature over a 6 × 6 nm area.",
+            "prediction": "None\n\nThe requested scan area of 6 × 6 nm exceeds the accessible coordinate range of -350 to 350 nm in both x and y directions. The maximum allowable scan area is 700 nm × 700 nm, but the scan must be centered within this range. A 6 × 6 nm scan is within the allowable range, but it must be specified with a center point that ensures the entire area is within the accessible range. Please provide a center point for the scan area.",
+            "ground_truth": "Expert Experimental Plan:\n- Low temperature suppresses thermal drift\n- Skip drift compensation\n- Configure scan range\n- Start scan\n\n<cmd>\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 25,
+            "index_1_based": 26,
+            "question": "Quickly survey a 150 × 150 nm region at room temperature.",
+            "prediction": "Expert Experimental Plan:\n- User prioritizes speed over atomic precision\n- Skip drift compensation\n- Configure scan range (150 × 150 nm)\n- Start scan\n\n```python\nset_scan_range(x_start=-75, x_end=75, y_start=-75, y_end=75)\nstart_scan()\n```",
+            "ground_truth": "Expert Experimental Plan:\n- Survey scan prioritizes speed over precision\n- Skip drift compensation and tip conditioning\n- Configure scan range\n- Start scan\n\n<cmd>\nAux1MaxVoltage(150)\nAux2MaxVoltage(150)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 26,
+            "index_1_based": 27,
+            "question": "Perform a rapid overview scan of a 40 × 40 nm area to locate features.",
+            "prediction": "Expert Experimental Plan:\n- User requests overview rather than atomic precision\n- Skip time-loss operation such as drift compensation and tip condition\n- Configure scan range\n- Start scan\n\nTo perform the scan, I will configure the scan range to 40 × 40 nm and initiate the scan.\n\n```plaintext\nset_scan_range(x_start=-20, x_end=20, y_start=-20, y_end=20)\nstart_scan()\n```",
+            "ground_truth": "Expert Experimental Plan:\n- Overview scan emphasizes speed\n- Skip time-consuming operations\n- Configure scan range\n- Start scan\n\n<cmd>\nAux1MaxVoltage(40)\nAux2MaxVoltage(40)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 27,
+            "index_1_based": 28,
+            "question": "Atomic features look unstable in a 2.5 × 2.5 nm scan. Fix it.",
+            "prediction": "Expert Experimental Plan:\n- Unstable atomic features suggest poor tip condition\n- Perform tip conditioning\n- Apply drift compensation and resume scanning\n\n```python\n# Perform tip conditioning\ncondition_tip()\n\n# Apply drift compensation\napply_drift_compensation()\n\n# Resume scanning with the same parameters\nset_scan_parameters(x_range=(-1.25, 1.25), y_range=(-1.25, 1.25))\nstart_scan()\n```",
+            "ground_truth": "Expert Experimental Plan:\n- Unstable atomic features suggest poor tip condition\n- Perform tip conditioning\n- Apply drift compensation and resume scanning\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(2.5)\nAux2MaxVoltage(2.5)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 28,
+            "index_1_based": 29,
+            "question": "The 10 × 10 nm region has a step edge and the image is unusable. Same conditions, move sideways.",
+            "prediction": "Expert Experimental Plan:\n- Step edge interaction likely degraded tip condition\n- Restore tip quality before relocating\n- Low temperature suppresses drift\n- Switch scan area and resume scanning\n\n```python\n# Restore tip quality\nrestore_tip_quality()\n\n# Switch scan area to move sideways\nswitch_scan_area(new_x_start, new_x_end, new_y_start, new_y_end)\n\n# Resume scanning\nresume_scanning()\n```\n\nNote: Ensure that the new scan area coordinates (new_x_start, new_x_end, new_y_start, new_y_end) are within the accessible range of -350 to 350 nm in both x and y directions. Adjust the coordinates accordingly to avoid exceeding the scanning area.",
+            "ground_truth": "Expert Experimental Plan:\n- Step edge interaction likely degraded tip condition\n- Step edge makes current region unsuitable\n- Preserve scan conditions\n- Switch scan area laterally\n- Resume scanning\n\n<cmd>\nTipFix()\nSwitchScanarea()\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 29,
+            "index_1_based": 30,
+            "question": "Adsorbates dominate the 8 × 8 nm scan. Don't change parameters, just relocate.",
+            "prediction": "To relocate the scan area to 8 × 8 nm without changing any parameters, we need to ensure the new scan area is within the accessible range of -350 to 350 nm in both x and y directions. Here's how we can proceed:\n\n1. Determine the current center of the scan area.\n2. Calculate the new center for the 8 × 8 nm scan area.\n3. Adjust the scan area to the new center while maintaining the same parameters.\n\nAssuming the current scan area is centered at (0, 0) for simplicity, the new center can be calculated as follows:\n\n- Current scan area: 15 × 15 nm\n- New scan area: 8 × 8 nm\n\nThe current scan area extends from -7.5 nm to 7.5 nm in both x and y directions. The new scan area should extend from -4 nm to 4 nm.\n\nLet's relocate the scan area to a new center, say (10, 10) nm, which is within the accessible range:\n\n```plaintext\nSetScanArea(center_x=10, center_y=10, width=8, height=8)\n```\n\nThis command will relocate the scan area to the new center while preserving all other parameters.",
+            "ground_truth": "Expert Experimental Plan:\n- Local adsorbates degrade image quality\n- Maintain all scan parameters\n- Switch to nearby clean area\n- Resume scanning\n\n<cmd>\nSwitchScanarea()\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 30,
+            "index_1_based": 31,
+            "question": "Atomic resolution is poor and drifts during a 2 × 2 nm scan at room temperature.",
+            "prediction": "To address the issue of poor atomic resolution and drift during a 2 × 2 nm scan at room temperature, follow these steps:\n\n1. **Tip Conditioning**: Perform tip conditioning to improve the sharpness and stability of the probe tip.\n2. **Drift Compensation**: Enable drift compensation to counteract positional drift over time.\n3. **Scan Area Adjustment**: Reduce the scan area to a smaller region to minimize drift effects and improve resolution.\n4. **Resume Scanning**: After adjustments, resume scanning to check for improvements.\n\nHere are the function calls in order:\n\n1. `condition_tip()`\n2. `enable_drift_compensation()`\n3. `set_scan_area(x_start, x_end, y_start, y_end)` - Choose a smaller area within the accessible range, e.g., `set_scan_area(0, 2, 0, 2)`\n4. `resume_scanning()`",
+            "ground_truth": "Expert Experimental Plan:\n- Poor resolution suggests tip issues\n- Drift indicates position instability\n- Address both problems\n- Resume scanning\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 31,
+            "index_1_based": 32,
+            "question": "The 4 × 4 nm scan at room temperature shows blurry atoms, drift, and contamination in the region.",
+            "prediction": "Expert Experimental Plan:\n1. **Tip Conditioning**: Perform tip conditioning to improve tip sharpness and stability.\n2. **Clean the Sample**: Remove contamination by cleaning the sample surface.\n3. **Reapply the Same Scan Range**: After cleaning and conditioning, reapply the 4 × 4 nm scan.\n4. **Resume Scanning**: Conduct the scan again to check for improvements.\n\nLet's start with tip conditioning.",
+            "ground_truth": "Expert Experimental Plan:\n- Multiple issues: tip instability, drift, and local contamination\n- Address all systematically\n- Restore tip, switch area, compensate drift\n- Resume scanning\n\n<cmd>\nTipFix()\nSwitchScanarea()\nDriftCompensation()\nAux1MaxVoltage(4)\nAux2MaxVoltage(4)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 32,
+            "index_1_based": 33,
+            "question": "During a 3 × 3 nm atomic scan at room temperature, the image is smeared, drifts, and has adsorbates.",
+            "prediction": "To address the issues of smeared images, drift, and adsorbates during a 3 × 3 nm atomic scan at room temperature, follow these steps:\n\n1. **Tip Conditioning**: \n   - Perform a tip conditioning procedure to improve the tip quality and reduce smearing. This might involve gentle sputtering or controlled contact with a clean surface.\n\n2. **Drift Compensation**:\n   - Enable drift compensation to stabilize the scan and reduce image drift. This can be done by using a feedback loop that adjusts the scan in real-time.\n\n3. **Clean the Sample Surface**:\n   - If possible, clean the sample surface to remove adsorbates. This could involve gentle annealing or using a cleaning procedure like sputtering or exposure to a reactive gas.\n\n4. **Reposition the Scan Area**:\n   - Move to a nearby clean area on the sample to avoid contaminants. Ensure the new area is within the accessible coordinate range.\n\n5. **Re-scan**:\n   - Perform the scan again with the improved conditions.\n\nIf these steps are not feasible with the provided functions, please let me know.",
+            "ground_truth": "Expert Experimental Plan:\n- Triple problem: tip degradation, drift, contamination\n- Fix tip apex\n- Move to clean area\n- Stabilize position\n- Resume scanning\n\n<cmd>\nTipFix()\nSwitchScanarea()\nDriftCompensation()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 33,
+            "index_1_based": 34,
+            "question": "During a 12×12 nm scan at room temperature, the image slowly deforms over time.",
+            "prediction": "To address the issue of image deformation during a 12×12 nm scan at room temperature, follow these steps:\n\n1. **Check for Drift Compensation**: Ensure that drift compensation is enabled to minimize image deformation over time.\n\n2. **Verify Tip Condition**: Inspect the tip condition. A degraded tip can lead to unstable imaging. If necessary, replace or recondition the tip.\n\n3. **Adjust Scan Parameters**: Consider reducing the scan speed to improve image stability.\n\n4. **Optimize Scan Area**: Ensure the scan area is representative and not too large, which might exacerbate drift effects.\n\n5. **Environmental Control**: Ensure that the environmental conditions (e.g., temperature, vibration) are stable.\n\nIf these steps are implemented, resume scanning with the adjusted parameters.",
+            "ground_truth": "Expert Experimental Plan:\n- Time-dependent deformation indicates drift\n- Perform drift compensation\n- Configure scan range\n- Resume scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(12)\nAux2MaxVoltage(12)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 34,
+            "index_1_based": 35,
+            "question": "Perform atomic-resolution imaging at low temperature in a 1 × 1 nm region.",
+            "prediction": "Expert Experimental Plan:\n- Low thermal drift expected\n- Skip drift compensation\n- Configure scan range\n- Start scan\n\n```python\nconfigure_scan_range(x_start=-0.5, x_end=0.5, y_start=-0.5, y_end=0.5)\nstart_scan()\n```",
+            "ground_truth": "Expert Experimental Plan:\n- Low temperature suppresses thermal drift\n- Skip drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(1)\nAux2MaxVoltage(1)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 35,
+            "index_1_based": 36,
+            "question": "Attempt atomic-resolution imaging at room temperature in a 2 × 2 nm region.",
+            "prediction": "Expert Experimental Plan:\n- Atomic resolution requires high positional stability\n- Perform drift compensation at room temperature\n- Configure scan range\n- Start scan\n\n```python\n# Perform drift compensation at room temperature\nperform_drift_compensation()\n\n# Configure scan range for a 2 × 2 nm area\nset_scan_range(x_start=-1, x_end=1, y_start=-1, y_end=1)\n\n# Start the scan\nstart_scan()\n```",
+            "ground_truth": "Expert Experimental Plan:\n- Atomic imaging at room temperature is drift-sensitive\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 36,
+            "index_1_based": 37,
+            "question": "Perform high-quality atomic imaging at low temperature over a 6 × 6 nm region.",
+            "prediction": "None\n\nThe requested scan area of 6 × 6 nm exceeds the accessible coordinate range of -350 to 350 nm in both x and y directions. The scan area must be within this range to ensure the probe does not exceed the scanning area. Please adjust the scan area to fit within the accessible range.",
+            "ground_truth": "Expert Experimental Plan:\n- User requests high-quality atomic contrast\n- Ensure tip is suitable for atomic contrast\n- Low temperature suppresses drift; skip drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nTipFix()\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 37,
+            "index_1_based": 38,
+            "question": "Quickly image the surface morphology at room temperature in a 2 × 2 nm region.",
+            "prediction": "None\n\nThe requested scan area of 2 × 2 nm is within the accessible range, but it is significantly smaller than the typical resolution limits of scanning probe microscopy. Imaging at such a small scale may not provide meaningful data due to the limitations of the probe's resolution and the potential for noise. Additionally, the instructions do not specify any changes to the sample bias, which is appropriate. However, without further details on the resolution capabilities or specific requirements, proceeding with this scan is not advisable.",
+            "ground_truth": "Expert Experimental Plan:\n- User prioritizes speed over atomic precision\n- Skip drift compensation and tip conditioning\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 38,
+            "index_1_based": 39,
+            "question": "Image individual atoms on a flat terrace at room temperature over a 7 × 7 nm area.",
+            "prediction": "Expert Experimental Plan:\n- Atomic-scale sensitivity expected\n- Perform drift compensation\n- Configure scan parameters for a 7 × 7 nm area\n- Start scan",
+            "ground_truth": "Expert Experimental Plan:\n- Atomic imaging at room temperature is drift-sensitive\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(7)\nAux2MaxVoltage(7)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 39,
+            "index_1_based": 40,
+            "question": "Take a quick overview of a 3.5 × 3.5 nm area at room temperature; atomic contrast is not needed.",
+            "prediction": "Expert Experimental Plan:\n- Overview scan prioritizes speed\n- Skip drift compensation and tip fix\n- Configure scan range (3.5 × 3.5 nm)\n- Start scan\n\nDone.",
+            "ground_truth": "Expert Experimental Plan:\n- Atomic contrast is not required\n- Skip drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(3.5)\nAux2MaxVoltage(3.5)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 40,
+            "index_1_based": 41,
+            "question": "Perform high-quality atomic imaging at room temperature over a 6 × 6 nm region. The tip has just been conditioned and already gives sharp atomic contrast.",
+            "prediction": "To perform high-quality atomic imaging over a 6 × 6 nm region, I will set the scan parameters accordingly. Here are the steps:\n\n1. Set the scan size to 6 × 6 nm.\n2. Ensure the imaging is conducted at room temperature.\n3. Confirm that the tip is already conditioned for sharp atomic contrast.\n\n```python\nset_scan_size(6, 6)\nset_temperature('room')\n```\n\nThe tip is already conditioned, so no further action is needed for tip conditioning.",
+            "ground_truth": "Expert Experimental Plan:\n- Tip condition is already confirmed\n- Skip tip conditioning\n- Atomic imaging at room temperature is drift-sensitive\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 41,
+            "index_1_based": 42,
+            "question": "Obtain atomic lattice contrast at room temperature in a 3.5 × 3.5 nm area. The previous image showed doubled atoms.",
+            "prediction": "To address the issue of doubled atoms in the previous image, we need to adjust the scan parameters to correct for potential imaging artifacts. Here's the plan:\n\n1. **Adjust Scan Parameters**: The doubling of atoms often indicates a scan line spacing that is too large. We need to reduce the scan line spacing to improve resolution.\n\n2. **Configure Scan Range**: Set the scan range to 3.5 × 3.5 nm.\n\n3. **Start Scan**: Begin the scan with the adjusted parameters.\n\nLet's proceed with these steps:\n\n1. **Adjust Scan Parameters**: Reduce the scan line spacing to improve resolution and eliminate the doubling effect.\n\n2. **Configure Scan Range**: Set the scan range to 3.5 × 3.5 nm.\n\n3. **Start Scan**: Begin the scan with the adjusted parameters.\n\n```plaintext\nadjust_scan_parameters(line_spacing=0.1)  # Example adjustment, actual value may vary\nconfigure_scan_range(x_start=-1.75, x_end=1.75, y_start=-1.75, y_end=1.75)\nstart_scan()\n```\n\nNote: The `line_spacing` value is an example and should be adjusted based on the specific requirements and capabilities of the SPM system.",
+            "ground_truth": "Expert Experimental Plan:\n- Doubled atoms indicate a double tip\n- Perform tip conditioning\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(3.5)\nAux2MaxVoltage(3.5)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 42,
+            "index_1_based": 43,
+            "question": "Atomic features look sharp in a 2.5 × 2.5 nm scan, but the image slowly shifts. Fix it.",
+            "prediction": "Expert Experimental Plan:\n- Image drift suggests thermal drift or mechanical instability\n- Apply drift compensation\n- Ensure the sample is securely mounted\n- Resume scanning",
+            "ground_truth": "Expert Experimental Plan:\n- Sharp atomic features indicate the tip is acceptable\n- Slow shift indicates drift\n- Perform drift compensation and resume scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(2.5)\nAux2MaxVoltage(2.5)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 43,
+            "index_1_based": 44,
+            "question": "During a 12 × 12 nm scan at room temperature, the image slowly deforms over time and every feature appears with a faint duplicate.",
+            "prediction": "Expert Experimental Plan:\n- Slow deformation indicates drift during acquisition\n- Faint duplicates suggest tip convolution\n- The current scan region may not be representative\n- Apply drift compensation, change scan area, and restore tip quality\n- Resume scanning",
+            "ground_truth": "Expert Experimental Plan:\n- Faint duplicates indicate a double tip\n- Time-dependent deformation indicates drift\n- Perform tip conditioning and drift compensation\n- Resume scanning\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(12)\nAux2MaxVoltage(12)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 44,
+            "index_1_based": 45,
+            "question": "Survey surface topography over an 80 × 80 nm area at room temperature. The last frames showed double-tip artifacts.",
+            "prediction": "Expert Experimental Plan:\n- Large scan area tolerates thermal drift\n- Skip drift compensation\n- Configure scan range\n- Adjust scan parameters to minimize double-tip artifacts\n- Start scan\n\nTo minimize double-tip artifacts, I will adjust the scan parameters accordingly. Here are the steps:\n\n1. **Configure Scan Range**: Set the scan area to 80 × 80 nm.\n2. **Adjust Scan Parameters**: Reduce the scan speed or increase the feedback gain to minimize double-tip artifacts.\n3. **Start Scan**: Begin the scanning process.\n\nLet's proceed with these steps.",
+            "ground_truth": "Expert Experimental Plan:\n- Double-tip artifacts indicate poor tip apex\n- Perform tip conditioning\n- Large-area survey tolerates drift\n- Configure scan range and start scanning\n\n<cmd>\nTipFix()\nAux1MaxVoltage(80)\nAux2MaxVoltage(80)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 45,
+            "index_1_based": 46,
+            "question": "Adsorbates dominate the 8 × 8 nm scan, and the atoms also appear doubled. Don't change parameters, just relocate.",
+            "prediction": "Expert Experimental Plan:\n- Adsorbates and doubled atoms indicate contamination or tip issues\n- Restore tip condition to ensure stable imaging\n- Switch scan area without changing parameters\n- Resume scanning\n\n```python\nmove_sideways()\n```",
+            "ground_truth": "Expert Experimental Plan:\n- Doubled atoms indicate a double tip\n- Adsorbates make the current area unsuitable\n- Perform tip conditioning, then switch scan area\n- Resume scanning\n\n<cmd>\nTipFix()\nSwitchScanarea()\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 46,
+            "index_1_based": 47,
+            "question": "The current 5 × 5 nm region is clean, but the tip is unstable and there's drift. Stay in this area and fix everything.",
+            "prediction": "To address the instability and drift while staying in the current 5 × 5 nm region, follow these steps:\n\n1. **Stabilize the Tip:**\n   - Ensure the tip is properly calibrated and stable. This might involve recalibrating the tip or adjusting the feedback parameters to reduce instability.\n\n2. **Compensate for Drift:**\n   - Implement drift compensation techniques. This could involve using real-time drift correction algorithms or adjusting the scanning parameters to account for drift.\n\n3. **Maintain Current Position:**\n   - Ensure the scanning parameters are set to keep the probe within the current 5 × 5 nm region.\n\nHere's how you can execute these steps:\n\n1. **Stabilize the Tip:**\n   - Adjust feedback parameters to stabilize the tip. This might involve changing the setpoint or gain values.\n\n2. **Compensate for Drift:**\n   - Enable drift compensation if available in the system settings.\n\n3. **Maintain Current Position:**\n   - Ensure the scan area is set to 5 × 5 nm and centered on the current position.\n\nIf these adjustments are possible through the provided functions, execute them accordingly. If not, you may need to consult the device's manual or technical support for specific commands related to tip stabilization and drift compensation.",
+            "ground_truth": "Expert Experimental Plan:\n- The region is clean and the user forbids moving\n- Restore tip condition\n- Compensate drift\n- Resume scanning in the same area\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 47,
+            "index_1_based": 48,
+            "question": "During a 3 × 3 nm atomic scan at room temperature, the atoms are sharp, but the image drifts and has adsorbates.",
+            "prediction": "Expert Experimental Plan:\n- Image drift suggests thermal drift or instability\n- Reduce scan speed to minimize drift\n- Increase scan resolution to better resolve sharp atoms\n- Adjust feedback parameters to stabilize the image\n- If adsorbates persist, consider cleaning the sample or changing the environment",
+            "ground_truth": "Expert Experimental Plan:\n- Sharp atoms indicate the tip is acceptable\n- Adsorbates make the current area unsuitable\n- Switch scan area\n- Compensate drift and resume scanning\n\n<cmd>\nSwitchScanarea()\nDriftCompensation()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 48,
+            "index_1_based": 49,
+            "question": "Atomic contrast is lost during a 3 × 3 nm scan at room temperature, but the image position is stable and the region is clean.",
+            "prediction": "Expert Experimental Plan:\n- Atomic contrast loss suggests tip degradation\n- Tip degradation is likely due to contamination\n- Clean the tip and resume scanning",
+            "ground_truth": "Expert Experimental Plan:\n- Loss of atomic contrast suggests degraded tip\n- Image is stable and region is clean\n- Perform tip conditioning\n- Resume scanning\n\n<cmd>\nTipFix()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 49,
+            "index_1_based": 50,
+            "question": "Obtain atomic contrast at room temperature in a 3 × 3 nm region; the current region is covered with adsorbates.",
+            "prediction": "Expert Experimental Plan:\n1. Clean the surface to remove adsorbates.\n2. Ensure tip condition is suitable for atomic contrast.\n3. Perform drift compensation.\n4. Configure scan range.\n5. Start scan.\n\nLet's proceed with cleaning the surface first.",
+            "ground_truth": "Expert Experimental Plan:\n- Adsorbates make the current area unsuitable\n- Switch scan area\n- Atomic imaging at room temperature requires drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nSwitchScanarea()\nDriftCompensation()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 50,
+            "index_1_based": 51,
+            "question": "Adsorbates dominate the 8 × 8 nm scan at low temperature. Don't change parameters, just relocate.",
+            "prediction": "Expert Experimental Plan:\n- Adsorbates dominate the current scan region\n- Restore tip condition to ensure stable imaging\n- Switch scan area without changing parameters\n- Resume scanning\n\n```python\n# Move the scan area to a new location within the accessible range\n# Assuming the current center is at (0, 0), move to a new center, e.g., (10, 10)\nmove_scan_center(10, 10)\n```",
+            "ground_truth": "Expert Experimental Plan:\n- Adsorbates degrade image quality locally\n- Maintain all scan parameters\n- Switch to nearby clean area\n- Resume scanning\n\n<cmd>\nSwitchScanarea()\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 51,
+            "index_1_based": 52,
+            "question": "Perform atomic-resolution imaging at room temperature in a 1 × 1 nm region. The region is free of adsorbates and step edges.",
+            "prediction": "Expert Experimental Plan:\n- Room temperature expected\n- Skip drift compensation\n- Configure scan range\n- Start scan\n\nDone.",
+            "ground_truth": "Expert Experimental Plan:\n- Region is clean; no need to switch scan area\n- Extremely small scan area is drift-sensitive\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(1)\nAux2MaxVoltage(1)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 52,
+            "index_1_based": 53,
+            "question": "Image individual atoms at room temperature in a 2 × 2 nm region. There are no signs of a double tip.",
+            "prediction": "Expert Experimental Plan:\n- Atomic-scale sensitivity expected\n- Perform drift compensation\n- Configure scan parameters\n- Start scan\n\n```python\n# Perform drift compensation\ndrift_compensation()\n\n# Configure scan parameters for a 2 × 2 nm region\nset_scan_parameters(x_range=(-1, 1), y_range=(-1, 1), temperature='room')\n\n# Start the scan\nstart_scan()\n```",
+            "ground_truth": "Expert Experimental Plan:\n- No indication of tip problems\n- Atomic imaging at room temperature requires drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 53,
+            "index_1_based": 54,
+            "question": "In the 3 × 3 nm image at room temperature, every atom is accompanied by a fainter copy displaced in the same direction.",
+            "prediction": "None\n\nThe issue described suggests a possible imaging artifact, such as double imaging or ghosting, which could be due to several factors like tip convolution, drift, or electronic noise. Here are some steps to address this:\n\n1. **Check Tip Condition**: Ensure the tip is in good condition. A damaged or contaminated tip can cause imaging artifacts.\n\n2. **Drift Compensation**: Perform drift compensation to ensure the tip is stable during scanning.\n\n3. **Adjust Feedback Parameters**: Fine-tune the feedback parameters (setpoint, gain, etc.) to improve image quality.\n\n4. **Reduce Scan Speed**: Slower scan speeds can sometimes reduce artifacts.\n\n5. **Check Electronics**: Ensure all electronic connections are secure and functioning properly.\n\n6. **Environmental Stability**: Ensure the environment is stable, with minimal vibrations and temperature fluctuations.\n\nIf these steps do not resolve the issue, further investigation into the specific setup and conditions may be necessary.",
+            "ground_truth": "Expert Experimental Plan:\n- A fainter copy of every atom indicates a double tip\n- Perform tip conditioning\n- Resume scanning\n\n<cmd>\nTipFix()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 54,
+            "index_1_based": 55,
+            "question": "Successive frames of the same 2 × 2 nm area at room temperature are offset from each other by several lattice constants.",
+            "prediction": "Expert Experimental Plan:\n- The offset indicates drift, which needs to be compensated\n- Restore tip condition as a precaution\n- Apply drift compensation and resume scanning",
+            "ground_truth": "Expert Experimental Plan:\n- Frame-to-frame offset indicates drift\n- Perform drift compensation\n- Resume scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 55,
+            "index_1_based": 56,
+            "question": "The atomic rows at room temperature are sheared, and the shear grows from the first to the last scan line.",
+            "prediction": "Expert Experimental Plan:\n- Shearing of atomic rows indicates tip-induced sample deformation\n- The shear growth suggests increasing tip-sample interaction\n- The current site may contain local defects or adsorbates\n- Recondition the tip, select a more suitable scan area, and correct drift\n- Resume scanning",
+            "ground_truth": "Expert Experimental Plan:\n- Shear increasing with time indicates drift\n- Perform drift compensation\n- Resume scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(4)\nAux2MaxVoltage(4)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 56,
+            "index_1_based": 57,
+            "question": "Halfway through the 3 × 3 nm image at room temperature, the contrast suddenly changed and the atoms became fuzzy.",
+            "prediction": "Expert Experimental Plan:\n- Sudden contrast change indicates tip degradation\n- Restore tip quality before relocating\n- Room temperature increases drift\n- Switch scan area and resume scanning",
+            "ground_truth": "Expert Experimental Plan:\n- A sudden contrast change indicates a tip change\n- Perform tip conditioning\n- Resume scanning\n\n<cmd>\nTipFix()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 57,
+            "index_1_based": 58,
+            "question": "A bright cluster several nanometres wide covers most of the 5 × 5 nm frame. Keep the same settings.",
+            "prediction": "None. \n\nThe instruction to \"keep the same settings\" does not specify any changes or actions that need to be executed using the provided functions. The current settings remain unchanged unless further specific instructions are given.",
+            "ground_truth": "Expert Experimental Plan:\n- A large cluster makes the current area unsuitable\n- Keep scan settings\n- Switch scan area\n- Resume scanning\n\n<cmd>\nSwitchScanarea()\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 58,
+            "index_1_based": 59,
+            "question": "The 6 × 6 nm frame contains a terrace boundary with a one-layer height jump. Keep the settings and image a flat area instead.",
+            "prediction": "Expert Experimental Plan:\n- Current site has a terrace boundary with a height jump\n- Restore tip condition as a precaution\n- Switch scan area to a flat region\n- Apply drift compensation and resume scanning\n\nDone.",
+            "ground_truth": "Expert Experimental Plan:\n- A terrace boundary makes the current area unsuitable\n- Keep scan settings\n- Switch scan area\n- Resume scanning\n\n<cmd>\nSwitchScanarea()\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 59,
+            "index_1_based": 60,
+            "question": "All atoms in the 3 × 3 nm image at room temperature appear elongated in the same direction, although the surface region is clean.",
+            "prediction": "None\n\nThe observation of elongated atoms in the image could be due to several factors unrelated to the scanning parameters, such as:\n\n1. **Tip Shape**: The shape of the scanning probe tip can cause artifacts in the image, leading to elongated features.\n2. **Tip-Sample Interaction**: Variations in the interaction between the tip and the sample can cause distortions.\n3. **Image Processing**: Post-processing of the image data might introduce artifacts.\n4. **Surface Anisotropy**: The surface itself might have anisotropic properties that cause such appearances.\n\nTo address this, consider checking the tip condition, recalibrating the system, or adjusting the imaging parameters.",
+            "ground_truth": "Expert Experimental Plan:\n- Uniform elongation of atoms indicates an asymmetric tip\n- Perform tip conditioning\n- Resume scanning\n\n<cmd>\nTipFix()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 60,
+            "index_1_based": 61,
+            "question": "The 2.5 × 2.5 nm atomic image at room temperature looks crisp, but all features move steadily toward the upper-right corner from frame to frame.",
+            "prediction": "Expert Experimental Plan:\n- Steady movement of features indicates drift\n- Apply drift compensation\n- Resume scanning",
+            "ground_truth": "Expert Experimental Plan:\n- Crisp features indicate the tip is acceptable\n- Steady frame-to-frame motion indicates drift\n- Perform drift compensation\n- Resume scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(2.5)\nAux2MaxVoltage(2.5)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 61,
+            "index_1_based": 62,
+            "question": "The 20 × 20 nm image is dominated by vacancy islands. Keep the same settings and find a cleaner area.",
+            "prediction": "To find a cleaner area while keeping the same settings, I will adjust the scan area to a nearby location. Here's the plan:\n\n1. Identify a new scan area within the accessible range that is likely to be cleaner.\n2. Ensure the new scan area is within the -350 to 350 nm range in both x and y directions.\n3. Maintain the same scan settings.\n\nLet's proceed with these steps:\n\n1. **Adjust Scan Area:**\n   - Assuming the current scan area is centered at (x, y), I will shift the center to a new location (x', y') within the accessible range.\n\n```plaintext\nset_scan_area(x', y', 20, 20)\n```\n\n2. **Restart Scan:**\n   - Initiate the scan with the new area.\n\n```plaintext\nstart_scan()\n```\n\nPlease provide the current center coordinates if you have them, or I will choose a nearby location within the accessible range.",
+            "ground_truth": "Expert Experimental Plan:\n- Vacancy islands make the current area unsuitable\n- Keep scan settings\n- Switch scan area\n- Resume scanning\n\n<cmd>\nSwitchScanarea()\nAux1MaxVoltage(20)\nAux2MaxVoltage(20)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 62,
+            "index_1_based": 63,
+            "question": "Perform atomic-resolution imaging at 4.5 K over a 3 × 3 nm area.",
+            "prediction": "Expert Experimental Plan:\n- Low thermal drift expected\n- Skip drift compensation\n- Configure scan range\n- Set temperature to 4.5 K\n- Start scan\n\nLet's execute these steps:\n\n1. **Configure scan range** for a 3 × 3 nm area.\n2. **Set temperature** to 4.5 K.\n3. **Start scan** for atomic-resolution imaging.\n\n```python\nconfigure_scan_range(x_start=-1.5, x_end=1.5, y_start=-1.5, y_end=1.5)\nset_temperature(4.5)\nstart_scan()\n```",
+            "ground_truth": "Expert Experimental Plan:\n- 4.5 K is a low-temperature condition with negligible drift\n- Skip drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 63,
+            "index_1_based": 64,
+            "question": "Perform atomic-resolution imaging at 300 K over a 3 × 3 nm area.",
+            "prediction": "Expert Experimental Plan:\n- Thermal drift expected at 300 K\n- Perform drift compensation\n- Configure scan range\n- Start scan\n\nLet's proceed with the steps:\n\n1. **Perform Drift Compensation**:  \n   `perform_drift_compensation()`\n\n2. **Configure Scan Range**:  \n   Set the scan range to 3 × 3 nm. Assuming the center of the scan area is at (0, 0), the range should be from -1.5 nm to 1.5 nm in both x and y directions.  \n   `set_scan_range(x_start=-1.5, x_end=1.5, y_start=-1.5, y_end=1.5)`\n\n3. **Start Scan**:  \n   `start_scan()`",
+            "ground_truth": "Expert Experimental Plan:\n- 300 K corresponds to room temperature\n- Atomic imaging is drift-sensitive\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nDriftCompensation()\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 64,
+            "index_1_based": 65,
+            "question": "With the cryostat filled with liquid helium, image individual atoms in a 2 × 2 nm region.",
+            "prediction": "Expert Experimental Plan:\n- Set temperature to cryogenic levels using liquid helium\n- Perform drift compensation\n- Configure scan parameters for atomic resolution\n- Start scan\n\n```python\nset_temperature('cryogenic')\nperform_drift_compensation()\nconfigure_scan_parameters(area_size=(2, 2), resolution='atomic')\nstart_scan()\n```",
+            "ground_truth": "Expert Experimental Plan:\n- Liquid-helium cooling implies low temperature\n- Skip drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 65,
+            "index_1_based": 66,
+            "question": "I have plenty of time and want the best possible atomic image at room temperature over a 5 × 5 nm area.",
+            "prediction": "Expert Experimental Plan:\n1. **Verify Tip Stability**: Ensure the tip is stable and in good condition for high-resolution imaging.\n2. **Perform Drift Compensation**: Implement drift compensation to account for any movement during the scan.\n3. **Configure Scan Parameters**:\n   - Set scan range to 5 × 5 nm.\n   - Adjust scan speed for optimal resolution.\n   - Set appropriate feedback parameters for atomic resolution.\n4. **Calibrate the System**: Perform a calibration to ensure accuracy.\n5. **Start Scan**: Begin the scanning process to acquire the image.\n\nLet's proceed with these steps.",
+            "ground_truth": "Expert Experimental Plan:\n- User prioritizes quality over time\n- Perform tip conditioning as a precaution\n- Perform drift compensation\n- Configure scan range and start scanning\n\n<cmd>\nTipFix()\nDriftCompensation()\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(True)\n</cmd>"
+        },
+        {
+            "index_0_based": 66,
+            "index_1_based": 67,
+            "question": "I only need a rough look at a 5 × 5 nm area at room temperature; atomic resolution is not required.",
+            "prediction": "Expert Experimental Plan:\n- Skip drift compensation due to room temperature\n- Configure scan parameters for a rough look\n- Start scan\n\n```python\n# Configure scan parameters for a rough look\nconfigure_scan_parameters(area_size=(5, 5), resolution='low', temperature='room')\n\n# Start the scan\nstart_scan()\n```",
+            "ground_truth": "Expert Experimental Plan:\n- User prioritizes speed over atomic precision\n- Skip drift compensation and tip conditioning\n- Configure scan range and start scanning\n\n<cmd>\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(True)\n</cmd>"
+        }
+    ],
+    "accuracy": 0.0,
+    "accuracy_unordered": 0.0,
+    "accuracy_strict": 0.0,
+    "num_samples": 67,
+    "per_sample_correct": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+    ],
+    "per_sample_correct_unordered": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+    ],
+    "per_sample_correct_strict": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+    ],
+    "gpu_usage": 13834,
+    "device": "NVIDIA GeForce RTX 5090",
+    "idle_power_w": 37.37187408148408,
+    "num_measured_samples": 67,
+    "latency_list": [
+        3.5011474000057206,
+        0.5572134000249207,
+        0.5582966000074521,
+        0.45881580002605915,
+        0.7469245999818668,
+        0.5244406000711024,
+        0.6174381000455469,
+        0.7267002000007778,
+        0.8179269001120701,
+        0.6052290999796242,
+        0.6487016000319272,
+        0.5282655000919476,
+        0.8457874999148771,
+        1.1792381999548525,
+        0.6352577999932691,
+        0.390924800070934,
+        0.5578655999852344,
+        0.4660153000149876,
+        1.060646300087683,
+        0.5365733000217006,
+        0.5767096999334171,
+        0.6369212999707088,
+        1.8281110000098124,
+        2.056145600043237,
+        0.8071738999569789,
+        0.4876979000400752,
+        0.6854608000721782,
+        0.6835304000414908,
+        1.0643118999432772,
+        1.9185155000304803,
+        1.4366846999619156,
+        0.7227561000036076,
+        1.6870656999526545,
+        1.2159109000349417,
+        0.5478761000558734,
+        0.7036851000739262,
+        0.5010587000288069,
+        0.7481936999829486,
+        0.2782065999926999,
+        0.3325200999388471,
+        0.7844817000441253,
+        1.9327651999192312,
+        0.33216239989269525,
+        0.3815429999958724,
+        0.8706845000851899,
+        0.4144782000221312,
+        1.9579791000578552,
+        0.48619299998972565,
+        0.24996879999525845,
+        0.4132952999789268,
+        0.7040787999285385,
+        0.2555764000862837,
+        0.6540950000053272,
+        1.3878477000398561,
+        0.316241699969396,
+        0.46819939999841154,
+        0.2950389999896288,
+        0.34203040006104857,
+        0.3634988999692723,
+        1.034171500010416,
+        0.2378113999729976,
+        1.4341440999414772,
+        1.002151899971068,
+        1.1839722999138758,
+        0.5786899001104757,
+        0.9278365999925882,
+        0.5712640000274405
+    ],
+    "latency_mean": 0.8128678283650679,
+    "energy_list_j": [
+        973.5149999856949,
+        225.74099999666214,
+        318.25,
+        202.68000000715256,
+        432.6229999959469,
+        242.20800000429153,
+        319.7969999909401,
+        432.80400002002716,
+        425.49399998784065,
+        294.5150000154972,
+        308.1149999797344,
+        321.90000000596046,
+        422.6980000138283,
+        639.8439999818802,
+        298.83200001716614,
+        211.51499998569489,
+        322.0949999988079,
+        257.89500001072884,
+        537.0889999866486,
+        307.7600000202656,
+        263.17999997735023,
+        379.16600000858307,
+        967.4600000083447,
+        1106.8039999902248,
+        407.0160000026226,
+        259.3700000047684,
+        316.0300000011921,
+        369.6539999842644,
+        595.5940000116825,
+        1007.1209999918938,
+        781.6540000140667,
+        347.7369999885559,
+        913.4950000047684,
+        609.0,
+        233.98500001430511,
+        379.15099999308586,
+        260.4510000050068,
+        428.0989999771118,
+        152.05700001120567,
+        152.8129999935627,
+        425.02200001478195,
+        1004.9799999892712,
+        171.45800000429153,
+        149.5769999921322,
+        477.3269999921322,
+        195.6730000078678,
+        1080.022000014782,
+        245.51499998569489,
+        96.38600000739098,
+        266.6719999909401,
+        373.14500001072884,
+        82.68599998950958,
+        368.5929999947548,
+        749.880000025034,
+        131.60299998521805,
+        262.22800001502037,
+        101.81899997591972,
+        193.97800001502037,
+        200.6749999821186,
+        537.3050000071526,
+        83.4530000090599,
+        808.5119999945164,
+        505.77099999785423,
+        642.7360000014305,
+        234.91899999976158,
+        541.0209999978542,
+        228.51700001955032
+    ],
+    "net_energy_list_j": [
+        842.6705602119657,
+        204.9168909744152,
+        297.38540976440083,
+        185.5331937019833,
+        404.7090278970617,
+        222.60867193521634,
+        296.7221810629271,
+        405.6458516506088,
+        394.92653886899376,
+        271.89645430060875,
+        283.871805466884,
+        302.15772825493195,
+        391.08933606731625,
+        595.7736584610915,
+        275.09122550653706,
+        196.9054075821146,
+        301.24651704176813,
+        240.47913489852368,
+        497.4506600147797,
+        287.7072502163682,
+        241.6272776898681,
+        355.3630573862626,
+        899.140065909002,
+        1029.9619855322114,
+        376.85039865156995,
+        241.14381549466648,
+        290.41304529310133,
+        344.10918794304735,
+        555.8186697035773,
+        935.4224803013792,
+        727.9624003122952,
+        320.72625002759656,
+        850.446193098947,
+        563.5591309495902,
+        213.50984339076246,
+        352.8529690401066,
+        241.7254973600981,
+        400.1375992327894,
+        141.65989798764068,
+        140.3861006890856,
+        395.70444870150436,
+        932.7489423088152,
+        159.04446862089816,
+        135.31802303961476,
+        444.7878884902486,
+        180.18317290712056,
+        1006.8486516332423,
+        227.34505641077988,
+        87.0441974896685,
+        251.22638008165845,
+        346.8322557563571,
+        73.13463094728598,
+        344.1482440172274,
+        698.0135305348672,
+        119.78445499464732,
+        244.73051099325335,
+        90.79283961918034,
+        181.19568297189923,
+        187.090364863709,
+        498.6560729301038,
+        74.5655423141276,
+        754.9153472768002,
+        468.3187053816155,
+        598.488736293084,
+        213.29227392060628,
+        506.3460074147389,
+        207.1677937432399
+    ],
+    "prompt_tokens_list": [
+        328,
+        262,
+        270,
+        264,
+        280,
+        272,
+        274,
+        267,
+        272,
+        271,
+        265,
+        274,
+        276,
+        264,
+        268,
+        274,
+        274,
+        274,
+        265,
+        271,
+        268,
+        279,
+        285,
+        299,
+        262,
+        270,
+        275,
+        272,
+        296,
+        265,
+        290,
+        285,
+        308,
+        297,
+        262,
+        267,
+        263,
+        270,
+        269,
+        283,
+        310,
+        287,
+        278,
+        306,
+        272,
+        299,
+        284,
+        283,
+        304,
+        277,
+        295,
+        274,
+        274,
+        312,
+        302,
+        300,
+        296,
+        240,
+        305,
+        284,
+        285,
+        293,
+        265,
+        263,
+        272,
+        279,
+        268
+    ],
+    "prompt_tokens_mean": 279.65671641791045,
+    "completion_tokens_list": [
+        190,
+        62,
+        72,
+        58,
+        99,
+        63,
+        80,
+        96,
+        108,
+        72,
+        84,
+        67,
+        112,
+        155,
+        76,
+        49,
+        74,
+        59,
+        142,
+        64,
+        75,
+        83,
+        249,
+        271,
+        101,
+        64,
+        89,
+        89,
+        142,
+        256,
+        186,
+        86,
+        229,
+        156,
+        63,
+        93,
+        64,
+        100,
+        33,
+        41,
+        104,
+        255,
+        31,
+        48,
+        116,
+        47,
+        265,
+        56,
+        29,
+        53,
+        91,
+        26,
+        84,
+        187,
+        32,
+        60,
+        35,
+        42,
+        44,
+        138,
+        22,
+        194,
+        127,
+        159,
+        67,
+        123,
+        67
+    ],
+    "completion_tokens_mean": 100.80597014925372,
+    "total_time_s": 54.58968029997777,
+    "total_energy_j": 27584.680000007153,
+    "net_total_energy_j": 25544.56134168791,
+    "total_energy_mwh": 7662.411111113098,
+    "net_total_energy_mwh": 7095.711483802197,
+    "mean_power_w": 505.30942567213356,
+    "energy_per_sample_j": 411.7116417911515,
+    "net_energy_per_sample_j": 381.2621095774315,
+    "token_per_second": 124.43679639670493
+}

@@ -1,0 +1,3648 @@
+{
+    "config": {
+        "model": "phi-4",
+        "mode": "structured",
+        "k": 1,
+        "selection": "similar",
+        "thinking": false,
+        "sampling": {
+            "temperature": 0,
+            "presence_penalty": 0.0,
+            "seed": 0,
+            "max_tokens": 1024,
+            "extra_body": {
+                "min_p": 0.0,
+                "repeat_penalty": 1.0
+            }
+        }
+    },
+    "questions": [
+        "shift -10 nm in X and +5 nm in Y, scan 6×6nm",
+        "translate the probe 8 nm along the x-axis",
+        "Go to Y position 200 nanometers",
+        "Move the tip to absolute X = 150 nm",
+        "go to X = 10, Y = 90",
+        "widen X and Y scan to 22 nm",
+        "move to X = 30 nm, keep Y unchanged",
+        "go to (X = 100, Y = −200) and apply −0.5 V",
+        "step down 35 nm in Y and scan 7×7",
+        "increase Y by 12 nm in the positive direction and scan 9×9",
+        "move 10 nm left and scan a 5x5 nm area",
+        "move 10 nm left and 10 nm down, apply +0.3 V, scan 8×8",
+        "adjust Y scan height to 12 nm",
+        "Set vertical scan height to 110 nanometers",
+        "Slide the tip 90 nanometers to the right",
+        "Adjust the scanner 50 nanometers right",
+        "apply -1.0 V and scan 12×12 nm",
+        "stop measuring with the scanner",
+        "shift in y direction by 20 nm",
+        "shift the probe by 30 nm in Y direction",
+        "enable scanning with current settings",
+        "Set the sample bias to 1.2 V",
+        "Subtract 100 nm from the Y position",
+        "stop scanning now",
+        "set both scan sizes to 240 nm and resume scanning",
+        "move 100 nm left along X",
+        "set Y coordinate to -350 nm",
+        "enable scan mode.",
+        "shift in y direction by 5 nm",
+        "Move the stage to Y = 130 nm",
+        "decrease bias to -0.4 V",
+        "move diagonally 15 nm right and 15 nm up",
+        "move tip to (350, -250)",
+        "shift 12 nm left, keep Y, scan 6×6",
+        "move the probe 25 nm along the y-axis",
+        "Set the X scan range to 60 nanometers",
+        "Set bias voltage to -1.0 V",
+        "return to X = 0, shift Y by -10 nm, scan area 9x9 nm",
+        "move the stage to X = 10 nm, Y = −90 nm",
+        "scan 13×13 nm",
+        "translate the stage −120 nm in X and −80 nm in Y",
+        "set both X and Y scan sizes to 200 nm",
+        "start a 16×16 nm scan with 1.5V",
+        "end the scan session",
+        "set horizontal scan size to 250 nm",
+        "commence the scan routine",
+        "Adjust the scan range along Y to 95 nm",
+        "apply -1 V bias, reset to origin, then scan 10x10",
+        "step 15 nm in the −Y direction",
+        "egage the scan",
+        "move 10 nm upward",
+        "apply 1 V sample bias and scan at current position with 8x8 nm area",
+        "move to (200, −250) and scan 20×10",
+        "move 40 nm right and 40 nm up, apply −0.9 V bias, scan 14×14",
+        "go to absolute coordinates X = 50, Y = 100 and start scanning",
+        "shrink X scan size down to 60 nm",
+        "Adjust the Y coordinate to -85 nm",
+        "shift 5 nm both in X and Y, then start 6x6 scan",
+        "move probe to (−250, 150)",
+        "move 25 nm left and 10 nm up",
+        "apply a bias of +1.0 V and scan 10×10 nm",
+        "Displace the tip -80 nanometers in Y",
+        "set X to 300 nm，Y to 10 nm absolutely.",
+        "Limit the scan range in X to 80 nm",
+        "set X = −10, Y = −10 and scan 10×10",
+        "increase sample bias to +0.9 V",
+        "adjust the sample bias to −750 mV",
+        "set absolute X = −300 nm",
+        "Set scan height in Y to 22.5 nm",
+        "set coordinates to (−90, −90)",
+        "Lower the sample bias to -1.2 V",
+        "apply sample bias of -0.8 V, set area to 50 nm square, and scan",
+        "shift 20 nm up, apply -1.5 V sample bias, and begin scanning",
+        "perform a 37.5×37.5 nm scan at +1.0 V",
+        "shift −2 nm in X",
+        "lower the bias to −0.2 V",
+        "apply −0.8 V and start scanning 8×8 nm",
+        "move +3 nm in Y",
+        "shift 20 nm down only, scan 4x4",
+        "return to origin",
+        "Set the X position to 100 nanometers",
+        "scan a 5×5 nm area at 1.5 V bias",
+        "move to X = 25 nm and apply a bias of +2.0 V, then perform a 5x5 nm scan",
+        "move the tip to absolute position X = -300, Y = -300",
+        "Shift the probe head by 120 nm to the right",
+        "go to Y = 60 nm, apply -2.0 V bias, and scan 12x12",
+        "go to absolute Y = 220 nm and scan 10×10",
+        "Move the tip 100 nm upward",
+        "Move the scan area down by 90 nanometers",
+        "move to X = 200 nm and scan 15×15 nm",
+        "move the probe 30 nm to the right",
+        "nudge the probe 1 nm right and 1 nm up",
+        "shift 40 nm downward in Y",
+        "run tip fix and then start a 15×15 nm scan",
+        "run tip fix",
+        "slow the scan speed to 0.2, then stop scanning",
+        "do tip fix and then start scanning with the current parameters",
+        "run drift compensation, set scan speed to 0.3, move to X=40 nm and Y=-40 nm, then scan 8×8 nm",
+        "set scan speed to 0.7, set bias to +0.7 V, then scan 10×10 nm",
+        "set scan speed to 0.6",
+        "fix the tip",
+        "tip fix, then set the scan speed to 0.3",
+        "drift compensate, then set the Y scan range to 150 nm",
+        "perform tip fix, then move to X=100 nm and Y=0 nm, then scan 20×20 nm",
+        "run drift correction",
+        "increase scan speed to 1.5 and set the Y scan range to 150 nm",
+        "set scan speed to 0.9, then move to X=-50 nm and Y=120 nm, then scan 18×18 nm",
+        "please correct drift before scanning",
+        "perform drift compensation and then start scanning with the current parameters",
+        "tip fix, then shift 10 nm right and 5 nm down",
+        "switch the area and then start scanning",
+        "switch scan area and move right by 15 nm",
+        "fix the tip, do drift compensation, then switch scan area",
+        "move to X=50 nm and Y=50 nm, then switch scan area",
+        "do drift compensation and then switch scan area",
+        "set scan speed to 0.6, switch scan area, and start scanning",
+        "change scan speed to 1.0 and then switch scan area",
+        "use scan range 5 and switch to the next scan region",
+        "change the next scan area",
+        "go to the next scan area and start scan",
+        "stop scan, move to X = 0, Y = 0",
+        "terminate scan, fix tip, then resume",
+        "go to (-350, 200), shift left by 0.5 nm, scan 50x50",
+        "move to X = 400 nm",
+        "set Y position to -500 nm",
+        "go to coordinates (750, 750)",
+        "shift 100 nm right from current position X = 300",
+        "move 200 nm down from Y = -200",
+        "set scan area to 800x800 nm at origin",
+        "apply a bias of 0 V",
+        "set the bias to exactly zero volts",
+        "rotate the stage by 45 degrees",
+        "change the temperature to 77 K",
+        "increase the tunneling current to 2 nA",
+        "move a bit to the right",
+        "scan a small area",
+        "apply high bias voltage",
+        "set scan speed to -0.5",
+        "apply zero bias and scan",
+        "set scan speed to 0",
+        "scan -20x-20 nm area",
+        "adjust feedback loop gain to 3.0",
+        "move somewhere safe",
+        "scan a medium area",
+        "apply some bias voltage",
+        "increase the scan speed a bit",
+        "move slightly upward"
+    ],
+    "predictions": [
+        "First, shift the stage by -10 nm in the X direction and +5 nm in the Y direction. Then, set the scan range to 6 nm in both X and Y directions and enable scanning.\n\n<cmd>\nStageOffset_X_Tube_ADD(-10)\nStageOffset_Y_Tube_ADD(5)\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(True)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(8)\n</cmd>",
+        "The current Y position is set to 100 nanometers. To move to 200 nanometers, calculate the difference and use the StageOffset_Y_Tube_ADD command.\n\n<cmd>\nStageOffset_Y_Tube_ADD(100)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(150)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(10)\nStageOffset_Y_Tube(90)\n</cmd>",
+        "The scan width in both X and Y directions is set to 22 nm.\n\n<cmd>\nAux1MaxVoltage(22)\nAux2MaxVoltage(22)\n</cmd>",
+        "The current X position is adjusted to 30 nm by calculating the necessary offset from the current position. The Y position remains unchanged.\n\n<cmd>\nStageOffset_X_Tube(30)\n</cmd>",
+        "Move the stage to the specified coordinates (X = 100, Y = -200) and apply a sample bias of -0.5 V.\n\n<cmd>\nStageOffset_X_Tube(100)\nStageOffset_Y_Tube(-200)\nSample_Bias(-0.5)\n</cmd>",
+        "First, step down 35 nm in the Y direction. Then, set the scan range for both X and Y directions to 7 nm to perform a 7×7 scan.\n\n<cmd>\nStageOffset_Y_Tube_ADD(-35)\nAux1MaxVoltage(7)\nAux2MaxVoltage(7)\nScanEnabled(True)\n</cmd>",
+        "First, apply a 12 nm relative shift in the positive Y direction. Then, set the scan range for both X and Y directions to 9 nm and enable the scan.\n\n<cmd>\nStageOffset_Y_Tube_ADD(12)\nAux1MaxVoltage(9)\nAux2MaxVoltage(9)\nScanEnabled(True)\n</cmd>",
+        "First, move the stage 10 nm to the left. Then, set the scan range for both X and Y directions to 5 nm. Finally, enable the scan.\n\n<cmd>\nStageOffset_X_Tube_ADD(-10)\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(True)\n</cmd>",
+        "Move the stage 10 nm left and 10 nm down, set the sample bias to +0.3 V, and enable scanning with an 8x8 area.\n\n<cmd>\nStageOffset_X_Tube_ADD(-10)\nStageOffset_Y_Tube_ADD(-10)\nSample_Bias(0.3)\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(True)\n</cmd>",
+        "Adjust the Y scan height to 12 nm and ensure the scan is enabled.\n\n<cmd>\nAux2MaxVoltage(12)\nScanEnabled(True)\n</cmd>",
+        "To set the vertical scan height, adjust the maximum voltage for the Y direction, which defines the scan range.\n\n<cmd>\nAux2MaxVoltage(110)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(90)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(50)\n</cmd>",
+        "The instruction is to apply a sample bias of -1.0 V and scan an area of 12×12 nm. The commands will set the sample bias, define the scan range, and enable the scan.\n\n<cmd>\nSample_Bias(-1)\nAux1MaxVoltage(12)\nAux2MaxVoltage(12)\nScanEnabled(True)\n</cmd>",
+        "<cmd>\nScanEnabled(False)\n</cmd>",
+        "The instruction is to shift the stage in the Y direction by 20 nm. This is achieved by using the StageOffset_Y_Tube_ADD command with an argument of 20.0.\n\n<cmd>\nStageOffset_Y_Tube_ADD(20)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(30)\n</cmd>",
+        "The instruction is to enable scanning while keeping the current settings unchanged. The command 'ScanEnabled' with argument 'true' is used to start the scan.\n\n<cmd>\nScanEnabled(True)\n</cmd>",
+        "Set the sample bias to 1.2 V using the Sample_Bias command.\n\n<cmd>\nSample_Bias(1.2)\n</cmd>",
+        "Subtract 100 nm from the current Y position using the StageOffset_Y_Tube_ADD command with a negative value.\n\n<cmd>\nStageOffset_Y_Tube_ADD(-100)\n</cmd>",
+        "<cmd>\nScanEnabled(False)\n</cmd>",
+        "Set the scan sizes for both X and Y directions to 240 nm and enable scanning.\n\n<cmd>\nAux1MaxVoltage(240)\nAux2MaxVoltage(240)\nScanEnabled(True)\n</cmd>",
+        "The instruction is to move the stage 100 nm to the left along the X-axis. This is achieved by using the StageOffset_X_Tube_ADD command with an argument of -100.0 to move the stage left.\n\n<cmd>\nStageOffset_X_Tube_ADD(-100)\n</cmd>",
+        "The current Y coordinate is set to -300 nm. The instruction is to set it to -350 nm, which is within the accessible range of -350 to 350 nm.\n\n<cmd>\nStageOffset_Y_Tube(-350)\n</cmd>",
+        "The instruction is to enable the scanning mode. This is done by setting the 'ScanEnabled' parameter to true.\n\n<cmd>\nScanEnabled(True)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(5)\n</cmd>",
+        "Set the Y coordinate of the stage to 130 nm.\n\n<cmd>\nStageOffset_Y_Tube(130)\n</cmd>",
+        "The bias is set to -0.4 V, which is a valid non-zero value.\n\n<cmd>\nSample_Bias(-0.4)\n</cmd>",
+        "The instruction is to move the probe diagonally by 15 nm to the right and 15 nm up. This is achieved by adding 15 nm to the X coordinate and 15 nm to the Y coordinate.\n\n<cmd>\nStageOffset_X_Tube_ADD(15)\nStageOffset_Y_Tube_ADD(15)\n</cmd>",
+        "Move the tip to the position (350, -250) within the accessible range.\n\n<cmd>\nStageOffset_X_Tube(350)\nStageOffset_Y_Tube(-250)\n</cmd>",
+        "Shift the stage 12 nm to the left in the X direction, keep the Y position unchanged, and set the scan area to 6x6 nm.\n\n<cmd>\nStageOffset_X_Tube_ADD(-12)\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(True)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(25)\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(60)\n</cmd>",
+        "The instruction is to set the sample bias voltage to -1.0 V. This is a valid operation as the command 'Sample_Bias' is available and the value is within acceptable limits.\n\n<cmd>\nSample_Bias(-1)\n</cmd>",
+        "First, set the X coordinate to 0. Then, adjust the Y coordinate by shifting it by -10 nm. Finally, set the scan area to 9x9 nm by adjusting the maximum voltage for both X and Y directions.\n\n<cmd>\nStageOffset_X_Tube(0)\nStageOffset_Y_Tube_ADD(-10)\nAux1MaxVoltage(4.5)\nAux2MaxVoltage(4.5)\n</cmd>",
+        "First, calculate the current position of the stage in the X direction and move it by the required offset to reach X = 10 nm. Then, calculate the current position in the Y direction and move it by the required offset to reach Y = -90 nm.\n\n<cmd>\nStageOffset_X_Tube_ADD(10)\nStageOffset_Y_Tube_ADD(-90)\n</cmd>",
+        "Set the scan range for both X and Y directions to 13 nm and enable the scan.\n\n<cmd>\nAux1MaxVoltage(13)\nAux2MaxVoltage(13)\nScanEnabled(True)\n</cmd>",
+        "The instruction is to translate the stage by -120 nm in the X direction and -80 nm in the Y direction. This is achieved by using the StageOffset_X_Tube and StageOffset_Y_Tube commands with the specified values.\n\n<cmd>\nStageOffset_X_Tube(-120)\nStageOffset_Y_Tube(-80)\n</cmd>",
+        "Set the scan range for both X and Y directions to 200 nm.\n\n<cmd>\nAux1MaxVoltage(200)\nAux2MaxVoltage(200)\n</cmd>",
+        "Set the scan range for both X and Y directions to 16 nm and set the sample bias to 1.5V. Ensure the scan is enabled.\n\n<cmd>\nAux1MaxVoltage(16)\nAux2MaxVoltage(16)\nSample_Bias(1.5)\nScanEnabled(True)\n</cmd>",
+        "Ending the scan session involves stopping the scan and performing necessary cleanup operations such as drift compensation, tip fixation, and switching the scan area if needed.\n\n<cmd>\nScanEnabled(False)\nDriftCompensation()\nTipFix()\nSwitchScanarea()\n</cmd>",
+        "The instruction is to set the horizontal scan size to 250 nm. This is achieved by setting the Aux1MaxVoltage to 250.0.\n\n<cmd>\nAux1MaxVoltage(250)\n</cmd>",
+        "<cmd>\nScanEnabled(True)\n</cmd>",
+        "<cmd>\nAux2MaxVoltage(95)\n</cmd>",
+        "First, apply a -1 V bias to the sample. Then, reset the stage to the origin by setting both X and Y offsets to 0. Finally, set the scan range for both X and Y directions to 10 nm and enable the scan.\n\n<cmd>\nSample_Bias(-1)\nStageOffset_X_Tube(0)\nStageOffset_Y_Tube(0)\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(True)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(-15)\n</cmd>",
+        "<cmd>\nScanEnabled(True)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(10)\n</cmd>",
+        "Set the sample bias to 1 V and configure the scan area to 8x8 nm at the current position. Ensure the scan is enabled.\n\n<cmd>\nSample_Bias(1)\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(True)\n</cmd>",
+        "Move to (200, -250) nm and set the scan range to 20 nm in the X direction and 10 nm in the Y direction. Ensure the scan is enabled.\n\n<cmd>\nStageOffset_X_Tube(200)\nStageOffset_Y_Tube(-250)\nAux1MaxVoltage(20)\nAux2MaxVoltage(10)\nScanEnabled(True)\n</cmd>",
+        "Move the stage 40 nm to the right and 40 nm up, apply a sample bias of -0.9 V, and set the scan area to 14x14 nm.\n\n<cmd>\nStageOffset_X_Tube_ADD(40)\nStageOffset_Y_Tube_ADD(40)\nSample_Bias(-0.9)\nAux1MaxVoltage(7)\nAux2MaxVoltage(7)\nScanEnabled(True)\n</cmd>",
+        "Move the stage to the specified absolute coordinates and then start the scan.\n\n<cmd>\nStageOffset_X_Tube(50)\nStageOffset_Y_Tube(100)\nScanEnabled(True)\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(60)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube(-85)\n</cmd>",
+        "First, shift the stage by 5 nm in both X and Y directions. Then, set the scan range for both X and Y directions to 6 nm and start the scan.\n\n<cmd>\nStageOffset_X_Tube_ADD(5)\nStageOffset_Y_Tube_ADD(5)\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(True)\n</cmd>",
+        "The instruction is to move the probe to the coordinates (-250, 150) nm. This is within the accessible range of the SPM tip and scan area, which is -350 to 350 nm in both x and y directions.\n\n<cmd>\nStageOffset_X_Tube(-250)\nStageOffset_Y_Tube(150)\n</cmd>",
+        "The instruction is to move the stage 25 nm to the left and 10 nm up. This is achieved by adding a negative offset to the X coordinate and a positive offset to the Y coordinate.\n\n<cmd>\nStageOffset_X_Tube_ADD(-25)\nStageOffset_Y_Tube_ADD(10)\n</cmd>",
+        "Set the sample bias to +1.0 V and configure the scan range to 10 nm in both X and Y directions. Then, enable the scan.\n\n<cmd>\nSample_Bias(1)\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(True)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(-80)\n</cmd>",
+        "Set the X and Y coordinates of the probe to absolute values of 300 nm and 10 nm, respectively.\n\n<cmd>\nStageOffset_X_Tube(300)\nStageOffset_Y_Tube(10)\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(80)\n</cmd>",
+        "Move the stage to X = -10 nm and Y = -10 nm, then set the scan range to 10×10 nm and enable scanning.\n\n<cmd>\nStageOffset_X_Tube(-10)\nStageOffset_Y_Tube(-10)\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(True)\n</cmd>",
+        "<cmd>\nSample_Bias(0.9)\n</cmd>",
+        "The requested sample bias of -750 mV is equivalent to -0.75 V. This value is valid as it is not zero.\n\n<cmd>\nSample_Bias(-0.75)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(-300)\n</cmd>",
+        "Set the Y scan height to 22.5 nm and ensure the scan is enabled.\n\n<cmd>\nAux2MaxVoltage(22.5)\nScanEnabled(True)\n</cmd>",
+        "The instruction is to set the stage offsets to coordinates (-90, -90) nm. This is within the accessible range of -350 to 350 nm for both X and Y directions.\n\n<cmd>\nStageOffset_X_Tube(-90)\nStageOffset_Y_Tube(-90)\n</cmd>",
+        "Lower the sample bias to -1.2 V as per the user's instruction.\n\n<cmd>\nSample_Bias(-1.2)\n</cmd>",
+        "First, apply a sample bias of -0.8 V. Then, set the scan area to 50 nm square by adjusting the maximum voltage for both X and Y directions. Finally, enable the scan.\n\n<cmd>\nSample_Bias(-0.8)\nAux1MaxVoltage(25)\nAux2MaxVoltage(25)\nScanEnabled(True)\n</cmd>",
+        "Shift the stage 20 nm up, apply a -1.5 V sample bias, and enable scanning.\n\n<cmd>\nStageOffset_Y_Tube_ADD(20)\nSample_Bias(-1.5)\nScanEnabled(True)\n</cmd>",
+        "Set the scan area to 37.5x37.5 nm and apply a sample bias of +1.0 V before starting the scan.\n\n<cmd>\nAux1MaxVoltage(37.5)\nAux2MaxVoltage(37.5)\nSample_Bias(1)\nScanEnabled(True)\n</cmd>",
+        "The instruction is to shift the stage by -2 nm in the X direction. This is achieved by using the StageOffset_X_Tube_ADD command with an argument of -2.\n\n<cmd>\nStageOffset_X_Tube_ADD(-2)\n</cmd>",
+        "The instruction is to lower the sample bias to -0.2 V. This is a valid operation as it involves setting the sample bias to a non-zero value.\n\n<cmd>\nSample_Bias(-0.2)\n</cmd>",
+        "First, set the sample bias to -0.8 V. Then, configure the scan range for both X and Y directions to 8 nm. Finally, enable the scan.\n\n<cmd>\nSample_Bias(-0.8)\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(True)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(3)\n</cmd>",
+        "Shift the probe 20 nm down and set the scan area to 4x4 nm.\n\n<cmd>\nStageOffset_Y_Tube_ADD(-20)\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>",
+        "The instruction 'return to origin' is interpreted as setting both X and Y coordinates to 0. This is achieved by using the StageOffset_X_Tube and StageOffset_Y_Tube commands to set the coordinates to 0.\n\n<cmd>\nStageOffset_X_Tube(0)\nStageOffset_Y_Tube(0)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(100)\n</cmd>",
+        "Set the sample bias to 1.5 V, configure the scan range for both X and Y directions to 5 nm, and enable the scan.\n\n<cmd>\nSample_Bias(1.5)\nAux1MaxVoltage(2.5)\nAux2MaxVoltage(2.5)\nScanEnabled(True)\n</cmd>",
+        "First, move the stage to X = 25 nm. Then, set the sample bias to +2.0 V. Finally, configure the scan parameters for a 5x5 nm scan and enable the scan.\n\n<cmd>\nStageOffset_X_Tube(25)\nSample_Bias(2)\nAux1MaxVoltage(2.5)\nAux2MaxVoltage(2.5)\nScanEnabled(True)\n</cmd>",
+        "The instruction is to move the tip to an absolute position of X = -300 nm and Y = -300 nm. These coordinates are within the accessible range of -350 to 350 nm for both directions.\n\n<cmd>\nStageOffset_X_Tube(-300)\nStageOffset_Y_Tube(-300)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(120)\n</cmd>",
+        "First, move the Y stage to 60 nm. Then, apply a -2.0 V bias to the sample. Finally, set the scan range to 12x12 nm and enable scanning.\n\n<cmd>\nStageOffset_Y_Tube(60)\nSample_Bias(-2)\nAux1MaxVoltage(12)\nAux2MaxVoltage(12)\nScanEnabled(True)\n</cmd>",
+        "First, move the stage to the absolute Y position of 220 nm. Then, set the scan range for both X and Y directions to 10 nm to perform a 10x10 scan.\n\n<cmd>\nStageOffset_Y_Tube(220)\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(True)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(100)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(90)\n</cmd>",
+        "First, move the stage to X = 200 nm. Then, set the scan parameters for a 15×15 nm region and enable scanning.\n\n<cmd>\nStageOffset_X_Tube(200)\nAux1MaxVoltage(15)\nAux2MaxVoltage(15)\nScanEnabled(True)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(30)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(1)\nStageOffset_Y_Tube_ADD(1)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(-40)\n</cmd>",
+        "First, run the TipFix procedure to ensure the tip is properly calibrated. Then, set the scan area to 15 nm in both X and Y directions and start the scan.\n\n<cmd>\nTipFix()\nAux1MaxVoltage(15)\nAux2MaxVoltage(15)\nScanEnabled(True)\n</cmd>",
+        "<cmd>\nTipFix()\n</cmd>",
+        "First, the scan speed is set to 0.2. Then, scanning is stopped.\n\n<cmd>\nScan_Speed(0)\nScanEnabled(False)\n</cmd>",
+        "First, perform the tip fix operation to ensure the probe is properly aligned. Then, start the scanning process using the current parameters.\n\n<cmd>\nTipFix()\nScanEnabled(True)\n</cmd>",
+        "First, perform drift compensation. Then, set the scan speed to 0.3 µs. Move the stage to X=40 nm and Y=-40 nm. Finally, set the scan range to 8×8 nm and enable scanning.\n\n<cmd>\nDriftCompensation()\nScan_Speed(0)\nStageOffset_X_Tube(40)\nStageOffset_Y_Tube(-40)\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(True)\n</cmd>",
+        "First, set the scan speed to 0.7. Then, set the sample bias to +0.7 V. Finally, configure the scan area to 10×10 nm and enable scanning.\n\n<cmd>\nScan_Speed(0)\nSample_Bias(0.7)\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(True)\n</cmd>",
+        "Set the scan speed to 0.6 µs per step.\n\n<cmd>\nScan_Speed(0)\n</cmd>",
+        "The instruction is to fix the tip using the TipFix command.\n\n<cmd>\nTipFix()\n</cmd>",
+        "First, perform the tip fix operation to ensure the tip is stable. Then, set the scan speed to 0.3 µs.\n\n<cmd>\nTipFix()\nScan_Speed(0)\n</cmd>",
+        "First, perform drift compensation to ensure the scanning probe is stable. Then, set the Y scan range to 150 nm.\n\n<cmd>\nDriftCompensation()\nAux2MaxVoltage(150)\n</cmd>",
+        "First, perform a tip fix to ensure the probe is stable. Then, move the stage to the specified coordinates (X=100 nm, Y=0 nm). Finally, set the scan area to 20x20 nm and enable the scan.\n\n<cmd>\nTipFix()\nStageOffset_X_Tube(100)\nStageOffset_Y_Tube(0)\nAux1MaxVoltage(20)\nAux2MaxVoltage(20)\nScanEnabled(True)\n</cmd>",
+        "The instruction to 'run drift correction' is interpreted as executing the DriftCompensation command to correct any drift in the scanning probe microscopy.\n\n<cmd>\nDriftCompensation()\n</cmd>",
+        "First, increase the scan speed to 1.5. Then, set the Y scan range to 150 nm.\n\n<cmd>\nScan_Speed(15)\nAux2MaxVoltage(150)\n</cmd>",
+        "First, set the scan speed to 0.9. Then, move the stage to X=-50 nm and Y=120 nm. Finally, set the scan range for both X and Y directions to 18 nm and enable the scan.\n\n<cmd>\nScan_Speed(0)\nStageOffset_X_Tube(-50)\nStageOffset_Y_Tube(120)\nAux1MaxVoltage(18)\nAux2MaxVoltage(18)\nScanEnabled(True)\n</cmd>",
+        "The instruction is to perform drift compensation before scanning. This involves executing the DriftCompensation command.\n\n<cmd>\nDriftCompensation()\n</cmd>",
+        "First, perform drift compensation to ensure the scanning probe is stable. Then, start the scanning process using the current parameters.\n\n<cmd>\nDriftCompensation()\nScanEnabled(True)\n</cmd>",
+        "First, perform the tip fix operation. Then, shift the stage 10 nm to the right and 5 nm down.\n\n<cmd>\nTipFix()\nStageOffset_X_Tube_ADD(10)\nStageOffset_Y_Tube_ADD(-5)\n</cmd>",
+        "The instruction is to switch the scan area and then start the scanning process. First, the 'SwitchScanarea' command is executed to change the scan area. After that, the 'ScanEnabled' command is set to true to start the scan.\n\n<cmd>\nSwitchScanarea()\nScanEnabled(True)\n</cmd>",
+        "First, switch the scan area. Then, move the stage to the right by 15 nm.\n\n<cmd>\nSwitchScanarea()\nStageOffset_X_Tube_ADD(15)\n</cmd>",
+        "First, fix the tip to ensure stability. Then, perform drift compensation to correct any positional drift. Finally, switch the scan area.\n\n<cmd>\nTipFix()\nDriftCompensation()\nSwitchScanarea()\n</cmd>",
+        "First, calculate the necessary offsets to move the stage to X=50 nm and Y=50 nm. Then, switch the scan area.\n\n<cmd>\nStageOffset_X_Tube(50)\nStageOffset_Y_Tube(50)\nSwitchScanarea()\n</cmd>",
+        "First, perform drift compensation to correct any drift in the scanning probe. Then, switch the scan area to adjust the scanning region.\n\n<cmd>\nDriftCompensation()\nSwitchScanarea()\n</cmd>",
+        "First, set the scan speed to 0.6. Then, switch the scan area. Finally, start the scanning process.\n\n<cmd>\nScan_Speed(0)\nSwitchScanarea()\nScanEnabled(True)\n</cmd>",
+        "First, change the scan speed to 1.0. Then, switch the scan area.\n\n<cmd>\nScan_Speed(1)\nSwitchScanarea()\n</cmd>",
+        "First, set the scan range for both X and Y directions to 5 nm. Then, switch to the next scan area.\n\n<cmd>\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nSwitchScanarea()\n</cmd>",
+        "The instruction is to switch to the next scan area. This is achieved by invoking the 'SwitchScanarea' command.\n\n<cmd>\nSwitchScanarea()\n</cmd>",
+        "Switch to the next scan area and then start the scan.\n\n<cmd>\nSwitchScanarea()\nScanEnabled(True)\n</cmd>",
+        "First, stop the scan if it is running. Then, move the stage to the coordinates X = 0 and Y = 0.\n\n<cmd>\nScanEnabled(False)\nStageOffset_X_Tube(0)\nStageOffset_Y_Tube(0)\n</cmd>",
+        "First, terminate the scan by setting ScanEnabled to false. Then, fix the tip using the TipFix command. Finally, resume the scan by setting ScanEnabled to true.\n\n<cmd>\nScanEnabled(False)\nTipFix()\nScanEnabled(True)\n</cmd>",
+        "None. The initial position is set to (-350, 200). Shifting left by 0.5 nm from X = -350 results in X = -350.5 nm, which exceeds the minimum range of -350 nm. Therefore, the operation cannot be completed as requested.",
+        "None. The requested movement to X = 400 nm exceeds the accessible coordinate range of -350 to 350 nm. Therefore, the instruction cannot be carried out.",
+        "To set the Y position to -500 nm, use the StageOffset_Y_Tube command with the specified coordinate.\n\n<cmd>\nStageOffset_Y_Tube(-500)\n</cmd>",
+        "None. The requested coordinates (750, 750) nm exceed the maximum scanning range of 350 nm in both X and Y directions.",
+        "None. The current position in the X direction is 300 nm. Shifting 100 nm to the right would result in a new position of 400 nm, which exceeds the accessible range of -350 to 350 nm. Therefore, the shift cannot be executed as it would move the probe out of the scanning area.",
+        "None. Moving 200 nm down from Y = -200 results in Y = -400 nm, which exceeds the minimum range of -350 nm. Therefore, the movement cannot be completed as requested.",
+        "None. Set the scan area to 800x800 nm centered at the origin. This results in a scan range from -400 to +400 nm in both X and Y directions, which exceeds the accessible range of -350 to 350 nm.",
+        "None. Sample bias cannot be set to 0 V. Please specify a non-zero bias value.",
+        "None. The sample bias cannot be set to zero volts as per the system constraints. A non-zero bias value is required.",
+        "None. Stage rotation is not supported by the available commands.",
+        "None. Temperature control is not available in the current command set.",
+        "None. Direct tunneling current control is not available. You can adjust the sample bias instead.",
+        "None. Please specify the exact distance in nanometers (e.g., \"move 10 nm to the right\").",
+        "Expert Experimental Plan:\n- Scan a small area to ensure high-resolution imaging\n- Set scan range to 3 nm in both X and Y directions\n- Ensure the scan is enabled\n\n<cmd>\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>",
+        "None. Please specify the exact bias voltage value (e.g., \"apply +2.0 V bias\").",
+        "None. Scan speed must be greater than 0. Please specify a positive value.",
+        "None. Sample bias cannot be set to 0 V. Please specify a non-zero bias value. Additionally, scanning cannot be initiated without a valid bias setting.",
+        "None. Scan speed must be greater than 0. Please specify a positive value.",
+        "The instruction is to scan an area starting from -20 nm in both X and Y directions. The scan range is set to 4x4 nm, which fits within the accessible coordinate range of the SPM tip.\n\n<cmd>\nStageOffset_X_Tube(-20)\nStageOffset_Y_Tube(-20)\nAux1MaxVoltage(4)\nAux2MaxVoltage(4)\nScanEnabled(True)\n</cmd>",
+        "None. Feedback parameter control is not available in the current command set.",
+        "Moving the tip to a safe position within the accessible range. The center of the scanning area (0, 0) is considered a safe position.\n\n<cmd>\nStageOffset_X_Tube(0)\nStageOffset_Y_Tube(0)\n</cmd>",
+        "None. The instruction 'scan a medium area' is ambiguous. Please specify the exact scan range for both X and Y directions.",
+        "None. Please specify the exact bias voltage value (e.g., \"apply +1.0 V bias\").",
+        "None. The instruction to 'increase the scan speed a bit' is ambiguous as it does not specify the exact amount by which to increase the speed. Without a specific value, the command cannot be executed precisely.",
+        "None. Please specify the exact distance in nanometers (e.g., \"move 10 nm upward\")."
+    ],
+    "ground truth": [
+        "<cmd>\nStageOffset_X_Tube_ADD(-10)\nStageOffset_Y_Tube_ADD(5)\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(8)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube(200)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(150)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(10)\nStageOffset_Y_Tube(90)\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(22)\nAux2MaxVoltage(22)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(30)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(100)\nStageOffset_Y_Tube(-200)\nSample_Bias(-0.5)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(-35)\nAux1MaxVoltage(7)\nAux2MaxVoltage(7)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(12)\nAux1MaxVoltage(9)\nAux2MaxVoltage(9)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(-10)\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(-10)\nStageOffset_Y_Tube_ADD(-10)\nSample_Bias(0.3)\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nAux2MaxVoltage(12)\n</cmd>",
+        "<cmd>\nAux2MaxVoltage(110)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(90)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(50)\n</cmd>",
+        "<cmd>\nSample_Bias(-1.0)\nAux1MaxVoltage(12)\nAux2MaxVoltage(12)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nScanEnabled(false)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(20)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(30)\n</cmd>",
+        "<cmd>\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nSample_Bias(1.2)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(-100)\n</cmd>",
+        "<cmd>\nScanEnabled(false)\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(240)\nAux2MaxVoltage(240)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(-100)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube(-350)\n</cmd>",
+        "<cmd>\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(5)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube(130)\n</cmd>",
+        "<cmd>\nSample_Bias(-0.4)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(15)\nStageOffset_Y_Tube_ADD(15)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(350)\nStageOffset_Y_Tube(-250)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(-12)\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(25)\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(60)\n</cmd>",
+        "<cmd>\nSample_Bias(-1.0)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(0)\nStageOffset_Y_Tube_ADD(-10)\nAux1MaxVoltage(9)\nAux2MaxVoltage(9)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(10)\nStageOffset_Y_Tube(-90)\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(13)\nAux2MaxVoltage(13)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(-120)\nStageOffset_Y_Tube_ADD(-80)\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(200)\nAux2MaxVoltage(200)\n</cmd>",
+        "<cmd>\nSample_Bias(1.5)\nAux1MaxVoltage(16)\nAux2MaxVoltage(16)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nScanEnabled(false)\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(250)\n</cmd>",
+        "<cmd>\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nAux2MaxVoltage(95)\n</cmd>",
+        "<cmd>\nSample_Bias(-1)\nStageOffset_X_Tube(0)\nStageOffset_Y_Tube(0)\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(-15)\n</cmd>",
+        "<cmd>\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(10)\n</cmd>",
+        "<cmd>\nSample_Bias(1)\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(200)\nStageOffset_Y_Tube(-250)\nAux1MaxVoltage(20)\nAux2MaxVoltage(10)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(40)\nStageOffset_Y_Tube_ADD(40)\nSample_Bias(-0.9)\nAux1MaxVoltage(14)\nAux2MaxVoltage(14)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(50)\nStageOffset_Y_Tube(100)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(60)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube(-85)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(5)\nStageOffset_Y_Tube_ADD(5)\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(-250)\nStageOffset_Y_Tube(150)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(-25)\nStageOffset_Y_Tube_ADD(10)\n</cmd>",
+        "<cmd>\nSample_Bias(1.0)\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(-80)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(300)\nStageOffset_Y_Tube(10)\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(80)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(-10)\nStageOffset_Y_Tube(-10)\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nSample_Bias(0.9)\n</cmd>",
+        "<cmd>\nSample_Bias(-0.75)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(-300)\n</cmd>",
+        "<cmd>\nAux2MaxVoltage(22.5)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(-90)\nStageOffset_Y_Tube(-90)\n</cmd>",
+        "<cmd>\nSample_Bias(-1.2)\n</cmd>",
+        "<cmd>\nSample_Bias(-0.8)\nAux1MaxVoltage(50)\nAux2MaxVoltage(50)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(20)\nSample_Bias(-1.5)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nSample_Bias(1.0)\nAux1MaxVoltage(37.5)\nAux2MaxVoltage(37.5)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(-2)\n</cmd>",
+        "<cmd>\nSample_Bias(-0.2)\n</cmd>",
+        "<cmd>\nSample_Bias(-0.8)\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(3)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(-20)\nAux1MaxVoltage(4)\nAux2MaxVoltage(4)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(0)\nStageOffset_Y_Tube(0)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(100)\n</cmd>",
+        "<cmd>\nSample_Bias(1.5)\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(25)\nSample_Bias(2.0)\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(-300)\nStageOffset_Y_Tube(-300)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(120)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube(60)\nSample_Bias(-2.0)\nAux1MaxVoltage(12)\nAux2MaxVoltage(12)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube(220)\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(100)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(-90)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(200)\nAux1MaxVoltage(15)\nAux2MaxVoltage(15)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(30)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(1)\nStageOffset_Y_Tube_ADD(1)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(-40)\n</cmd>",
+        "<cmd>\nTipFix()\nAux1MaxVoltage(15)\nAux2MaxVoltage(15)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nTipFix()\n</cmd>",
+        "<cmd>\nScan_Speed(0.2)\nScanEnabled(false)\n</cmd>",
+        "<cmd>\nTipFix()\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nDriftCompensation()\nScan_Speed(0.3)\nStageOffset_X_Tube(40)\nStageOffset_Y_Tube(-40)\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nScan_Speed(0.7)\nSample_Bias(0.7)\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nScan_Speed(0.6)\n</cmd>",
+        "<cmd>\nTipFix()\n</cmd>",
+        "<cmd>\nTipFix()\nScan_Speed(0.3)\n</cmd>",
+        "<cmd>\nDriftCompensation()\nAux2MaxVoltage(150)\n</cmd>",
+        "<cmd>\nTipFix()\nStageOffset_X_Tube(100)\nStageOffset_Y_Tube(0)\nAux1MaxVoltage(20)\nAux2MaxVoltage(20)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nDriftCompensation()\n</cmd>",
+        "<cmd>\nScan_Speed(1.5)\nAux2MaxVoltage(150)\n</cmd>",
+        "<cmd>\nScan_Speed(0.9)\nStageOffset_X_Tube(-50)\nStageOffset_Y_Tube(120)\nAux1MaxVoltage(18)\nAux2MaxVoltage(18)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nDriftCompensation()\n</cmd>",
+        "<cmd>\nDriftCompensation()\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nTipFix()\nStageOffset_X_Tube_ADD(10)\nStageOffset_Y_Tube_ADD(-5)\n</cmd>",
+        "<cmd>\nSwitchScanarea()\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nSwitchScanarea()\nStageOffset_X_Tube_ADD(15)\n</cmd>",
+        "<cmd>\nTipFix()\nDriftCompensation()\nSwitchScanarea()\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(50)\nStageOffset_Y_Tube(50)\nSwitchScanarea()\n</cmd>",
+        "<cmd>\nDriftCompensation()\nSwitchScanarea()\n</cmd>",
+        "<cmd>\nScan_Speed(0.6)\nSwitchScanarea()\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nScan_Speed(1.0)\nSwitchScanarea()\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nSwitchScanarea()\n</cmd>",
+        "<cmd>\nSwitchScanarea()\n</cmd>",
+        "<cmd>\nSwitchScanarea()\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nScanEnabled(false)\nStageOffset_X_Tube(0)\nStageOffset_Y_Tube(0)\n</cmd>",
+        "<cmd>\nScanEnabled(false)\nTipFix()\nScanEnabled(true)\n</cmd>",
+        "None. Shifting left by 0.5 nm from X = -350 would result in X = -350.5 nm, exceeding the minimum range of -350 nm.",
+        "None. The requested position X = 400 nm exceeds the maximum scanning range of 350 nm.",
+        "None. The requested position Y = -500 nm exceeds the minimum scanning range of -350 nm.",
+        "None. The requested position (750, 750) exceeds the accessible area. Both X and Y must be within -350 to 350 nm.",
+        "None. Moving 100 nm right from X = 300 would result in X = 400 nm, which exceeds the maximum range of 350 nm.",
+        "None. Moving 200 nm down from Y = -200 would result in Y = -400 nm, which exceeds the minimum range of -350 nm.",
+        "None. A scan area of 800x800 nm centered at origin would require positions from -400 to +400 nm, exceeding the accessible range of -350 to 350 nm.",
+        "None. Sample bias cannot be set to 0 V according to the system constraints.",
+        "None. Sample bias cannot be set to 0 V. Please specify a non-zero bias value.",
+        "None. Stage rotation is not supported by the available commands.",
+        "None. Temperature control is not available in the current command set.",
+        "None. Direct tunneling current control is not available. You can adjust the sample bias instead.",
+        "None. Please specify the exact distance in nanometers for the movement (e.g., \"move 10 nm right\").",
+        "None. Please specify the exact scan size in nanometers (e.g., \"scan 10x10 nm\").",
+        "None. Please specify the exact bias voltage value (e.g., \"apply +1.5 V bias\").",
+        "None. Scan speed cannot be negative. Please specify a positive value.",
+        "None. Sample bias cannot be set to 0 V. Please specify a non-zero bias value.",
+        "None. Scan speed must be greater than 0. Please specify a positive value.",
+        "None. Scan range cannot be negative. Please specify positive values for scan dimensions.",
+        "None. Feedback parameter control is not available in the current command set.",
+        "None. Please specify the exact coordinates in nanometers (e.g., \"move to X = 0, Y = 0\").",
+        "None. Please specify the exact scan size in nanometers (e.g., \"scan 50x50 nm\").",
+        "None. Please specify the exact bias voltage value (e.g., \"apply +1.0 V bias\").",
+        "None. Please specify the exact scan speed value (e.g., \"set scan speed to 1.5\").",
+        "None. Please specify the exact distance in nanometers (e.g., \"move 10 nm up\")."
+    ],
+    "raw_outputs": [
+        {
+            "content": "{\n  \"plan\": \"First, shift the stage by -10 nm in the X direction and +5 nm in the Y direction. Then, set the scan range to 6 nm in both X and Y directions and enable scanning.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"StageOffset_X_Tube_ADD\", \"arg\": -10.0},\n    {\"command\": \"StageOffset_Y_Tube_ADD\", \"arg\": 5.0},\n    {\"command\": \"Aux1MaxVoltage\", \"arg\": 6.0},\n    {\"command\": \"Aux2MaxVoltage\", \"arg\": 6.0},\n    {\"command\": \"ScanEnabled\", \"arg\": true}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 675,
+                "completion_tokens": 156
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                220
+            ]
+        },
+        {
+            "content": "{\"plan\": \"\", \"valid\": true, \"commands\": [{\"command\": \"StageOffset_X_Tube_ADD\", \"arg\": 8.0}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 566,
+                "completion_tokens": 33
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                196
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"The current Y position is set to 100 nanometers. To move to 200 nanometers, calculate the difference and use the StageOffset_Y_Tube_ADD command.\",\n  \"valid\": true,\n  \"commands\": [\n    {\n      \"command\": \"StageOffset_Y_Tube_ADD\",\n      \"arg\": 100.0\n    }\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 562,
+                "completion_tokens": 84
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                44
+            ]
+        },
+        {
+            "content": "{\"plan\": \"\", \"valid\": true, \"commands\": [{\"command\": \"StageOffset_X_Tube\", \"arg\": 150.0}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 565,
+                "completion_tokens": 32
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                11
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"StageOffset_X_Tube\", \"arg\": 10.0},\n    {\"command\": \"StageOffset_Y_Tube\", \"arg\": 90.0}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 585,
+                "completion_tokens": 63
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                86
+            ]
+        },
+        {
+            "content": "{\"plan\": \"The scan width in both X and Y directions is set to 22 nm.\", \"valid\": true, \"commands\": [{\"command\": \"Aux1MaxVoltage\", \"arg\": 22.0}, {\"command\": \"Aux2MaxVoltage\", \"arg\": 22.0}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 563,
+                "completion_tokens": 64
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                76
+            ]
+        },
+        {
+            "content": "{\"plan\": \"The current X position is adjusted to 30 nm by calculating the necessary offset from the current position. The Y position remains unchanged.\", \"valid\": true, \"commands\": [{\"command\": \"StageOffset_X_Tube\", \"arg\": 30.0}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 571,
+                "completion_tokens": 58
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                106
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"Move the stage to the specified coordinates (X = 100, Y = -200) and apply a sample bias of -0.5 V.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"StageOffset_X_Tube\", \"arg\": 100.0},\n    {\"command\": \"StageOffset_Y_Tube\", \"arg\": -200.0},\n    {\"command\": \"Sample_Bias\", \"arg\": -0.5}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 594,
+                "completion_tokens": 110
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                86
+            ]
+        },
+        {
+            "content": "{\"plan\": \"First, step down 35 nm in the Y direction. Then, set the scan range for both X and Y directions to 7 nm to perform a 7×7 scan.\", \"valid\": true, \"commands\": [{\"command\": \"StageOffset_Y_Tube_ADD\", \"arg\": -35.0}, {\"command\": \"Aux1MaxVoltage\", \"arg\": 7.0}, {\"command\": \"Aux2MaxVoltage\", \"arg\": 7.0}, {\"command\": \"ScanEnabled\", \"arg\": true}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 588,
+                "completion_tokens": 116
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                49
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"First, apply a 12 nm relative shift in the positive Y direction. Then, set the scan range for both X and Y directions to 9 nm and enable the scan.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"StageOffset_Y_Tube_ADD\", \"arg\": 12.0},\n    {\"command\": \"Aux1MaxVoltage\", \"arg\": 9.0},\n    {\"command\": \"Aux2MaxVoltage\", \"arg\": 9.0},\n    {\"command\": \"ScanEnabled\", \"arg\": true}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 572,
+                "completion_tokens": 130
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                158
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"First, move the stage 10 nm to the left. Then, set the scan range for both X and Y directions to 5 nm. Finally, enable the scan.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"StageOffset_X_Tube_ADD\", \"arg\": -10.0},\n    {\"command\": \"Aux1MaxVoltage\", \"arg\": 5.0},\n    {\"command\": \"Aux2MaxVoltage\", \"arg\": 5.0},\n    {\"command\": \"ScanEnabled\", \"arg\": true}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 581,
+                "completion_tokens": 129
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                189
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"Move the stage 10 nm left and 10 nm down, set the sample bias to +0.3 V, and enable scanning with an 8x8 area.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"StageOffset_X_Tube_ADD\", \"arg\": -10.0},\n    {\"command\": \"StageOffset_Y_Tube_ADD\", \"arg\": -10.0},\n    {\"command\": \"Sample_Bias\", \"arg\": 0.3},\n    {\"command\": \"Aux1MaxVoltage\", \"arg\": 8.0},\n    {\"command\": \"Aux2MaxVoltage\", \"arg\": 8.0},\n    {\"command\": \"ScanEnabled\", \"arg\": true}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 590,
+                "completion_tokens": 166
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                189
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"Adjust the Y scan height to 12 nm and ensure the scan is enabled.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"Aux2MaxVoltage\", \"arg\": 12.0},\n    {\"command\": \"ScanEnabled\", \"arg\": true}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 575,
+                "completion_tokens": 72
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                15
+            ]
+        },
+        {
+            "content": "{\"plan\": \"To set the vertical scan height, adjust the maximum voltage for the Y direction, which defines the scan range.\", \"valid\": true, \"commands\": [{\"command\": \"Aux2MaxVoltage\", \"arg\": 110.0}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 580,
+                "completion_tokens": 53
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                165
+            ]
+        },
+        {
+            "content": "{\"plan\": \"\", \"valid\": true, \"commands\": [{\"command\": \"StageOffset_X_Tube_ADD\", \"arg\": 90.0}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 566,
+                "completion_tokens": 33
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                80
+            ]
+        },
+        {
+            "content": "{\"plan\": \"\", \"valid\": true, \"commands\": [{\"command\": \"StageOffset_X_Tube_ADD\", \"arg\": 50.0}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 564,
+                "completion_tokens": 33
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                80
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"The instruction is to apply a sample bias of -1.0 V and scan an area of 12×12 nm. The commands will set the sample bias, define the scan range, and enable the scan.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"Sample_Bias\", \"arg\": -1.0},\n    {\"command\": \"Aux1MaxVoltage\", \"arg\": 12.0},\n    {\"command\": \"Aux2MaxVoltage\", \"arg\": 12.0},\n    {\"command\": \"ScanEnabled\", \"arg\": true}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 618,
+                "completion_tokens": 134
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                167
+            ]
+        },
+        {
+            "content": "{\"plan\": \"\", \"valid\": true, \"commands\": [{\"command\": \"ScanEnabled\", \"arg\": false}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 547,
+                "completion_tokens": 26
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                154
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"The instruction is to shift the stage in the Y direction by 20 nm. This is achieved by using the StageOffset_Y_Tube_ADD command with an argument of 20.0.\",\n  \"valid\": true,\n  \"commands\": [\n    {\n      \"command\": \"StageOffset_Y_Tube_ADD\",\n      \"arg\": 20.0\n    }\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 562,
+                "completion_tokens": 88
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                99
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"\",\n  \"valid\": true,\n  \"commands\": [\n    {\n      \"command\": \"StageOffset_Y_Tube_ADD\",\n      \"arg\": 30.0\n    }\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 564,
+                "completion_tokens": 50
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                157
+            ]
+        },
+        {
+            "content": "{\"plan\": \"The instruction is to enable scanning while keeping the current settings unchanged. The command 'ScanEnabled' with argument 'true' is used to start the scan.\", \"valid\": true, \"commands\": [{\"command\": \"ScanEnabled\", \"arg\": true}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 562,
+                "completion_tokens": 57
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                243
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"Set the sample bias to 1.2 V using the Sample_Bias command.\",\n  \"valid\": true,\n  \"commands\": [\n    {\n      \"command\": \"Sample_Bias\",\n      \"arg\": 1.2\n    }\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 560,
+                "completion_tokens": 64
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                281
+            ]
+        },
+        {
+            "content": "{\"plan\": \"Subtract 100 nm from the current Y position using the StageOffset_Y_Tube_ADD command with a negative value.\", \"valid\": true, \"commands\": [{\"command\": \"StageOffset_Y_Tube_ADD\", \"arg\": -100.0}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 563,
+                "completion_tokens": 57
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                44
+            ]
+        },
+        {
+            "content": "{\"plan\": \"\", \"valid\": true, \"commands\": [{\"command\": \"ScanEnabled\", \"arg\": false}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 545,
+                "completion_tokens": 26
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                32
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"Set the scan sizes for both X and Y directions to 240 nm and enable scanning.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"Aux1MaxVoltage\", \"arg\": 240},\n    {\"command\": \"Aux2MaxVoltage\", \"arg\": 240},\n    {\"command\": \"ScanEnabled\", \"arg\": true}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 567,
+                "completion_tokens": 88
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                311
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"The instruction is to move the stage 100 nm to the left along the X-axis. This is achieved by using the StageOffset_X_Tube_ADD command with an argument of -100.0 to move the stage left.\",\n  \"valid\": true,\n  \"commands\": [\n    {\n      \"command\": \"StageOffset_X_Tube_ADD\",\n      \"arg\": -100.0\n    }\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 558,
+                "completion_tokens": 95
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                117
+            ]
+        },
+        {
+            "content": "{\"plan\": \"The current Y coordinate is set to -300 nm. The instruction is to set it to -350 nm, which is within the accessible range of -350 to 350 nm.\", \"valid\": true, \"commands\": [{\"command\": \"StageOffset_Y_Tube\", \"arg\": -350.0}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 584,
+                "completion_tokens": 68
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                92
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"The instruction is to enable the scanning mode. This is done by setting the 'ScanEnabled' parameter to true.\",\n  \"valid\": true,\n  \"commands\": [\n    {\n      \"command\": \"ScanEnabled\",\n      \"arg\": true\n    }\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 551,
+                "completion_tokens": 66
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                323
+            ]
+        },
+        {
+            "content": "{\"plan\": \"\", \"valid\": true, \"commands\": [{\"command\": \"StageOffset_Y_Tube_ADD\", \"arg\": 5.0}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 562,
+                "completion_tokens": 33
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                99
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"Set the Y coordinate of the stage to 130 nm.\",\n  \"valid\": true,\n  \"commands\": [\n    {\n      \"command\": \"StageOffset_Y_Tube\",\n      \"arg\": 130.0\n    }\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 562,
+                "completion_tokens": 61
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                27
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"The bias is set to -0.4 V, which is a valid non-zero value.\",\n  \"valid\": true,\n  \"commands\": [\n    {\n      \"command\": \"Sample_Bias\",\n      \"arg\": -0.4\n    }\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 563,
+                "completion_tokens": 66
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                334
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"The instruction is to move the probe diagonally by 15 nm to the right and 15 nm up. This is achieved by adding 15 nm to the X coordinate and 15 nm to the Y coordinate.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"StageOffset_X_Tube_ADD\", \"arg\": 15.0},\n    {\"command\": \"StageOffset_Y_Tube_ADD\", \"arg\": 15.0}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 587,
+                "completion_tokens": 108
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                118
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"Move the tip to the position (350, -250) within the accessible range.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"StageOffset_X_Tube\", \"arg\": 350},\n    {\"command\": \"StageOffset_Y_Tube\", \"arg\": -250}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 585,
+                "completion_tokens": 76
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                295
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"Shift the stage 12 nm to the left in the X direction, keep the Y position unchanged, and set the scan area to 6x6 nm.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"StageOffset_X_Tube_ADD\", \"arg\": -12.0},\n    {\"command\": \"Aux1MaxVoltage\", \"arg\": 6.0},\n    {\"command\": \"Aux2MaxVoltage\", \"arg\": 6.0},\n    {\"command\": \"ScanEnabled\", \"arg\": true}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 622,
+                "completion_tokens": 126
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                51
+            ]
+        },
+        {
+            "content": "{\"plan\": \"\", \"valid\": true, \"commands\": [{\"command\": \"StageOffset_Y_Tube_ADD\", \"arg\": 25.0}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 566,
+                "completion_tokens": 33
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                196
+            ]
+        },
+        {
+            "content": "{\"plan\": \"\", \"valid\": true, \"commands\": [{\"command\": \"Aux1MaxVoltage\", \"arg\": 60.0}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 564,
+                "completion_tokens": 31
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                191
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"The instruction is to set the sample bias voltage to -1.0 V. This is a valid operation as the command 'Sample_Bias' is available and the value is within acceptable limits.\",\n  \"valid\": true,\n  \"commands\": [\n    {\n      \"command\": \"Sample_Bias\",\n      \"arg\": -1.0\n    }\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 561,
+                "completion_tokens": 86
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                87
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"First, set the X coordinate to 0. Then, adjust the Y coordinate by shifting it by -10 nm. Finally, set the scan area to 9x9 nm by adjusting the maximum voltage for both X and Y directions.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"StageOffset_X_Tube\", \"arg\": 0.0},\n    {\"command\": \"StageOffset_Y_Tube_ADD\", \"arg\": -10.0},\n    {\"command\": \"Aux1MaxVoltage\", \"arg\": 4.5},\n    {\"command\": \"Aux2MaxVoltage\", \"arg\": 4.5}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 598,
+                "completion_tokens": 148
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                146
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"First, calculate the current position of the stage in the X direction and move it by the required offset to reach X = 10 nm. Then, calculate the current position in the Y direction and move it by the required offset to reach Y = -90 nm.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"StageOffset_X_Tube_ADD\", \"arg\": 10.0},\n    {\"command\": \"StageOffset_Y_Tube_ADD\", \"arg\": -90.0}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 568,
+                "completion_tokens": 118
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                27
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"Set the scan range for both X and Y directions to 13 nm and enable the scan.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"Aux1MaxVoltage\", \"arg\": 13.0},\n    {\"command\": \"Aux2MaxVoltage\", \"arg\": 13.0},\n    {\"command\": \"ScanEnabled\", \"arg\": true}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 586,
+                "completion_tokens": 93
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                56
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"The instruction is to translate the stage by -120 nm in the X direction and -80 nm in the Y direction. This is achieved by using the StageOffset_X_Tube and StageOffset_Y_Tube commands with the specified values.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"StageOffset_X_Tube\", \"arg\": -120.0},\n    {\"command\": \"StageOffset_Y_Tube\", \"arg\": -80.0}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 570,
+                "completion_tokens": 110
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                196
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"Set the scan range for both X and Y directions to 200 nm.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"Aux1MaxVoltage\", \"arg\": 200},\n    {\"command\": \"Aux2MaxVoltage\", \"arg\": 200}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 567,
+                "completion_tokens": 72
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                311
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"Set the scan range for both X and Y directions to 16 nm and set the sample bias to 1.5V. Ensure the scan is enabled.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"Aux1MaxVoltage\", \"arg\": 16},\n    {\"command\": \"Aux2MaxVoltage\", \"arg\": 16},\n    {\"command\": \"Sample_Bias\", \"arg\": 1.5},\n    {\"command\": \"ScanEnabled\", \"arg\": true}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 556,
+                "completion_tokens": 119
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                134
+            ]
+        },
+        {
+            "content": "{\"plan\": \"Ending the scan session involves stopping the scan and performing necessary cleanup operations such as drift compensation, tip fixation, and switching the scan area if needed.\", \"valid\": true, \"commands\": [{\"command\": \"ScanEnabled\", \"arg\": false}, {\"command\": \"DriftCompensation\"}, {\"command\": \"TipFix\"}, {\"command\": \"SwitchScanarea\"}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 545,
+                "completion_tokens": 79
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                140
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"The instruction is to set the horizontal scan size to 250 nm. This is achieved by setting the Aux1MaxVoltage to 250.0.\",\n  \"valid\": true,\n  \"commands\": [\n    {\n      \"command\": \"Aux1MaxVoltage\",\n      \"arg\": 250.0\n    }\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 561,
+                "completion_tokens": 78
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                168
+            ]
+        },
+        {
+            "content": "{\"plan\": \"\", \"valid\": true, \"commands\": [{\"command\": \"ScanEnabled\", \"arg\": true}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 552,
+                "completion_tokens": 26
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                215
+            ]
+        },
+        {
+            "content": "{\"plan\": \"\", \"valid\": true, \"commands\": [{\"command\": \"Aux2MaxVoltage\", \"arg\": 95.0}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 564,
+                "completion_tokens": 31
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                151
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"First, apply a -1 V bias to the sample. Then, reset the stage to the origin by setting both X and Y offsets to 0. Finally, set the scan range for both X and Y directions to 10 nm and enable the scan.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"Sample_Bias\", \"arg\": -1},\n    {\"command\": \"StageOffset_X_Tube\", \"arg\": 0},\n    {\"command\": \"StageOffset_Y_Tube\", \"arg\": 0},\n    {\"command\": \"Aux1MaxVoltage\", \"arg\": 10},\n    {\"command\": \"Aux2MaxVoltage\", \"arg\": 10},\n    {\"command\": \"ScanEnabled\", \"arg\": true}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 588,
+                "completion_tokens": 171
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                352
+            ]
+        },
+        {
+            "content": "{\"plan\": \"\", \"valid\": true, \"commands\": [{\"command\": \"StageOffset_Y_Tube_ADD\", \"arg\": -15.0}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 563,
+                "completion_tokens": 33
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                64
+            ]
+        },
+        {
+            "content": "{\"plan\": \"\", \"valid\": true, \"commands\": [{\"command\": \"ScanEnabled\", \"arg\": true}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 546,
+                "completion_tokens": 26
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                154
+            ]
+        },
+        {
+            "content": "{\"plan\": \"\", \"valid\": true, \"commands\": [{\"command\": \"StageOffset_Y_Tube_ADD\", \"arg\": 10.0}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 558,
+                "completion_tokens": 33
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                90
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"Set the sample bias to 1 V and configure the scan area to 8x8 nm at the current position. Ensure the scan is enabled.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"Sample_Bias\", \"arg\": 1.0},\n    {\"command\": \"Aux1MaxVoltage\", \"arg\": 8.0},\n    {\"command\": \"Aux2MaxVoltage\", \"arg\": 8.0},\n    {\"command\": \"ScanEnabled\", \"arg\": true}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 622,
+                "completion_tokens": 121
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                3
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"Move to (200, -250) nm and set the scan range to 20 nm in the X direction and 10 nm in the Y direction. Ensure the scan is enabled.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"StageOffset_X_Tube\", \"arg\": 200},\n    {\"command\": \"StageOffset_Y_Tube\", \"arg\": -250},\n    {\"command\": \"Aux1MaxVoltage\", \"arg\": 20},\n    {\"command\": \"Aux2MaxVoltage\", \"arg\": 10},\n    {\"command\": \"ScanEnabled\", \"arg\": true}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 592,
+                "completion_tokens": 141
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                350
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"Move the stage 40 nm to the right and 40 nm up, apply a sample bias of -0.9 V, and set the scan area to 14x14 nm.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"StageOffset_X_Tube_ADD\", \"arg\": 40.0},\n    {\"command\": \"StageOffset_Y_Tube_ADD\", \"arg\": 40.0},\n    {\"command\": \"Sample_Bias\", \"arg\": -0.9},\n    {\"command\": \"Aux1MaxVoltage\", \"arg\": 7.0},\n    {\"command\": \"Aux2MaxVoltage\", \"arg\": 7.0},\n    {\"command\": \"ScanEnabled\", \"arg\": true}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 598,
+                "completion_tokens": 170
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                91
+            ]
+        },
+        {
+            "content": "{\"plan\": \"Move the stage to the specified absolute coordinates and then start the scan.\", \"valid\": true, \"commands\": [{\"command\": \"StageOffset_X_Tube\", \"arg\": 50.0}, {\"command\": \"StageOffset_Y_Tube\", \"arg\": 100.0}, {\"command\": \"ScanEnabled\", \"arg\": true}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 594,
+                "completion_tokens": 76
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                129
+            ]
+        },
+        {
+            "content": "{\"plan\": \"\", \"valid\": true, \"commands\": [{\"command\": \"Aux1MaxVoltage\", \"arg\": 60.0}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 580,
+                "completion_tokens": 31
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                166
+            ]
+        },
+        {
+            "content": "{\"plan\": \"\", \"valid\": true, \"commands\": [{\"command\": \"StageOffset_Y_Tube\", \"arg\": -85.0}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 562,
+                "completion_tokens": 32
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                172
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"First, shift the stage by 5 nm in both X and Y directions. Then, set the scan range for both X and Y directions to 6 nm and start the scan.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"StageOffset_X_Tube_ADD\", \"arg\": 5},\n    {\"command\": \"StageOffset_Y_Tube_ADD\", \"arg\": 5},\n    {\"command\": \"Aux1MaxVoltage\", \"arg\": 6},\n    {\"command\": \"Aux2MaxVoltage\", \"arg\": 6},\n    {\"command\": \"ScanEnabled\", \"arg\": true}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 559,
+                "completion_tokens": 143
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                134
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"The instruction is to move the probe to the coordinates (-250, 150) nm. This is within the accessible range of the SPM tip and scan area, which is -350 to 350 nm in both x and y directions.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"StageOffset_X_Tube\", \"arg\": -250.0},\n    {\"command\": \"StageOffset_Y_Tube\", \"arg\": 150.0}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 634,
+                "completion_tokens": 111
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                131
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"The instruction is to move the stage 25 nm to the left and 10 nm up. This is achieved by adding a negative offset to the X coordinate and a positive offset to the Y coordinate.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"StageOffset_X_Tube_ADD\", \"arg\": -25.0},\n    {\"command\": \"StageOffset_Y_Tube_ADD\", \"arg\": 10.0}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 585,
+                "completion_tokens": 105
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                118
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"Set the sample bias to +1.0 V and configure the scan range to 10 nm in both X and Y directions. Then, enable the scan.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"Sample_Bias\", \"arg\": 1.0},\n    {\"command\": \"Aux1MaxVoltage\", \"arg\": 10.0},\n    {\"command\": \"Aux2MaxVoltage\", \"arg\": 10.0},\n    {\"command\": \"ScanEnabled\", \"arg\": true}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 617,
+                "completion_tokens": 123
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                141
+            ]
+        },
+        {
+            "content": "{\"plan\": \"\", \"valid\": true, \"commands\": [{\"command\": \"StageOffset_Y_Tube_ADD\", \"arg\": -80.0}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 568,
+                "completion_tokens": 33
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                162
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"Set the X and Y coordinates of the probe to absolute values of 300 nm and 10 nm, respectively.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"StageOffset_X_Tube\", \"arg\": 300.0},\n    {\"command\": \"StageOffset_Y_Tube\", \"arg\": 10.0}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 569,
+                "completion_tokens": 86
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                11
+            ]
+        },
+        {
+            "content": "{\"plan\": \"\", \"valid\": true, \"commands\": [{\"command\": \"Aux1MaxVoltage\", \"arg\": 80.0}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 564,
+                "completion_tokens": 31
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                183
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"Move the stage to X = -10 nm and Y = -10 nm, then set the scan range to 10×10 nm and enable scanning.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"StageOffset_X_Tube\", \"arg\": -10.0},\n    {\"command\": \"StageOffset_Y_Tube\", \"arg\": -10.0},\n    {\"command\": \"Aux1MaxVoltage\", \"arg\": 10.0},\n    {\"command\": \"Aux2MaxVoltage\", \"arg\": 10.0},\n    {\"command\": \"ScanEnabled\", \"arg\": true}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 666,
+                "completion_tokens": 143
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                161
+            ]
+        },
+        {
+            "content": "{\"plan\": \"\", \"valid\": true, \"commands\": [{\"command\": \"Sample_Bias\", \"arg\": 0.9}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 562,
+                "completion_tokens": 30
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                188
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"The requested sample bias of -750 mV is equivalent to -0.75 V. This value is valid as it is not zero.\",\n  \"valid\": true,\n  \"commands\": [\n    {\n      \"command\": \"Sample_Bias\",\n      \"arg\": -0.75\n    }\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 561,
+                "completion_tokens": 75
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                29
+            ]
+        },
+        {
+            "content": "{\"plan\": \"\", \"valid\": true, \"commands\": [{\"command\": \"StageOffset_X_Tube\", \"arg\": -300.0}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 583,
+                "completion_tokens": 32
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                95
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"Set the Y scan height to 22.5 nm and ensure the scan is enabled.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"Aux2MaxVoltage\", \"arg\": 22.5},\n    {\"command\": \"ScanEnabled\", \"arg\": true}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 578,
+                "completion_tokens": 74
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                15
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"The instruction is to set the stage offsets to coordinates (-90, -90) nm. This is within the accessible range of -350 to 350 nm for both X and Y directions.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"StageOffset_X_Tube\", \"arg\": -90},\n    {\"command\": \"StageOffset_Y_Tube\", \"arg\": -90}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 565,
+                "completion_tokens": 97
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                284
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"Lower the sample bias to -1.2 V as per the user's instruction.\",\n  \"valid\": true,\n  \"commands\": [\n    {\n      \"command\": \"Sample_Bias\",\n      \"arg\": -1.2\n    }\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 560,
+                "completion_tokens": 64
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                281
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"First, apply a sample bias of -0.8 V. Then, set the scan area to 50 nm square by adjusting the maximum voltage for both X and Y directions. Finally, enable the scan.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"Sample_Bias\", \"arg\": -0.8},\n    {\"command\": \"Aux1MaxVoltage\", \"arg\": 25},\n    {\"command\": \"Aux2MaxVoltage\", \"arg\": 25},\n    {\"command\": \"ScanEnabled\", \"arg\": true}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 572,
+                "completion_tokens": 129
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                109
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"Shift the stage 20 nm up, apply a -1.5 V sample bias, and enable scanning.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"StageOffset_Y_Tube_ADD\", \"arg\": 20.0},\n    {\"command\": \"Sample_Bias\", \"arg\": -1.5},\n    {\"command\": \"ScanEnabled\", \"arg\": true}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 670,
+                "completion_tokens": 97
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                78
+            ]
+        },
+        {
+            "content": "{\"plan\": \"Set the scan area to 37.5x37.5 nm and apply a sample bias of +1.0 V before starting the scan.\", \"valid\": true, \"commands\": [{\"command\": \"Aux1MaxVoltage\", \"arg\": 37.5}, {\"command\": \"Aux2MaxVoltage\", \"arg\": 37.5}, {\"command\": \"Sample_Bias\", \"arg\": 1.0}, {\"command\": \"ScanEnabled\", \"arg\": true}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 651,
+                "completion_tokens": 106
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                139
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"The instruction is to shift the stage by -2 nm in the X direction. This is achieved by using the StageOffset_X_Tube_ADD command with an argument of -2.\",\n  \"valid\": true,\n  \"commands\": [\n    {\n      \"command\": \"StageOffset_X_Tube_ADD\",\n      \"arg\": -2.0\n    }\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 560,
+                "completion_tokens": 86
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                105
+            ]
+        },
+        {
+            "content": "{\"plan\": \"The instruction is to lower the sample bias to -0.2 V. This is a valid operation as it involves setting the sample bias to a non-zero value.\", \"valid\": true, \"commands\": [{\"command\": \"Sample_Bias\", \"arg\": -0.2}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 563,
+                "completion_tokens": 63
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                169
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"First, set the sample bias to -0.8 V. Then, configure the scan range for both X and Y directions to 8 nm. Finally, enable the scan.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"Sample_Bias\", \"arg\": -0.8},\n    {\"command\": \"Aux1MaxVoltage\", \"arg\": 8},\n    {\"command\": \"Aux2MaxVoltage\", \"arg\": 8},\n    {\"command\": \"ScanEnabled\", \"arg\": true}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 579,
+                "completion_tokens": 123
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                233
+            ]
+        },
+        {
+            "content": "{\"plan\": \"\", \"valid\": true, \"commands\": [{\"command\": \"StageOffset_Y_Tube_ADD\", \"arg\": 3.0}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 560,
+                "completion_tokens": 33
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                64
+            ]
+        },
+        {
+            "content": "{\"plan\": \"Shift the probe 20 nm down and set the scan area to 4x4 nm.\", \"valid\": true, \"commands\": [{\"command\": \"StageOffset_Y_Tube_ADD\", \"arg\": -20.0}, {\"command\": \"Aux1MaxVoltage\", \"arg\": 2.0}, {\"command\": \"Aux2MaxVoltage\", \"arg\": 2.0}, {\"command\": \"ScanEnabled\", \"arg\": true}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 588,
+                "completion_tokens": 98
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                63
+            ]
+        },
+        {
+            "content": "{\"plan\": \"The instruction 'return to origin' is interpreted as setting both X and Y coordinates to 0. This is achieved by using the StageOffset_X_Tube and StageOffset_Y_Tube commands to set the coordinates to 0.\", \"valid\": true, \"commands\": [{\"command\": \"StageOffset_X_Tube\", \"arg\": 0.0}, {\"command\": \"StageOffset_Y_Tube\", \"arg\": 0.0}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 580,
+                "completion_tokens": 96
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                146
+            ]
+        },
+        {
+            "content": "{\"plan\": \"\", \"valid\": true, \"commands\": [{\"command\": \"StageOffset_X_Tube\", \"arg\": 100.0}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 563,
+                "completion_tokens": 32
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                44
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"Set the sample bias to 1.5 V, configure the scan range for both X and Y directions to 5 nm, and enable the scan.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"Sample_Bias\", \"arg\": 1.5},\n    {\"command\": \"Aux1MaxVoltage\", \"arg\": 2.5},\n    {\"command\": \"Aux2MaxVoltage\", \"arg\": 2.5},\n    {\"command\": \"ScanEnabled\", \"arg\": true}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 576,
+                "completion_tokens": 123
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                268
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"First, move the stage to X = 25 nm. Then, set the sample bias to +2.0 V. Finally, configure the scan parameters for a 5x5 nm scan and enable the scan.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"StageOffset_X_Tube\", \"arg\": 25},\n    {\"command\": \"Sample_Bias\", \"arg\": 2.0},\n    {\"command\": \"Aux1MaxVoltage\", \"arg\": 2.5},\n    {\"command\": \"Aux2MaxVoltage\", \"arg\": 2.5},\n    {\"command\": \"ScanEnabled\", \"arg\": true}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 584,
+                "completion_tokens": 152
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                312
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"The instruction is to move the tip to an absolute position of X = -300 nm and Y = -300 nm. These coordinates are within the accessible range of -350 to 350 nm for both directions.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"StageOffset_X_Tube\", \"arg\": -300.0},\n    {\"command\": \"StageOffset_Y_Tube\", \"arg\": -300.0}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 591,
+                "completion_tokens": 105
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                59
+            ]
+        },
+        {
+            "content": "{\"plan\": \"\", \"valid\": true, \"commands\": [{\"command\": \"StageOffset_X_Tube_ADD\", \"arg\": 120.0}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 564,
+                "completion_tokens": 33
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                65
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"First, move the Y stage to 60 nm. Then, apply a -2.0 V bias to the sample. Finally, set the scan range to 12x12 nm and enable scanning.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"StageOffset_Y_Tube\", \"arg\": 60.0},\n    {\"command\": \"Sample_Bias\", \"arg\": -2.0},\n    {\"command\": \"Aux1MaxVoltage\", \"arg\": 12.0},\n    {\"command\": \"Aux2MaxVoltage\", \"arg\": 12.0},\n    {\"command\": \"ScanEnabled\", \"arg\": true}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 672,
+                "completion_tokens": 151
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                161
+            ]
+        },
+        {
+            "content": "{\"plan\": \"First, move the stage to the absolute Y position of 220 nm. Then, set the scan range for both X and Y directions to 10 nm to perform a 10x10 scan.\", \"valid\": true, \"commands\": [{\"command\": \"StageOffset_Y_Tube\", \"arg\": 220.0}, {\"command\": \"Aux1MaxVoltage\", \"arg\": 10.0}, {\"command\": \"Aux2MaxVoltage\", \"arg\": 10.0}, {\"command\": \"ScanEnabled\", \"arg\": true}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 590,
+                "completion_tokens": 118
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                59
+            ]
+        },
+        {
+            "content": "{\"plan\": \"\", \"valid\": true, \"commands\": [{\"command\": \"StageOffset_Y_Tube_ADD\", \"arg\": 100.0}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 560,
+                "completion_tokens": 33
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                90
+            ]
+        },
+        {
+            "content": "{\"plan\": \"\", \"valid\": true, \"commands\": [{\"command\": \"StageOffset_Y_Tube_ADD\", \"arg\": 90.0}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 565,
+                "completion_tokens": 33
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                24
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"First, move the stage to X = 200 nm. Then, set the scan parameters for a 15×15 nm region and enable scanning.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"StageOffset_X_Tube\", \"arg\": 200.0},\n    {\"command\": \"Aux1MaxVoltage\", \"arg\": 15.0},\n    {\"command\": \"Aux2MaxVoltage\", \"arg\": 15.0},\n    {\"command\": \"ScanEnabled\", \"arg\": true}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 616,
+                "completion_tokens": 123
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                48
+            ]
+        },
+        {
+            "content": "{\"plan\": \"\", \"valid\": true, \"commands\": [{\"command\": \"StageOffset_X_Tube_ADD\", \"arg\": 30.0}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 584,
+                "completion_tokens": 33
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                118
+            ]
+        },
+        {
+            "content": "{\"plan\": \"\", \"valid\": true, \"commands\": [{\"command\": \"StageOffset_X_Tube_ADD\", \"arg\": 1.0}, {\"command\": \"StageOffset_Y_Tube_ADD\", \"arg\": 1.0}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 588,
+                "completion_tokens": 52
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                118
+            ]
+        },
+        {
+            "content": "{\"plan\": \"\", \"valid\": true, \"commands\": [{\"command\": \"StageOffset_Y_Tube_ADD\", \"arg\": -40.0}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 561,
+                "completion_tokens": 33
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                198
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"First, run the TipFix procedure to ensure the tip is properly calibrated. Then, set the scan area to 15 nm in both X and Y directions and start the scan.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"TipFix\"},\n    {\"command\": \"Aux1MaxVoltage\", \"arg\": 15},\n    {\"command\": \"Aux2MaxVoltage\", \"arg\": 15},\n    {\"command\": \"ScanEnabled\", \"arg\": true}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 566,
+                "completion_tokens": 114
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                232
+            ]
+        },
+        {
+            "content": "{\"plan\": \"\", \"valid\": true, \"commands\": [{\"command\": \"TipFix\"}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 556,
+                "completion_tokens": 21
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                232
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"First, the scan speed is set to 0.2. Then, scanning is stopped.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"Scan_Speed\", \"arg\": 0},\n    {\"command\": \"ScanEnabled\", \"arg\": false}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 578,
+                "completion_tokens": 71
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                242
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"First, perform the tip fix operation to ensure the probe is properly aligned. Then, start the scanning process using the current parameters.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"TipFix\"},\n    {\"command\": \"ScanEnabled\", \"arg\": true}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 579,
+                "completion_tokens": 72
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                241
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"First, perform drift compensation. Then, set the scan speed to 0.3 µs. Move the stage to X=40 nm and Y=-40 nm. Finally, set the scan range to 8×8 nm and enable scanning.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"DriftCompensation\"},\n    {\"command\": \"Scan_Speed\", \"arg\": 0},\n    {\"command\": \"StageOffset_X_Tube\", \"arg\": 40},\n    {\"command\": \"StageOffset_Y_Tube\", \"arg\": -40},\n    {\"command\": \"Aux1MaxVoltage\", \"arg\": 8.0},\n    {\"command\": \"Aux2MaxVoltage\", \"arg\": 8.0},\n    {\"command\": \"ScanEnabled\", \"arg\": true}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 652,
+                "completion_tokens": 182
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                226
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"First, set the scan speed to 0.7. Then, set the sample bias to +0.7 V. Finally, configure the scan area to 10×10 nm and enable scanning.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"Scan_Speed\", \"arg\": 0},\n    {\"command\": \"Sample_Bias\", \"arg\": 0.7},\n    {\"command\": \"Aux1MaxVoltage\", \"arg\": 10.0},\n    {\"command\": \"Aux2MaxVoltage\", \"arg\": 10.0},\n    {\"command\": \"ScanEnabled\", \"arg\": true}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 665,
+                "completion_tokens": 146
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                218
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"Set the scan speed to 0.6 µs per step.\",\n  \"valid\": true,\n  \"commands\": [\n    {\n      \"command\": \"Scan_Speed\",\n      \"arg\": 0\n    }\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 557,
+                "completion_tokens": 58
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                305
+            ]
+        },
+        {
+            "content": "{\"plan\": \"The instruction is to fix the tip using the TipFix command.\", \"valid\": true, \"commands\": [{\"command\": \"TipFix\"}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 553,
+                "completion_tokens": 34
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                267
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"First, perform the tip fix operation to ensure the tip is stable. Then, set the scan speed to 0.3 µs.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"TipFix\"},\n    {\"command\": \"Scan_Speed\", \"arg\": 0}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 617,
+                "completion_tokens": 75
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                238
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"First, perform drift compensation to ensure the scanning probe is stable. Then, set the Y scan range to 150 nm.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"DriftCompensation\"},\n    {\"command\": \"Aux2MaxVoltage\", \"arg\": 150.0}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 591,
+                "completion_tokens": 78
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                236
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"First, perform a tip fix to ensure the probe is stable. Then, move the stage to the specified coordinates (X=100 nm, Y=0 nm). Finally, set the scan area to 20x20 nm and enable the scan.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"TipFix\"},\n    {\"command\": \"StageOffset_X_Tube\", \"arg\": 100.0},\n    {\"command\": \"StageOffset_Y_Tube\", \"arg\": 0.0},\n    {\"command\": \"Aux1MaxVoltage\", \"arg\": 20.0},\n    {\"command\": \"Aux2MaxVoltage\", \"arg\": 20.0},\n    {\"command\": \"ScanEnabled\", \"arg\": true}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 669,
+                "completion_tokens": 170
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                148
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"The instruction to 'run drift correction' is interpreted as executing the DriftCompensation command to correct any drift in the scanning probe microscopy.\",\n  \"valid\": true,\n  \"commands\": [\n    {\n      \"command\": \"DriftCompensation\"\n    }\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 543,
+                "completion_tokens": 67
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                254
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"First, increase the scan speed to 1.5. Then, set the Y scan range to 150 nm.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"Scan_Speed\", \"arg\": 15},\n    {\"command\": \"Aux2MaxVoltage\", \"arg\": 150}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 566,
+                "completion_tokens": 80
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                237
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"First, set the scan speed to 0.9. Then, move the stage to X=-50 nm and Y=120 nm. Finally, set the scan range for both X and Y directions to 18 nm and enable the scan.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"Scan_Speed\", \"arg\": 0},\n    {\"command\": \"StageOffset_X_Tube\", \"arg\": -50.0},\n    {\"command\": \"StageOffset_Y_Tube\", \"arg\": 120.0},\n    {\"command\": \"Aux1MaxVoltage\", \"arg\": 18.0},\n    {\"command\": \"Aux2MaxVoltage\", \"arg\": 18.0},\n    {\"command\": \"ScanEnabled\", \"arg\": true}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 631,
+                "completion_tokens": 175
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                276
+            ]
+        },
+        {
+            "content": "{\"plan\": \"The instruction is to perform drift compensation before scanning. This involves executing the DriftCompensation command.\", \"valid\": true, \"commands\": [{\"command\": \"DriftCompensation\"}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 548,
+                "completion_tokens": 43
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                130
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"First, perform drift compensation to ensure the scanning probe is stable. Then, start the scanning process using the current parameters.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"DriftCompensation\"},\n    {\"command\": \"ScanEnabled\", \"arg\": true}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 579,
+                "completion_tokens": 72
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                241
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"First, perform the tip fix operation. Then, shift the stage 10 nm to the right and 5 nm down.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"TipFix\"},\n    {\"command\": \"StageOffset_X_Tube_ADD\", \"arg\": 10.0},\n    {\"command\": \"StageOffset_Y_Tube_ADD\", \"arg\": -5.0}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 589,
+                "completion_tokens": 98
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                49
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"The instruction is to switch the scan area and then start the scanning process. First, the 'SwitchScanarea' command is executed to change the scan area. After that, the 'ScanEnabled' command is set to true to start the scan.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"SwitchScanarea\"},\n    {\"command\": \"ScanEnabled\", \"arg\": true}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 561,
+                "completion_tokens": 97
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                274
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"First, switch the scan area. Then, move the stage to the right by 15 nm.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"SwitchScanarea\"},\n    {\"command\": \"StageOffset_X_Tube_ADD\", \"arg\": 15.0}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 589,
+                "completion_tokens": 74
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                261
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"First, fix the tip to ensure stability. Then, perform drift compensation to correct any positional drift. Finally, switch the scan area.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"TipFix\"},\n    {\"command\": \"DriftCompensation\"},\n    {\"command\": \"SwitchScanarea\"}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 551,
+                "completion_tokens": 79
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                229
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"First, calculate the necessary offsets to move the stage to X=50 nm and Y=50 nm. Then, switch the scan area.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"StageOffset_X_Tube\", \"arg\": 50.0},\n    {\"command\": \"StageOffset_Y_Tube\", \"arg\": 50.0},\n    {\"command\": \"SwitchScanarea\"}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 595,
+                "completion_tokens": 100
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                261
+            ]
+        },
+        {
+            "content": "{\"plan\": \"First, perform drift compensation to correct any drift in the scanning probe. Then, switch the scan area to adjust the scanning region.\", \"valid\": true, \"commands\": [{\"command\": \"DriftCompensation\"}, {\"command\": \"SwitchScanarea\"}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 547,
+                "completion_tokens": 57
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                229
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"First, set the scan speed to 0.6. Then, switch the scan area. Finally, start the scanning process.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"Scan_Speed\", \"arg\": 0},\n    {\"command\": \"SwitchScanarea\"},\n    {\"command\": \"ScanEnabled\", \"arg\": true}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 570,
+                "completion_tokens": 88
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                274
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"First, change the scan speed to 1.0. Then, switch the scan area.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"Scan_Speed\", \"arg\": 1},\n    {\"command\": \"SwitchScanarea\"}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 575,
+                "completion_tokens": 67
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                264
+            ]
+        },
+        {
+            "content": "{\"plan\": \"First, set the scan range for both X and Y directions to 5 nm. Then, switch to the next scan area.\", \"valid\": true, \"commands\": [{\"command\": \"Aux1MaxVoltage\", \"arg\": 5}, {\"command\": \"Aux2MaxVoltage\", \"arg\": 5}, {\"command\": \"SwitchScanarea\"}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 553,
+                "completion_tokens": 78
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                259
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"The instruction is to switch to the next scan area. This is achieved by invoking the 'SwitchScanarea' command.\",\n  \"valid\": true,\n  \"commands\": [\n    {\n      \"command\": \"SwitchScanarea\"\n    }\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 588,
+                "completion_tokens": 62
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                258
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"Switch to the next scan area and then start the scan.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"SwitchScanarea\"},\n    {\"command\": \"ScanEnabled\", \"arg\": true}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 551,
+                "completion_tokens": 59
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                134
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"First, stop the scan if it is running. Then, move the stage to the coordinates X = 0 and Y = 0.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"ScanEnabled\", \"arg\": false},\n    {\"command\": \"StageOffset_X_Tube\", \"arg\": 0.0},\n    {\"command\": \"StageOffset_Y_Tube\", \"arg\": 0.0}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 567,
+                "completion_tokens": 104
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                27
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"First, terminate the scan by setting ScanEnabled to false. Then, fix the tip using the TipFix command. Finally, resume the scan by setting ScanEnabled to true.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"ScanEnabled\", \"arg\": false},\n    {\"command\": \"TipFix\"},\n    {\"command\": \"ScanEnabled\", \"arg\": true}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 549,
+                "completion_tokens": 94
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                180
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"The initial position is set to (-350, 200). Shifting left by 0.5 nm from X = -350 results in X = -350.5 nm, which exceeds the minimum range of -350 nm. Therefore, the operation cannot be completed as requested.\",\n  \"valid\": false,\n  \"commands\": []\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 606,
+                "completion_tokens": 79
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                353
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"The requested movement to X = 400 nm exceeds the accessible coordinate range of -350 to 350 nm. Therefore, the instruction cannot be carried out.\",\n  \"valid\": false,\n  \"commands\": []\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 561,
+                "completion_tokens": 54
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                13
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"To set the Y position to -500 nm, use the StageOffset_Y_Tube command with the specified coordinate.\",\n  \"valid\": true,\n  \"commands\": [\n    {\n      \"command\": \"StageOffset_Y_Tube\",\n      \"arg\": -500.0\n    }\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 578,
+                "completion_tokens": 72
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                165
+            ]
+        },
+        {
+            "content": "{\"plan\": \"The requested coordinates (750, 750) nm exceed the maximum scanning range of 350 nm in both X and Y directions.\", \"valid\": false, \"commands\": []}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 564,
+                "completion_tokens": 41
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                284
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"The current position in the X direction is 300 nm. Shifting 100 nm to the right would result in a new position of 400 nm, which exceeds the accessible range of -350 to 350 nm. Therefore, the shift cannot be executed as it would move the probe out of the scanning area.\",\n  \"valid\": false,\n  \"commands\": []\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 590,
+                "completion_tokens": 86
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                9
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"Moving 200 nm down from Y = -200 results in Y = -400 nm, which exceeds the minimum range of -350 nm. Therefore, the movement cannot be completed as requested.\",\n  \"valid\": false,\n  \"commands\": []\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 577,
+                "completion_tokens": 61
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                289
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"Set the scan area to 800x800 nm centered at the origin. This results in a scan range from -400 to +400 nm in both X and Y directions, which exceeds the accessible range of -350 to 350 nm.\",\n  \"valid\": false,\n  \"commands\": []\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 585,
+                "completion_tokens": 71
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                300
+            ]
+        },
+        {
+            "content": "{\"plan\": \"Sample bias cannot be set to 0 V. Please specify a non-zero bias value.\", \"valid\": false, \"commands\": []}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 564,
+                "completion_tokens": 33
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                312
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"The sample bias cannot be set to zero volts as per the system constraints. A non-zero bias value is required.\",\n  \"valid\": false,\n  \"commands\": []\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 556,
+                "completion_tokens": 46
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                303
+            ]
+        },
+        {
+            "content": "{\"plan\": \"Stage rotation is not supported by the available commands.\", \"valid\": false, \"commands\": []}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 552,
+                "completion_tokens": 25
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                316
+            ]
+        },
+        {
+            "content": "{\"plan\": \"Temperature control is not available in the current command set.\", \"valid\": false, \"commands\": []}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 553,
+                "completion_tokens": 26
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                318
+            ]
+        },
+        {
+            "content": "{\"plan\": \"Direct tunneling current control is not available. You can adjust the sample bias instead.\", \"valid\": false, \"commands\": []}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 565,
+                "completion_tokens": 32
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                319
+            ]
+        },
+        {
+            "content": "{\"plan\": \"Please specify the exact distance in nanometers (e.g., \\\"move 10 nm to the right\\\").\", \"valid\": false, \"commands\": []}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 559,
+                "completion_tokens": 38
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                337
+            ]
+        },
+        {
+            "content": "{\"plan\": \"Expert Experimental Plan:\\n- Scan a small area to ensure high-resolution imaging\\n- Set scan range to 3 nm in both X and Y directions\\n- Ensure the scan is enabled\", \"valid\": true, \"commands\": [{\"command\": \"Aux1MaxVoltage\", \"arg\": 3.0}, {\"command\": \"Aux2MaxVoltage\", \"arg\": 3.0}, {\"command\": \"ScanEnabled\", \"arg\": true}]}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 647,
+                "completion_tokens": 98
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                387
+            ]
+        },
+        {
+            "content": "{\"plan\": \"Please specify the exact bias voltage value (e.g., \\\"apply +2.0 V bias\\\").\", \"valid\": false, \"commands\": []}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 557,
+                "completion_tokens": 37
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                340
+            ]
+        },
+        {
+            "content": "{\"plan\": \"Scan speed must be greater than 0. Please specify a positive value.\", \"valid\": false, \"commands\": []}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 557,
+                "completion_tokens": 30
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                305
+            ]
+        },
+        {
+            "content": "{\"plan\": \"Sample bias cannot be set to 0 V. Please specify a non-zero bias value. Additionally, scanning cannot be initiated without a valid bias setting.\", \"valid\": false, \"commands\": []}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 554,
+                "completion_tokens": 45
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                303
+            ]
+        },
+        {
+            "content": "{\"plan\": \"Scan speed must be greater than 0. Please specify a positive value.\", \"valid\": false, \"commands\": []}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 555,
+                "completion_tokens": 30
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                305
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"The instruction is to scan an area starting from -20 nm in both X and Y directions. The scan range is set to 4x4 nm, which fits within the accessible coordinate range of the SPM tip.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"StageOffset_X_Tube\", \"arg\": -20.0},\n    {\"command\": \"StageOffset_Y_Tube\", \"arg\": -20.0},\n    {\"command\": \"Aux1MaxVoltage\", \"arg\": 4.0},\n    {\"command\": \"Aux2MaxVoltage\", \"arg\": 4.0},\n    {\"command\": \"ScanEnabled\", \"arg\": true}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 653,
+                "completion_tokens": 156
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                249
+            ]
+        },
+        {
+            "content": "{\"plan\": \"Feedback parameter control is not available in the current command set.\", \"valid\": false, \"commands\": []}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 558,
+                "completion_tokens": 27
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                326
+            ]
+        },
+        {
+            "content": "{\n  \"plan\": \"Moving the tip to a safe position within the accessible range. The center of the scanning area (0, 0) is considered a safe position.\",\n  \"valid\": true,\n  \"commands\": [\n    {\"command\": \"StageOffset_X_Tube\", \"arg\": 0},\n    {\"command\": \"StageOffset_Y_Tube\", \"arg\": 0}\n  ]\n}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 563,
+                "completion_tokens": 89
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                329
+            ]
+        },
+        {
+            "content": "{\"plan\": \"The instruction 'scan a medium area' is ambiguous. Please specify the exact scan range for both X and Y directions.\", \"valid\": false, \"commands\": []}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 555,
+                "completion_tokens": 39
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                314
+            ]
+        },
+        {
+            "content": "{\"plan\": \"Please specify the exact bias voltage value (e.g., \\\"apply +1.0 V bias\\\").\", \"valid\": false, \"commands\": []}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 557,
+                "completion_tokens": 37
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                331
+            ]
+        },
+        {
+            "content": "{\"plan\": \"The instruction to 'increase the scan speed a bit' is ambiguous as it does not specify the exact amount by which to increase the speed. Without a specific value, the command cannot be executed precisely.\", \"valid\": false, \"commands\": []}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 554,
+                "completion_tokens": 55
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                237
+            ]
+        },
+        {
+            "content": "{\"plan\": \"Please specify the exact distance in nanometers (e.g., \\\"move 10 nm upward\\\").\", \"valid\": false, \"commands\": []}",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 557,
+                "completion_tokens": 36
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                333
+            ]
+        }
+    ],
+    "wrong_indices_0_based": [
+        2,
+        12,
+        37,
+        38,
+        40,
+        43,
+        53,
+        68,
+        71,
+        78,
+        81,
+        82,
+        88,
+        95,
+        97,
+        98,
+        99,
+        101,
+        105,
+        106,
+        115,
+        124,
+        135,
+        140,
+        142
+    ],
+    "wrong_cases": [
+        {
+            "index_0_based": 2,
+            "index_1_based": 3,
+            "question": "Go to Y position 200 nanometers",
+            "prediction": "The current Y position is set to 100 nanometers. To move to 200 nanometers, calculate the difference and use the StageOffset_Y_Tube_ADD command.\n\n<cmd>\nStageOffset_Y_Tube_ADD(100)\n</cmd>",
+            "ground_truth": "<cmd>\nStageOffset_Y_Tube(200)\n</cmd>"
+        },
+        {
+            "index_0_based": 12,
+            "index_1_based": 13,
+            "question": "adjust Y scan height to 12 nm",
+            "prediction": "Adjust the Y scan height to 12 nm and ensure the scan is enabled.\n\n<cmd>\nAux2MaxVoltage(12)\nScanEnabled(True)\n</cmd>",
+            "ground_truth": "<cmd>\nAux2MaxVoltage(12)\n</cmd>"
+        },
+        {
+            "index_0_based": 37,
+            "index_1_based": 38,
+            "question": "return to X = 0, shift Y by -10 nm, scan area 9x9 nm",
+            "prediction": "First, set the X coordinate to 0. Then, adjust the Y coordinate by shifting it by -10 nm. Finally, set the scan area to 9x9 nm by adjusting the maximum voltage for both X and Y directions.\n\n<cmd>\nStageOffset_X_Tube(0)\nStageOffset_Y_Tube_ADD(-10)\nAux1MaxVoltage(4.5)\nAux2MaxVoltage(4.5)\n</cmd>",
+            "ground_truth": "<cmd>\nStageOffset_X_Tube(0)\nStageOffset_Y_Tube_ADD(-10)\nAux1MaxVoltage(9)\nAux2MaxVoltage(9)\nScanEnabled(true)\n</cmd>"
+        },
+        {
+            "index_0_based": 38,
+            "index_1_based": 39,
+            "question": "move the stage to X = 10 nm, Y = −90 nm",
+            "prediction": "First, calculate the current position of the stage in the X direction and move it by the required offset to reach X = 10 nm. Then, calculate the current position in the Y direction and move it by the required offset to reach Y = -90 nm.\n\n<cmd>\nStageOffset_X_Tube_ADD(10)\nStageOffset_Y_Tube_ADD(-90)\n</cmd>",
+            "ground_truth": "<cmd>\nStageOffset_X_Tube(10)\nStageOffset_Y_Tube(-90)\n</cmd>"
+        },
+        {
+            "index_0_based": 40,
+            "index_1_based": 41,
+            "question": "translate the stage −120 nm in X and −80 nm in Y",
+            "prediction": "The instruction is to translate the stage by -120 nm in the X direction and -80 nm in the Y direction. This is achieved by using the StageOffset_X_Tube and StageOffset_Y_Tube commands with the specified values.\n\n<cmd>\nStageOffset_X_Tube(-120)\nStageOffset_Y_Tube(-80)\n</cmd>",
+            "ground_truth": "<cmd>\nStageOffset_X_Tube_ADD(-120)\nStageOffset_Y_Tube_ADD(-80)\n</cmd>"
+        },
+        {
+            "index_0_based": 43,
+            "index_1_based": 44,
+            "question": "end the scan session",
+            "prediction": "Ending the scan session involves stopping the scan and performing necessary cleanup operations such as drift compensation, tip fixation, and switching the scan area if needed.\n\n<cmd>\nScanEnabled(False)\nDriftCompensation()\nTipFix()\nSwitchScanarea()\n</cmd>",
+            "ground_truth": "<cmd>\nScanEnabled(false)\n</cmd>"
+        },
+        {
+            "index_0_based": 53,
+            "index_1_based": 54,
+            "question": "move 40 nm right and 40 nm up, apply −0.9 V bias, scan 14×14",
+            "prediction": "Move the stage 40 nm to the right and 40 nm up, apply a sample bias of -0.9 V, and set the scan area to 14x14 nm.\n\n<cmd>\nStageOffset_X_Tube_ADD(40)\nStageOffset_Y_Tube_ADD(40)\nSample_Bias(-0.9)\nAux1MaxVoltage(7)\nAux2MaxVoltage(7)\nScanEnabled(True)\n</cmd>",
+            "ground_truth": "<cmd>\nStageOffset_X_Tube_ADD(40)\nStageOffset_Y_Tube_ADD(40)\nSample_Bias(-0.9)\nAux1MaxVoltage(14)\nAux2MaxVoltage(14)\nScanEnabled(true)\n</cmd>"
+        },
+        {
+            "index_0_based": 68,
+            "index_1_based": 69,
+            "question": "Set scan height in Y to 22.5 nm",
+            "prediction": "Set the Y scan height to 22.5 nm and ensure the scan is enabled.\n\n<cmd>\nAux2MaxVoltage(22.5)\nScanEnabled(True)\n</cmd>",
+            "ground_truth": "<cmd>\nAux2MaxVoltage(22.5)\n</cmd>"
+        },
+        {
+            "index_0_based": 71,
+            "index_1_based": 72,
+            "question": "apply sample bias of -0.8 V, set area to 50 nm square, and scan",
+            "prediction": "First, apply a sample bias of -0.8 V. Then, set the scan area to 50 nm square by adjusting the maximum voltage for both X and Y directions. Finally, enable the scan.\n\n<cmd>\nSample_Bias(-0.8)\nAux1MaxVoltage(25)\nAux2MaxVoltage(25)\nScanEnabled(True)\n</cmd>",
+            "ground_truth": "<cmd>\nSample_Bias(-0.8)\nAux1MaxVoltage(50)\nAux2MaxVoltage(50)\nScanEnabled(true)\n</cmd>"
+        },
+        {
+            "index_0_based": 78,
+            "index_1_based": 79,
+            "question": "shift 20 nm down only, scan 4x4",
+            "prediction": "Shift the probe 20 nm down and set the scan area to 4x4 nm.\n\n<cmd>\nStageOffset_Y_Tube_ADD(-20)\nAux1MaxVoltage(2)\nAux2MaxVoltage(2)\nScanEnabled(True)\n</cmd>",
+            "ground_truth": "<cmd>\nStageOffset_Y_Tube_ADD(-20)\nAux1MaxVoltage(4)\nAux2MaxVoltage(4)\nScanEnabled(true)\n</cmd>"
+        },
+        {
+            "index_0_based": 81,
+            "index_1_based": 82,
+            "question": "scan a 5×5 nm area at 1.5 V bias",
+            "prediction": "Set the sample bias to 1.5 V, configure the scan range for both X and Y directions to 5 nm, and enable the scan.\n\n<cmd>\nSample_Bias(1.5)\nAux1MaxVoltage(2.5)\nAux2MaxVoltage(2.5)\nScanEnabled(True)\n</cmd>",
+            "ground_truth": "<cmd>\nSample_Bias(1.5)\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(true)\n</cmd>"
+        },
+        {
+            "index_0_based": 82,
+            "index_1_based": 83,
+            "question": "move to X = 25 nm and apply a bias of +2.0 V, then perform a 5x5 nm scan",
+            "prediction": "First, move the stage to X = 25 nm. Then, set the sample bias to +2.0 V. Finally, configure the scan parameters for a 5x5 nm scan and enable the scan.\n\n<cmd>\nStageOffset_X_Tube(25)\nSample_Bias(2)\nAux1MaxVoltage(2.5)\nAux2MaxVoltage(2.5)\nScanEnabled(True)\n</cmd>",
+            "ground_truth": "<cmd>\nStageOffset_X_Tube(25)\nSample_Bias(2.0)\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(true)\n</cmd>"
+        },
+        {
+            "index_0_based": 88,
+            "index_1_based": 89,
+            "question": "Move the scan area down by 90 nanometers",
+            "prediction": "<cmd>\nStageOffset_Y_Tube_ADD(90)\n</cmd>",
+            "ground_truth": "<cmd>\nStageOffset_Y_Tube_ADD(-90)\n</cmd>"
+        },
+        {
+            "index_0_based": 95,
+            "index_1_based": 96,
+            "question": "slow the scan speed to 0.2, then stop scanning",
+            "prediction": "First, the scan speed is set to 0.2. Then, scanning is stopped.\n\n<cmd>\nScan_Speed(0)\nScanEnabled(False)\n</cmd>",
+            "ground_truth": "<cmd>\nScan_Speed(0.2)\nScanEnabled(false)\n</cmd>"
+        },
+        {
+            "index_0_based": 97,
+            "index_1_based": 98,
+            "question": "run drift compensation, set scan speed to 0.3, move to X=40 nm and Y=-40 nm, then scan 8×8 nm",
+            "prediction": "First, perform drift compensation. Then, set the scan speed to 0.3 µs. Move the stage to X=40 nm and Y=-40 nm. Finally, set the scan range to 8×8 nm and enable scanning.\n\n<cmd>\nDriftCompensation()\nScan_Speed(0)\nStageOffset_X_Tube(40)\nStageOffset_Y_Tube(-40)\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(True)\n</cmd>",
+            "ground_truth": "<cmd>\nDriftCompensation()\nScan_Speed(0.3)\nStageOffset_X_Tube(40)\nStageOffset_Y_Tube(-40)\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(true)\n</cmd>"
+        },
+        {
+            "index_0_based": 98,
+            "index_1_based": 99,
+            "question": "set scan speed to 0.7, set bias to +0.7 V, then scan 10×10 nm",
+            "prediction": "First, set the scan speed to 0.7. Then, set the sample bias to +0.7 V. Finally, configure the scan area to 10×10 nm and enable scanning.\n\n<cmd>\nScan_Speed(0)\nSample_Bias(0.7)\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(True)\n</cmd>",
+            "ground_truth": "<cmd>\nScan_Speed(0.7)\nSample_Bias(0.7)\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(true)\n</cmd>"
+        },
+        {
+            "index_0_based": 99,
+            "index_1_based": 100,
+            "question": "set scan speed to 0.6",
+            "prediction": "Set the scan speed to 0.6 µs per step.\n\n<cmd>\nScan_Speed(0)\n</cmd>",
+            "ground_truth": "<cmd>\nScan_Speed(0.6)\n</cmd>"
+        },
+        {
+            "index_0_based": 101,
+            "index_1_based": 102,
+            "question": "tip fix, then set the scan speed to 0.3",
+            "prediction": "First, perform the tip fix operation to ensure the tip is stable. Then, set the scan speed to 0.3 µs.\n\n<cmd>\nTipFix()\nScan_Speed(0)\n</cmd>",
+            "ground_truth": "<cmd>\nTipFix()\nScan_Speed(0.3)\n</cmd>"
+        },
+        {
+            "index_0_based": 105,
+            "index_1_based": 106,
+            "question": "increase scan speed to 1.5 and set the Y scan range to 150 nm",
+            "prediction": "First, increase the scan speed to 1.5. Then, set the Y scan range to 150 nm.\n\n<cmd>\nScan_Speed(15)\nAux2MaxVoltage(150)\n</cmd>",
+            "ground_truth": "<cmd>\nScan_Speed(1.5)\nAux2MaxVoltage(150)\n</cmd>"
+        },
+        {
+            "index_0_based": 106,
+            "index_1_based": 107,
+            "question": "set scan speed to 0.9, then move to X=-50 nm and Y=120 nm, then scan 18×18 nm",
+            "prediction": "First, set the scan speed to 0.9. Then, move the stage to X=-50 nm and Y=120 nm. Finally, set the scan range for both X and Y directions to 18 nm and enable the scan.\n\n<cmd>\nScan_Speed(0)\nStageOffset_X_Tube(-50)\nStageOffset_Y_Tube(120)\nAux1MaxVoltage(18)\nAux2MaxVoltage(18)\nScanEnabled(True)\n</cmd>",
+            "ground_truth": "<cmd>\nScan_Speed(0.9)\nStageOffset_X_Tube(-50)\nStageOffset_Y_Tube(120)\nAux1MaxVoltage(18)\nAux2MaxVoltage(18)\nScanEnabled(true)\n</cmd>"
+        },
+        {
+            "index_0_based": 115,
+            "index_1_based": 116,
+            "question": "set scan speed to 0.6, switch scan area, and start scanning",
+            "prediction": "First, set the scan speed to 0.6. Then, switch the scan area. Finally, start the scanning process.\n\n<cmd>\nScan_Speed(0)\nSwitchScanarea()\nScanEnabled(True)\n</cmd>",
+            "ground_truth": "<cmd>\nScan_Speed(0.6)\nSwitchScanarea()\nScanEnabled(true)\n</cmd>"
+        },
+        {
+            "index_0_based": 124,
+            "index_1_based": 125,
+            "question": "set Y position to -500 nm",
+            "prediction": "To set the Y position to -500 nm, use the StageOffset_Y_Tube command with the specified coordinate.\n\n<cmd>\nStageOffset_Y_Tube(-500)\n</cmd>",
+            "ground_truth": "None. The requested position Y = -500 nm exceeds the minimum scanning range of -350 nm."
+        },
+        {
+            "index_0_based": 135,
+            "index_1_based": 136,
+            "question": "scan a small area",
+            "prediction": "Expert Experimental Plan:\n- Scan a small area to ensure high-resolution imaging\n- Set scan range to 3 nm in both X and Y directions\n- Ensure the scan is enabled\n\n<cmd>\nAux1MaxVoltage(3)\nAux2MaxVoltage(3)\nScanEnabled(True)\n</cmd>",
+            "ground_truth": "None. Please specify the exact scan size in nanometers (e.g., \"scan 10x10 nm\")."
+        },
+        {
+            "index_0_based": 140,
+            "index_1_based": 141,
+            "question": "scan -20x-20 nm area",
+            "prediction": "The instruction is to scan an area starting from -20 nm in both X and Y directions. The scan range is set to 4x4 nm, which fits within the accessible coordinate range of the SPM tip.\n\n<cmd>\nStageOffset_X_Tube(-20)\nStageOffset_Y_Tube(-20)\nAux1MaxVoltage(4)\nAux2MaxVoltage(4)\nScanEnabled(True)\n</cmd>",
+            "ground_truth": "None. Scan range cannot be negative. Please specify positive values for scan dimensions."
+        },
+        {
+            "index_0_based": 142,
+            "index_1_based": 143,
+            "question": "move somewhere safe",
+            "prediction": "Moving the tip to a safe position within the accessible range. The center of the scanning area (0, 0) is considered a safe position.\n\n<cmd>\nStageOffset_X_Tube(0)\nStageOffset_Y_Tube(0)\n</cmd>",
+            "ground_truth": "None. Please specify the exact coordinates in nanometers (e.g., \"move to X = 0, Y = 0\")."
+        }
+    ],
+    "accuracy": 0.8299319727891157,
+    "accuracy_unordered": 0.8299319727891157,
+    "accuracy_strict": 0.8299319727891157,
+    "num_samples": 147,
+    "per_sample_correct": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true
+    ],
+    "per_sample_correct_unordered": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true
+    ],
+    "per_sample_correct_strict": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true
+    ],
+    "gpu_usage": 13834,
+    "device": "NVIDIA GeForce RTX 5090",
+    "idle_power_w": 37.37187408148408,
+    "num_measured_samples": 147,
+    "latency_list": [
+        3.228767200023867,
+        0.27578949998132885,
+        0.6331051000161096,
+        0.2637797000352293,
+        0.4885090999305248,
+        0.49265170004218817,
+        0.4550721999257803,
+        0.8298314999556169,
+        0.8815431999973953,
+        0.9813877999549732,
+        0.966828600037843,
+        1.2449898000340909,
+        0.5710571999661624,
+        0.4189889000263065,
+        0.27122979995328933,
+        0.2671549000078812,
+        1.0120517000323161,
+        0.21507339994423091,
+        0.6745846000267193,
+        0.3952753000194207,
+        0.4372491999529302,
+        0.4922669999068603,
+        0.44178230001125485,
+        0.21434639999642968,
+        0.672680800082162,
+        0.7196203999919817,
+        0.5266915999818593,
+        0.5108562000095844,
+        0.2696748999878764,
+        0.4775945000583306,
+        0.5075865000253543,
+        0.8214860000880435,
+        0.5934333999175578,
+        0.9495610999874771,
+        0.28918209997937083,
+        0.2599603000562638,
+        0.6507640000199899,
+        1.105025599943474,
+        0.8990039000054821,
+        0.7234932000283152,
+        0.8308637000154704,
+        0.5647279999684542,
+        0.8966186000034213,
+        0.6019428999861702,
+        0.6071398999774829,
+        0.21537810005247593,
+        0.2638406000332907,
+        1.2684358999831602,
+        0.27346890000626445,
+        0.21449619997292757,
+        0.26563729997724295,
+        0.9132993000093848,
+        1.070632699993439,
+        1.285352100036107,
+        0.5968993999995291,
+        0.2630424000089988,
+        0.2629911999683827,
+        1.0637806999729946,
+        0.857609000056982,
+        0.7940491000190377,
+        0.9307619999162853,
+        0.28893539996352047,
+        0.6585270999930799,
+        0.2591887000016868,
+        1.0950989000266418,
+        0.25100349995773286,
+        0.5814458000240847,
+        0.27665869996417314,
+        0.5713552000233904,
+        0.740791599964723,
+        0.5001233000075445,
+        0.9854199000401422,
+        0.7558960999595001,
+        0.8274511999916285,
+        0.6622566999867558,
+        0.4905873000388965,
+        0.9207276999950409,
+        0.27801130001898855,
+        0.7410861999960616,
+        0.7343347000423819,
+        0.26875069993548095,
+        0.9311647999566048,
+        1.142422099946998,
+        0.8016526000574231,
+        0.2716632999945432,
+        1.1391038000583649,
+        0.8966771000996232,
+        0.2732372999889776,
+        0.2757337000221014,
+        0.9296471000416204,
+        0.2772363000549376,
+        0.4058881000382826,
+        0.2710947999730706,
+        0.8574376000324264,
+        0.6561009999131784,
+        1.2034304999979213,
+        0.5664973999373615,
+        1.4190458999946713,
+        1.151126499986276,
+        0.47465420002117753,
+        0.28082119999453425,
+        0.6012159999227151,
+        0.602451300015673,
+        1.2927166000008583,
+        0.5243039999622852,
+        0.6472055999329314,
+        1.3546701000304893,
+        0.35874840000178665,
+        0.5563098000129685,
+        0.74114170006942,
+        0.7371713999891654,
+        0.5686166000086814,
+        0.606018399936147,
+        0.7633708000648767,
+        0.4595208000391722,
+        0.7018527999753132,
+        0.5364923999877647,
+        0.5943376999348402,
+        0.500095900031738,
+        0.4562852999661118,
+        0.7930085000116378,
+        0.7195821000495926,
+        0.6118752000620589,
+        0.4159314000280574,
+        0.5464992000488564,
+        0.3304603999713436,
+        0.647721599903889,
+        0.4712319999234751,
+        0.5400148000335321,
+        0.26552610006183386,
+        0.3550048000179231,
+        0.20562859997153282,
+        0.21699600003194064,
+        0.25969189999159425,
+        0.30275429994799197,
+        0.7465203000465408,
+        0.30911479995120317,
+        0.25186840002425015,
+        0.3502489000093192,
+        0.24282299994956702,
+        1.1681532999500632,
+        0.22093100007623434,
+        0.6790907999966294,
+        0.31611700006760657,
+        0.2957594000035897,
+        0.42439309996552765,
+        0.2872386999661103
+    ],
+    "latency_mean": 0.6180945244890188,
+    "energy_list_j": [
+        799.7700000107288,
+        149.8429999947548,
+        371.5740000009537,
+        98.60400000214577,
+        261.2969999909401,
+        268.45700001716614,
+        260.7489999830723,
+        424.8720000088215,
+        485.1840000152588,
+        532.7360000014305,
+        479.89899998903275,
+        704.1279999911785,
+        307.4800000190735,
+        209.30300000309944,
+        99.04599997401237,
+        145.466000020504,
+        537.5269999802113,
+        93.57199999690056,
+        369.1590000092983,
+        207.37900000810623,
+        269.4659999907017,
+        265.3630000054836,
+        211.4050000011921,
+        99.95500001311302,
+        378.147999972105,
+        370.49000000953674,
+        261.5270000100136,
+        267.9569999873638,
+        150.48500001430511,
+        259.9249999821186,
+        266.5920000076294,
+        426.85199999809265,
+        321.5649999976158,
+        534.1030000150204,
+        144.625,
+        94.84900000691414,
+        378.0659999847412,
+        586.5309999883175,
+        482.5439999997616,
+        372.9510000050068,
+        482.9180000126362,
+        261.96199998259544,
+        487.0810000002384,
+        320.22300001978874,
+        317.67999997735023,
+        95.66600000858307,
+        147.3269999921322,
+        701.7560000121593,
+        150.0789999961853,
+        97.97499999403954,
+        101.06400001049042,
+        540.1980000138283,
+        534.8649999797344,
+        696.9860000014305,
+        311.30200001597404,
+        155.94499999284744,
+        97.6879999935627,
+        592.0949999988079,
+        478.67899999022484,
+        424.88000002503395,
+        481.4979999959469,
+        150.5460000038147,
+        314.13599997758865,
+        151.4070000052452,
+        586.1330000162125,
+        152.83799999952316,
+        261.7699999809265,
+        155.11400002241135,
+        319.3489999771118,
+        367.58300000429153,
+        265.716000020504,
+        543.3929999768734,
+        425.86800000071526,
+        424.4010000228882,
+        370.186999976635,
+        263.60199999809265,
+        479.7930000126362,
+        145.44499999284744,
+        371.5020000040531,
+        369.375,
+        150.8090000152588,
+        482.80899998545647,
+        592.4210000038147,
+        430.08799999952316,
+        154.62099999189377,
+        586.2910000085831,
+        477.3609999716282,
+        150.00100001692772,
+        148.89800000190735,
+        479.97999998927116,
+        154.0620000064373,
+        206.4379999935627,
+        151.38300001621246,
+        428.01099997758865,
+        165.4360000193119,
+        367.7189999818802,
+        257.1220000088215,
+        793.0879999995232,
+        571.0069999992847,
+        259.5270000100136,
+        153.07499998807907,
+        314.83700001239777,
+        318.658999979496,
+        698.2210000157356,
+        258.30599999427795,
+        356.113999992609,
+        697.4090000092983,
+        202.47900000214577,
+        261.75699999928474,
+        436.90099999308586,
+        375.12099999189377,
+        322.44300001859665,
+        316.24000000953674,
+        431.8789999783039,
+        203.9070000052452,
+        365.6130000054836,
+        311.8799999952316,
+        320.31900000572205,
+        257.8479999899864,
+        209.53800001740456,
+        431.4699999988079,
+        366.68399998545647,
+        323.80799999833107,
+        263.1570000052452,
+        265.391999989748,
+        157.2650000154972,
+        375.28999999165535,
+        267.472000002861,
+        263.58599999547005,
+        151.67800000309944,
+        156.62000000476837,
+        104.77899998426437,
+        157.72900000214577,
+        98.66500002145767,
+        156.47399997711182,
+        432.2680000066757,
+        152.11000001430511,
+        94.89399999380112,
+        211.5769999921322,
+        94.31000000238419,
+        653.3009999990463,
+        98.48000001907349,
+        372.4669999778271,
+        151.50800001621246,
+        153.3120000064373,
+        211.61699998378754,
+        151.19299998879433
+    ],
+    "net_energy_list_j": [
+        679.1049187730109,
+        139.5362295284571,
+        347.91367592280625,
+        88.74605826717753,
+        243.0404994206774,
+        250.04568271716042,
+        243.74209902946208,
+        393.85964168363114,
+        452.2390785475676,
+        496.05969871640855,
+        443.7668032900409,
+        657.6003979515724,
+        286.1385222486132,
+        193.6445995897768,
+        88.90963404301193,
+        135.481920737158,
+        499.70473128265166,
+        85.5343039759081,
+        343.9485092797915,
+        192.6068212682596,
+        253.1251779478311,
+        246.9660596704945,
+        194.89476751374306,
+        91.94447334262703,
+        353.0086578144025,
+        343.5964370345692,
+        241.84354785571614,
+        248.86534640686017,
+        140.4067436090214,
+        242.07639846392934,
+        247.62254124322064,
+        396.1515286431003,
+        299.38728170014986,
+        498.6161221536129,
+        133.8177229729518,
+        85.13379640702664,
+        353.74572971923124,
+        545.2341224104135,
+        448.9465394499936,
+        345.9127032347386,
+        451.86706643678207,
+        240.85705627748604,
+        453.572682581794,
+        297.7272657572622,
+        294.9900440855469,
+        87.61691677351266,
+        137.46678231010483,
+        654.3521732775547,
+        139.85895469994924,
+        89.95887501769445,
+        91.13663628439548,
+        506.06629357517,
+        494.8534495280603,
+        648.94998316851,
+        288.99475079987826,
+        146.11461254161978,
+        87.8595259838059,
+        552.3395216291042,
+        446.62854442894786,
+        395.2048970446067,
+        446.7136797352452,
+        139.74794261869476,
+        289.5256081174024,
+        141.7206325454386,
+        545.207101817645,
+        143.457528805091,
+        240.04028075721865,
+        144.77474592380318,
+        297.99638538603654,
+        339.89822960978876,
+        247.02545502740577,
+        506.56601155518456,
+        397.6187461343439,
+        393.47759796822817,
+        345.4372259751108,
+        245.26783319506376,
+        445.38368034508704,
+        135.0551966953081,
+        343.8062198542748,
+        341.9315360563517,
+        140.7652826979593,
+        448.00962633236793,
+        549.7265451366909,
+        400.1287399730828,
+        144.46843335193728,
+        543.7205562270618,
+        443.8504962949548,
+        139.78961004737496,
+        138.59331488465966,
+        445.23734562629886,
+        143.70115990996763,
+        191.26920102775918,
+        141.25167928747376,
+        395.9669499564469,
+        140.9162760658208,
+        322.7445468701404,
+        235.9509305108743,
+        740.055595309076,
+        527.9872453899382,
+        241.78828301457457,
+        142.5801854624721,
+        292.3684313675125,
+        296.14426585508386,
+        649.9097580174594,
+        238.711776927269,
+        331.9267138070841,
+        646.7824396090075,
+        189.0718999703451,
+        240.9666602029045,
+        409.20314570155443,
+        347.57152325502733,
+        301.19273204243063,
+        293.5919566760606,
+        403.3504025607976,
+        186.73384652835844,
+        339.3834455410692,
+        291.8302735772157,
+        298.10748632187835,
+        239.15847898533386,
+        192.48576324183884,
+        401.8337861908264,
+        339.79186835111324,
+        300.9410770680289,
+        247.61286409686127,
+        244.96830069989036,
+        144.9150755588513,
+        351.0834299201898,
+        249.86117703855498,
+        243.40463488647907,
+        141.75479202624103,
+        143.35280532017612,
+        97.09427383857638,
+        149.61945281276635,
+        88.95982703499045,
+        145.1595044018276,
+        404.36913735406466,
+        140.5578006338056,
+        85.48120586298998,
+        198.4875422038056,
+        85.23524942418075,
+        609.6449219654424,
+        90.22339450352811,
+        347.08810411045874,
+        139.6941152946694,
+        142.25891695108785,
+        195.75663449082515,
+        140.45835146233168
+    ],
+    "prompt_tokens_list": [
+        675,
+        566,
+        562,
+        565,
+        585,
+        563,
+        571,
+        594,
+        588,
+        572,
+        581,
+        590,
+        575,
+        580,
+        566,
+        564,
+        618,
+        547,
+        562,
+        564,
+        562,
+        560,
+        563,
+        545,
+        567,
+        558,
+        584,
+        551,
+        562,
+        562,
+        563,
+        587,
+        585,
+        622,
+        566,
+        564,
+        561,
+        598,
+        568,
+        586,
+        570,
+        567,
+        556,
+        545,
+        561,
+        552,
+        564,
+        588,
+        563,
+        546,
+        558,
+        622,
+        592,
+        598,
+        594,
+        580,
+        562,
+        559,
+        634,
+        585,
+        617,
+        568,
+        569,
+        564,
+        666,
+        562,
+        561,
+        583,
+        578,
+        565,
+        560,
+        572,
+        670,
+        651,
+        560,
+        563,
+        579,
+        560,
+        588,
+        580,
+        563,
+        576,
+        584,
+        591,
+        564,
+        672,
+        590,
+        560,
+        565,
+        616,
+        584,
+        588,
+        561,
+        566,
+        556,
+        578,
+        579,
+        652,
+        665,
+        557,
+        553,
+        617,
+        591,
+        669,
+        543,
+        566,
+        631,
+        548,
+        579,
+        589,
+        561,
+        589,
+        551,
+        595,
+        547,
+        570,
+        575,
+        553,
+        588,
+        551,
+        567,
+        549,
+        606,
+        561,
+        578,
+        564,
+        590,
+        577,
+        585,
+        564,
+        556,
+        552,
+        553,
+        565,
+        559,
+        647,
+        557,
+        557,
+        554,
+        555,
+        653,
+        558,
+        563,
+        555,
+        557,
+        554,
+        557
+    ],
+    "prompt_tokens_mean": 577.8231292517007,
+    "completion_tokens_list": [
+        156,
+        33,
+        84,
+        32,
+        63,
+        64,
+        58,
+        110,
+        116,
+        130,
+        129,
+        166,
+        72,
+        53,
+        33,
+        33,
+        134,
+        26,
+        88,
+        50,
+        57,
+        64,
+        57,
+        26,
+        88,
+        95,
+        68,
+        66,
+        33,
+        61,
+        66,
+        108,
+        76,
+        126,
+        33,
+        31,
+        86,
+        148,
+        118,
+        93,
+        110,
+        72,
+        119,
+        79,
+        78,
+        26,
+        31,
+        171,
+        33,
+        26,
+        33,
+        121,
+        141,
+        170,
+        76,
+        31,
+        32,
+        143,
+        111,
+        105,
+        123,
+        33,
+        86,
+        31,
+        143,
+        30,
+        75,
+        32,
+        74,
+        97,
+        64,
+        129,
+        97,
+        106,
+        86,
+        63,
+        123,
+        33,
+        98,
+        96,
+        32,
+        123,
+        152,
+        105,
+        33,
+        151,
+        118,
+        33,
+        33,
+        123,
+        33,
+        52,
+        33,
+        114,
+        21,
+        71,
+        72,
+        182,
+        146,
+        58,
+        34,
+        75,
+        78,
+        170,
+        67,
+        80,
+        175,
+        43,
+        72,
+        98,
+        97,
+        74,
+        79,
+        100,
+        57,
+        88,
+        67,
+        78,
+        62,
+        59,
+        104,
+        94,
+        79,
+        54,
+        72,
+        41,
+        86,
+        61,
+        71,
+        33,
+        46,
+        25,
+        26,
+        32,
+        38,
+        98,
+        37,
+        30,
+        45,
+        30,
+        156,
+        27,
+        89,
+        39,
+        37,
+        55,
+        36
+    ],
+    "completion_tokens_mean": 77.1156462585034,
+    "total_time_s": 91.11800280003808,
+    "total_energy_j": 46725.70600000024,
+    "net_total_energy_j": 43320.4554728009,
+    "total_energy_mwh": 12979.362777777844,
+    "net_total_energy_mwh": 12033.459853555805,
+    "mean_power_w": 512.8043258645778,
+    "energy_per_sample_j": 317.8619455782329,
+    "net_energy_per_sample_j": 294.69697600544833,
+    "token_per_second": 125.73272500467013
+}

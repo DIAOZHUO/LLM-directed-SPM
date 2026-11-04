@@ -1,0 +1,4068 @@
+{
+    "config": {
+        "model": "phi-4",
+        "mode": "prompt",
+        "k": 5,
+        "selection": "similar",
+        "thinking": false,
+        "sampling": {
+            "temperature": 0,
+            "presence_penalty": 0.0,
+            "seed": 0,
+            "max_tokens": 1024,
+            "extra_body": {
+                "min_p": 0.0,
+                "repeat_penalty": 1.0
+            }
+        }
+    },
+    "questions": [
+        "shift -10 nm in X and +5 nm in Y, scan 6×6nm",
+        "translate the probe 8 nm along the x-axis",
+        "Go to Y position 200 nanometers",
+        "Move the tip to absolute X = 150 nm",
+        "go to X = 10, Y = 90",
+        "widen X and Y scan to 22 nm",
+        "move to X = 30 nm, keep Y unchanged",
+        "go to (X = 100, Y = −200) and apply −0.5 V",
+        "step down 35 nm in Y and scan 7×7",
+        "increase Y by 12 nm in the positive direction and scan 9×9",
+        "move 10 nm left and scan a 5x5 nm area",
+        "move 10 nm left and 10 nm down, apply +0.3 V, scan 8×8",
+        "adjust Y scan height to 12 nm",
+        "Set vertical scan height to 110 nanometers",
+        "Slide the tip 90 nanometers to the right",
+        "Adjust the scanner 50 nanometers right",
+        "apply -1.0 V and scan 12×12 nm",
+        "stop measuring with the scanner",
+        "shift in y direction by 20 nm",
+        "shift the probe by 30 nm in Y direction",
+        "enable scanning with current settings",
+        "Set the sample bias to 1.2 V",
+        "Subtract 100 nm from the Y position",
+        "stop scanning now",
+        "set both scan sizes to 240 nm and resume scanning",
+        "move 100 nm left along X",
+        "set Y coordinate to -350 nm",
+        "enable scan mode.",
+        "shift in y direction by 5 nm",
+        "Move the stage to Y = 130 nm",
+        "decrease bias to -0.4 V",
+        "move diagonally 15 nm right and 15 nm up",
+        "move tip to (350, -250)",
+        "shift 12 nm left, keep Y, scan 6×6",
+        "move the probe 25 nm along the y-axis",
+        "Set the X scan range to 60 nanometers",
+        "Set bias voltage to -1.0 V",
+        "return to X = 0, shift Y by -10 nm, scan area 9x9 nm",
+        "move the stage to X = 10 nm, Y = −90 nm",
+        "scan 13×13 nm",
+        "translate the stage −120 nm in X and −80 nm in Y",
+        "set both X and Y scan sizes to 200 nm",
+        "start a 16×16 nm scan with 1.5V",
+        "end the scan session",
+        "set horizontal scan size to 250 nm",
+        "commence the scan routine",
+        "Adjust the scan range along Y to 95 nm",
+        "apply -1 V bias, reset to origin, then scan 10x10",
+        "step 15 nm in the −Y direction",
+        "egage the scan",
+        "move 10 nm upward",
+        "apply 1 V sample bias and scan at current position with 8x8 nm area",
+        "move to (200, −250) and scan 20×10",
+        "move 40 nm right and 40 nm up, apply −0.9 V bias, scan 14×14",
+        "go to absolute coordinates X = 50, Y = 100 and start scanning",
+        "shrink X scan size down to 60 nm",
+        "Adjust the Y coordinate to -85 nm",
+        "shift 5 nm both in X and Y, then start 6x6 scan",
+        "move probe to (−250, 150)",
+        "move 25 nm left and 10 nm up",
+        "apply a bias of +1.0 V and scan 10×10 nm",
+        "Displace the tip -80 nanometers in Y",
+        "set X to 300 nm，Y to 10 nm absolutely.",
+        "Limit the scan range in X to 80 nm",
+        "set X = −10, Y = −10 and scan 10×10",
+        "increase sample bias to +0.9 V",
+        "adjust the sample bias to −750 mV",
+        "set absolute X = −300 nm",
+        "Set scan height in Y to 22.5 nm",
+        "set coordinates to (−90, −90)",
+        "Lower the sample bias to -1.2 V",
+        "apply sample bias of -0.8 V, set area to 50 nm square, and scan",
+        "shift 20 nm up, apply -1.5 V sample bias, and begin scanning",
+        "perform a 37.5×37.5 nm scan at +1.0 V",
+        "shift −2 nm in X",
+        "lower the bias to −0.2 V",
+        "apply −0.8 V and start scanning 8×8 nm",
+        "move +3 nm in Y",
+        "shift 20 nm down only, scan 4x4",
+        "return to origin",
+        "Set the X position to 100 nanometers",
+        "scan a 5×5 nm area at 1.5 V bias",
+        "move to X = 25 nm and apply a bias of +2.0 V, then perform a 5x5 nm scan",
+        "move the tip to absolute position X = -300, Y = -300",
+        "Shift the probe head by 120 nm to the right",
+        "go to Y = 60 nm, apply -2.0 V bias, and scan 12x12",
+        "go to absolute Y = 220 nm and scan 10×10",
+        "Move the tip 100 nm upward",
+        "Move the scan area down by 90 nanometers",
+        "move to X = 200 nm and scan 15×15 nm",
+        "move the probe 30 nm to the right",
+        "nudge the probe 1 nm right and 1 nm up",
+        "shift 40 nm downward in Y",
+        "run tip fix and then start a 15×15 nm scan",
+        "run tip fix",
+        "slow the scan speed to 0.2, then stop scanning",
+        "do tip fix and then start scanning with the current parameters",
+        "run drift compensation, set scan speed to 0.3, move to X=40 nm and Y=-40 nm, then scan 8×8 nm",
+        "set scan speed to 0.7, set bias to +0.7 V, then scan 10×10 nm",
+        "set scan speed to 0.6",
+        "fix the tip",
+        "tip fix, then set the scan speed to 0.3",
+        "drift compensate, then set the Y scan range to 150 nm",
+        "perform tip fix, then move to X=100 nm and Y=0 nm, then scan 20×20 nm",
+        "run drift correction",
+        "increase scan speed to 1.5 and set the Y scan range to 150 nm",
+        "set scan speed to 0.9, then move to X=-50 nm and Y=120 nm, then scan 18×18 nm",
+        "please correct drift before scanning",
+        "perform drift compensation and then start scanning with the current parameters",
+        "tip fix, then shift 10 nm right and 5 nm down",
+        "switch the area and then start scanning",
+        "switch scan area and move right by 15 nm",
+        "fix the tip, do drift compensation, then switch scan area",
+        "move to X=50 nm and Y=50 nm, then switch scan area",
+        "do drift compensation and then switch scan area",
+        "set scan speed to 0.6, switch scan area, and start scanning",
+        "change scan speed to 1.0 and then switch scan area",
+        "use scan range 5 and switch to the next scan region",
+        "change the next scan area",
+        "go to the next scan area and start scan",
+        "stop scan, move to X = 0, Y = 0",
+        "terminate scan, fix tip, then resume",
+        "go to (-350, 200), shift left by 0.5 nm, scan 50x50",
+        "move to X = 400 nm",
+        "set Y position to -500 nm",
+        "go to coordinates (750, 750)",
+        "shift 100 nm right from current position X = 300",
+        "move 200 nm down from Y = -200",
+        "set scan area to 800x800 nm at origin",
+        "apply a bias of 0 V",
+        "set the bias to exactly zero volts",
+        "rotate the stage by 45 degrees",
+        "change the temperature to 77 K",
+        "increase the tunneling current to 2 nA",
+        "move a bit to the right",
+        "scan a small area",
+        "apply high bias voltage",
+        "set scan speed to -0.5",
+        "apply zero bias and scan",
+        "set scan speed to 0",
+        "scan -20x-20 nm area",
+        "adjust feedback loop gain to 3.0",
+        "move somewhere safe",
+        "scan a medium area",
+        "apply some bias voltage",
+        "increase the scan speed a bit",
+        "move slightly upward"
+    ],
+    "predictions": [
+        "<cmd>\nStageOffset_X_Tube_ADD(-10)\nStageOffset_Y_Tube_ADD(5)\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(8)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube(200)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(150)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(10)\nStageOffset_Y_Tube(90)\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(22)\nAux2MaxVoltage(22)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(30)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(100)\nStageOffset_Y_Tube(-200)\nSample_Bias(-0.5)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(-35)\nAux1MaxVoltage(7)\nAux2MaxVoltage(7)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(12)\nAux2MaxVoltage(9)\nAux1MaxVoltage(9)\nScanEnabled(True)\n</cmd>",
+        "To move 10 nm left and scan a 5x5 nm area, we need to adjust the stage position and set the scan range for both the X and Y directions. Here's how you can do it:\n\n<cmd>\nStageOffset_X_Tube_ADD(-10)\nAux1MaxVoltage(2.5)  // Half of 5 nm for X direction\nAux2MaxVoltage(2.5)  // Half of 5 nm for Y direction\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(-10)\nStageOffset_Y_Tube_ADD(-10)\nSample_Bias(0.3)\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nAux2MaxVoltage(12)\n</cmd>",
+        "<cmd>\nAux2MaxVoltage(110)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(90)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(50)\n</cmd>",
+        "<cmd>\nSample_Bias(-1.0)\nAux1MaxVoltage(12)\nAux2MaxVoltage(12)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nScanEnabled(false)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(20)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(30)\n</cmd>",
+        "<cmd>\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nSample_Bias(1.2)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(-100)\n</cmd>",
+        "<cmd>\nScanEnabled(false)\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(240)\nAux2MaxVoltage(240)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(-100)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube(-350)\n</cmd>",
+        "<cmd>\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(5)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube(130)\n</cmd>",
+        "<cmd>\nSample_Bias(-0.4)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(15)\nStageOffset_Y_Tube_ADD(15)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(350)\nStageOffset_Y_Tube(-250)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(-12)\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(25)\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(60)\n</cmd>",
+        "<cmd>\nSample_Bias(-1.0)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(0)\nStageOffset_Y_Tube_ADD(-10)\nAux1MaxVoltage(4.5)\nAux2MaxVoltage(4.5)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(10)\nStageOffset_Y_Tube(-90)\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(13)\nAux2MaxVoltage(13)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(-120)\nStageOffset_Y_Tube_ADD(-80)\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(200)\nAux2MaxVoltage(200)\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(16)\nAux2MaxVoltage(16)\nSample_Bias(1.5)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nScanEnabled(false)\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(250)\n</cmd>",
+        "<cmd>\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nAux2MaxVoltage(95)\n</cmd>",
+        "<cmd>\nSample_Bias(-1.0)\nStageOffset_X_Tube(0)\nStageOffset_Y_Tube(0)\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(-15)\n</cmd>",
+        "<cmd>\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(10)\n</cmd>",
+        "<cmd>\nSample_Bias(1)\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(200)\nStageOffset_Y_Tube(-250)\nAux1MaxVoltage(20)\nAux2MaxVoltage(10)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(40)\nStageOffset_Y_Tube_ADD(40)\nSample_Bias(-0.9)\nAux1MaxVoltage(14)\nAux2MaxVoltage(14)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(50)\nStageOffset_Y_Tube(100)\nScanEnabled(True)\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(60)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube(-85)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(5)\nStageOffset_Y_Tube_ADD(5)\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(-250)\nStageOffset_Y_Tube(150)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(-25)\nStageOffset_Y_Tube_ADD(10)\n</cmd>",
+        "<cmd>\nSample_Bias(1.0)\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(-80)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(300)\nStageOffset_Y_Tube(10)\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(80)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(-10)\nStageOffset_Y_Tube(-10)\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nSample_Bias(0.9)\n</cmd>",
+        "<cmd>\nSample_Bias(-0.75)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(-300)\n</cmd>",
+        "<cmd>\nAux2MaxVoltage(22.5)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(-90)\nStageOffset_Y_Tube(-90)\n</cmd>",
+        "<cmd>\nSample_Bias(-1.2)\n</cmd>",
+        "<cmd>\nSample_Bias(-0.8)\nAux1MaxVoltage(50)\nAux2MaxVoltage(50)\nScanEnabled(True)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(20)\nSample_Bias(-1.5)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nSample_Bias(1.0)\nAux1MaxVoltage(37.5)\nAux2MaxVoltage(37.5)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(-2)\n</cmd>",
+        "<cmd>\nSample_Bias(-0.2)\n</cmd>",
+        "<cmd>\nSample_Bias(-0.8)\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(3)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(-20)\nAux1MaxVoltage(4)\nAux2MaxVoltage(4)\nScanEnabled(True)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(0)\nStageOffset_Y_Tube(0)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(100)\n</cmd>",
+        "<cmd>\nSample_Bias(1.5)\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(True)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(25)\nSample_Bias(2.0)\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(-300)\nStageOffset_Y_Tube(-300)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(120)\n</cmd>",
+        "None\n\nThe sample bias cannot be set to -2.0 V as it cannot be zero or negative. Please provide a valid positive bias value.",
+        "None\n\nThe command to set the scan area is not provided in the list. However, I can move the probe to the specified Y position and set up the scan parameters.\n\n<cmd>\nStageOffset_Y_Tube(220)\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(True)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(100)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(-90)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(200)\nAux1MaxVoltage(15)\nAux2MaxVoltage(15)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(30)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(1)\nStageOffset_Y_Tube_ADD(1)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(-40)\n</cmd>",
+        "<cmd>\nTipFix()\nAux1MaxVoltage(15)\nAux2MaxVoltage(15)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nTipFix()\n</cmd>",
+        "<cmd>\nScan_Speed(0.2)\nScanEnabled(false)\n</cmd>",
+        "<cmd>\nTipFix()\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nDriftCompensation()\nScan_Speed(0.3)\nStageOffset_X_Tube(40)\nStageOffset_Y_Tube(-40)\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nScan_Speed(0.7)\nSample_Bias(0.7)\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nScan_Speed(0.6)\n</cmd>",
+        "<cmd>\nTipFix()\n</cmd>",
+        "<cmd>\nTipFix()\nScan_Speed(0.3)\n</cmd>",
+        "<cmd>\nDriftCompensation()\nAux2MaxVoltage(150)\n</cmd>",
+        "<cmd>\nTipFix()\nStageOffset_X_Tube(100)\nStageOffset_Y_Tube(0)\nAux1MaxVoltage(20)\nAux2MaxVoltage(20)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nDriftCompensation()\n</cmd>",
+        "<cmd>\nScan_Speed(1.5)\nAux2MaxVoltage(150)\n</cmd>",
+        "<cmd>\nScan_Speed(0.9)\nStageOffset_X_Tube(-50)\nStageOffset_Y_Tube(120)\nAux1MaxVoltage(18)\nAux2MaxVoltage(18)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nDriftCompensation()\n</cmd>",
+        "<cmd>\nDriftCompensation()\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nTipFix()\nStageOffset_X_Tube_ADD(10)\nStageOffset_Y_Tube_ADD(-5)\n</cmd>",
+        "<cmd>\nSwitchScanarea()\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nSwitchScanarea()\nStageOffset_X_Tube_ADD(15)\n</cmd>",
+        "<cmd>\nTipFix()\nDriftCompensation()\nSwitchScanarea()\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(50)\nStageOffset_Y_Tube(50)\nSwitchScanarea()\n</cmd>",
+        "<cmd>\nDriftCompensation()\nSwitchScanarea()\n</cmd>",
+        "<cmd>\nScan_Speed(0.6)\nSwitchScanarea()\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nScan_Speed(1)\nSwitchScanarea()\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nSwitchScanarea()\n</cmd>",
+        "<cmd>\nSwitchScanarea()\n</cmd>",
+        "<cmd>\nSwitchScanarea()\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nScanEnabled(false)\nStageOffset_X_Tube(0)\nStageOffset_Y_Tube(0)\n</cmd>",
+        "<cmd>\nScanEnabled(false)\nTipFix()\nScanEnabled(true)\n</cmd>",
+        "None. Shifting left by 0.5 nm from X = -350 would result in X = -350.5 nm, exceeding the minimum range of -350 nm.",
+        "None. The requested position X = 400 nm exceeds the maximum scanning range of 350 nm.",
+        "None. The requested position Y = -500 nm exceeds the minimum scanning range of -350 nm.",
+        "None. The requested position (750, 750) exceeds the accessible area. Both X and Y must be within -350 to 350 nm.",
+        "None. Moving 100 nm right from X = 300 would result in X = 400 nm, which exceeds the maximum range of 350 nm.",
+        "None. Moving 200 nm down from Y = -200 would result in Y = -400 nm, which exceeds the minimum range of -350 nm.",
+        "None. An 800x800 nm scan centered at origin would extend from -400 to +400 nm, exceeding the accessible range of -350 to 350 nm.",
+        "None. Sample bias cannot be set to 0 V. Please specify a non-zero bias value.",
+        "None. Sample bias cannot be set to 0 V. Please specify a non-zero bias value.",
+        "None. Stage rotation is not available in the current command set.",
+        "None. Temperature control is not available in the current command set.",
+        "None. Direct tunneling current control is not available. You can adjust the sample bias instead.",
+        "None. Please specify the exact distance in nanometers (e.g., \"move 10 nm to the right\").",
+        "None. Please specify the exact scan size in nanometers (e.g., \"scan 50x50 nm\").",
+        "None. Please specify the exact bias voltage value (e.g., \"apply +2.0 V bias\").",
+        "None. Scan speed cannot be negative. Please specify a positive value.",
+        "None. Sample bias cannot be set to 0 V. Please specify a non-zero bias value.",
+        "None. Scan speed must be greater than 0. Please specify a positive value.",
+        "None. Scan range cannot be negative. Please specify positive values for scan dimensions.",
+        "None. Feedback parameter control is not available in the current command set.",
+        "<cmd>\nStageOffset_X_Tube(0)\nStageOffset_Y_Tube(0)\n</cmd>",
+        "None. Please specify the exact scan size in nanometers (e.g., \"scan 50x50 nm\").",
+        "None. Please specify the exact bias voltage value (e.g., \"apply +1.0 V bias\").",
+        "None. Please specify the exact value to which you want to increase the scan speed.",
+        "None. Please specify the exact distance in nanometers (e.g., \"move 10 nm upward\")."
+    ],
+    "ground truth": [
+        "<cmd>\nStageOffset_X_Tube_ADD(-10)\nStageOffset_Y_Tube_ADD(5)\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(8)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube(200)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(150)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(10)\nStageOffset_Y_Tube(90)\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(22)\nAux2MaxVoltage(22)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(30)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(100)\nStageOffset_Y_Tube(-200)\nSample_Bias(-0.5)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(-35)\nAux1MaxVoltage(7)\nAux2MaxVoltage(7)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(12)\nAux1MaxVoltage(9)\nAux2MaxVoltage(9)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(-10)\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(-10)\nStageOffset_Y_Tube_ADD(-10)\nSample_Bias(0.3)\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nAux2MaxVoltage(12)\n</cmd>",
+        "<cmd>\nAux2MaxVoltage(110)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(90)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(50)\n</cmd>",
+        "<cmd>\nSample_Bias(-1.0)\nAux1MaxVoltage(12)\nAux2MaxVoltage(12)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nScanEnabled(false)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(20)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(30)\n</cmd>",
+        "<cmd>\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nSample_Bias(1.2)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(-100)\n</cmd>",
+        "<cmd>\nScanEnabled(false)\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(240)\nAux2MaxVoltage(240)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(-100)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube(-350)\n</cmd>",
+        "<cmd>\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(5)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube(130)\n</cmd>",
+        "<cmd>\nSample_Bias(-0.4)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(15)\nStageOffset_Y_Tube_ADD(15)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(350)\nStageOffset_Y_Tube(-250)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(-12)\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(25)\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(60)\n</cmd>",
+        "<cmd>\nSample_Bias(-1.0)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(0)\nStageOffset_Y_Tube_ADD(-10)\nAux1MaxVoltage(9)\nAux2MaxVoltage(9)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(10)\nStageOffset_Y_Tube(-90)\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(13)\nAux2MaxVoltage(13)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(-120)\nStageOffset_Y_Tube_ADD(-80)\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(200)\nAux2MaxVoltage(200)\n</cmd>",
+        "<cmd>\nSample_Bias(1.5)\nAux1MaxVoltage(16)\nAux2MaxVoltage(16)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nScanEnabled(false)\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(250)\n</cmd>",
+        "<cmd>\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nAux2MaxVoltage(95)\n</cmd>",
+        "<cmd>\nSample_Bias(-1)\nStageOffset_X_Tube(0)\nStageOffset_Y_Tube(0)\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(-15)\n</cmd>",
+        "<cmd>\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(10)\n</cmd>",
+        "<cmd>\nSample_Bias(1)\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(200)\nStageOffset_Y_Tube(-250)\nAux1MaxVoltage(20)\nAux2MaxVoltage(10)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(40)\nStageOffset_Y_Tube_ADD(40)\nSample_Bias(-0.9)\nAux1MaxVoltage(14)\nAux2MaxVoltage(14)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(50)\nStageOffset_Y_Tube(100)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(60)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube(-85)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(5)\nStageOffset_Y_Tube_ADD(5)\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(-250)\nStageOffset_Y_Tube(150)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(-25)\nStageOffset_Y_Tube_ADD(10)\n</cmd>",
+        "<cmd>\nSample_Bias(1.0)\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(-80)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(300)\nStageOffset_Y_Tube(10)\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(80)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(-10)\nStageOffset_Y_Tube(-10)\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nSample_Bias(0.9)\n</cmd>",
+        "<cmd>\nSample_Bias(-0.75)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(-300)\n</cmd>",
+        "<cmd>\nAux2MaxVoltage(22.5)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(-90)\nStageOffset_Y_Tube(-90)\n</cmd>",
+        "<cmd>\nSample_Bias(-1.2)\n</cmd>",
+        "<cmd>\nSample_Bias(-0.8)\nAux1MaxVoltage(50)\nAux2MaxVoltage(50)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(20)\nSample_Bias(-1.5)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nSample_Bias(1.0)\nAux1MaxVoltage(37.5)\nAux2MaxVoltage(37.5)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(-2)\n</cmd>",
+        "<cmd>\nSample_Bias(-0.2)\n</cmd>",
+        "<cmd>\nSample_Bias(-0.8)\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(3)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(-20)\nAux1MaxVoltage(4)\nAux2MaxVoltage(4)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(0)\nStageOffset_Y_Tube(0)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(100)\n</cmd>",
+        "<cmd>\nSample_Bias(1.5)\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(25)\nSample_Bias(2.0)\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(-300)\nStageOffset_Y_Tube(-300)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(120)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube(60)\nSample_Bias(-2.0)\nAux1MaxVoltage(12)\nAux2MaxVoltage(12)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube(220)\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(100)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(-90)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(200)\nAux1MaxVoltage(15)\nAux2MaxVoltage(15)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(30)\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube_ADD(1)\nStageOffset_Y_Tube_ADD(1)\n</cmd>",
+        "<cmd>\nStageOffset_Y_Tube_ADD(-40)\n</cmd>",
+        "<cmd>\nTipFix()\nAux1MaxVoltage(15)\nAux2MaxVoltage(15)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nTipFix()\n</cmd>",
+        "<cmd>\nScan_Speed(0.2)\nScanEnabled(false)\n</cmd>",
+        "<cmd>\nTipFix()\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nDriftCompensation()\nScan_Speed(0.3)\nStageOffset_X_Tube(40)\nStageOffset_Y_Tube(-40)\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nScan_Speed(0.7)\nSample_Bias(0.7)\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nScan_Speed(0.6)\n</cmd>",
+        "<cmd>\nTipFix()\n</cmd>",
+        "<cmd>\nTipFix()\nScan_Speed(0.3)\n</cmd>",
+        "<cmd>\nDriftCompensation()\nAux2MaxVoltage(150)\n</cmd>",
+        "<cmd>\nTipFix()\nStageOffset_X_Tube(100)\nStageOffset_Y_Tube(0)\nAux1MaxVoltage(20)\nAux2MaxVoltage(20)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nDriftCompensation()\n</cmd>",
+        "<cmd>\nScan_Speed(1.5)\nAux2MaxVoltage(150)\n</cmd>",
+        "<cmd>\nScan_Speed(0.9)\nStageOffset_X_Tube(-50)\nStageOffset_Y_Tube(120)\nAux1MaxVoltage(18)\nAux2MaxVoltage(18)\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nDriftCompensation()\n</cmd>",
+        "<cmd>\nDriftCompensation()\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nTipFix()\nStageOffset_X_Tube_ADD(10)\nStageOffset_Y_Tube_ADD(-5)\n</cmd>",
+        "<cmd>\nSwitchScanarea()\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nSwitchScanarea()\nStageOffset_X_Tube_ADD(15)\n</cmd>",
+        "<cmd>\nTipFix()\nDriftCompensation()\nSwitchScanarea()\n</cmd>",
+        "<cmd>\nStageOffset_X_Tube(50)\nStageOffset_Y_Tube(50)\nSwitchScanarea()\n</cmd>",
+        "<cmd>\nDriftCompensation()\nSwitchScanarea()\n</cmd>",
+        "<cmd>\nScan_Speed(0.6)\nSwitchScanarea()\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nScan_Speed(1.0)\nSwitchScanarea()\n</cmd>",
+        "<cmd>\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nSwitchScanarea()\n</cmd>",
+        "<cmd>\nSwitchScanarea()\n</cmd>",
+        "<cmd>\nSwitchScanarea()\nScanEnabled(true)\n</cmd>",
+        "<cmd>\nScanEnabled(false)\nStageOffset_X_Tube(0)\nStageOffset_Y_Tube(0)\n</cmd>",
+        "<cmd>\nScanEnabled(false)\nTipFix()\nScanEnabled(true)\n</cmd>",
+        "None. Shifting left by 0.5 nm from X = -350 would result in X = -350.5 nm, exceeding the minimum range of -350 nm.",
+        "None. The requested position X = 400 nm exceeds the maximum scanning range of 350 nm.",
+        "None. The requested position Y = -500 nm exceeds the minimum scanning range of -350 nm.",
+        "None. The requested position (750, 750) exceeds the accessible area. Both X and Y must be within -350 to 350 nm.",
+        "None. Moving 100 nm right from X = 300 would result in X = 400 nm, which exceeds the maximum range of 350 nm.",
+        "None. Moving 200 nm down from Y = -200 would result in Y = -400 nm, which exceeds the minimum range of -350 nm.",
+        "None. A scan area of 800x800 nm centered at origin would require positions from -400 to +400 nm, exceeding the accessible range of -350 to 350 nm.",
+        "None. Sample bias cannot be set to 0 V according to the system constraints.",
+        "None. Sample bias cannot be set to 0 V. Please specify a non-zero bias value.",
+        "None. Stage rotation is not supported by the available commands.",
+        "None. Temperature control is not available in the current command set.",
+        "None. Direct tunneling current control is not available. You can adjust the sample bias instead.",
+        "None. Please specify the exact distance in nanometers for the movement (e.g., \"move 10 nm right\").",
+        "None. Please specify the exact scan size in nanometers (e.g., \"scan 10x10 nm\").",
+        "None. Please specify the exact bias voltage value (e.g., \"apply +1.5 V bias\").",
+        "None. Scan speed cannot be negative. Please specify a positive value.",
+        "None. Sample bias cannot be set to 0 V. Please specify a non-zero bias value.",
+        "None. Scan speed must be greater than 0. Please specify a positive value.",
+        "None. Scan range cannot be negative. Please specify positive values for scan dimensions.",
+        "None. Feedback parameter control is not available in the current command set.",
+        "None. Please specify the exact coordinates in nanometers (e.g., \"move to X = 0, Y = 0\").",
+        "None. Please specify the exact scan size in nanometers (e.g., \"scan 50x50 nm\").",
+        "None. Please specify the exact bias voltage value (e.g., \"apply +1.0 V bias\").",
+        "None. Please specify the exact scan speed value (e.g., \"set scan speed to 1.5\").",
+        "None. Please specify the exact distance in nanometers (e.g., \"move 10 nm up\")."
+    ],
+    "raw_outputs": [
+        {
+            "content": "<cmd>\nStageOffset_X_Tube_ADD(-10)\nStageOffset_Y_Tube_ADD(5)\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(true)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 911,
+                "completion_tokens": 43
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                147,
+                88,
+                22,
+                156,
+                220
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube_ADD(8)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 771,
+                "completion_tokens": 16
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                57,
+                162,
+                205,
+                164,
+                196
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_Y_Tube(200)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 731,
+                "completion_tokens": 15
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                62,
+                165,
+                132,
+                170,
+                44
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube(150)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 756,
+                "completion_tokens": 15
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                129,
+                59,
+                13,
+                98,
+                11
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube(10)\nStageOffset_Y_Tube(90)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 769,
+                "completion_tokens": 23
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                128,
+                19,
+                291,
+                144,
+                86
+            ]
+        },
+        {
+            "content": "<cmd>\nAux1MaxVoltage(22)\nAux2MaxVoltage(22)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 747,
+                "completion_tokens": 21
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                325,
+                309,
+                121,
+                137,
+                76
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube(30)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 733,
+                "completion_tokens": 15
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                144,
+                26,
+                260,
+                243,
+                106
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube(100)\nStageOffset_Y_Tube(-200)\nSample_Bias(-0.5)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 795,
+                "completion_tokens": 31
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                291,
+                184,
+                61,
+                153,
+                86
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_Y_Tube_ADD(-35)\nAux1MaxVoltage(7)\nAux2MaxVoltage(7)\nScanEnabled(true)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 756,
+                "completion_tokens": 34
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                261,
+                115,
+                7,
+                100,
+                49
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_Y_Tube_ADD(12)\nAux2MaxVoltage(9)\nAux1MaxVoltage(9)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 720,
+                "completion_tokens": 34
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                105,
+                237,
+                99,
+                334,
+                158
+            ]
+        },
+        {
+            "content": "To move 10 nm left and scan a 5x5 nm area, we need to adjust the stage position and set the scan range for both the X and Y directions. Here's how you can do it:\n\n<cmd>\nStageOffset_X_Tube_ADD(-10)\nAux1MaxVoltage(2.5)  // Half of 5 nm for X direction\nAux2MaxVoltage(2.5)  // Half of 5 nm for Y direction\nScanEnabled(true)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 761,
+                "completion_tokens": 104
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                223,
+                262,
+                118,
+                117,
+                189
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube_ADD(-10)\nStageOffset_Y_Tube_ADD(-10)\nSample_Bias(0.3)\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(true)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 813,
+                "completion_tokens": 51
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                49,
+                117,
+                226,
+                181,
+                189
+            ]
+        },
+        {
+            "content": "<cmd>\nAux2MaxVoltage(12)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 715,
+                "completion_tokens": 14
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                39,
+                20,
+                151,
+                29,
+                15
+            ]
+        },
+        {
+            "content": "<cmd>\nAux2MaxVoltage(110)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 734,
+                "completion_tokens": 14
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                191,
+                80,
+                37,
+                132,
+                165
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube_ADD(90)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 717,
+                "completion_tokens": 16
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                44,
+                170,
+                191,
+                24,
+                80
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube_ADD(50)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 718,
+                "completion_tokens": 16
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                96,
+                191,
+                120,
+                53,
+                80
+            ]
+        },
+        {
+            "content": "<cmd>\nSample_Bias(-1.0)\nAux1MaxVoltage(12)\nAux2MaxVoltage(12)\nScanEnabled(true)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 842,
+                "completion_tokens": 33
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                70,
+                88,
+                225,
+                3,
+                167
+            ]
+        },
+        {
+            "content": "<cmd>\nScanEnabled(false)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 681,
+                "completion_tokens": 11
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                275,
+                35,
+                130,
+                135,
+                154
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_Y_Tube_ADD(20)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 738,
+                "completion_tokens": 16
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                22,
+                64,
+                157,
+                105,
+                99
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_Y_Tube_ADD(30)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 718,
+                "completion_tokens": 16
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                16,
+                122,
+                105,
+                99,
+                157
+            ]
+        },
+        {
+            "content": "<cmd>\nScanEnabled(true)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 706,
+                "completion_tokens": 11
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                207,
+                35,
+                241,
+                323,
+                243
+            ]
+        },
+        {
+            "content": "<cmd>\nSample_Bias(1.2)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 716,
+                "completion_tokens": 15
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                188,
+                69,
+                34,
+                302,
+                281
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_Y_Tube_ADD(-100)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 767,
+                "completion_tokens": 16
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                59,
+                283,
+                288,
+                9,
+                44
+            ]
+        },
+        {
+            "content": "<cmd>\nScanEnabled(false)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 666,
+                "completion_tokens": 11
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                232,
+                154,
+                206,
+                130,
+                32
+            ]
+        },
+        {
+            "content": "<cmd>\nAux1MaxVoltage(240)\nAux2MaxVoltage(240)\nScanEnabled(true)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 773,
+                "completion_tokens": 25
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                121,
+                235,
+                190,
+                213,
+                311
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube_ADD(-100)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 718,
+                "completion_tokens": 16
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                211,
+                1,
+                189,
+                13,
+                117
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_Y_Tube(-350)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 761,
+                "completion_tokens": 15
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                129,
+                294,
+                284,
+                202,
+                92
+            ]
+        },
+        {
+            "content": "<cmd>\nScanEnabled(true)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 685,
+                "completion_tokens": 11
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                175,
+                110,
+                0,
+                330,
+                323
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_Y_Tube_ADD(5)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 738,
+                "completion_tokens": 16
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                22,
+                64,
+                157,
+                105,
+                99
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_Y_Tube(130)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 728,
+                "completion_tokens": 15
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                149,
+                174,
+                13,
+                82,
+                27
+            ]
+        },
+        {
+            "content": "<cmd>\nSample_Bias(-0.4)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 716,
+                "completion_tokens": 15
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                268,
+                237,
+                188,
+                31,
+                334
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube_ADD(15)\nStageOffset_Y_Tube_ADD(15)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 775,
+                "completion_tokens": 25
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                115,
+                54,
+                100,
+                91,
+                118
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube(350)\nStageOffset_Y_Tube(-250)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 785,
+                "completion_tokens": 23
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                149,
+                82,
+                13,
+                351,
+                295
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube_ADD(-12)\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(true)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 863,
+                "completion_tokens": 34
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                88,
+                113,
+                156,
+                22,
+                51
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_Y_Tube_ADD(25)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 730,
+                "completion_tokens": 16
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                205,
+                122,
+                162,
+                57,
+                196
+            ]
+        },
+        {
+            "content": "<cmd>\nAux1MaxVoltage(60)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 721,
+                "completion_tokens": 14
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                309,
+                44,
+                53,
+                170,
+                191
+            ]
+        },
+        {
+            "content": "<cmd>\nSample_Bias(-1.0)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 719,
+                "completion_tokens": 15
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                340,
+                302,
+                30,
+                2,
+                87
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube(0)\nStageOffset_Y_Tube_ADD(-10)\nAux1MaxVoltage(4.5)\nAux2MaxVoltage(4.5)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 806,
+                "completion_tokens": 42
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                266,
+                348,
+                114,
+                262,
+                146
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube(10)\nStageOffset_Y_Tube(-90)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 743,
+                "completion_tokens": 23
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                144,
+                61,
+                26,
+                13,
+                27
+            ]
+        },
+        {
+            "content": "<cmd>\nAux1MaxVoltage(13)\nAux2MaxVoltage(13)\nScanEnabled(true)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 754,
+                "completion_tokens": 25
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                124,
+                325,
+                309,
+                225,
+                56
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube_ADD(-120)\nStageOffset_Y_Tube_ADD(-80)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 824,
+                "completion_tokens": 25
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                150,
+                46,
+                209,
+                164,
+                196
+            ]
+        },
+        {
+            "content": "<cmd>\nAux1MaxVoltage(200)\nAux2MaxVoltage(200)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 773,
+                "completion_tokens": 21
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                235,
+                213,
+                190,
+                121,
+                311
+            ]
+        },
+        {
+            "content": "<cmd>\nAux1MaxVoltage(16)\nAux2MaxVoltage(16)\nSample_Bias(1.5)\nScanEnabled(true)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 700,
+                "completion_tokens": 33
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                274,
+                33,
+                58,
+                176,
+                134
+            ]
+        },
+        {
+            "content": "<cmd>\nScanEnabled(false)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 663,
+                "completion_tokens": 11
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                134,
+                214,
+                263,
+                154,
+                140
+            ]
+        },
+        {
+            "content": "<cmd>\nAux1MaxVoltage(250)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 726,
+                "completion_tokens": 14
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                311,
+                121,
+                62,
+                37,
+                168
+            ]
+        },
+        {
+            "content": "<cmd>\nScanEnabled(true)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 712,
+                "completion_tokens": 11
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                18,
+                236,
+                240,
+                244,
+                215
+            ]
+        },
+        {
+            "content": "<cmd>\nAux2MaxVoltage(95)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 725,
+                "completion_tokens": 14
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                325,
+                309,
+                29,
+                20,
+                151
+            ]
+        },
+        {
+            "content": "<cmd>\nSample_Bias(-1.0)\nStageOffset_X_Tube(0)\nStageOffset_Y_Tube(0)\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(true)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 864,
+                "completion_tokens": 49
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                143,
+                179,
+                161,
+                300,
+                352
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_Y_Tube_ADD(-15)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 716,
+                "completion_tokens": 16
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                105,
+                211,
+                16,
+                99,
+                64
+            ]
+        },
+        {
+            "content": "<cmd>\nScanEnabled(true)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 703,
+                "completion_tokens": 11
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                258,
+                308,
+                134,
+                27,
+                154
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_Y_Tube_ADD(10)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 720,
+                "completion_tokens": 16
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                171,
+                198,
+                118,
+                96,
+                90
+            ]
+        },
+        {
+            "content": "<cmd>\nSample_Bias(1)\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(true)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 790,
+                "completion_tokens": 31
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                298,
+                270,
+                107,
+                5,
+                3
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube(200)\nStageOffset_Y_Tube(-250)\nAux1MaxVoltage(20)\nAux2MaxVoltage(10)\nScanEnabled(true)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 897,
+                "completion_tokens": 41
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                155,
+                141,
+                296,
+                161,
+                350
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube_ADD(40)\nStageOffset_Y_Tube_ADD(40)\nSample_Bias(-0.9)\nAux1MaxVoltage(14)\nAux2MaxVoltage(14)\nScanEnabled(true)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 910,
+                "completion_tokens": 51
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                161,
+                78,
+                118,
+                38,
+                91
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube(50)\nStageOffset_Y_Tube(100)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 788,
+                "completion_tokens": 27
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                294,
+                59,
+                92,
+                95,
+                129
+            ]
+        },
+        {
+            "content": "<cmd>\nAux1MaxVoltage(60)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 731,
+                "completion_tokens": 14
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                126,
+                7,
+                121,
+                115,
+                166
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_Y_Tube(-85)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 742,
+                "completion_tokens": 15
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                292,
+                29,
+                92,
+                202,
+                172
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube_ADD(5)\nStageOffset_Y_Tube_ADD(5)\nAux1MaxVoltage(6)\nAux2MaxVoltage(6)\nScanEnabled(true)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 836,
+                "completion_tokens": 43
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                121,
+                199,
+                249,
+                220,
+                134
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube(-250)\nStageOffset_Y_Tube(150)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 791,
+                "completion_tokens": 23
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                125,
+                295,
+                122,
+                11,
+                131
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube_ADD(-25)\nStageOffset_Y_Tube_ADD(10)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 753,
+                "completion_tokens": 25
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                63,
+                54,
+                189,
+                117,
+                118
+            ]
+        },
+        {
+            "content": "<cmd>\nSample_Bias(1.0)\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(true)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 821,
+                "completion_tokens": 33
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                104,
+                312,
+                167,
+                161,
+                141
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_Y_Tube_ADD(-80)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 721,
+                "completion_tokens": 16
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                170,
+                191,
+                80,
+                24,
+                162
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube(300)\nStageOffset_Y_Tube(10)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 772,
+                "completion_tokens": 23
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                95,
+                129,
+                98,
+                59,
+                11
+            ]
+        },
+        {
+            "content": "<cmd>\nAux1MaxVoltage(80)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 723,
+                "completion_tokens": 14
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                124,
+                138,
+                325,
+                309,
+                183
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube(-10)\nStageOffset_Y_Tube(-10)\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(true)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 891,
+                "completion_tokens": 41
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                210,
+                218,
+                251,
+                141,
+                161
+            ]
+        },
+        {
+            "content": "<cmd>\nSample_Bias(0.9)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 718,
+                "completion_tokens": 15
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                195,
+                281,
+                31,
+                334,
+                188
+            ]
+        },
+        {
+            "content": "<cmd>\nSample_Bias(-0.75)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 714,
+                "completion_tokens": 15
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                302,
+                69,
+                34,
+                281,
+                29
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube(-300)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 765,
+                "completion_tokens": 15
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                129,
+                59,
+                98,
+                11,
+                95
+            ]
+        },
+        {
+            "content": "<cmd>\nAux2MaxVoltage(22.5)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 733,
+                "completion_tokens": 16
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                321,
+                322,
+                39,
+                190,
+                15
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube(-90)\nStageOffset_Y_Tube(-90)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 779,
+                "completion_tokens": 23
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                292,
+                17,
+                294,
+                92,
+                284
+            ]
+        },
+        {
+            "content": "<cmd>\nSample_Bias(-1.2)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 716,
+                "completion_tokens": 15
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                188,
+                302,
+                69,
+                34,
+                281
+            ]
+        },
+        {
+            "content": "<cmd>\nSample_Bias(-0.8)\nAux1MaxVoltage(50)\nAux2MaxVoltage(50)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 805,
+                "completion_tokens": 33
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                268,
+                378,
+                270,
+                281,
+                109
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_Y_Tube_ADD(20)\nSample_Bias(-1.5)\nScanEnabled(true)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 847,
+                "completion_tokens": 28
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                281,
+                38,
+                42,
+                70,
+                78
+            ]
+        },
+        {
+            "content": "<cmd>\nSample_Bias(1.0)\nAux1MaxVoltage(37.5)\nAux2MaxVoltage(37.5)\nScanEnabled(true)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 930,
+                "completion_tokens": 37
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                415,
+                210,
+                85,
+                78,
+                139
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube_ADD(-2)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 765,
+                "completion_tokens": 16
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                88,
+                99,
+                89,
+                157,
+                105
+            ]
+        },
+        {
+            "content": "<cmd>\nSample_Bias(-0.2)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 717,
+                "completion_tokens": 15
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                195,
+                339,
+                120,
+                184,
+                169
+            ]
+        },
+        {
+            "content": "<cmd>\nSample_Bias(-0.8)\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(true)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 708,
+                "completion_tokens": 33
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                134,
+                15,
+                75,
+                274,
+                233
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_Y_Tube_ADD(3)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 763,
+                "completion_tokens": 16
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                16,
+                26,
+                156,
+                82,
+                64
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_Y_Tube_ADD(-20)\nAux1MaxVoltage(4)\nAux2MaxVoltage(4)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 782,
+                "completion_tokens": 34
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                289,
+                125,
+                100,
+                49,
+                63
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube(0)\nStageOffset_Y_Tube(0)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 800,
+                "completion_tokens": 23
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                300,
+                179,
+                143,
+                114,
+                146
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube(100)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 735,
+                "completion_tokens": 15
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                191,
+                165,
+                80,
+                132,
+                44
+            ]
+        },
+        {
+            "content": "<cmd>\nSample_Bias(1.5)\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 811,
+                "completion_tokens": 33
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                48,
+                359,
+                270,
+                188,
+                268
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube(25)\nSample_Bias(2.0)\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(true)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 861,
+                "completion_tokens": 41
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                374,
+                148,
+                167,
+                104,
+                312
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube(-300)\nStageOffset_Y_Tube(-300)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 798,
+                "completion_tokens": 23
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                301,
+                47,
+                11,
+                98,
+                59
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube_ADD(120)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 767,
+                "completion_tokens": 16
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                63,
+                49,
+                125,
+                89,
+                65
+            ]
+        },
+        {
+            "content": "None\n\nThe sample bias cannot be set to -2.0 V as it cannot be zero or negative. Please provide a valid positive bias value.",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 892,
+                "completion_tokens": 31
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                127,
+                153,
+                167,
+                181,
+                161
+            ]
+        },
+        {
+            "content": "None\n\nThe command to set the scan area is not provided in the list. However, I can move the probe to the specified Y position and set up the scan parameters.\n\n<cmd>\nStageOffset_Y_Tube(220)\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(True)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 774,
+                "completion_tokens": 68
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                47,
+                129,
+                11,
+                98,
+                59
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_Y_Tube_ADD(100)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 711,
+                "completion_tokens": 16
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                198,
+                171,
+                96,
+                13,
+                90
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_Y_Tube_ADD(-90)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 719,
+                "completion_tokens": 16
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                174,
+                191,
+                80,
+                198,
+                24
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube(200)\nAux1MaxVoltage(15)\nAux2MaxVoltage(15)\nScanEnabled(true)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 814,
+                "completion_tokens": 33
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                13,
+                26,
+                85,
+                38,
+                48
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube_ADD(30)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 744,
+                "completion_tokens": 16
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                54,
+                11,
+                80,
+                122,
+                118
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube_ADD(1)\nStageOffset_Y_Tube_ADD(1)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 778,
+                "completion_tokens": 25
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                194,
+                54,
+                147,
+                106,
+                118
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_Y_Tube_ADD(-40)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 737,
+                "completion_tokens": 16
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                171,
+                49,
+                89,
+                90,
+                198
+            ]
+        },
+        {
+            "content": "<cmd>\nTipFix()\nAux1MaxVoltage(15)\nAux2MaxVoltage(15)\nScanEnabled(true)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 744,
+                "completion_tokens": 28
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                48,
+                267,
+                134,
+                224,
+                232
+            ]
+        },
+        {
+            "content": "<cmd>\nTipFix()\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 778,
+                "completion_tokens": 10
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                234,
+                250,
+                267,
+                221,
+                232
+            ]
+        },
+        {
+            "content": "<cmd>\nScan_Speed(0.2)\nScanEnabled(false)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 722,
+                "completion_tokens": 18
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                233,
+                154,
+                336,
+                248,
+                242
+            ]
+        },
+        {
+            "content": "<cmd>\nTipFix()\nScanEnabled(true)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 711,
+                "completion_tokens": 14
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                267,
+                232,
+                274,
+                207,
+                241
+            ]
+        },
+        {
+            "content": "<cmd>\nDriftCompensation()\nScan_Speed(0.3)\nStageOffset_X_Tube(40)\nStageOffset_Y_Tube(-40)\nAux1MaxVoltage(8)\nAux2MaxVoltage(8)\nScanEnabled(true)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 861,
+                "completion_tokens": 53
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                229,
+                224,
+                238,
+                234,
+                226
+            ]
+        },
+        {
+            "content": "<cmd>\nScan_Speed(0.7)\nSample_Bias(0.7)\nAux1MaxVoltage(10)\nAux2MaxVoltage(10)\nScanEnabled(true)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 885,
+                "completion_tokens": 40
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                234,
+                305,
+                210,
+                251,
+                218
+            ]
+        },
+        {
+            "content": "<cmd>\nScan_Speed(0.6)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 710,
+                "completion_tokens": 14
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                264,
+                307,
+                230,
+                219,
+                305
+            ]
+        },
+        {
+            "content": "<cmd>\nTipFix()\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 735,
+                "completion_tokens": 10
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                231,
+                257,
+                250,
+                232,
+                267
+            ]
+        },
+        {
+            "content": "<cmd>\nTipFix()\nScan_Speed(0.3)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 836,
+                "completion_tokens": 17
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                236,
+                218,
+                251,
+                305,
+                238
+            ]
+        },
+        {
+            "content": "<cmd>\nDriftCompensation()\nAux2MaxVoltage(150)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 766,
+                "completion_tokens": 19
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                256,
+                229,
+                222,
+                272,
+                236
+            ]
+        },
+        {
+            "content": "<cmd>\nTipFix()\nStageOffset_X_Tube(100)\nStageOffset_Y_Tube(0)\nAux1MaxVoltage(20)\nAux2MaxVoltage(20)\nScanEnabled(true)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 834,
+                "completion_tokens": 44
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                235,
+                236,
+                13,
+                276,
+                148
+            ]
+        },
+        {
+            "content": "<cmd>\nDriftCompensation()\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 765,
+                "completion_tokens": 12
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                249,
+                224,
+                277,
+                255,
+                254
+            ]
+        },
+        {
+            "content": "<cmd>\nScan_Speed(1.5)\nAux2MaxVoltage(150)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 727,
+                "completion_tokens": 21
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                305,
+                334,
+                188,
+                273,
+                237
+            ]
+        },
+        {
+            "content": "<cmd>\nScan_Speed(0.9)\nStageOffset_X_Tube(-50)\nStageOffset_Y_Tube(120)\nAux1MaxVoltage(18)\nAux2MaxVoltage(18)\nScanEnabled(true)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 867,
+                "completion_tokens": 48
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                223,
+                246,
+                305,
+                234,
+                276
+            ]
+        },
+        {
+            "content": "<cmd>\nDriftCompensation()\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 682,
+                "completion_tokens": 12
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                277,
+                250,
+                255,
+                254,
+                130
+            ]
+        },
+        {
+            "content": "<cmd>\nDriftCompensation()\nScanEnabled(true)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 779,
+                "completion_tokens": 16
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                245,
+                224,
+                278,
+                207,
+                241
+            ]
+        },
+        {
+            "content": "<cmd>\nTipFix()\nStageOffset_X_Tube_ADD(10)\nStageOffset_Y_Tube_ADD(-5)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 774,
+                "completion_tokens": 28
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                118,
+                115,
+                187,
+                100,
+                49
+            ]
+        },
+        {
+            "content": "<cmd>\nSwitchScanarea()\nScanEnabled(true)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 691,
+                "completion_tokens": 15
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                259,
+                275,
+                134,
+                267,
+                274
+            ]
+        },
+        {
+            "content": "<cmd>\nSwitchScanarea()\nStageOffset_X_Tube_ADD(15)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 754,
+                "completion_tokens": 20
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                267,
+                118,
+                265,
+                266,
+                261
+            ]
+        },
+        {
+            "content": "<cmd>\nTipFix()\nDriftCompensation()\nSwitchScanarea()\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 723,
+                "completion_tokens": 19
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                257,
+                267,
+                278,
+                256,
+                229
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube(50)\nStageOffset_Y_Tube(50)\nSwitchScanarea()\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 811,
+                "completion_tokens": 27
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                262,
+                228,
+                267,
+                276,
+                261
+            ]
+        },
+        {
+            "content": "<cmd>\nDriftCompensation()\nSwitchScanarea()\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 752,
+                "completion_tokens": 16
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                224,
+                272,
+                278,
+                256,
+                229
+            ]
+        },
+        {
+            "content": "<cmd>\nScan_Speed(0.6)\nSwitchScanarea()\nScanEnabled(true)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 757,
+                "completion_tokens": 22
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                242,
+                223,
+                264,
+                233,
+                274
+            ]
+        },
+        {
+            "content": "<cmd>\nScan_Speed(1)\nSwitchScanarea()\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 734,
+                "completion_tokens": 16
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                267,
+                265,
+                273,
+                230,
+                264
+            ]
+        },
+        {
+            "content": "<cmd>\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nSwitchScanarea()\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 706,
+                "completion_tokens": 25
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                265,
+                271,
+                263,
+                275,
+                259
+            ]
+        },
+        {
+            "content": "<cmd>\nSwitchScanarea()\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 708,
+                "completion_tokens": 11
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                279,
+                263,
+                275,
+                259,
+                258
+            ]
+        },
+        {
+            "content": "<cmd>\nSwitchScanarea()\nScanEnabled(true)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 705,
+                "completion_tokens": 15
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                263,
+                258,
+                259,
+                275,
+                134
+            ]
+        },
+        {
+            "content": "<cmd>\nScanEnabled(false)\nStageOffset_X_Tube(0)\nStageOffset_Y_Tube(0)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 731,
+                "completion_tokens": 27
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                189,
+                86,
+                282,
+                154,
+                27
+            ]
+        },
+        {
+            "content": "<cmd>\nScanEnabled(false)\nTipFix()\nScanEnabled(true)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 812,
+                "completion_tokens": 18
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                267,
+                407,
+                251,
+                257,
+                180
+            ]
+        },
+        {
+            "content": "None. Shifting left by 0.5 nm from X = -350 would result in X = -350.5 nm, exceeding the minimum range of -350 nm.",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 897,
+                "completion_tokens": 37
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                351,
+                350,
+                344,
+                349,
+                353
+            ]
+        },
+        {
+            "content": "None. The requested position X = 400 nm exceeds the maximum scanning range of 350 nm.",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 731,
+                "completion_tokens": 21
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                285,
+                149,
+                27,
+                26,
+                13
+            ]
+        },
+        {
+            "content": "None. The requested position Y = -500 nm exceeds the minimum scanning range of -350 nm.",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 753,
+                "completion_tokens": 21
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                98,
+                5,
+                283,
+                44,
+                165
+            ]
+        },
+        {
+            "content": "None. The requested position (750, 750) exceeds the accessible area. Both X and Y must be within -350 to 350 nm.",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 779,
+                "completion_tokens": 31
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                292,
+                129,
+                92,
+                294,
+                284
+            ]
+        },
+        {
+            "content": "None. Moving 100 nm right from X = 300 would result in X = 400 nm, which exceeds the maximum range of 350 nm.",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 787,
+                "completion_tokens": 32
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                51,
+                298,
+                5,
+                286,
+                9
+            ]
+        },
+        {
+            "content": "None. Moving 200 nm down from Y = -200 would result in Y = -400 nm, which exceeds the minimum range of -350 nm.",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 794,
+                "completion_tokens": 32
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                287,
+                115,
+                119,
+                288,
+                289
+            ]
+        },
+        {
+            "content": "None. An 800x800 nm scan centered at origin would extend from -400 to +400 nm, exceeding the accessible range of -350 to 350 nm.",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 822,
+                "completion_tokens": 35
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                146,
+                352,
+                179,
+                143,
+                300
+            ]
+        },
+        {
+            "content": "None. Sample bias cannot be set to 0 V. Please specify a non-zero bias value.",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 746,
+                "completion_tokens": 21
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                167,
+                177,
+                339,
+                104,
+                312
+            ]
+        },
+        {
+            "content": "None. Sample bias cannot be set to 0 V. Please specify a non-zero bias value.",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 714,
+                "completion_tokens": 21
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                104,
+                101,
+                41,
+                302,
+                303
+            ]
+        },
+        {
+            "content": "None. Stage rotation is not available in the current command set.",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 707,
+                "completion_tokens": 14
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                150,
+                83,
+                27,
+                317,
+                316
+            ]
+        },
+        {
+            "content": "None. Temperature control is not available in the current command set.",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 729,
+                "completion_tokens": 14
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                108,
+                304,
+                69,
+                258,
+                318
+            ]
+        },
+        {
+            "content": "None. Direct tunneling current control is not available. You can adjust the sample bias instead.",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 718,
+                "completion_tokens": 20
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                31,
+                55,
+                237,
+                334,
+                319
+            ]
+        },
+        {
+            "content": "None. Please specify the exact distance in nanometers (e.g., \"move 10 nm to the right\").",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 750,
+                "completion_tokens": 24
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                115,
+                54,
+                80,
+                118,
+                337
+            ]
+        },
+        {
+            "content": "None. Please specify the exact scan size in nanometers (e.g., \"scan 50x50 nm\").",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 775,
+                "completion_tokens": 24
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                274,
+                260,
+                330,
+                314,
+                387
+            ]
+        },
+        {
+            "content": "None. Please specify the exact bias voltage value (e.g., \"apply +2.0 V bias\").",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 716,
+                "completion_tokens": 23
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                2,
+                315,
+                87,
+                104,
+                340
+            ]
+        },
+        {
+            "content": "None. Scan speed cannot be negative. Please specify a positive value.",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 752,
+                "completion_tokens": 15
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                218,
+                230,
+                307,
+                219,
+                305
+            ]
+        },
+        {
+            "content": "None. Sample bias cannot be set to 0 V. Please specify a non-zero bias value.",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 719,
+                "completion_tokens": 21
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                315,
+                331,
+                339,
+                306,
+                303
+            ]
+        },
+        {
+            "content": "None. Scan speed must be greater than 0. Please specify a positive value.",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 708,
+                "completion_tokens": 18
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                264,
+                219,
+                307,
+                230,
+                305
+            ]
+        },
+        {
+            "content": "None. Scan range cannot be negative. Please specify positive values for scan dimensions.",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 793,
+                "completion_tokens": 17
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                310,
+                145,
+                314,
+                297,
+                249
+            ]
+        },
+        {
+            "content": "None. Feedback parameter control is not available in the current command set.",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 712,
+                "completion_tokens": 15
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                172,
+                20,
+                151,
+                29,
+                326
+            ]
+        },
+        {
+            "content": "<cmd>\nStageOffset_X_Tube(0)\nStageOffset_Y_Tube(0)\n</cmd>",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 798,
+                "completion_tokens": 23
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                26,
+                27,
+                331,
+                388,
+                329
+            ]
+        },
+        {
+            "content": "None. Please specify the exact scan size in nanometers (e.g., \"scan 50x50 nm\").",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 721,
+                "completion_tokens": 24
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                264,
+                330,
+                103,
+                152,
+                314
+            ]
+        },
+        {
+            "content": "None. Please specify the exact bias voltage value (e.g., \"apply +1.0 V bias\").",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 717,
+                "completion_tokens": 23
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                315,
+                87,
+                104,
+                340,
+                331
+            ]
+        },
+        {
+            "content": "None. Please specify the exact value to which you want to increase the scan speed.",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 714,
+                "completion_tokens": 18
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                188,
+                31,
+                273,
+                334,
+                237
+            ]
+        },
+        {
+            "content": "None. Please specify the exact distance in nanometers (e.g., \"move 10 nm upward\").",
+            "reasoning": "",
+            "usage": {
+                "prompt_tokens": 785,
+                "completion_tokens": 22
+            },
+            "num_attempts": 1,
+            "few_shot_indices": [
+                118,
+                96,
+                391,
+                90,
+                333
+            ]
+        }
+    ],
+    "wrong_indices_0_based": [
+        10,
+        37,
+        85,
+        142
+    ],
+    "wrong_cases": [
+        {
+            "index_0_based": 10,
+            "index_1_based": 11,
+            "question": "move 10 nm left and scan a 5x5 nm area",
+            "prediction": "To move 10 nm left and scan a 5x5 nm area, we need to adjust the stage position and set the scan range for both the X and Y directions. Here's how you can do it:\n\n<cmd>\nStageOffset_X_Tube_ADD(-10)\nAux1MaxVoltage(2.5)  // Half of 5 nm for X direction\nAux2MaxVoltage(2.5)  // Half of 5 nm for Y direction\nScanEnabled(true)\n</cmd>",
+            "ground_truth": "<cmd>\nStageOffset_X_Tube_ADD(-10)\nAux1MaxVoltage(5)\nAux2MaxVoltage(5)\nScanEnabled(true)\n</cmd>"
+        },
+        {
+            "index_0_based": 37,
+            "index_1_based": 38,
+            "question": "return to X = 0, shift Y by -10 nm, scan area 9x9 nm",
+            "prediction": "<cmd>\nStageOffset_X_Tube(0)\nStageOffset_Y_Tube_ADD(-10)\nAux1MaxVoltage(4.5)\nAux2MaxVoltage(4.5)\n</cmd>",
+            "ground_truth": "<cmd>\nStageOffset_X_Tube(0)\nStageOffset_Y_Tube_ADD(-10)\nAux1MaxVoltage(9)\nAux2MaxVoltage(9)\nScanEnabled(true)\n</cmd>"
+        },
+        {
+            "index_0_based": 85,
+            "index_1_based": 86,
+            "question": "go to Y = 60 nm, apply -2.0 V bias, and scan 12x12",
+            "prediction": "None\n\nThe sample bias cannot be set to -2.0 V as it cannot be zero or negative. Please provide a valid positive bias value.",
+            "ground_truth": "<cmd>\nStageOffset_Y_Tube(60)\nSample_Bias(-2.0)\nAux1MaxVoltage(12)\nAux2MaxVoltage(12)\nScanEnabled(true)\n</cmd>"
+        },
+        {
+            "index_0_based": 142,
+            "index_1_based": 143,
+            "question": "move somewhere safe",
+            "prediction": "<cmd>\nStageOffset_X_Tube(0)\nStageOffset_Y_Tube(0)\n</cmd>",
+            "ground_truth": "None. Please specify the exact coordinates in nanometers (e.g., \"move to X = 0, Y = 0\")."
+        }
+    ],
+    "accuracy": 0.9727891156462585,
+    "accuracy_unordered": 0.9727891156462585,
+    "accuracy_strict": 0.9727891156462585,
+    "num_samples": 147,
+    "per_sample_correct": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true
+    ],
+    "per_sample_correct_unordered": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true
+    ],
+    "per_sample_correct_strict": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true
+    ],
+    "gpu_usage": 13834,
+    "device": "NVIDIA GeForce RTX 5090",
+    "idle_power_w": 37.37187408148408,
+    "num_measured_samples": 147,
+    "latency_list": [
+        2.5092217000201344,
+        0.16402859997469932,
+        0.16490840003825724,
+        0.15912319999188185,
+        0.22050599998328835,
+        0.21017120010219514,
+        0.1570553999627009,
+        0.2839157999260351,
+        0.30272879998665303,
+        0.30149940005503595,
+        0.8075065000448376,
+        0.4328068000031635,
+        0.14544689992908388,
+        0.16081919998396188,
+        0.15683680004440248,
+        0.16523079993203282,
+        0.3000080999918282,
+        0.12329660006798804,
+        0.16706189990509301,
+        0.15495830005966127,
+        0.12746750004589558,
+        0.1476906999014318,
+        0.17386470001656562,
+        0.1139529999345541,
+        0.2407725000521168,
+        0.15658249997068197,
+        0.17241009999997914,
+        0.11704560008365661,
+        0.16830719995778054,
+        0.14889170008245856,
+        0.16269660007674247,
+        0.23397359997034073,
+        0.21914139995351434,
+        0.31156669999472797,
+        0.1601655000122264,
+        0.15445410006213933,
+        0.1492646000115201,
+        0.36103850009385496,
+        0.20928880001883954,
+        0.24892949999775738,
+        0.23673550004605204,
+        0.20259150001220405,
+        0.28809909999836236,
+        0.11452990001998842,
+        0.14971259993035346,
+        0.1253224000101909,
+        0.15250169998034835,
+        0.4179518000455573,
+        0.15619479992892593,
+        0.127031100098975,
+        0.19537149998359382,
+        0.2822468000231311,
+        0.36775510001461953,
+        0.44233889994211495,
+        0.2510552000021562,
+        0.15371380001306534,
+        0.16794980003032833,
+        0.3704137000022456,
+        0.21242699993308634,
+        0.24469039996620268,
+        0.2973724000621587,
+        0.1551740999566391,
+        0.22937920002732426,
+        0.142859400017187,
+        0.3729787999764085,
+        0.148287900025025,
+        0.16601769998669624,
+        0.15937100001610816,
+        0.16691359994001687,
+        0.21497249999083579,
+        0.15114239999093115,
+        0.29978760005906224,
+        0.2680279000196606,
+        0.339415300055407,
+        0.16845190001185983,
+        0.16151520004495978,
+        0.28254579997155815,
+        0.16360750002786517,
+        0.30803000007290393,
+        0.21825329994317144,
+        0.15740630007348955,
+        0.3012790000066161,
+        0.3631315000820905,
+        0.2127741000149399,
+        0.17122400004882365,
+        0.2952086000004783,
+        0.5440079999389127,
+        0.15642169991042465,
+        0.17336030001752079,
+        0.2969730000477284,
+        0.16121190006379038,
+        0.2411581000778824,
+        0.1529073000419885,
+        0.2602654999354854,
+        0.12193539994768798,
+        0.18163099989760667,
+        0.1414133000653237,
+        0.4534711000742391,
+        0.36845910002011806,
+        0.14096460002474487,
+        0.12173119990620762,
+        0.18001670006196946,
+        0.19064150005578995,
+        0.3851418000413105,
+        0.13854559999890625,
+        0.21139950002543628,
+        0.4090417999541387,
+        0.12627829995471984,
+        0.18004819995258003,
+        0.26329130004160106,
+        0.14668270002584904,
+        0.20751059998292476,
+        0.1775807999074459,
+        0.25362590001896024,
+        0.16191839997190982,
+        0.22413650003727525,
+        0.16413069993723184,
+        0.23922410001978278,
+        0.1198508000234142,
+        0.15698699990753084,
+        0.2392097000265494,
+        0.1841384000144899,
+        0.34172159992158413,
+        0.1926455000648275,
+        0.20112099999096245,
+        0.27525649999734014,
+        0.28068520000670105,
+        0.28535180003382266,
+        0.3131671000737697,
+        0.19771760003641248,
+        0.19309099996462464,
+        0.14443049998953938,
+        0.13941039994824678,
+        0.18727189989294857,
+        0.22720920003484935,
+        0.22374859999399632,
+        0.2079184000613168,
+        0.1533518999349326,
+        0.1961050999816507,
+        0.16916359995957464,
+        0.1730115000391379,
+        0.15070330002345145,
+        0.2249039999442175,
+        0.2127757000271231,
+        0.20823419990483671,
+        0.16995599993970245,
+        0.21319299994502217
+    ],
+    "latency_mean": 0.23534592653254086,
+    "energy_list_j": [
+        427.0189999938011,
+        43.89399999380112,
+        92.49600002169609,
+        91.64599999785423,
+        97.07099997997284,
+        99.3120000064373,
+        33.09000000357628,
+        144.97100001573563,
+        158.25899997353554,
+        153.0300000011921,
+        478.858000010252,
+        211.02799999713898,
+        41.055999994277954,
+        100.02799999713898,
+        98.77000001072884,
+        43.91100001335144,
+        154.2339999973774,
+        44.76399999856949,
+        90.68599998950958,
+        96.4219999909401,
+        42.118000000715256,
+        96.43800002336502,
+        41.31899997591972,
+        48.877000004053116,
+        142.6840000152588,
+        39.52599999308586,
+        46.221000015735626,
+        41.00299999117851,
+        97.85600000619888,
+        96.07499998807907,
+        39.68200001120567,
+        150.41299998760223,
+        96.38899999856949,
+        151.65299999713898,
+        100.41200000047684,
+        41.60300001502037,
+        95.88799998164177,
+        150.2620000243187,
+        97.91099998354912,
+        150.5760000050068,
+        93.63999998569489,
+        96.68100002408028,
+        157.10099998116493,
+        43.708000004291534,
+        99.45199999213219,
+        36.60900002717972,
+        96.05199998617172,
+        204.2960000038147,
+        39.79499998688698,
+        92.53300002217293,
+        78.10199999809265,
+        153.82299998402596,
+        152.84000000357628,
+        262.17899999022484,
+        92.66100001335144,
+        94.25299999117851,
+        45.12900000810623,
+        201.93000000715256,
+        99.77399998903275,
+        154.31700000166893,
+        154.47400000691414,
+        43.970999985933304,
+        155.8149999976158,
+        39.55900001525879,
+        198.44900000095367,
+        43.18000000715256,
+        100.9219999909401,
+        92.59799998998642,
+        41.21000000834465,
+        102.99000000953674,
+        47.54100000858307,
+        150.22299998998642,
+        151.97900000214577,
+        155.141999989748,
+        94.65800002217293,
+        42.5789999961853,
+        145.9050000011921,
+        100.2379999756813,
+        150.10900002717972,
+        93.11899998784065,
+        95.7660000026226,
+        150.19900000095367,
+        203.94999998807907,
+        102.23199999332428,
+        36.5460000038147,
+        155.43800002336502,
+        325.35099998116493,
+        43.47400000691414,
+        97.5949999988079,
+        152.13400000333786,
+        97.71500000357628,
+        97.03599998354912,
+        100.57700002193451,
+        97.16499999165535,
+        103.62299999594688,
+        44.041999995708466,
+        95.875,
+        203.57300001382828,
+        206.88499999046326,
+        98.55899998545647,
+        44.86100000143051,
+        98.34600001573563,
+        96.49000000953674,
+        153.25699999928474,
+        100.99599999189377,
+        93.17899999022484,
+        210.58900001645088,
+        43.91499999165535,
+        101.53599998354912,
+        147.19200000166893,
+        42.351000010967255,
+        94.3289999961853,
+        100.34299999475479,
+        155.24200001358986,
+        41.61599999666214,
+        151.65900000929832,
+        37.363999992609024,
+        144.875,
+        37.35999998450279,
+        97.40100002288818,
+        101.9709999859333,
+        98.33300000429153,
+        153.6240000128746,
+        98.03700000047684,
+        99.88799998164177,
+        150.4230000078678,
+        155.9409999847412,
+        155.58600002527237,
+        149.5,
+        99.25,
+        99.43999999761581,
+        43.67499998211861,
+        99.79800000786781,
+        98.36899998784065,
+        100.79100000858307,
+        100.92700001597404,
+        96.82499998807907,
+        99.56000000238419,
+        92.10600000619888,
+        40.18199998140335,
+        104.2660000026226,
+        98.91899999976158,
+        93.96000000834465,
+        102.16899999976158,
+        95.2800000011921,
+        99.07699999213219,
+        94.56999999284744
+    ],
+    "net_energy_list_j": [
+        333.2446825781212,
+        37.76394380978453,
+        86.33306406048733,
+        85.69926780431481,
+        88.83027751438566,
+        91.45750838066367,
+        27.2205453723531,
+        134.36053449115602,
+        146.94545737959555,
+        141.7624023866923,
+        448.6799687705964,
+        194.85319876581067,
+        35.62037676458601,
+        94.01788510545335,
+        92.90871486812652,
+        37.73601536390862,
+        143.0221350610575,
+        40.15617498615354,
+        84.44258370244295,
+        90.63091791322961,
+        37.35430063951848,
+        90.91852178364246,
+        34.82135029968563,
+        44.6183628392916,
+        133.68588046102695,
+        33.67421852081755,
+        39.77771146816033,
+        36.62878656306036,
+        91.56604452236955,
+        90.51063812081934,
+        33.60172315965208,
+        141.66896807111914,
+        88.1992751934666,
+        140.00916851695249,
+        94.42631510182197,
+        35.83076083612916,
+        90.30970214518815,
+        136.76931466024328,
+        90.08948530258014,
+        141.2730380759238,
+        84.79275068735666,
+        89.10977599564521,
+        146.33419669303726,
+        39.427803002179566,
+        93.85695955912341,
+        31.925467074409482,
+        90.35272565729389,
+        188.67635796038252,
+        33.95770759176056,
+        87.78560974484164,
+        70.80060090159512,
+        143.27490811365968,
+        139.09630271300634,
+        245.64796632024593,
+        83.27859669136906,
+        88.5084272125038,
+        38.85240122936237,
+        188.08694585261202,
+        91.83520489602601,
+        145.17246118518403,
+        143.36063611648242,
+        38.17185306164616,
+        147.2426694172831,
+        34.22007650646011,
+        184.5100832531723,
+        37.63820327960962,
+        94.71760741173968,
+        86.64200704514423,
+        34.972125968899135,
+        94.9560748088974,
+        41.89252526774869,
+        139.01937554938883,
+        141.9622950722864,
+        142.4574141347482,
+        88.36263682614296,
+        36.542874277859354,
+        135.34573394240283,
+        94.12368108585352,
+        138.59734165113562,
+        84.96246514449608,
+        89.88343157664386,
+        138.93963914931098,
+        190.37909529199075,
+        94.28023311976484,
+        30.147038234262034,
+        144.40550139637594,
+        305.02040150812786,
+        37.62822793425006,
+        91.11620069582482,
+        141.0355624399536,
+        91.69020917395551,
+        88.02346983370856,
+        94.86256765862561,
+        87.43839050031188,
+        99.0660455830265,
+        37.25410913824106,
+        90.5901199565116,
+        186.62593516226175,
+        193.11499290033447,
+        93.29088870338494,
+        40.31167692674775,
+        91.61843856845542,
+        89.36536987474652,
+        138.86352914462478,
+        95.81829127419098,
+        85.27860449438555,
+        195.30234137450122,
+        39.195743266523685,
+        94.80726132632343,
+        137.35231068976398,
+        36.86919261566912,
+        86.57393998305022,
+        93.7064727013245,
+        145.7635248142782,
+        35.56480594143655,
+        143.28259895284071,
+        31.230128141648947,
+        135.93474705680433,
+        32.880950977462625,
+        91.53410162991399,
+        93.03128519747152,
+        91.45140290538407,
+        140.85322340968187,
+        90.83747662968958,
+        92.37173129483736,
+        140.1361487498572,
+        145.4512680335546,
+        144.92186848548351,
+        137.79635856957955,
+        91.86092274774596,
+        92.22382746067001,
+        38.27736152298375,
+        94.5879720953526,
+        91.37029812604109,
+        92.29976639472595,
+        92.56509551109006,
+        89.05469972176391,
+        93.82895210785954,
+        84.77718490294778,
+        33.860039224543584,
+        97.80023600851126,
+        93.28693524762103,
+        85.55491604200725,
+        94.21717333074831,
+        87.49789770288996,
+        92.72542576299291,
+        86.60257804384823
+    ],
+    "prompt_tokens_list": [
+        911,
+        771,
+        731,
+        756,
+        769,
+        747,
+        733,
+        795,
+        756,
+        720,
+        761,
+        813,
+        715,
+        734,
+        717,
+        718,
+        842,
+        681,
+        738,
+        718,
+        706,
+        716,
+        767,
+        666,
+        773,
+        718,
+        761,
+        685,
+        738,
+        728,
+        716,
+        775,
+        785,
+        863,
+        730,
+        721,
+        719,
+        806,
+        743,
+        754,
+        824,
+        773,
+        700,
+        663,
+        726,
+        712,
+        725,
+        864,
+        716,
+        703,
+        720,
+        790,
+        897,
+        910,
+        788,
+        731,
+        742,
+        836,
+        791,
+        753,
+        821,
+        721,
+        772,
+        723,
+        891,
+        718,
+        714,
+        765,
+        733,
+        779,
+        716,
+        805,
+        847,
+        930,
+        765,
+        717,
+        708,
+        763,
+        782,
+        800,
+        735,
+        811,
+        861,
+        798,
+        767,
+        892,
+        774,
+        711,
+        719,
+        814,
+        744,
+        778,
+        737,
+        744,
+        778,
+        722,
+        711,
+        861,
+        885,
+        710,
+        735,
+        836,
+        766,
+        834,
+        765,
+        727,
+        867,
+        682,
+        779,
+        774,
+        691,
+        754,
+        723,
+        811,
+        752,
+        757,
+        734,
+        706,
+        708,
+        705,
+        731,
+        812,
+        897,
+        731,
+        753,
+        779,
+        787,
+        794,
+        822,
+        746,
+        714,
+        707,
+        729,
+        718,
+        750,
+        775,
+        716,
+        752,
+        719,
+        708,
+        793,
+        712,
+        798,
+        721,
+        717,
+        714,
+        785
+    ],
+    "prompt_tokens_mean": 761.0068027210884,
+    "completion_tokens_list": [
+        43,
+        16,
+        15,
+        15,
+        23,
+        21,
+        15,
+        31,
+        34,
+        34,
+        104,
+        51,
+        14,
+        14,
+        16,
+        16,
+        33,
+        11,
+        16,
+        16,
+        11,
+        15,
+        16,
+        11,
+        25,
+        16,
+        15,
+        11,
+        16,
+        15,
+        15,
+        25,
+        23,
+        34,
+        16,
+        14,
+        15,
+        42,
+        23,
+        25,
+        25,
+        21,
+        33,
+        11,
+        14,
+        11,
+        14,
+        49,
+        16,
+        11,
+        16,
+        31,
+        41,
+        51,
+        27,
+        14,
+        15,
+        43,
+        23,
+        25,
+        33,
+        16,
+        23,
+        14,
+        41,
+        15,
+        15,
+        15,
+        16,
+        23,
+        15,
+        33,
+        28,
+        37,
+        16,
+        15,
+        33,
+        16,
+        34,
+        23,
+        15,
+        33,
+        41,
+        23,
+        16,
+        31,
+        68,
+        16,
+        16,
+        33,
+        16,
+        25,
+        16,
+        28,
+        10,
+        18,
+        14,
+        53,
+        40,
+        14,
+        10,
+        17,
+        19,
+        44,
+        12,
+        21,
+        48,
+        12,
+        16,
+        28,
+        15,
+        20,
+        19,
+        27,
+        16,
+        22,
+        16,
+        25,
+        11,
+        15,
+        27,
+        18,
+        37,
+        21,
+        21,
+        31,
+        32,
+        32,
+        35,
+        21,
+        21,
+        14,
+        14,
+        20,
+        24,
+        24,
+        23,
+        15,
+        21,
+        18,
+        17,
+        15,
+        23,
+        24,
+        23,
+        18,
+        22
+    ],
+    "completion_tokens_mean": 23.285714285714285,
+    "total_time_s": 34.855619800044224,
+    "total_energy_j": 16281.74399998784,
+    "net_total_energy_j": 14979.124165788504,
+    "total_energy_mwh": 4522.706666663289,
+    "net_total_energy_mwh": 4160.86782383014,
+    "mean_power_w": 467.1196235611677,
+    "energy_per_sample_j": 110.76016326522341,
+    "net_energy_per_sample_j": 101.89880384890138,
+    "token_per_second": 101.7789786914697
+}

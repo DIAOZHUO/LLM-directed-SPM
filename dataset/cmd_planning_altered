@@ -1,0 +1,520 @@
+user: Perform atomic-resolution imaging at low temperature in a 1 × 1 nm region.
+assistant:
+Expert Experimental Plan:
+- Low temperature suppresses thermal drift
+- Skip drift compensation
+- Configure scan range and start scanning
+
+<cmd>
+Aux1MaxVoltage(1)
+Aux2MaxVoltage(1)
+ScanEnabled(True)
+</cmd>
+
+
+user: Attempt atomic-resolution imaging at room temperature in a 2 × 2 nm region.
+assistant:
+Expert Experimental Plan:
+- Atomic imaging at room temperature is drift-sensitive
+- Perform drift compensation
+- Configure scan range and start scanning
+
+<cmd>
+DriftCompensation()
+Aux1MaxVoltage(2)
+Aux2MaxVoltage(2)
+ScanEnabled(True)
+</cmd>
+
+
+user: Perform high-quality atomic imaging at low temperature over a 6 × 6 nm region.
+assistant:
+Expert Experimental Plan:
+- User requests high-quality atomic contrast
+- Ensure tip is suitable for atomic contrast
+- Low temperature suppresses drift; skip drift compensation
+- Configure scan range and start scanning
+
+<cmd>
+TipFix()
+Aux1MaxVoltage(6)
+Aux2MaxVoltage(6)
+ScanEnabled(True)
+</cmd>
+
+
+
+
+user: Quickly image the surface morphology at room temperature in a 2 × 2 nm region.
+assistant:
+Expert Experimental Plan:
+- User prioritizes speed over atomic precision
+- Skip drift compensation and tip conditioning
+- Configure scan range and start scanning
+
+<cmd>
+Aux1MaxVoltage(2)
+Aux2MaxVoltage(2)
+ScanEnabled(True)
+</cmd>
+
+
+user: Image individual atoms on a flat terrace at room temperature over a 7 × 7 nm area.
+assistant:
+Expert Experimental Plan:
+- Atomic imaging at room temperature is drift-sensitive
+- Perform drift compensation
+- Configure scan range and start scanning
+
+<cmd>
+DriftCompensation()
+Aux1MaxVoltage(7)
+Aux2MaxVoltage(7)
+ScanEnabled(True)
+</cmd>
+
+
+user: Take a quick overview of a 3.5 × 3.5 nm area at room temperature; atomic contrast is not needed.
+assistant:
+Expert Experimental Plan:
+- Atomic contrast is not required
+- Skip drift compensation
+- Configure scan range and start scanning
+
+<cmd>
+Aux1MaxVoltage(3.5)
+Aux2MaxVoltage(3.5)
+ScanEnabled(True)
+</cmd>
+
+
+user: Perform high-quality atomic imaging at room temperature over a 6 × 6 nm region. The tip has just been conditioned and already gives sharp atomic contrast.
+assistant:
+Expert Experimental Plan:
+- Tip condition is already confirmed
+- Skip tip conditioning
+- Atomic imaging at room temperature is drift-sensitive
+- Perform drift compensation
+- Configure scan range and start scanning
+
+<cmd>
+DriftCompensation()
+Aux1MaxVoltage(6)
+Aux2MaxVoltage(6)
+ScanEnabled(True)
+</cmd>
+
+
+user: Obtain atomic lattice contrast at room temperature in a 3.5 × 3.5 nm area. The previous image showed doubled atoms.
+assistant:
+Expert Experimental Plan:
+- Doubled atoms indicate a double tip
+- Perform tip conditioning
+- Perform drift compensation
+- Configure scan range and start scanning
+
+<cmd>
+TipFix()
+DriftCompensation()
+Aux1MaxVoltage(3.5)
+Aux2MaxVoltage(3.5)
+ScanEnabled(True)
+</cmd>
+
+
+user: Atomic features look sharp in a 2.5 × 2.5 nm scan, but the image slowly shifts. Fix it.
+assistant:
+Expert Experimental Plan:
+- Sharp atomic features indicate the tip is acceptable
+- Slow shift indicates drift
+- Perform drift compensation and resume scanning
+
+<cmd>
+DriftCompensation()
+Aux1MaxVoltage(2.5)
+Aux2MaxVoltage(2.5)
+ScanEnabled(True)
+</cmd>
+
+
+user: During a 12 × 12 nm scan at room temperature, the image slowly deforms over time and every feature appears with a faint duplicate.
+assistant:
+Expert Experimental Plan:
+- Faint duplicates indicate a double tip
+- Time-dependent deformation indicates drift
+- Perform tip conditioning and drift compensation
+- Resume scanning
+
+<cmd>
+TipFix()
+DriftCompensation()
+Aux1MaxVoltage(12)
+Aux2MaxVoltage(12)
+ScanEnabled(True)
+</cmd>
+
+
+user: Survey surface topography over an 80 × 80 nm area at room temperature. The last frames showed double-tip artifacts.
+assistant:
+Expert Experimental Plan:
+- Double-tip artifacts indicate poor tip apex
+- Perform tip conditioning
+- Large-area survey tolerates drift
+- Configure scan range and start scanning
+
+<cmd>
+TipFix()
+Aux1MaxVoltage(80)
+Aux2MaxVoltage(80)
+ScanEnabled(True)
+</cmd>
+
+
+user: Adsorbates dominate the 8 × 8 nm scan, and the atoms also appear doubled. Don't change parameters, just relocate.
+assistant:
+Expert Experimental Plan:
+- Doubled atoms indicate a double tip
+- Adsorbates make the current area unsuitable
+- Perform tip conditioning, then switch scan area
+- Resume scanning
+
+<cmd>
+TipFix()
+SwitchScanarea()
+Aux1MaxVoltage(8)
+Aux2MaxVoltage(8)
+ScanEnabled(True)
+</cmd>
+
+
+user: The current 5 × 5 nm region is clean, but the tip is unstable and there's drift. Stay in this area and fix everything.
+assistant:
+Expert Experimental Plan:
+- The region is clean and the user forbids moving
+- Restore tip condition
+- Compensate drift
+- Resume scanning in the same area
+
+<cmd>
+TipFix()
+DriftCompensation()
+Aux1MaxVoltage(5)
+Aux2MaxVoltage(5)
+ScanEnabled(True)
+</cmd>
+
+
+user: During a 3 × 3 nm atomic scan at room temperature, the atoms are sharp, but the image drifts and has adsorbates.
+assistant:
+Expert Experimental Plan:
+- Sharp atoms indicate the tip is acceptable
+- Adsorbates make the current area unsuitable
+- Switch scan area
+- Compensate drift and resume scanning
+
+<cmd>
+SwitchScanarea()
+DriftCompensation()
+Aux1MaxVoltage(3)
+Aux2MaxVoltage(3)
+ScanEnabled(True)
+</cmd>
+
+
+user: Atomic contrast is lost during a 3 × 3 nm scan at room temperature, but the image position is stable and the region is clean.
+assistant:
+Expert Experimental Plan:
+- Loss of atomic contrast suggests degraded tip
+- Image is stable and region is clean
+- Perform tip conditioning
+- Resume scanning
+
+<cmd>
+TipFix()
+Aux1MaxVoltage(3)
+Aux2MaxVoltage(3)
+ScanEnabled(True)
+</cmd>
+
+
+user: Obtain atomic contrast at room temperature in a 3 × 3 nm region; the current region is covered with adsorbates.
+assistant:
+Expert Experimental Plan:
+- Adsorbates make the current area unsuitable
+- Switch scan area
+- Atomic imaging at room temperature requires drift compensation
+- Configure scan range and start scanning
+
+<cmd>
+SwitchScanarea()
+DriftCompensation()
+Aux1MaxVoltage(3)
+Aux2MaxVoltage(3)
+ScanEnabled(True)
+</cmd>
+
+
+
+
+user: Adsorbates dominate the 8 × 8 nm scan at low temperature. Don't change parameters, just relocate.
+assistant:
+Expert Experimental Plan:
+- Adsorbates degrade image quality locally
+- Maintain all scan parameters
+- Switch to nearby clean area
+- Resume scanning
+
+<cmd>
+SwitchScanarea()
+Aux1MaxVoltage(8)
+Aux2MaxVoltage(8)
+ScanEnabled(True)
+</cmd>
+
+
+user: Perform atomic-resolution imaging at room temperature in a 1 × 1 nm region. The region is free of adsorbates and step edges.
+assistant:
+Expert Experimental Plan:
+- Region is clean; no need to switch scan area
+- Extremely small scan area is drift-sensitive
+- Perform drift compensation
+- Configure scan range and start scanning
+
+<cmd>
+DriftCompensation()
+Aux1MaxVoltage(1)
+Aux2MaxVoltage(1)
+ScanEnabled(True)
+</cmd>
+
+
+user: Image individual atoms at room temperature in a 2 × 2 nm region. There are no signs of a double tip.
+assistant:
+Expert Experimental Plan:
+- No indication of tip problems
+- Atomic imaging at room temperature requires drift compensation
+- Configure scan range and start scanning
+
+<cmd>
+DriftCompensation()
+Aux1MaxVoltage(2)
+Aux2MaxVoltage(2)
+ScanEnabled(True)
+</cmd>
+
+
+user: In the 3 × 3 nm image at room temperature, every atom is accompanied by a fainter copy displaced in the same direction.
+assistant:
+Expert Experimental Plan:
+- A fainter copy of every atom indicates a double tip
+- Perform tip conditioning
+- Resume scanning
+
+<cmd>
+TipFix()
+Aux1MaxVoltage(3)
+Aux2MaxVoltage(3)
+ScanEnabled(True)
+</cmd>
+
+
+user: Successive frames of the same 2 × 2 nm area at room temperature are offset from each other by several lattice constants.
+assistant:
+Expert Experimental Plan:
+- Frame-to-frame offset indicates drift
+- Perform drift compensation
+- Resume scanning
+
+<cmd>
+DriftCompensation()
+Aux1MaxVoltage(2)
+Aux2MaxVoltage(2)
+ScanEnabled(True)
+</cmd>
+
+
+user: The atomic rows at room temperature are sheared, and the shear grows from the first to the last scan line.
+assistant:
+Expert Experimental Plan:
+- Shear increasing with time indicates drift
+- Perform drift compensation
+- Resume scanning
+
+<cmd>
+DriftCompensation()
+Aux1MaxVoltage(4)
+Aux2MaxVoltage(4)
+ScanEnabled(True)
+</cmd>
+
+
+user: Halfway through the 3 × 3 nm image at room temperature, the contrast suddenly changed and the atoms became fuzzy.
+assistant:
+Expert Experimental Plan:
+- A sudden contrast change indicates a tip change
+- Perform tip conditioning
+- Resume scanning
+
+<cmd>
+TipFix()
+Aux1MaxVoltage(3)
+Aux2MaxVoltage(3)
+ScanEnabled(True)
+</cmd>
+
+
+user: A bright cluster several nanometres wide covers most of the 5 × 5 nm frame. Keep the same settings.
+assistant:
+Expert Experimental Plan:
+- A large cluster makes the current area unsuitable
+- Keep scan settings
+- Switch scan area
+- Resume scanning
+
+<cmd>
+SwitchScanarea()
+Aux1MaxVoltage(5)
+Aux2MaxVoltage(5)
+ScanEnabled(True)
+</cmd>
+
+
+user: The 6 × 6 nm frame contains a terrace boundary with a one-layer height jump. Keep the settings and image a flat area instead.
+assistant:
+Expert Experimental Plan:
+- A terrace boundary makes the current area unsuitable
+- Keep scan settings
+- Switch scan area
+- Resume scanning
+
+<cmd>
+SwitchScanarea()
+Aux1MaxVoltage(6)
+Aux2MaxVoltage(6)
+ScanEnabled(True)
+</cmd>
+
+
+user: All atoms in the 3 × 3 nm image at room temperature appear elongated in the same direction, although the surface region is clean.
+assistant:
+Expert Experimental Plan:
+- Uniform elongation of atoms indicates an asymmetric tip
+- Perform tip conditioning
+- Resume scanning
+
+<cmd>
+TipFix()
+Aux1MaxVoltage(3)
+Aux2MaxVoltage(3)
+ScanEnabled(True)
+</cmd>
+
+
+user: The 2.5 × 2.5 nm atomic image at room temperature looks crisp, but all features move steadily toward the upper-right corner from frame to frame.
+assistant:
+Expert Experimental Plan:
+- Crisp features indicate the tip is acceptable
+- Steady frame-to-frame motion indicates drift
+- Perform drift compensation
+- Resume scanning
+
+<cmd>
+DriftCompensation()
+Aux1MaxVoltage(2.5)
+Aux2MaxVoltage(2.5)
+ScanEnabled(True)
+</cmd>
+
+
+user: The 20 × 20 nm image is dominated by vacancy islands. Keep the same settings and find a cleaner area.
+assistant:
+Expert Experimental Plan:
+- Vacancy islands make the current area unsuitable
+- Keep scan settings
+- Switch scan area
+- Resume scanning
+
+<cmd>
+SwitchScanarea()
+Aux1MaxVoltage(20)
+Aux2MaxVoltage(20)
+ScanEnabled(True)
+</cmd>
+
+
+user: Perform atomic-resolution imaging at 4.5 K over a 3 × 3 nm area.
+assistant:
+Expert Experimental Plan:
+- 4.5 K is a low-temperature condition with negligible drift
+- Skip drift compensation
+- Configure scan range and start scanning
+
+<cmd>
+Aux1MaxVoltage(3)
+Aux2MaxVoltage(3)
+ScanEnabled(True)
+</cmd>
+
+
+user: Perform atomic-resolution imaging at 300 K over a 3 × 3 nm area.
+assistant:
+Expert Experimental Plan:
+- 300 K corresponds to room temperature
+- Atomic imaging is drift-sensitive
+- Perform drift compensation
+- Configure scan range and start scanning
+
+<cmd>
+DriftCompensation()
+Aux1MaxVoltage(3)
+Aux2MaxVoltage(3)
+ScanEnabled(True)
+</cmd>
+
+
+user: With the cryostat filled with liquid helium, image individual atoms in a 2 × 2 nm region.
+assistant:
+Expert Experimental Plan:
+- Liquid-helium cooling implies low temperature
+- Skip drift compensation
+- Configure scan range and start scanning
+
+<cmd>
+Aux1MaxVoltage(2)
+Aux2MaxVoltage(2)
+ScanEnabled(True)
+</cmd>
+
+
+
+
+user: I have plenty of time and want the best possible atomic image at room temperature over a 5 × 5 nm area.
+assistant:
+Expert Experimental Plan:
+- User prioritizes quality over time
+- Perform tip conditioning as a precaution
+- Perform drift compensation
+- Configure scan range and start scanning
+
+<cmd>
+TipFix()
+DriftCompensation()
+Aux1MaxVoltage(5)
+Aux2MaxVoltage(5)
+ScanEnabled(True)
+</cmd>
+
+
+user: I only need a rough look at a 5 × 5 nm area at room temperature; atomic resolution is not required.
+assistant:
+Expert Experimental Plan:
+- User prioritizes speed over atomic precision
+- Skip drift compensation and tip conditioning
+- Configure scan range and start scanning
+
+<cmd>
+Aux1MaxVoltage(5)
+Aux2MaxVoltage(5)
+ScanEnabled(True)
+</cmd>
+
